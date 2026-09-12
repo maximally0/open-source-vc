@@ -102,7 +102,7 @@ Lets a generalist hold a technical conversation with a deep-tech founder, with c
 
 **Rizzo PII** — Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` · 969★ · `MIT` · VC-adaptable
+`Rizzo-AI-Academy/rizzo-pii` · 970★ · `MIT` · VC-adaptable
 
 Makes LLMs usable on real data rooms without breaching an NDA.
 

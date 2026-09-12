@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-09-12T16:57:03+00:00",
+  "generated_at": "2026-09-12T16:58:41+00:00",
   "repo_count": 236,
-  "refreshed": 1,
-  "carried_forward": 236,
+  "refreshed": 236,
+  "carried_forward": 0,
   "substantive": false,
   "substantive_findings": {},
-  "informational_findings": {},
-  "queue_file": null,
-  "with_releases": false
+  "informational_findings": {
+    "new_release": 1,
+    "archived": 1,
+    "stalled": 18
+  },
+  "queue_file": "review-queue-2026-09-12.md",
+  "with_releases": true
 }

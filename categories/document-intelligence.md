@@ -413,7 +413,7 @@ Layout-blind: it reads characters well and structure badly, so tables and multi-
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | GPL-2.0 |
-| **Stars** | 46.2k |
+| **Stars** | 46.3k |
 | **Forks** | 4k |
 | **Language** | Haskell |
 | **Status** | Active (last push 2026-09-11) |

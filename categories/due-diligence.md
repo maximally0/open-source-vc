@@ -255,7 +255,7 @@ Value depends on the target being willing to run it, and designing meaningful ev
 | **Category** | Due Diligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 969 |
+| **Stars** | 970 |
 | **Forks** | 67 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-09) |

@@ -491,7 +491,7 @@ More moving parts than a single-loop agent, and the coordination overhead is rea
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3k |
-| **Forks** | 279 |
+| **Forks** | 280 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |

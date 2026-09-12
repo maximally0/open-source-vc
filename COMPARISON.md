@@ -118,7 +118,7 @@ _236 projects · metadata updated 2026-09-12_
 | [Financial Datasets MCP](https://github.com/financial-datasets/mcp-server) | [Investment Analysis](categories/investment-analysis.md) | Recommended | VC-adaptable | MIT | yes | Yes | software | 2.3k | Agent tooling |
 | [Company Research Agent](https://github.com/guy-hartstein/company-research-agent) | [Company Discovery & Deal Sourcing](categories/company-discovery.md) | Recommended | VC-adaptable | Apache-2.0 | yes | Yes | software | 2.3k | Screening preparation |
 | [OpenContracts](https://github.com/Open-Source-Legal/OpenContracts) | [Legal & Transaction Infrastructure](categories/legal.md) | Recommended | VC-adaptable | MIT | yes | Yes | software | 1.5k | Clause extraction |
-| [Rizzo PII](https://github.com/Rizzo-AI-Academy/rizzo-pii) | [Due Diligence](categories/due-diligence.md) | Recommended | VC-adaptable | MIT | yes | Yes | software | 969 | Data-room handling |
+| [Rizzo PII](https://github.com/Rizzo-AI-Academy/rizzo-pii) | [Due Diligence](categories/due-diligence.md) | Recommended | VC-adaptable | MIT | yes | Yes | software | 970 | Data-room handling |
 | [CiviCRM](https://github.com/civicrm/civicrm-core) | [Relationship Intelligence](categories/relationship-intelligence.md) | Recommended | VC-adaptable | AGPL-3.0 | yes | No | software | 772 | Impact fund relationships |
 | [SEC EDGAR Downloader](https://github.com/jadchaar/sec-edgar-downloader) | [Investment Analysis](categories/investment-analysis.md) | Recommended | VC-adaptable | MIT | yes | No | software | 717 | Filings collection |
 | [Claude Legal Skill](https://github.com/evolsb/claude-legal-skill) | [Legal & Transaction Infrastructure](categories/legal.md) | Recommended | VC-adaptable | MIT | yes | Yes | software | 438 | Contract risk triage |
@@ -195,7 +195,7 @@ _236 projects · metadata updated 2026-09-12_
 | [Typst](https://github.com/typst/typst) | [Investment Memo & IC](categories/investment-memos.md) | Recommended | Infrastructure | Apache-2.0 | yes | No | software | 56k | Memo production |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | [AI Agents for VC](categories/ai-agents.md) | Recommended | Infrastructure | MIT | yes | Yes | framework | 52.1k | Document RAG |
 | [Apache Airflow](https://github.com/apache/airflow) | [Workflow & Automation](categories/automation.md) | Recommended | Infrastructure | Apache-2.0 | yes | No | software | 46.8k | Data pipelines |
-| [Pandoc](https://github.com/jgm/pandoc) | [Data Rooms & Document Intelligence](categories/document-intelligence.md) | Recommended | Infrastructure | GPL-2.0 | yes | No | software | 46.2k | Format conversion |
+| [Pandoc](https://github.com/jgm/pandoc) | [Data Rooms & Document Intelligence](categories/document-intelligence.md) | Recommended | Infrastructure | GPL-2.0 | yes | No | software | 46.3k | Format conversion |
 | [Milvus](https://github.com/milvus-io/milvus) | [Knowledge Management](categories/knowledge-management.md) | Recommended | Infrastructure | Apache-2.0 | yes | Yes | software | 46.1k | Vector search at scale |
 | [Gradio](https://github.com/gradio-app/gradio) | [Portfolio Management](categories/portfolio-management.md) | Recommended | Infrastructure | Apache-2.0 | yes | Yes | framework | 43.5k | Model demos |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | [AI Agents for VC](categories/ai-agents.md) | Recommended | Infrastructure | MIT | yes | Yes | framework | 41.5k | Diligence workflows |

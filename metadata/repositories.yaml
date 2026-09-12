@@ -1,4 +1,4 @@
-generated_at: '2026-09-12T16:57:03+00:00'
+generated_at: '2026-09-12T16:58:41+00:00'
 repo_count: 236
 repositories:
 - name: sherlock-project/sherlock
@@ -120,7 +120,7 @@ repositories:
   license: MIT
   license_name: MIT License
   stars: 34766
-  forks: 2845
+  forks: 2844
   open_issues: 32
   contributors: unknown
   last_commit: '2026-09-10'
@@ -165,7 +165,7 @@ repositories:
     may breach their terms of service. Check that before running it at scale.
   license: MIT
   license_name: MIT License
-  stars: 4270
+  stars: 4271
   forks: 843
   open_issues: 63
   contributors: unknown
@@ -1023,7 +1023,7 @@ repositories:
     and the reference list occasionally includes sources it read thinly.
   license: MIT
   license_name: MIT License
-  stars: 31289
+  stars: 31290
   forks: 2946
   open_issues: 108
   contributors: unknown
@@ -1341,7 +1341,7 @@ repositories:
     are not drawn from private markets. Treat outputs as one input.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 8379
+  stars: 8380
   forks: 643
   open_issues: 2
   contributors: unknown
@@ -1606,8 +1606,8 @@ repositories:
     a large accumulated corpus is untested.
   license: MIT
   license_name: MIT License
-  stars: 2984
-  forks: 279
+  stars: 2988
+  forks: 280
   open_issues: 16
   contributors: unknown
   last_commit: '2026-09-11'
@@ -1785,7 +1785,7 @@ repositories:
     is easier to get from the hosted version. Self-hosting needs browser infrastructure.
   license: AGPL-3.0
   license_name: GNU Affero General Public License v3.0
-  stars: 179468
+  stars: 179472
   forks: 9762
   open_issues: 628
   contributors: unknown
@@ -1833,7 +1833,7 @@ repositories:
   license_name: Apache License 2.0
   stars: 96015
   forks: 6421
-  open_issues: 177
+  open_issues: 178
   contributors: unknown
   last_commit: '2026-09-11'
   created: '2019-11-15'
@@ -1923,7 +1923,7 @@ repositories:
   license: MIT
   license_name: MIT License
   stars: 22070
-  forks: 3571
+  forks: 3572
   open_issues: 325
   contributors: unknown
   last_commit: '2026-04-13'
@@ -2014,9 +2014,9 @@ repositories:
     so the vocabulary takes adapting.
   license: unverified (Other)
   license_name: Other
-  stars: 9961
+  stars: 9962
   forks: 1450
-  open_issues: 2147
+  open_issues: 2149
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2018-12-17'
@@ -2374,7 +2374,7 @@ repositories:
     traffic. Findings need interpretation.
   license: GPL-3.0
   license_name: GNU General Public License v3.0
-  stars: 13199
+  stars: 13200
   forks: 1682
   open_issues: 60
   contributors: unknown
@@ -2467,7 +2467,7 @@ repositories:
     means you own the backups.'
   license: AGPL-3.0
   license_name: GNU Affero General Public License v3.0
-  stars: 25272
+  stars: 25273
   forks: 2607
   open_issues: 795
   contributors: unknown
@@ -2692,7 +2692,7 @@ repositories:
     and maintaining it is a genuine operations job.
   license: unverified (Other)
   license_name: Other
-  stars: 54309
+  stars: 54311
   forks: 33684
   open_issues: 10255
   contributors: unknown
@@ -2827,7 +2827,7 @@ repositories:
     a wall of text unless you pair it with a diarisation tool.'
   license: MIT
   license_name: MIT License
-  stars: 108943
+  stars: 108944
   forks: 13201
   open_issues: 148
   contributors: unknown
@@ -3186,7 +3186,7 @@ repositories:
     hosted platform is the commercial product.
   license: unverified (Other)
   license_name: Other
-  stars: 11423
+  stars: 11424
   forks: 1125
   open_issues: 973
   contributors: unknown
@@ -3321,7 +3321,7 @@ repositories:
     is not a legal substitute for an NDA.
   license: MIT
   license_name: MIT License
-  stars: 969
+  stars: 970
   forks: 67
   open_issues: 82
   contributors: unknown
@@ -3546,7 +3546,7 @@ repositories:
     them before commercial use.
   license: unverified (Other)
   license_name: Other
-  stars: 79770
+  stars: 79771
   forks: 6673
   open_issues: 108
   contributors: unknown
@@ -3681,7 +3681,7 @@ repositories:
     a drop-in tool. Output needs post-processing.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 89383
+  stars: 89384
   forks: 11323
   open_issues: 241
   contributors: unknown
@@ -3998,8 +3998,8 @@ repositories:
     so batch work is better done in code.
   license: unverified (Other)
   license_name: Other
-  stars: 91825
-  forks: 8329
+  stars: 91827
+  forks: 8330
   open_issues: 635
   contributors: unknown
   last_commit: '2026-09-12'
@@ -4043,7 +4043,7 @@ repositories:
     noting if you plan to build a service on it.
   license: GPL-3.0
   license_name: GNU General Public License v3.0
-  stars: 45030
+  stars: 45031
   forks: 3101
   open_issues: 8
   contributors: unknown
@@ -4269,9 +4269,9 @@ repositories:
     or layout-heavy documents.'
   license: MIT
   license_name: MIT License
-  stars: 183100
-  forks: 13460
-  open_issues: 636
+  stars: 183112
+  forks: 13463
+  open_issues: 637
   contributors: unknown
   last_commit: '2026-09-11'
   created: '2024-11-13'
@@ -4404,7 +4404,7 @@ repositories:
     system takes time.
   license: GPL-2.0
   license_name: GNU General Public License v2.0
-  stars: 46250
+  stars: 46251
   forks: 3971
   open_issues: 1043
   contributors: unknown
@@ -4675,7 +4675,7 @@ repositories:
     not sit under anything production-critical. Not for licensed or regulated use.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 25231
+  stars: 25232
   forks: 3418
   open_issues: 109
   contributors: unknown
@@ -4902,7 +4902,7 @@ repositories:
     that change. Data licensing varies by source.
   license: MIT
   license_name: MIT License
-  stars: 22543
+  stars: 22544
   forks: 3504
   open_issues: 7
   contributors: unknown
@@ -5439,7 +5439,7 @@ repositories:
     you convert. Younger ecosystem than LaTeX.'
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 55974
+  stars: 55976
   forks: 1714
   open_issues: 1292
   contributors: unknown
@@ -5577,7 +5577,7 @@ repositories:
   license_name: Other
   stars: 49215
   forks: 6812
-  open_issues: 4351
+  open_issues: 4349
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2015-02-02'
@@ -5619,9 +5619,9 @@ repositories:
   limitations: Substantial deployment and a real learning curve. Overkill for a fund of one.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 74734
+  stars: 74735
   forks: 18260
-  open_issues: 613
+  open_issues: 614
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2015-07-21'
@@ -5798,7 +5798,7 @@ repositories:
     if the data is sensitive.'
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 11456
+  stars: 11457
   forks: 902
   open_issues: 718
   contributors: unknown
@@ -6251,7 +6251,7 @@ repositories:
   license: GPL-3.0
   license_name: GNU General Public License v3.0
   stars: 39150
-  forks: 12770
+  forks: 12769
   open_issues: 1838
   contributors: unknown
   last_commit: '2026-09-12'
@@ -6972,7 +6972,7 @@ repositories:
     preparation.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 90573
+  stars: 90575
   forks: 10708
   open_issues: 1556
   contributors: unknown
@@ -7063,7 +7063,7 @@ repositories:
     to the established frameworks.
   license: MIT
   license_name: MIT License
-  stars: 39594
+  stars: 39595
   forks: 5576
   open_issues: 233
   contributors: unknown
@@ -7111,7 +7111,7 @@ repositories:
   license_name: Apache License 2.0
   stars: 46071
   forks: 4247
-  open_issues: 1427
+  open_issues: 1428
   contributors: unknown
   last_commit: '2026-09-11'
   created: '2019-09-16'
@@ -7334,7 +7334,7 @@ repositories:
   license_name: GNU General Public License v3.0
   stars: 17224
   forks: 2699
-  open_issues: 256
+  open_issues: 255
   contributors: unknown
   last_commit: '2026-09-10'
   created: '2012-11-12'
@@ -7468,7 +7468,7 @@ repositories:
     for a single document set.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 26488
+  stars: 26489
   forks: 3120
   open_issues: 135
   contributors: unknown
@@ -7514,7 +7514,7 @@ repositories:
   license: unverified (Other)
   license_name: Other
   stars: 32034
-  forks: 4416
+  forks: 4417
   open_issues: 450
   contributors: unknown
   last_commit: '2026-09-12'
@@ -7736,7 +7736,7 @@ repositories:
     than the modern alternatives.
   license: AGPL-3.0
   license_name: GNU Affero General Public License v3.0
-  stars: 28905
+  stars: 28906
   forks: 3315
   open_issues: 181
   contributors: unknown
@@ -7782,7 +7782,7 @@ repositories:
     is basic.
   license: AGPL-3.0
   license_name: GNU Affero General Public License v3.0
-  stars: 21656
+  stars: 21655
   forks: 1555
   open_issues: 327
   contributors: unknown
@@ -8099,7 +8099,7 @@ repositories:
     involving a logged-in account needs care about terms and about credentials.
   license: MIT
   license_name: MIT License
-  stars: 114322
+  stars: 114325
   forks: 12565
   open_issues: 406
   contributors: unknown
@@ -8145,7 +8145,7 @@ repositories:
     a single-prompt task.
   license: MIT
   license_name: MIT License
-  stars: 41531
+  stars: 41534
   forks: 7012
   open_issues: 778
   contributors: unknown
@@ -8192,7 +8192,7 @@ repositories:
   license: unverified (Other)
   license_name: Other
   stars: 90273
-  forks: 11625
+  forks: 11627
   open_issues: 517
   contributors: unknown
   last_commit: '2026-09-03'
@@ -8237,8 +8237,8 @@ repositories:
   license: MIT
   license_name: MIT License
   stars: 94857
-  forks: 16056
-  open_issues: 2431
+  forks: 16057
+  open_issues: 2433
   contributors: unknown
   last_commit: '2026-09-08'
   created: '2024-11-30'
@@ -8327,8 +8327,8 @@ repositories:
   license: MIT
   license_name: MIT License
   stars: 58412
-  forks: 8418
-  open_issues: 770
+  forks: 8419
+  open_issues: 775
   contributors: unknown
   last_commit: '2026-09-11'
   created: '2023-10-27'
@@ -8371,7 +8371,7 @@ repositories:
     the surrounding pieces yourself.
   license: MIT
   license_name: MIT License
-  stars: 29385
+  stars: 29386
   forks: 4716
   open_issues: 58
   contributors: unknown
@@ -8416,9 +8416,9 @@ repositories:
     substantial is significant.
   license: MIT
   license_name: MIT License
-  stars: 87629
-  forks: 11477
-  open_issues: 801
+  stars: 87637
+  forks: 11480
+  open_issues: 803
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2024-03-13'
@@ -8462,7 +8462,7 @@ repositories:
   license: unverified (Other)
   license_name: Other
   stars: 155515
-  forks: 24567
+  forks: 24568
   open_issues: 1060
   contributors: unknown
   last_commit: '2026-09-12'
@@ -8552,8 +8552,8 @@ repositories:
   license: MIT
   license_name: MIT License
   stars: 52134
-  forks: 8118
-  open_issues: 750
+  forks: 8119
+  open_issues: 751
   contributors: unknown
   last_commit: '2026-09-11'
   created: '2022-11-02'
@@ -8595,7 +8595,7 @@ repositories:
     pipeline, the smaller frameworks are usually easier to maintain.
   license: MIT
   license_name: MIT License
-  stars: 146190
+  stars: 146191
   forks: 24426
   open_issues: 488
   contributors: unknown
@@ -8729,9 +8729,9 @@ repositories:
     commercial redistribution and hosting. Some nodes are enterprise-only.'
   license: unverified (Other)
   license_name: Other
-  stars: 204091
-  forks: 60644
-  open_issues: 1148
+  stars: 204092
+  forks: 60643
+  open_issues: 1147
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2019-06-22'
@@ -8907,9 +8907,9 @@ repositories:
     a deadline.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 46838
+  stars: 46839
   forks: 17817
-  open_issues: 2145
+  open_issues: 2147
   contributors: unknown
   last_commit: '2026-09-12'
   created: '2015-04-13'
@@ -8952,7 +8952,7 @@ repositories:
     model is worth the effort.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 16140
+  stars: 16141
   forks: 2288
   open_issues: 2589
   contributors: unknown
@@ -9041,7 +9041,7 @@ repositories:
     SPDX identifier. Running it is a real service.
   license: unverified (Other)
   license_name: Other
-  stars: 22042
+  stars: 22043
   forks: 5343
   open_issues: 2399
   contributors: unknown
@@ -9129,7 +9129,7 @@ repositories:
     understands the business logic.
   license: Apache-2.0
   license_name: Apache License 2.0
-  stars: 13807
+  stars: 13808
   forks: 2564
   open_issues: 1524
   contributors: unknown
@@ -10292,7 +10292,7 @@ repositories:
     calls still requires consent and disclosure in many jurisdictions.
   license: MIT
   license_name: MIT License
-  stars: 30673
+  stars: 30672
   forks: 3314
   open_issues: 373
   contributors: unknown

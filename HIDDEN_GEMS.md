@@ -531,7 +531,7 @@ _2026-09-12_
 
 > Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 969★ · Recommended · [Due Diligence](categories/due-diligence.md)
+`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 970★ · Recommended · [Due Diligence](categories/due-diligence.md)
 
 **Why it is here:** It runs locally, which is the whole point. Most PII tooling assumes the document is going to a cloud service you have already decided to trust.
 
