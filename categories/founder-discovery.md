@@ -16,11 +16,12 @@ Founder discovery, technical-talent search, GitHub intelligence, developer disco
 
 > Find an account on 400+ sites from a username alone.
 
-`sherlock-project/sherlock` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`sherlock-project/sherlock` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 91.4k |
 | **Forks** | 10.8k |
@@ -56,11 +57,12 @@ A hit is a username match, not proof of identity. Coverage shifts as sites chang
 
 > A full external read of any website from a single URL.
 
-`lissy93/web-check` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`lissy93/web-check` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 34.8k |
 | **Forks** | 2.8k |
@@ -94,11 +96,12 @@ Only shows what is externally visible. A clean report is not a clean bill of hea
 
 > Build a dossier on a person from one username.
 
-`soxoj/maigret` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`soxoj/maigret` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 37.5k |
 | **Forks** | 2.9k |
@@ -132,11 +135,12 @@ Reports are only as good as what is public, and common usernames produce false p
 
 > Emails, subdomains, and names tied to a domain.
 
-`laramies/theHarvester` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`laramies/theHarvester` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 17.4k |
 | **Forks** | 2.6k |
@@ -170,11 +174,12 @@ No licence file is present in the repository, so redistribution and some commerc
 
 > A map of where to look, organised by what you already have.
 
-`lockfale/OSINT-Framework` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`lockfale/OSINT-Framework` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 12.1k |
 | **Forks** | 2k |
@@ -208,11 +213,12 @@ Many listed links are stale or lead to commercial products. Nothing here checks 
 
 > Job postings from five boards into one dataframe.
 
-`speedyapply/JobSpy` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`speedyapply/JobSpy` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 4.3k |
 | **Forks** | 843 |
@@ -246,11 +252,12 @@ Upstream layout changes break scrapers without warning, and collecting from thes
 
 > Download public Instagram posts and their metadata.
 
-`instaloader/instaloader` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`instaloader/instaloader` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 13.4k |
 | **Forks** | 1.6k |
@@ -283,11 +290,12 @@ Instagram actively blocks bulk collection, so expect throttling and account loss
 
 > Pull LinkedIn profiles and company pages into structured data.
 
-`joeyism/linkedin_scraper` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`joeyism/linkedin_scraper` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Founder & Talent Discovery |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 4.5k |
 | **Forks** | 987 |

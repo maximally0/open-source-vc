@@ -33,18 +33,63 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CURATION = ROOT / "curation.yaml"
 SNAPSHOT = ROOT / "metadata" / "snapshot.json"
+STAGES_DIR = ROOT / "stages"
 CATEGORIES_DIR = ROOT / "categories"
 README = ROOT / "README.md"
 
 TIERS = {
     "essential": ("⭐", "Essential"),
-    "interesting": ("🔥", "Interesting"),
+    "recommended": ("🔥", "Recommended"),
     "experimental": ("🧪", "Experimental"),
-    "infrastructure": ("🛠", "Infrastructure"),
     "research": ("📚", "Research"),
 }
 
+# VC relevance is a separate axis from quality, and deliberately so. A document
+# parser can be the best tool in the directory for a data room and still have no
+# idea what a data room is. Merging the two questions is what made an earlier
+# version of this directory rank popular generic software as though it were
+# venture tooling.
+RELEVANCE = {
+    "native": ("◆", "VC-native"),
+    "adaptable": ("◇", "VC-adaptable"),
+    "infrastructure": ("▫", "Infrastructure"),
+}
+
+RELEVANCE_HELP = {
+    "native": "built for venture capital, private markets, fund operations, or startup investing.",
+    "adaptable": "a general tool a fund adopts directly for a specific venture task.",
+    "infrastructure": "a building block you construct venture tooling with, not something an "
+                      "analyst uses standalone.",
+}
+
 KINDS = ("software", "dataset", "framework", "standard", "research")
+
+# The nine stages of the investment process. Category pages stay as the granular
+# level; these give the reader the order the work actually happens in, which is
+# how people look for tools.
+STAGES: list[tuple[str, str, str, list[str]]] = [
+    ("01-source", "Source", "Find the company before it is on anyone's list.",
+     ["founder-discovery", "company-discovery", "deal-sourcing"]),
+    ("02-research", "Research", "Understand the company, the founder, and the market.",
+     ["market-research", "osint"]),
+    ("03-diligence", "Diligence", "Verify what the company says is true.",
+     ["due-diligence", "document-intelligence", "cap-tables"]),
+    ("04-underwrite", "Underwrite", "Model the business, the round, and the outcome.",
+     ["investment-analysis"]),
+    ("05-ic", "IC & Memo", "Turn evidence into a decision the partnership can defend.",
+     ["investment-memos", "knowledge-management"]),
+    ("06-close", "Close", "Documents, signatures, and the money moving.",
+     ["legal"]),
+    ("07-portfolio", "Portfolio", "The decade after the wire hits.",
+     ["portfolio-management"]),
+    ("08-relationships", "Relationships", "The network is the asset.",
+     ["relationship-intelligence"]),
+    ("09-fund", "Fund", "LP relationships, fund maths, and reporting.",
+     ["lp-management", "standards"]),
+]
+
+# Categories that are useful across every stage rather than belonging to one.
+CROSS_CUTTING = ["ai-agents", "automation", "datasets"]
 
 # Category slug -> (display title, one-line framing, "what it covers")
 CATEGORY_META: dict[str, tuple[str, str, str]] = {
@@ -238,8 +283,10 @@ def fmt_self_host(v) -> str:
 
 
 def entry_md(slug: str, item: dict, rec: dict) -> str:
-    tier_key = (item.get("tier") or "interesting").lower()
-    icon, tier_label = TIERS.get(tier_key, ("🔥", "Interesting"))
+    tier_key = (item.get("tier") or "recommended").lower()
+    icon, tier_label = TIERS.get(tier_key, ("🔥", "Recommended"))
+    rel_key = (item.get("vc_relevance") or "adaptable").lower()
+    rel_icon, rel_label = RELEVANCE.get(rel_key, ("◇", "VC-adaptable"))
     kind = (item.get("kind") or "software").lower()
     lic = license_of(rec)
     stars = fmt_count(rec.get("stargazers_count"))
@@ -252,11 +299,12 @@ def entry_md(slug: str, item: dict, rec: dict) -> str:
     out.append("")
     out.append(f"> {item.get('tagline') or rec.get('description') or 'No description provided upstream.'}")
     out.append("")
-    out.append(f"`{name}` &nbsp;·&nbsp; {icon} **{tier_label}** &nbsp;·&nbsp; _{kind}_")
+    out.append(f"`{name}` &nbsp;·&nbsp; {icon} **{tier_label}** &nbsp;·&nbsp; {rel_icon} **{rel_label}** &nbsp;·&nbsp; _{kind}_")
     out.append("")
     out.append("| | |")
     out.append("|---|---|")
     out.append(f"| **Category** | {slug_to_title(slug)} |")
+    out.append(f"| **VC relevance** | {rel_label} — {RELEVANCE_HELP[rel_key]} |")
     out.append(f"| **License** | {lic} |")
     out.append(f"| **Stars** | {stars} |")
     out.append(f"| **Forks** | {forks} |")
@@ -264,6 +312,10 @@ def entry_md(slug: str, item: dict, rec: dict) -> str:
     out.append(f"| **Status** | {status_of(rec)} |")
     out.append(f"| **Self-hostable** | {fmt_self_host(item.get('self_hostable'))} |")
     out.append("")
+    if item.get("archived_ok") and rec.get("archived"):
+        out.append("> **Archived upstream, kept deliberately.** "
+                   + str(item.get("archive_note") or "").strip())
+        out.append("")
     out.append("**VC use case**")
     out.append("")
     out.append(str(item.get("vc_use_case", "")).strip())
@@ -289,7 +341,10 @@ def entry_md(slug: str, item: dict, rec: dict) -> str:
     if item.get("notes"):
         out.append(f"**Notes:** {str(item['notes']).strip()}")
         out.append("")
-    links = [f"[GitHub]({rec.get('html_url') or item['name']})"]
+    # Always emit an absolute URL. Falling back to the bare owner/repo produced a
+    # relative link in the rendered page, which resolved to a 404 on GitHub rather
+    # than failing loudly here.
+    links = [f"[GitHub]({rec.get('html_url') or 'https://github.com/' + item['name']})"]
     if item.get("docs"):
         links.append(f"[Docs]({item['docs']})")
     if item.get("demo"):
@@ -399,7 +454,7 @@ def write_category_page(slug: str, items: list[tuple[dict, dict]], updated: str)
     if slug in CATEGORY_NOTES:
         lines += [CATEGORY_NOTES[slug], ""]
     lines += ["---", ""]
-    order = {"essential": 0, "interesting": 1, "infrastructure": 2, "experimental": 3, "research": 4}
+    order = {"essential": 0, "recommended": 1, "experimental": 2, "research": 3}
     for item, rec in sorted(items, key=lambda p: (order.get((p[0].get("tier") or "").lower(), 9),
                                                  -(p[1].get("stargazers_count") or 0))):
         lines.append(entry_md(slug, item, rec))
@@ -418,15 +473,19 @@ def build_records(curation: dict, snapshot: dict) -> list[dict]:
             missing.append(name)
             rec = {"full_name": name, "html_url": f"https://github.com/{name}", "archived": None}
         lic = license_of(rec)
+        _relevance = (item.get("vc_relevance") or "adaptable").lower()
         records.append({
             "name": rec.get("full_name") or name,
             "display_name": item.get("display_name") or name.split("/")[-1],
             "github": rec.get("html_url") or f"https://github.com/{name}",
             "description": item.get("tagline") or rec.get("description") or "",
             "category": item["category"],
-            "tier": (item.get("tier") or "interesting").lower(),
+            "tier": (item.get("tier") or "recommended").lower(),
             "kind": (item.get("kind") or "software").lower(),
-            "vc_native": bool(item.get("vc_native", False)),
+            "vc_relevance": _relevance,
+            # Derived, never hand-set: vc_relevance is the source of truth and this
+            # boolean is kept only so filters that already use it keep working.
+            "vc_native": _relevance == "native",
             "ai": bool(item.get("ai", False)),
             "best_for": item.get("best_for") or (item.get("good_for") or [""])[0],
             "starter": bool(item.get("starter", False)),
@@ -509,6 +568,7 @@ def main() -> None:
         "repo_count": len(records),
         "categories": {slug: len(v) for slug, v in sorted(by_cat.items())},
         "tiers": {t: sum(1 for r in records if r["tier"] == t) for t in TIERS},
+        "relevance": {k: sum(1 for r in records if r["vc_relevance"] == k) for k in RELEVANCE},
         "kinds": {k: sum(1 for r in records if r["kind"] == k) for k in KINDS},
         "repositories": records,
     }
@@ -534,11 +594,15 @@ def main() -> None:
     write_workflow(records, updated)
     write_starter_pack(records, updated)
     write_hidden_gems(records, updated)
+    write_stages(records, updated)
+    write_unfair_advantage(records, updated)
 
     # README generated regions
     if README.exists():
         text = README.read_text(encoding="utf-8")
 
+        # Only the 4-tier count line goes in the compact summary; the four numbers
+        # below it would make the header shout.
         cat_lines = ["| Category | Projects | What it covers |", "|---|---:|---|"]
         for slug in sorted(by_cat, key=lambda s: -len(by_cat[s])):
             title, _, covers = CATEGORY_META.get(slug, (slug_to_title(slug), "", ""))
@@ -546,21 +610,49 @@ def main() -> None:
             cat_lines.append(f"| [{title}](categories/{slug}.md) | {len(by_cat[slug])} | {short} |")
         text = replace_region(text, "categories", "\n".join(cat_lines))
 
+        stage_lines = ["| Stage | Subcategories | Projects |", "|---|---|---:|"]
+        for slug, title, blurb, cats in STAGES:
+            pool = [r for c in cats for r in by_cat.get(c, [])]
+            subs = ", ".join(f"[{slug_to_title(c)}](categories/{c}.md)"
+                             for c in cats if by_cat.get(c))
+            stage_lines.append(f"| **[{title}](stages/{slug}.md)** | {subs} | {len(pool)} |")
+        text = replace_region(text, "stages", "\n".join(stage_lines))
+
+        native = [r for r in records if r["vc_relevance"] == "native"]
+        native.sort(key=lambda r: ({"essential": 0, "recommended": 1, "experimental": 2,
+                                    "research": 3}.get(r["tier"], 9), r["display_name"].lower()))
+        nat_lines = ["| Project | What it is | Category | Stars |", "|---|---|---|---:|"]
+        for r in native:
+            nat_lines.append(
+                f"| [{r['display_name']}]({r['github']}) | {r['description']} "
+                f"| {slug_to_title(r['category'])} | {fmt_count(r['stars'])} |")
+        text = replace_region(text, "vcnative", "\n".join(nat_lines))
+
+        # Essential entries, VC-native first — the tier is quality, but a reader
+        # looking at this list wants the purpose-built ones at the top.
         ess = [r for r in records if r["tier"] == "essential"]
-        ess.sort(key=lambda r: -(r["stars"] or 0))
-        ess_lines = ["| Project | Category | Stars | License | Why |", "|---|---|---:|---|---|"]
+        rel_order = {"native": 0, "adaptable": 1, "infrastructure": 2}
+        ess.sort(key=lambda r: (rel_order.get(r["vc_relevance"], 9), -(r["stars"] or 0)))
+        ess_lines = ["| Project | Relevance | Category | Stars | License | Why |",
+                     "|---|---|---|---:|---|---|"]
         for r in ess:
             first = re.split(r"(?<=[.!?])\s", r["vc_use_case"])[0]
             ess_lines.append(
-                f"| [{r['display_name']}]({r['github']}) | {slug_to_title(r['category'])} | "
-                f"{fmt_count(r['stars'])} | {r['license']} | {first} |")
+                f"| [{r['display_name']}]({r['github']}) "
+                f"| {RELEVANCE.get(r['vc_relevance'], ('', r['vc_relevance']))[1]} "
+                f"| {slug_to_title(r['category'])} "
+                f"| {fmt_count(r['stars'])} | {r['license']} | {first} |")
         text = replace_region(text, "essentials", "\n".join(ess_lines))
 
         tier_counts = payload["tiers"]
-        stats = (f"**{len(records)}** curated projects across **{len(by_cat)}** categories "
-                 f"&nbsp;·&nbsp; {tier_counts.get('essential', 0)} Essential "
-                 f"&nbsp;·&nbsp; {tier_counts.get('interesting', 0)} Interesting "
-                 f"&nbsp;·&nbsp; {tier_counts.get('infrastructure', 0)} Infrastructure "
+        rel_counts = payload["relevance"]
+        stats = (f"**{len(records)}** projects across **{len(by_cat)}** categories "
+                 f"&nbsp;·&nbsp; **{rel_counts.get('native', 0)} built for venture** "
+                 f"&nbsp;·&nbsp; {rel_counts.get('adaptable', 0)} adaptable "
+                 f"&nbsp;·&nbsp; {rel_counts.get('infrastructure', 0)} infrastructure"
+                 f"<br>"
+                 f"{tier_counts.get('essential', 0)} Essential "
+                 f"&nbsp;·&nbsp; {tier_counts.get('recommended', 0)} Recommended "
                  f"&nbsp;·&nbsp; {tier_counts.get('experimental', 0)} Experimental "
                  f"&nbsp;·&nbsp; {tier_counts.get('research', 0)} Research")
         text = replace_region(text, "stats", stats)
@@ -622,9 +714,10 @@ def write_comparison(records: list[dict], updated: str) -> None:
         "",
         "**How to read it**",
         "",
-        "- **VC native** — built explicitly for venture capital or private markets. "
-        "`No` does not make it worse; it means you are adapting a general tool, "
-        "usually at a much lower price.",
+        "- **Relevance** — whether the project was built for venture, adapted to it, or is a "
+        "generic building block. This is deliberately independent of quality: a document "
+        "parser can be the best tool here for a data room and still have no idea what a data "
+        "room is. See [METHODOLOGY.md](METHODOLOGY.md#vc-relevance).",
         "- **OSS** — the licence as published upstream. `unverified` means the repo "
         "has no detectable licence file, so treat redistribution as off-limits. "
         "See [METHODOLOGY.md](METHODOLOGY.md#licensing).",
@@ -632,20 +725,22 @@ def write_comparison(records: list[dict], updated: str) -> None:
         "tier. `partial` means an open core with commercial hosted extras.",
         "- **AI** — the tool's core function depends on a model, rather than AI being "
         "a bolted-on feature.",
-        "- **Tier** — editorial label. See [METHODOLOGY.md](METHODOLOGY.md#tiers).",
+        "- **Tier** — quality, and nothing else. See [METHODOLOGY.md](METHODOLOGY.md#tiers).",
         "",
         f"_{len(records)} projects · metadata updated {updated}_",
         "",
-        "| Project | Category | Tier | VC native | OSS | Self-host | AI | Kind | Stars | Best for |",
+        "| Project | Category | Tier | Relevance | OSS | Self-host | AI | Kind | Stars | Best for |",
         "|---|---|---|---|---|---|---|---|---:|---|",
     ]
-    order = {"essential": 0, "interesting": 1, "infrastructure": 2, "experimental": 3, "research": 4}
-    for r in sorted(records, key=lambda r: (order.get(r["tier"], 9), -(r["stars"] or 0))):
+    order = {"essential": 0, "recommended": 1, "experimental": 2, "research": 3}
+    rel_order = {"native": 0, "adaptable": 1, "infrastructure": 2}
+    for r in sorted(records, key=lambda r: (rel_order.get(r["vc_relevance"], 9),
+                                            order.get(r["tier"], 9), -(r["stars"] or 0))):
         lines.append(
             f"| [{r['display_name']}]({r['github']}) "
             f"| [{slug_to_title(r['category'])}](categories/{r['category']}.md) "
             f"| {TIERS.get(r['tier'], ('', r['tier']))[1]} "
-            f"| {'Yes' if r['vc_native'] else 'No'} "
+            f"| {RELEVANCE.get(r['vc_relevance'], ('', r['vc_relevance']))[1]} "
             f"| {r['license']} "
             f"| {r['self_hostable'] if isinstance(r['self_hostable'], str) else ('yes' if r['self_hostable'] else 'no')} "
             f"| {'Yes' if r['ai'] else 'No'} "
@@ -658,14 +753,18 @@ def write_comparison(records: list[dict], updated: str) -> None:
         "",
         "## Filtering this table",
         "",
-        "`metadata/repositories.json` carries the same fields as structured data, so "
-        "you can rebuild any view you want:",
+        "`metadata/repositories.json` carries every field as structured data, so you can "
+        "rebuild any view you want:",
         "",
         "```bash",
-        "# every self-hostable, AI-native tool in diligence",
+        "# every VC-native project, the ones actually built for this job",
         "python -c \"import json;d=json.load(open('metadata/repositories.json'));\\",
-        "[print(r['name']) for r in d['repositories'] \\",
-        " if r['category']=='due-diligence' and r['ai'] and r['self_hostable'] is True]\"",
+        "[print(r['name']) for r in d['repositories'] if r['vc_relevance']=='native']\"",
+        "",
+        "# adaptable tools that are self-hostable and AI-native, for diligence work",
+        "python -c \"import json;d=json.load(open('metadata/repositories.json'));\\",
+        "[print(r['name']) for r in d['repositories'] if r['category']=='due-diligence' \\",
+        " and r['ai'] and r['self_hostable'] is True]\"",
         "```",
         "",
     ]
@@ -679,8 +778,8 @@ def write_workflow(records: list[dict], updated: str, per_stage: int = 6) -> Non
     for r in records:
         by_cat.setdefault(r["category"], []).append(r)
     for v in by_cat.values():
-        v.sort(key=lambda r: ({"essential": 0, "interesting": 1, "infrastructure": 2,
-                               "experimental": 3, "research": 4}.get(r["tier"], 9),
+        v.sort(key=lambda r: ({"essential": 0, "recommended": 1, "experimental": 2,
+                               "research": 3}.get(r["tier"], 9),
                               -(r["stars"] or 0)))
 
     lines = [
@@ -839,7 +938,7 @@ def write_hidden_gems(records: list[dict], updated: str) -> None:
         "- tiny but sharp — one idea, executed properly",
         "- recently emerged and not yet obvious",
         "- academically sound and not yet productised",
-        f"",
+        "",
         f"**{len(gems)} projects.** If you only read two pages of this repository, make "
         "it this one and the [Starter Pack](STARTER_PACK.md).",
         "",
@@ -868,6 +967,283 @@ def write_hidden_gems(records: list[dict], updated: str) -> None:
         lines += [f"[GitHub]({r['github']})", "", "---", ""]
     (ROOT / "HIDDEN_GEMS.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"  HIDDEN_GEMS.md ({len(gems)})")
+
+
+STAGE_RECIPES: dict[str, str] = {
+    "01-source": (
+        "Collect from where companies appear before they are funded, resolve the duplicates, "
+        "then watch the handful of pages where change is meaningful."
+    ),
+    "02-research": (
+        "Read the company's actual technical footprint, then research the market around it "
+        "with sources attached to every claim."
+    ),
+    "03-diligence": (
+        "Get the documents readable first, then ask questions across the whole set, and "
+        "verify the claims that matter with a citation you can open."
+    ),
+    "04-underwrite": (
+        "Pull public comparables as data, normalise the financials, and keep the model "
+        "reproducible so a corrected input updates every figure."
+    ),
+    "05-ic": (
+        "Keep the evidence, the transcripts, and the past decisions in one searchable place, "
+        "and scaffold the memo so the analyst writes the argument rather than the sections."
+    ),
+    "06-close": (
+        "Review the contracts, generate the redlines, and get signatures without sending "
+        "unannounced deal paperwork through someone else's cloud."
+    ),
+    "07-portfolio": (
+        "Collect KPIs on a schedule, keep the data somewhere reportable, and watch the one "
+        "number every board asks about."
+    ),
+    "08-relationships": (
+        "Remember who introduced whom, compute the warm path to a founder from your own "
+        "network data, and keep the record of what was said on the call."
+    ),
+    "09-fund": (
+        "Keep the books in something version-controlled and auditable, and model the fund "
+        "maths in a form that survives the person who built it."
+    ),
+}
+
+
+def write_stages(records: list[dict], updated: str) -> None:
+    """Nine workflow stages, each with its subcategories and its shortlist."""
+    by_cat: dict[str, list[dict]] = {}
+    for r in records:
+        by_cat.setdefault(r["category"], []).append(r)
+    rel_order = {"native": 0, "adaptable": 1, "infrastructure": 2}
+    tier_order = {"essential": 0, "recommended": 1, "experimental": 2, "research": 3}
+    for v in by_cat.values():
+        v.sort(key=lambda r: (rel_order.get(r["vc_relevance"], 9),
+                              tier_order.get(r["tier"], 9), -(r["stars"] or 0)))
+
+    STAGES_DIR.mkdir(parents=True, exist_ok=True)
+    index_lines = [
+        "# The Investment Workflow, Stage by Stage",
+        "",
+        "Tools are organised here the way the work actually happens, because that is how "
+        "people look for them. Nobody wakes up wanting a vector database; they wake up "
+        "needing to find a company, or to check whether a founder is telling the truth.",
+        "",
+        "```text",
+        "  01 SOURCE  →  02 RESEARCH  →  03 DILIGENCE  →  04 UNDERWRITE  →  05 IC & MEMO",
+        "                                                                      │",
+        "  09 FUND    ←  08 RELATIONSHIPS  ←  07 PORTFOLIO  ←  06 CLOSE  ←──────┘",
+        "```",
+        "",
+        "Three categories cut across every stage rather than sitting in one: "
+        + ", ".join(f"[{slug_to_title(c)}](categories/{c}.md)" for c in CROSS_CUTTING) + ".",
+        "",
+        "| Stage | What happens | Subcategories | Projects |",
+        "|---|---|---|---:|",
+    ]
+    for slug, title, blurb, cats in STAGES:
+        pool = [r for c in cats for r in by_cat.get(c, [])]
+        subs = ", ".join(f"[{slug_to_title(c)}](categories/{c}.md)" for c in cats if by_cat.get(c))
+        index_lines.append(f"| [{title}](stages/{slug}.md) | {blurb} | {subs} | {len(pool)} |")
+    index_lines += [
+        "",
+        "---",
+        "",
+        "## Where the open-source gaps are",
+        "",
+        "Two stages are far better served than the rest. **Sourcing** and **research** have "
+        "genuine options, because collecting and reading public information is a general "
+        "problem with a large open-source community behind it.",
+        "",
+        "**Underwriting, IC, and fund administration are the opposite.** Valuation, scoring "
+        "frameworks, cohort analysis, unit economics, and fund accounting have almost no "
+        "open-source tooling at all, because they are either spreadsheets or regulated. "
+        "[GAPS.md](GAPS.md) documents every sub-task where the honest answer is that "
+        "nothing exists.",
+        "",
+    ]
+    (ROOT / "VC_WORKFLOW.md").write_text("\n".join(index_lines), encoding="utf-8")
+    print("  VC_WORKFLOW.md (stage index)")
+
+    for idx, (slug, title, blurb, cats) in enumerate(STAGES):
+        pool = [r for c in cats for r in by_cat.get(c, [])]
+        lines = [
+            f"# {title}",
+            "",
+            f"_{blurb}_",
+            "",
+            f"[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; {len(pool)} projects "
+            f"&nbsp;·&nbsp; metadata updated {updated}",
+            "",
+            "---",
+            "",
+            "## Subcategories",
+            "",
+            "| Subcategory | Projects | Covers |",
+            "|---|---:|---|",
+        ]
+        for c in cats:
+            if not by_cat.get(c):
+                continue
+            _, _, covers = CATEGORY_META.get(c, ("", "", ""))
+            lines.append(f"| [{slug_to_title(c)}](../categories/{c}.md) | {len(by_cat[c])} | "
+                         f"{covers.split(',')[0].strip().rstrip('.')} |")
+        if slug in STAGE_RECIPES:
+            lines += ["", "## The shape of it", "", STAGE_RECIPES[slug], ""]
+        lines += [
+            "",
+            "## Install for this stage",
+            "",
+            "VC-native first, then the adaptable tools that carry the work. Everything else "
+            "in the subcategories above is on the category pages.",
+            "",
+            "| Project | Relevance | Tier | Stars | License | One line |",
+            "|---|---|---|---:|---|---|",
+        ]
+        shown = 0
+        for r in pool:
+            if r["tier"] not in ("essential", "recommended"):
+                continue
+            if shown >= 10:
+                break
+            first = re.split(r"(?<=[.!?])\s", r["vc_use_case"])[0]
+            lines.append(
+                f"| [{r['display_name']}]({r['github']}) "
+                f"| {RELEVANCE.get(r['vc_relevance'], ('', r['vc_relevance']))[1]} "
+                f"| {TIERS.get(r['tier'], ('', r['tier']))[1]} "
+                f"| {fmt_count(r['stars'])} | {r['license']} | {first} |")
+            shown += 1
+        nxt = STAGES[idx + 1] if idx + 1 < len(STAGES) else None
+        lines += [
+            "",
+            "---",
+            "",
+            "**Next stage:** "
+            + (f"[{nxt[1]}]({nxt[0]}.md)" if nxt else "[back to the workflow](../VC_WORKFLOW.md)"),
+            "",
+        ]
+        (STAGES_DIR / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"  stages/*.md ({len(STAGES)} stages)")
+
+
+# The editorial answer to "what should a solo VC actually install". Selected by
+# hand for differentiation and stage coverage, deliberately NOT by star count.
+UNFAIR_ADVANTAGE: list[str] = [
+    # source
+    "yc-oss/api", "KonstantinMB/exploreyc", "0xnyn/subsignal", "speedyapply/JobSpy",
+    "dedupeio/dedupe", "pingcap/ossinsight",
+    # research
+    "gildas-lormeau/SingleFile", "stanford-oval/storm",
+    # diligence
+    "Future-House/paper-qa", "Rizzo-AI-Academy/rizzo-pii", "rishin-sharma/CorpusCustody",
+    "freelawproject/courtlistener", "google/patents-public-data", "zoharbabin/due-diligence-agents",
+    # underwrite / IC
+    "dgunning/edgartools", "dforwardfeed/memo_generator", "tdavidson/reporting",
+    # relationships
+    "Zackriya-Solutions/meetily", "networkx/networkx",
+    # fund / cap table
+    "Open-Cap-Table-Coalition/Open-Cap-Format-OCF", "captableinc/captable", "iloveitaly/openbook",
+]
+
+UNFAIR_NOTES: dict[str, str] = {
+    "0xnyn/subsignal": "Almost nothing else is written for funds rather than adapted from a monitoring tool.",
+    "speedyapply/JobSpy": "Hiring is the signal companies find hardest to fake, and this costs nothing to run.",
+    "dedupeio/dedupe": "Entity resolution is a paid API everywhere else. Without it, every list you build is quietly wrong.",
+    "pingcap/ossinsight": "Turns a GitHub org into a diligence input instead of a vanity metric.",
+    "gildas-lormeau/SingleFile": "The ability to prove what a company's page said in March, in one file.",
+    "freelawproject/courtlistener": "Litigation records are public and almost nobody checks them, because they are scattered. This is the only serious open index.",
+    "google/patents-public-data": "Patent landscapes are a paid product. This is the primary source, free.",
+    "rishin-sharma/CorpusCustody": "AI diligence now has to ask where the training data came from. This is the checking tool.",
+    "Rizzo-AI-Academy/rizzo-pii": "Makes LLMs usable on real data rooms without breaching an NDA.",
+    "Zackriya-Solutions/meetily": "Self-hosted meeting intelligence, which is the only version a fund can use on unannounced deals.",
+    "networkx/networkx": "Warm-introduction paths computed from your own network instead of asked around the table.",
+    "Open-Cap-Table-Coalition/Open-Cap-Format-OCF": "The standard that makes a founder's cap table checkable rather than trusted.",
+    "captableinc/captable": "A cap table you run yourself, which matters most for SPVs and rolling funds.",
+    "yc-oss/api": "Authoritative company and founder data, maintained by the accelerator, free via API.",
+    "KonstantinMB/exploreyc": "A whole cohort you can walk by sector before a thesis meeting.",
+    "Future-House/paper-qa": "Lets a generalist hold a technical conversation with a deep-tech founder, with citations.",
+    "dgunning/edgartools": "Public filings as data. The best free information on a listed competitor's real economics.",
+    "dforwardfeed/memo_generator": "Prompts the sections a memo needs, which is where junior writing stalls.",
+    "tdavidson/reporting": "Built by an investor starting from the reporting obligation, not from an engineering idea.",
+    "iloveitaly/openbook": "The only serious open attempt at the investor graph that is normally a licence fee.",
+    "stanford-oval/storm": "Produces a cited first draft of a market section, which removes the blank page.",
+    "zoharbabin/due-diligence-agents": "Cross-references legal and financial flags, which is where correlated risks hide.",
+}
+
+
+def write_unfair_advantage(records: list[dict], updated: str) -> None:
+    by_name = {r["name"]: r for r in records}
+    picked = [(n, by_name[n]) for n in UNFAIR_ADVANTAGE if n in by_name]
+    missing = [n for n in UNFAIR_ADVANTAGE if n not in by_name]
+
+    stage_of: dict[str, str] = {}
+    for slug, title, _, cats in STAGES:
+        for c in cats:
+            stage_of[c] = title
+
+    lines = [
+        "# 22 Open Source Projects That Give a Solo VC an Unfair Advantage",
+        "",
+        "An opinionated list, and the one to read if you read nothing else here.",
+        "",
+        "The test for inclusion is not popularity. It is: **does this let one person do "
+        "something that would otherwise need a licence, a team, or a budget?** Every entry "
+        "either replaces a paid product, unlocks data that is normally expensive, or "
+        "automates a task that otherwise eats a week.",
+        "",
+        "That is why the list is short and why almost nothing on it has a famous star count. "
+        "The most useful thing here has 231 stars. The second most useful has 29.",
+        "",
+        f"_{len(picked)} projects · {updated}_",
+        "",
+        "---",
+        "",
+    ]
+    by_stage: dict[str, list] = {}
+    for name, r in picked:
+        by_stage.setdefault(stage_of.get(r["category"], "Cross-cutting"), []).append(r)
+
+    stage_order = [t for _, t, _, _ in STAGES] + ["Cross-cutting"]
+    for stage in stage_order:
+        items = by_stage.get(stage)
+        if not items:
+            continue
+        lines += [f"## {stage}", ""]
+        for r in items:
+            note = UNFAIR_NOTES.get(r["name"], "")
+            lines += [
+                f"**{r['display_name']}** — {r['description']}",
+                "",
+                f"`{r['name']}` · {fmt_count(r['stars'])}★ · `{r['license']}` · "
+                f"{RELEVANCE.get(r['vc_relevance'], ('', r['vc_relevance']))[1]}",
+                "",
+                note,
+                "",
+                f"[GitHub]({r['github']}) &nbsp;·&nbsp; "
+                f"[{slug_to_title(r['category'])}](categories/{r['category']}.md)",
+                "",
+            ]
+        lines += ["---", ""]
+
+    lines += [
+        "## How this list was selected",
+        "",
+        "By hand, against three tests, and deliberately not by star count:",
+        "",
+        "1. **It replaces something paid.** A licence, a data subscription, or a seat.",
+        "2. **Or it unlocks data that is otherwise expensive.** Court records, patents, "
+        "GitHub history, filings.",
+        "3. **Or one person can run it.** If it needs a platform team, it does not belong here.",
+        "",
+        "Plenty of excellent projects are excluded for failing test 3, and several of the "
+        "most popular entries in the wider directory are excluded for failing all three.",
+        "",
+        "See [GAPS.md](GAPS.md) for the tasks where no open-source option exists at all, "
+        "which is the other half of knowing what you can build.",
+        "",
+    ]
+    (ROOT / "UNFAIR_ADVANTAGE.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"  UNFAIR_ADVANTAGE.md ({len(picked)})"
+          + (f"  ! unknown names: {missing}" if missing else ""))
 
 
 def replace_region(text: str, key: str, body: str) -> str:

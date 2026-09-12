@@ -4,7 +4,7 @@ _The raw material your analysis runs on._
 
 Startup and company datasets, developer and repository data, financial and legal corpora, patent and research indexes, and the tooling to work with them.
 
-**7 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**9 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -16,11 +16,12 @@ Startup and company datasets, developer and repository data, financial and legal
 
 > Load and share datasets with one interface.
 
-`huggingface/datasets` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _framework_
+`huggingface/datasets` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 22k |
 | **Forks** | 3.4k |
@@ -54,11 +55,12 @@ Oriented to machine learning rather than business data, and the hub is a central
 
 > A collection of datasets with consistent loading.
 
-`tensorflow/datasets` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _framework_
+`tensorflow/datasets` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 4.6k |
 | **Forks** | 1.6k |
@@ -92,11 +94,12 @@ TensorFlow-oriented, though it works with other frameworks. Its catalogue is mos
 
 > US patent data, queryable.
 
-`PatentsView/PatentsView-API` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _dataset_
+`PatentsView/PatentsView-API` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | BSD-2-Clause |
 | **Stars** | 20 |
 | **Forks** | 12 |
@@ -130,11 +133,12 @@ US patents only, with a lag of eighteen months or more between filing and public
 
 > An open index of scholarly research.
 
-`ourresearch/openalex-api` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _dataset_
+`ourresearch/openalex-api` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 8 |
 | **Forks** | 1 |
@@ -168,11 +172,12 @@ Author disambiguation is imperfect, so a name match needs confirming. Coverage o
 
 > A topic-organised index of open datasets.
 
-`awesomedata/awesome-public-datasets` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`awesomedata/awesome-public-datasets` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 78.9k |
 | **Forks** | 11.8k |
@@ -206,11 +211,12 @@ A list, so link quality varies and many entries are old. Each dataset still need
 
 > A collection of system log datasets.
 
-`logpai/loghub` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _dataset_
+`logpai/loghub` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 2.8k |
 | **Forks** | 794 |
@@ -244,11 +250,12 @@ Licence is not a standard SPDX identifier. Very specific to operations and secur
 
 > Standard datasets for graph machine learning.
 
-`snap-stanford/ogb` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`snap-stanford/ogb` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Datasets & Open Data |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 2.1k |
 | **Forks** | 406 |
@@ -275,5 +282,85 @@ From Stanford, with evaluation protocols defined, which means a claim about grap
 Academic benchmark data rather than business data, and focused on models rather than applications.
 
 **Links:** [GitHub](https://github.com/snap-stanford/ogb) &nbsp;·&nbsp; [Site](https://ogb.stanford.edu)
+
+---
+
+### Google Patents Public Data
+
+> Patent data at scale, queryable in BigQuery.
+
+`google/patents-public-data` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
+
+| | |
+|---|---|
+| **Category** | Datasets & Open Data |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | Apache-2.0 |
+| **Stars** | 691 |
+| **Forks** | 181 |
+| **Language** | Jupyter Notebook |
+| **Status** | Archived (last push 2024-06-17) |
+| **Self-hostable** | yes |
+
+> **Archived upstream, kept deliberately.** The repository is archived upstream, but the BigQuery public dataset it documents is still live and queryable. The archival covers the sample code, not the data. Listed for the dataset with that distinction stated plainly rather than presented as a maintained project.
+
+**VC use case**
+
+Patent filings are a lagging but hard-to-fake signal of where a company and its competitors are investing R&D. Useful for the technology landscape around a deep-tech target, including who else is filing in the same space.
+
+**Why it's interesting**
+
+Global patent records with citations and classifications in one queryable dataset, which is otherwise a commercial product. If you are mapping a technology area for a thesis, this is the primary source.
+
+**Good for**
+
+- Technical due diligence
+- IP research
+- Sector mapping
+
+**Limitations**
+
+Requires BigQuery access and SQL, and the repository has not been updated recently, so check the current data loading path. Filing-to-publication lag is eighteen months or more.
+
+**Links:** [GitHub](https://github.com/google/patents-public-data) &nbsp;·&nbsp; [Site](https://bigquery.cloud.google.com/dataset/patents-public-data:patents)
+
+---
+
+### Harvard USPTO Patent Dataset
+
+> A large machine-learning-ready patent corpus.
+
+`suzgunmirac/hupd` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _dataset_
+
+| | |
+|---|---|
+| **Category** | Datasets & Open Data |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | MIT |
+| **Stars** | 89 |
+| **Forks** | 13 |
+| **Language** | Jupyter Notebook |
+| **Status** | Dormant (last push 2023-12-14, 33mo) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Read it as the reference for what patent text can be classified and predicted, and use the dataset to build a classifier for a specific technology area. Relevant when assessing or building patent-intelligence tooling.
+
+**Why it's interesting**
+
+It is a published academic dataset with a defined task, which means results are comparable and the collection method is documented.
+
+**Good for**
+
+- Patent research
+- Model building
+- Technical diligence
+
+**Limitations**
+
+US patents only, and the dataset is a research artefact rather than something maintained. Last updated a few years ago.
+
+**Links:** [GitHub](https://github.com/suzgunmirac/hupd) &nbsp;·&nbsp; [Site](https://patentdataset.org/)
 
 ---

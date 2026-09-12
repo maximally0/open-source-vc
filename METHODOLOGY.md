@@ -22,21 +22,40 @@ When a field cannot be verified, it says `unknown` or `unverified`. It is never 
 
 ## Tiers
 
-There are five labels and no numeric scores.
+Quality, and nothing else. Four labels, no numeric scores.
 
 | | Tier | Applied when |
 |---|---|---|
-| ⭐ | **Essential** | Excellent, broadly useful, and well maintained. A competent analyst gets value within an hour. If it disappeared tomorrow, the workflow would genuinely suffer. |
-| 🔥 | **Interesting** | Particularly innovative, unusually well engineered, or solving the problem in a way worth studying. May be narrow. |
-| 🛠 | **Infrastructure** | Not VC-specific at all. A strong building block: parsing, storage, orchestration, retrieval. Quality bar is about engineering, not fit. |
-| 🧪 | **Experimental** | Early stage, incomplete, possibly important. Listed because the direction matters, with the caveats stated. |
+| ⭐ | **Essential** | An analyst installs this in week one and it unblocks real work. If it disappeared, a core task would get materially harder. |
+| 🔥 | **Recommended** | Strong fit, narrower in scope, or better once you already have a stack. Also where excellent infrastructure lands, because "excellent" and "install this first" are different claims. |
+| 🧪 | **Experimental** | Early stage, incomplete, possibly important. Listed with the caveats stated. |
 | 📚 | **Research** | You are not going to deploy it. It is here because the approach, dataset, or result will change how you think about the problem. |
+
+## VC relevance
+
+A separate axis, and the separation is the point. It answers a different question from the tier:
+
+| | Relevance | Meaning |
+|---|---|---|
+| ◆ | **VC-native** | Built for venture capital, private markets, fund operations, or startup investing. |
+| ◇ | **VC-adaptable** | A general tool a fund adopts directly for a specific venture task. |
+| ▫ | **Infrastructure** | A building block you construct venture tooling with, not something an analyst uses standalone. |
+
+**Only 14 of the projects here are VC-native.** The rest are either general tools with a clear venture application or components you assemble. That ratio is a finding about the ecosystem, not about the curation: venture-specific software is a commercial category and very little of it is open source.
+
+**Why the two axes are separate.** An earlier version of this directory used one scale that mixed quality with kind, including an `infrastructure` tier. The result was predictable: the top tier filled with whatever had the most stars, and a reader scanning the category index concluded there were far more venture-native tools than there are. A PDF parser can be the best tool here for a data room and still have no idea what a data room is. Both facts need to be visible, which requires two fields.
+
+`vc_native` (a boolean, kept for anyone already filtering on it) is derived from `vc_relevance` rather than set by hand, so the two cannot disagree. CI errors if the same value appears in both axes.
+
+For each inclusion, the entry states the specific VC use case. Where a tool is not venture-native, it says so and explains the adaptation.
 
 ### Why no `84/100`
 
-Because the methodology behind such a number does not exist, and inventing one produces fake precision that readers will optimise against. Stars measure attention, not usefulness — the most-cited example being that a 40,000-star UI framework is worth less to a VC analyst than a 900-star cap-table model. Popularity is recorded as a fact (`Stars`) and used for sorting, never as a quality claim.
+Because the methodology behind such a number does not exist, and inventing one produces fake precision that readers will optimise against. Stars measure attention, not usefulness — the most-cited example being that a 40,000-star UI framework is worth less to a VC analyst than a 900-star cap-table model. Popularity is recorded as a fact (`Stars`) and used for sorting within a tier, never as a quality claim.
 
-If quantitative ranking is ever added here, the weights, the inputs, and the failure modes get published on this page first.
+A multi-dimension rubric was proposed during review of v1.1: score every project on VC relevance, utility, maturity, maintenance, setup cost, data access, extensibility, and differentiation. Every one of those is a fair question. The reason it is not implemented as 236 × 8 published numbers is that the judgements underneath them would not survive the precision. "Setup: 4/5" invites a reader to compare two tools by a score nobody can reproduce or audit, and to trust it more than the one thing the entry does say clearly, which is what the tool is for and what it costs you.
+
+Where those dimensions change a decision, they appear as prose in the entry — the limitations field exists precisely to carry "this needs a GPU", "this is AGPL", "this has not been touched since 2020" — and as the two labelled axes. If a defensible quantitative method is ever published, with weights and failure modes stated here first, the scores can follow.
 
 ## What qualifies
 

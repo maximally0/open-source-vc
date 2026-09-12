@@ -16,11 +16,12 @@ Memo generation, IC workflow, scorecards, decision systems, and citation-backed 
 
 > Typesetting that makes documents look considered.
 
-`typst/typst` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`typst/typst` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 56k |
 | **Forks** | 1.7k |
@@ -54,11 +55,12 @@ Not a word processor: collaborators who need to edit in Word are out of the loop
 
 > Reproducible reports where the analysis and the document are one file.
 
-`quarto-dev/quarto-cli` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`quarto-dev/quarto-cli` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 6k |
 | **Forks** | 455 |
@@ -92,11 +94,12 @@ Licence is not a standard SPDX identifier. Requires the underlying language runt
 
 > Generates a startup investment memorandum.
 
-`dforwardfeed/memo_generator` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`dforwardfeed/memo_generator` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 95 |
 | **Forks** | 36 |
@@ -130,11 +133,12 @@ Last meaningful activity some time ago, so treat it as a reference implementatio
 
 > A research workflow that starts from primary sources.
 
-`MichaelRochonnn/buffett-investment-research` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`MichaelRochonnn/buffett-investment-research` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 63 |
 | **Forks** | 14 |
@@ -168,11 +172,12 @@ Single-author project around one investor's approach, so treat the method as one
 
 > An AI-native platform for fund reporting and analysis.
 
-`tdavidson/reporting` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`tdavidson/reporting` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | Apache-2.0 |
 | **Stars** | 52 |
 | **Forks** | 15 |
@@ -206,11 +211,12 @@ Small project by an individual investor, so continuity is a real question. Early
 
 > A research pipeline that produces an investment memo.
 
-`jasonfdg/TickerToThesis` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`jasonfdg/TickerToThesis` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Memo & IC |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 26 |
 | **Forks** | 8 |

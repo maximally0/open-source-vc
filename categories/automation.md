@@ -14,11 +14,12 @@ Workflow automation, ETL, connectors, notifications, integrations, scheduled res
 
 > Workflow automation with a fair-code licence.
 
-`n8n-io/n8n` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`n8n-io/n8n` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 204.1k |
 | **Forks** | 60.6k |
@@ -52,11 +53,12 @@ Not open source despite the description people give it: the fair-code licence re
 
 > The default scheduler for data pipelines.
 
-`apache/airflow` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`apache/airflow` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 46.8k |
 | **Forks** | 17.8k |
@@ -86,91 +88,16 @@ Heavy for small jobs and a real operational commitment. Not the tool for two scr
 
 ---
 
-### Airbyte
-
-> Connectors that move data from anywhere to anywhere.
-
-`airbytehq/airbyte` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Workflow & Automation |
-| **License** | unverified (Other) |
-| **Stars** | 22k |
-| **Forks** | 5.3k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-The ingestion layer: get data out of a CRM, a billing system, an accounting package, or a portfolio company's tooling and into the fund's own database. Removes the custom connector that somebody has to maintain every time an API changes.
-
-**Why it's interesting**
-
-The connector catalogue is the asset, with hundreds of sources, and it is the most complete open option for this job.
-
-**Good for**
-
-- Data ingestion
-- Portfolio data
-- Internal platforms
-
-**Limitations**
-
-Open-core with some connectors and features commercial, and the licence is not a standard SPDX identifier. Running it is a real service.
-
-**Links:** [GitHub](https://github.com/airbytehq/airbyte) &nbsp;·&nbsp; [Site](https://airbyte.com)
-
----
-
-### dbt
-
-> Transform data with SQL that is tested and documented.
-
-`dbt-labs/dbt` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _framework_
-
-| | |
-|---|---|
-| **Category** | Workflow & Automation |
-| **License** | Apache-2.0 |
-| **Stars** | 13.8k |
-| **Forks** | 2.6k |
-| **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-Turns a fund's raw company and portfolio tables into the clean models that reporting depends on, with tests that catch a broken number before it reaches a partner. The discipline that separates a spreadsheet habit from a data practice.
-
-**Why it's interesting**
-
-It brings software engineering practice, version control, tests, documentation, and code review, to SQL transformations, and it has become the standard way to do it.
-
-**Good for**
-
-- Data modelling
-- Reporting
-- Data quality
-
-**Limitations**
-
-SQL-based, so non-tabular work needs something else. Needs a warehouse and someone who understands the business logic.
-
-**Links:** [GitHub](https://github.com/dbt-labs/dbt) &nbsp;·&nbsp; [Site](https://getdbt.com)
-
----
-
 ### ToolJet
 
 > Another drag-and-drop internal tool builder.
 
-`ToolJet/ToolJet` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`ToolJet/ToolJet` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | AGPL-3.0 |
 | **Stars** | 40.9k |
 | **Forks** | 5.4k |
@@ -204,11 +131,12 @@ AGPL-licensed with commercial editions. Same ceiling as any visual builder when 
 
 > Build internal tools by dragging components.
 
-`appsmithorg/appsmith` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`appsmithorg/appsmith` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 40.9k |
 | **Forks** | 4.8k |
@@ -242,11 +170,12 @@ Complex logic gets awkward, and the resulting app is harder to test and version 
 
 > Declarative orchestration in YAML.
 
-`kestra-io/kestra` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`kestra-io/kestra` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 28.1k |
 | **Forks** | 3k |
@@ -280,11 +209,12 @@ Another service to operate, and for a handful of jobs a cron file is honestly en
 
 > An open Zapier alternative.
 
-`activepieces/activepieces` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`activepieces/activepieces` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 24.4k |
 | **Forks** | 4.2k |
@@ -318,11 +248,12 @@ Licence is not a standard SPDX identifier and follows a similar open-core shape.
 
 > Python-native workflow orchestration.
 
-`PrefectHQ/prefect` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`PrefectHQ/prefect` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 23.8k |
 | **Forks** | 2.5k |
@@ -352,15 +283,55 @@ The managed product is the commercial focus, so some operational features are ea
 
 ---
 
-### Windmill
+### Airbyte
 
-> Turn scripts into workflows and internal apps.
+> Connectors that move data from anywhere to anywhere.
 
-`windmill-labs/windmill` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`airbytehq/airbyte` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | unverified (Other) |
+| **Stars** | 22k |
+| **Forks** | 5.3k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+The ingestion layer: get data out of a CRM, a billing system, an accounting package, or a portfolio company's tooling and into the fund's own database. Removes the custom connector that somebody has to maintain every time an API changes.
+
+**Why it's interesting**
+
+The connector catalogue is the asset, with hundreds of sources, and it is the most complete open option for this job.
+
+**Good for**
+
+- Data ingestion
+- Portfolio data
+- Internal platforms
+
+**Limitations**
+
+Open-core with some connectors and features commercial, and the licence is not a standard SPDX identifier. Running it is a real service.
+
+**Links:** [GitHub](https://github.com/airbytehq/airbyte) &nbsp;·&nbsp; [Site](https://airbyte.com)
+
+---
+
+### Windmill
+
+> Turn scripts into workflows and internal apps.
+
+`windmill-labs/windmill` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 17.9k |
 | **Forks** | 1.1k |
@@ -394,11 +365,12 @@ Licence is not a standard SPDX identifier. Steeper start than a visual-first too
 
 > Orchestration built around data assets.
 
-`dagster-io/dagster` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`dagster-io/dagster` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 16.1k |
 | **Forks** | 2.3k |
@@ -428,15 +400,55 @@ More concepts to learn than a task scheduler, and the value appears only once th
 
 ---
 
-### Meltano
+### dbt
 
-> ELT as code with version control.
+> Transform data with SQL that is tested and documented.
 
-`meltano/meltano` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`dbt-labs/dbt` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | Apache-2.0 |
+| **Stars** | 13.8k |
+| **Forks** | 2.6k |
+| **Language** | Rust |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Turns a fund's raw company and portfolio tables into the clean models that reporting depends on, with tests that catch a broken number before it reaches a partner. The discipline that separates a spreadsheet habit from a data practice.
+
+**Why it's interesting**
+
+It brings software engineering practice, version control, tests, documentation, and code review, to SQL transformations, and it has become the standard way to do it.
+
+**Good for**
+
+- Data modelling
+- Reporting
+- Data quality
+
+**Limitations**
+
+SQL-based, so non-tabular work needs something else. Needs a warehouse and someone who understands the business logic.
+
+**Links:** [GitHub](https://github.com/dbt-labs/dbt) &nbsp;·&nbsp; [Site](https://getdbt.com)
+
+---
+
+### Meltano
+
+> ELT as code with version control.
+
+`meltano/meltano` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Workflow & Automation |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 2.6k |
 | **Forks** | 268 |

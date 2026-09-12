@@ -176,7 +176,16 @@ def main() -> None:
     prev_repos = prev.get("repos", {})
 
     now = datetime.now(timezone.utc)
-    current: dict[str, dict] = {}
+    requested = set(names)
+
+    # Carry forward everything we are not re-fetching. Without this, a partial
+    # refresh (--repos-only) writes a snapshot containing only those repositories
+    # and silently drops the rest of the directory from the metadata.
+    # Stale keys from upstream renames are cleaned up after the fetch loop.
+    current: dict[str, dict] = {
+        k: v for k, v in prev_repos.items() if k not in requested
+    }
+    carried = len(current)
     findings: dict[str, list[str]] = {
         "gone": [], "archived": [], "newly_archived": [], "unarchived": [],
         "license_changed": [], "star_growth": [], "stalled": [], "newly_stalled": [],
@@ -236,6 +245,20 @@ def main() -> None:
         print(f"[{i}/{len(names)}] {name} ok ({rec.get('stargazers_count'):,}★)", flush=True)
         time.sleep(0.35)
 
+    # A repository renamed upstream (calcom/cal.com became calcom/cal.diy) would
+    # otherwise be carried forward under its old key alongside the freshly fetched
+    # entry, leaving two copies of one project in the metadata. Drop any carried key
+    # whose canonical name now collides with something we just fetched.
+    fetched_canonical = {
+        rec.get("full_name") for name, rec in current.items() if name in requested
+    }
+    renamed = [
+        k for k, v in current.items()
+        if k not in requested and v.get("full_name") in fetched_canonical
+    ]
+    for k in renamed:
+        del current[k]
+
     snapshot = {
         "generated_at": now.isoformat(timespec="seconds"),
         "repo_count": len(current),
@@ -292,6 +315,8 @@ def main() -> None:
     status = {
         "generated_at": now.isoformat(timespec="seconds"),
         "repo_count": len(current),
+        "refreshed": len(names),
+        "carried_forward": carried,
         "substantive": bool(substantive),
         "substantive_findings": substantive,
         "informational_findings": informational,

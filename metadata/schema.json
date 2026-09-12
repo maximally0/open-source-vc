@@ -6,7 +6,8 @@
   "type": "object",
   "required": [
     "name", "github", "description", "category", "tier", "kind",
-    "vc_use_case", "why_it_is_interesting", "license", "stars", "last_commit", "status"
+    "vc_use_case", "why_it_is_interesting", "license", "stars", "last_commit", "status",
+    "vc_relevance"
   ],
   "additionalProperties": false,
   "properties": {
@@ -42,8 +43,13 @@
     },
     "tier": {
       "type": "string",
-      "enum": ["essential", "interesting", "experimental", "infrastructure", "research"],
-      "description": "Editorial label. Deliberately qualitative — there are no numeric scores. Definitions in METHODOLOGY.md."
+      "enum": ["essential", "recommended", "experimental", "research"],
+      "description": "Quality only: how good is it and would an analyst install it. Deliberately independent of vc_relevance. Definitions in METHODOLOGY.md."
+    },
+    "vc_relevance": {
+      "type": "string",
+      "enum": ["native", "adaptable", "infrastructure"],
+      "description": "Whether the project was built for venture capital (native), is a general tool with a direct venture application (adaptable), or is a building block for assembling venture tooling (infrastructure). Never a quality claim — a document parser can be the best tool here for a data room and still have no idea what a data room is."
     },
     "kind": {
       "type": "string",

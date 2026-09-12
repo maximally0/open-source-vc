@@ -14,11 +14,12 @@ Market mapping, competitive research, industry intelligence, company comparison,
 
 > Search your own documents and the web from one place.
 
-`khoj-ai/khoj` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`khoj-ai/khoj` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 37.3k |
 | **Forks** | 2.5k |
@@ -52,11 +53,12 @@ Indexing quality depends on the source documents being reasonably clean. The sel
 
 > Writes a cited article from scratch on any topic.
 
-`stanford-oval/storm` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`stanford-oval/storm` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 31.3k |
 | **Forks** | 2.9k |
@@ -90,11 +92,12 @@ Still needs an editor. It will produce fluent text about a market it has misunde
 
 > An agent that researches a question across many sources and cites them.
 
-`assafelovic/gpt-researcher` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`assafelovic/gpt-researcher` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 29.4k |
 | **Forks** | 4k |
@@ -130,11 +133,12 @@ Needs an LLM key and a search API, so cost scales with use. It can restate a wea
 
 > Aggregated trend and sentiment monitoring across platforms.
 
-`sansan0/TrendRadar` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`sansan0/TrendRadar` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 62.2k |
 | **Forks** | 24.9k |
@@ -168,11 +172,12 @@ Volume is the enemy: without tight keyword rules the alerts become noise. It ref
 
 > An open deep-research agent with published weights.
 
-`Alibaba-NLP/DeepResearch` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _research_
+`Alibaba-NLP/DeepResearch` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 19.9k |
 | **Forks** | 1.5k |
@@ -206,11 +211,12 @@ Needs serious GPU capacity to run well. Setup is a research-engineering job, not
 
 > A small, readable iterative research loop.
 
-`dzhng/deep-research` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`dzhng/deep-research` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 19.7k |
 | **Forks** | 2k |
@@ -244,11 +250,12 @@ Minimal by design: no UI, thin error handling, and no provenance beyond the sour
 
 > Chat over your own document collections.
 
-`arc53/DocsGPT` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`arc53/DocsGPT` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 18.3k |
 | **Forks** | 2.1k |
@@ -282,11 +289,12 @@ Retrieval quality is only as good as the chunking, and answers need verification
 
 > NotebookLM-style research over live web and platform data.
 
-`MODSetter/SurfSense` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`MODSetter/SurfSense` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 16.1k |
 | **Forks** | 1.5k |
@@ -320,11 +328,12 @@ Platform connectors break as those platforms change access, and coverage is unev
 
 > A research agent tuned for prediction and forecasting tasks.
 
-`MiroMindAI/MiroThinker` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _research_
+`MiroMindAI/MiroThinker` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 8.4k |
 | **Forks** | 643 |
@@ -358,11 +367,12 @@ Forecasting accuracy on venture-scale questions is unproven, and the published b
 
 > Private-data research with citations.
 
-`zilliztech/deep-searcher` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`zilliztech/deep-searcher` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 8.3k |
 | **Forks** | 803 |
@@ -396,11 +406,12 @@ Needs a vector store and an LLM key, and answer quality depends heavily on how t
 
 > A dashboard for news, markets, and geopolitical events.
 
-`hipcityreg/situation-monitor` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`hipcityreg/situation-monitor` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 4.2k |
 | **Forks** | 921 |
@@ -433,11 +444,12 @@ No licence file is present, so reuse terms are unclear. Feed availability change
 
 > A hierarchical multi-agent research system.
 
-`SkyworkAI/DeepResearchAgent` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _framework_
+`SkyworkAI/DeepResearchAgent` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3.5k |
 | **Forks** | 457 |
@@ -471,11 +483,12 @@ More moving parts than a single-loop agent, and the coordination overhead is rea
 
 > A research knowledge base that agents keep adding to.
 
-`jordan-gibbs/hyperresearch` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`jordan-gibbs/hyperresearch` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3k |
 | **Forks** | 279 |
@@ -509,11 +522,12 @@ Early project, and the value depends on discipline in adding to it. Search quali
 
 > A large MCP toolset for global intelligence feeds.
 
-`marc-shade/world-intel-mcp` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`marc-shade/world-intel-mcp` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 636 |
 | **Forks** | 115 |
@@ -547,11 +561,12 @@ Young project with a large surface area, so individual tools vary in reliability
 
 > A NeurIPS paper on giving reasoning models the ability to browse.
 
-`RUC-NLPIR/WebThinker` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`RUC-NLPIR/WebThinker` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 1.5k |
 | **Forks** | 139 |
@@ -584,11 +599,12 @@ A research implementation, not a product. Expect to read code and papers to use 
 
 > A benchmark for judging whether a research agent is any good.
 
-`Ayanami0730/deep_research_bench` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`Ayanami0730/deep_research_bench` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Market & Industry Research |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 828 |
 | **Forks** | 85 |

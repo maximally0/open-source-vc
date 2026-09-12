@@ -12,15 +12,55 @@ LP CRM and intelligence, fundraising, fund modelling, portfolio construction, re
 
 ---
 
-### Grist
+### ERPNext
 
-> A spreadsheet that behaves like a database.
+> An open ERP covering accounting, invoicing, and assets.
 
-`gristlabs/grist-core` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`frappe/erpnext` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | GPL-3.0 |
+| **Stars** | 39.1k |
+| **Forks** | 12.8k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+For a fund that has outgrown spreadsheets and wants one system for accounting, invoicing, payments, and asset records, with the same framework behind the CRM. An emerging manager can run most of the back office on it.
+
+**Why it's interesting**
+
+It covers the accounting and compliance-adjacent processes that genuinely are regulated, which is where a fund cannot improvise, and it is built on a framework that can be extended.
+
+**Good for**
+
+- Fund back office
+- Accounting
+- Operations
+
+**Limitations**
+
+A real implementation project, not an install. GPL-licensed, which affects redistribution. Assumes business workflows that need adapting for a fund.
+
+**Links:** [GitHub](https://github.com/frappe/erpnext) &nbsp;·&nbsp; [Site](https://frappe.io/erpnext)
+
+---
+
+### Grist
+
+> A spreadsheet that behaves like a database.
+
+`gristlabs/grist-core` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 11.8k |
 | **Forks** | 641 |
@@ -54,11 +94,12 @@ Formula language differs from Excel, so existing models need porting. Some enter
 
 > The original plain-text accounting tool.
 
-`ledger/ledger` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`ledger/ledger` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 6k |
 | **Forks** | 547 |
@@ -92,11 +133,12 @@ Licence is not a standard SPDX identifier. Development is slower than the newer 
 
 > Portfolio construction and optimisation in Python.
 
-`PyPortfolio/PyPortfolioOpt` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _framework_
+`PyPortfolio/PyPortfolioOpt` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 6k |
 | **Forks** | 1.2k |
@@ -130,11 +172,12 @@ Optimisers are sensitive to inputs, and small error in expected returns produces
 
 > Double-entry accounting in plain text files.
 
-`beancount/beancount` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`beancount/beancount` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-2.0 |
 | **Stars** | 6k |
 | **Forks** | 467 |
@@ -168,11 +211,12 @@ No interface: you write entries in a text editor and run commands. It is double-
 
 > Plain-text accounting with a serious command line.
 
-`hledgerorg/hledger` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`hledgerorg/hledger` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 4.7k |
 | **Forks** | 413 |
@@ -206,11 +250,12 @@ Same learning curve as any double-entry system, and no graphical interface by de
 
 > Full double-entry accounting with a desktop interface.
 
-`Gnucash/gnucash` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`Gnucash/gnucash` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | LP & Fund Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 4.3k |
 | **Forks** | 986 |
@@ -237,43 +282,5 @@ Decades of development and small-business-grade features without a subscription 
 Desktop-only and dated in places. Licence is not a standard SPDX identifier. Not built for multi-user work without care.
 
 **Links:** [GitHub](https://github.com/Gnucash/gnucash) &nbsp;·&nbsp; [Site](http://code.gnucash.org/website/)
-
----
-
-### ERPNext
-
-> An open ERP covering accounting, invoicing, and assets.
-
-`frappe/erpnext` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | LP & Fund Management |
-| **License** | GPL-3.0 |
-| **Stars** | 39.1k |
-| **Forks** | 12.8k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-For a fund that has outgrown spreadsheets and wants one system for accounting, invoicing, payments, and asset records, with the same framework behind the CRM. An emerging manager can run most of the back office on it.
-
-**Why it's interesting**
-
-It covers the accounting and compliance-adjacent processes that genuinely are regulated, which is where a fund cannot improvise, and it is built on a framework that can be extended.
-
-**Good for**
-
-- Fund back office
-- Accounting
-- Operations
-
-**Limitations**
-
-A real implementation project, not an install. GPL-licensed, which affects redistribution. Assumes business workflows that need adapting for a fund.
-
-**Links:** [GitHub](https://github.com/frappe/erpnext) &nbsp;·&nbsp; [Site](https://frappe.io/erpnext)
 
 ---

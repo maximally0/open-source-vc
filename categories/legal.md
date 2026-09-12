@@ -4,7 +4,7 @@ _Documents that decide the deal._
 
 SAFEs, term sheets, legal NLP, contract analysis, clause extraction, and transaction infrastructure.
 
-**15 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**17 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -14,11 +14,12 @@ SAFEs, term sheets, legal NLP, contract analysis, clause extraction, and transac
 
 > An open legal AI platform for document review.
 
-`open-legal-products/mike` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`open-legal-products/mike` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 4.2k |
 | **Forks** | 1.3k |
@@ -48,15 +49,55 @@ AGPL-licensed. It produces analysis for a lawyer to check, not legal advice, and
 
 ---
 
-### OpenContracts
+### CourtListener
 
-> An open document intelligence platform for contract analysis.
+> A searchable archive of US court data.
 
-`Open-Source-Legal/OpenContracts` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`freelawproject/courtlistener` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | unverified (Other) |
+| **Stars** | 1k |
+| **Forks** | 270 |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Litigation is a diligence question almost nobody checks properly: is the target or its founders party to a lawsuit, has a competitor sued them, is there an IP dispute waiting. Court records are public but scattered across thousands of county and federal systems. This puts them in one searchable place.
+
+**Why it's interesting**
+
+Maintained by the Free Law Project, which has been doing this for over a decade with bulk data and an API rather than a website you have to scrape. It is the single biggest open legal dataset available.
+
+**Good for**
+
+- Legal due diligence
+- Litigation checks
+- Founder background
+
+**Limitations**
+
+US courts only, and coverage varies by jurisdiction and court level, with some records incomplete. The licence is not a standard SPDX identifier, so check terms before building a service on the data.
+
+**Links:** [GitHub](https://github.com/freelawproject/courtlistener) &nbsp;·&nbsp; [Site](https://www.courtlistener.com)
+
+---
+
+### OpenContracts
+
+> An open document intelligence platform for contract analysis.
+
+`Open-Source-Legal/OpenContracts` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 1.5k |
 | **Forks** | 186 |
@@ -90,11 +131,12 @@ Smaller than the commercial alternatives, and setup means hosting a real applica
 
 > A contract review workflow with defined risk categories.
 
-`evolsb/claude-legal-skill` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`evolsb/claude-legal-skill` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 438 |
 | **Forks** | 57 |
@@ -128,11 +170,12 @@ Tied to a specific agent tool, and it is only as good as the risk framework behi
 
 > Generate Word tracked changes from Python.
 
-`JSv4/Python-Redlines` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`JSv4/Python-Redlines` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 128 |
 | **Forks** | 21 |
@@ -166,11 +209,12 @@ Narrow tool: it produces the redline, it does not decide what should change. Wor
 
 > An NLP pipeline for Indian legal documents.
 
-`OpenNyAI/Opennyai` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`OpenNyAI/Opennyai` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 101 |
 | **Forks** | 18 |
@@ -204,11 +248,12 @@ Indian legal documents only, and quality varies by court and document age. Model
 
 > A structured corpus of US primary law.
 
-`Vaquill-AI/open-us-law` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _dataset_
+`Vaquill-AI/open-us-law` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 59 |
 | **Forks** | 15 |
@@ -238,15 +283,54 @@ A corpus, not an answer: coverage, currency, and updates are the maintainer's ch
 
 ---
 
-### doc-haus
+### Juriscraper
 
-> A self-hosted legal AI agent that keeps documents local.
+> Scrapers for US court websites.
 
-`sure-scale/doc-haus` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`freelawproject/juriscraper` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | BSD-2-Clause |
+| **Stars** | 633 |
+| **Forks** | 173 |
+| **Language** | HTML |
+| **Status** | Active (last push 2026-09-11) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The collection layer behind CourtListener, usable directly when a diligence needs filings from a specific court that is not well covered. Relevant for jurisdiction- specific litigation research.
+
+**Why it's interesting**
+
+Court websites are hostile to automation and this maintains scrapers for hundreds of them, including the parsing of what comes back. That maintenance is the expensive part.
+
+**Good for**
+
+- Litigation research
+- Legal data collection
+
+**Limitations**
+
+Per-court scrapers break as courts change their sites, so expect gaps and breakage. US only.
+
+**Links:** [GitHub](https://github.com/freelawproject/juriscraper) &nbsp;·&nbsp; [Site](https://free.law/projects/juriscraper)
+
+---
+
+### doc-haus
+
+> A self-hosted legal AI agent that keeps documents local.
+
+`sure-scale/doc-haus` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 70 |
 | **Forks** | 19 |
@@ -280,11 +364,12 @@ A fork of an earlier project with a single maintainer, and the licence is not a 
 
 > Self-hosted document chat for lawyers.
 
-`janderswag/docuchat.app` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`janderswag/docuchat.app` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 33 |
 | **Forks** | 0 |
@@ -318,11 +403,12 @@ Local models are weaker than hosted ones, so answers need more checking. Single 
 
 > A self-hostable workspace for legal teams.
 
-`akashshrx/OpenSpecter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`akashshrx/OpenSpecter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 31 |
 | **Forks** | 4 |
@@ -356,11 +442,12 @@ AGPL-licensed and very early, so expect to be part of its development rather tha
 
 > Extract legal structure from contracts and statutes.
 
-`LexPredict/lexpredict-lexnlp` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _framework_
+`LexPredict/lexpredict-lexnlp` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 795 |
 | **Forks** | 199 |
@@ -394,11 +481,12 @@ Last meaningful development was some years ago, so treat it as a foundation to b
 
 > A spaCy pipeline trained on legal text.
 
-`ICLRandD/Blackstone` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _framework_
+`ICLRandD/Blackstone` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 696 |
 | **Forks** | 111 |
@@ -432,11 +520,12 @@ Development stopped a while ago and the underlying spaCy version is dated, so ex
 
 > An index of legal NLP resources, datasets, and tools.
 
-`maastrichtlawtech/awesome-legal-nlp` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`maastrichtlawtech/awesome-legal-nlp` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 338 |
 | **Forks** | 48 |
@@ -470,11 +559,12 @@ A curated list, so it inherits the format's weaknesses: some links go stale and 
 
 > A benchmark for legal language understanding.
 
-`coastalcph/lex-glue` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`coastalcph/lex-glue` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 269 |
 | **Forks** | 44 |
@@ -508,11 +598,12 @@ Benchmark tasks are not venture diligence tasks. No licence file is present, so 
 
 > The pipeline behind a multi-jurisdiction legal corpus.
 
-`isaacus-dev/open-australian-legal-corpus-creator` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _dataset_
+`isaacus-dev/open-australian-legal-corpus-creator` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 124 |
 | **Forks** | 20 |
@@ -546,11 +637,12 @@ Australian sources, so the specifics need redoing elsewhere. Corpus maintenance 
 
 > A graph-based approach to identifying contract clauses.
 
-`Law-AI/LeSICiN` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _research_
+`Law-AI/LeSICiN` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _research_
 
 | | |
 |---|---|
 | **Category** | Legal & Transaction Infrastructure |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 25 |
 | **Forks** | 11 |

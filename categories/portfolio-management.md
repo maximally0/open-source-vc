@@ -4,7 +4,7 @@ _The decade after the wire hits._
 
 Portfolio monitoring, KPI collection, dashboards, company updates, risk, analytics, and founder support.
 
-**9 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**10 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -14,11 +14,12 @@ Portfolio monitoring, KPI collection, dashboards, company updates, risk, analyti
 
 > Business intelligence that non-technical people can use.
 
-`metabase/metabase` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`metabase/metabase` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 49.2k |
 | **Forks** | 6.8k |
@@ -52,11 +53,12 @@ Visualization and embedded features sit behind a commercial tier. Needs a wareho
 
 > Turn a Python script into a web app.
 
-`streamlit/streamlit` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _framework_
+`streamlit/streamlit` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 45.7k |
 | **Forks** | 4.4k |
@@ -92,11 +94,12 @@ Not suited to large multi-user applications, and state handling gets awkward as 
 
 > A full BI platform at Apache scale.
 
-`apache/superset` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`apache/superset` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 74.7k |
 | **Forks** | 18.3k |
@@ -130,11 +133,12 @@ Substantial deployment and a real learning curve. Overkill for a fund of one.
 
 > Quick web interfaces for models and functions.
 
-`gradio-app/gradio` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _framework_
+`gradio-app/gradio` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 43.5k |
 | **Forks** | 3.6k |
@@ -164,15 +168,55 @@ Demo-oriented: authentication, access control, and state are limited. Not a prod
 
 ---
 
-### Redash
+### Directus
 
-> Query, visualize, and share data quickly.
+> An admin layer over any SQL database.
 
-`getredash/redash` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`directus/directus` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | unverified (Other) |
+| **Stars** | 37.9k |
+| **Forks** | 4.9k |
+| **Language** | TypeScript |
+| **Status** | Active (last push 2026-09-11) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+When a fund needs a real internal system, portfolio data entry, document records, deal workflow, without building a back end, this puts a usable interface and API on top of a database the platform team already runs.
+
+**Why it's interesting**
+
+It sits on your existing database rather than creating its own, so the data stays portable and queryable by everything else you run.
+
+**Good for**
+
+- Internal systems
+- Data entry
+- Portfolio data
+
+**Limitations**
+
+Licence is not a standard SPDX identifier, with commercial tiers for some features. More engineering than a spreadsheet replacement warrants.
+
+**Links:** [GitHub](https://github.com/directus/directus) &nbsp;·&nbsp; [Site](https://directus.com)
+
+---
+
+### Redash
+
+> Query, visualize, and share data quickly.
+
+`getredash/redash` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Portfolio Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | BSD-2-Clause |
 | **Stars** | 28.8k |
 | **Forks** | 4.6k |
@@ -206,11 +250,12 @@ Development is slower than it once was, and it is less suited to governed report
 
 > Publish any database as a browsable, queryable site.
 
-`simonw/datasette` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`simonw/datasette` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 11.5k |
 | **Forks** | 902 |
@@ -244,11 +289,12 @@ Read-oriented: not an editing interface or a reporting suite. Needs care around 
 
 > An open Airtable for structured portfolio data.
 
-`baserow/baserow` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`baserow/baserow` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 5.9k |
 | **Forks** | 718 |
@@ -278,53 +324,16 @@ Advanced features and some integrations are commercial. Large bases need proper 
 
 ---
 
-### Directus
-
-> An admin layer over any SQL database.
-
-`directus/directus` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Portfolio Management |
-| **License** | unverified (Other) |
-| **Stars** | 37.9k |
-| **Forks** | 4.9k |
-| **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-When a fund needs a real internal system, portfolio data entry, document records, deal workflow, without building a back end, this puts a usable interface and API on top of a database the platform team already runs.
-
-**Why it's interesting**
-
-It sits on your existing database rather than creating its own, so the data stays portable and queryable by everything else you run.
-
-**Good for**
-
-- Internal systems
-- Data entry
-- Portfolio data
-
-**Limitations**
-
-Licence is not a standard SPDX identifier, with commercial tiers for some features. More engineering than a spreadsheet replacement warrants.
-
-**Links:** [GitHub](https://github.com/directus/directus) &nbsp;·&nbsp; [Site](https://directus.com)
-
----
-
 ### ROAPI
 
 > Serve any dataset as an API without writing code.
 
-`roapi/roapi` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
+`roapi/roapi` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Portfolio Management |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 3.4k |
 | **Forks** | 209 |
@@ -351,5 +360,44 @@ It removes the write-a-service step entirely, which is the step that stops small
 Read-only and not a database: no transactions, no complex writes. Fine for serving datasets, wrong for a system of record.
 
 **Links:** [GitHub](https://github.com/roapi/roapi) &nbsp;·&nbsp; [Site](https://roapi.github.io/docs)
+
+---
+
+### Runway Tool
+
+> Runway and cash-budget forecasting for a startup.
+
+`tdavidson/runway-tool` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Portfolio Management |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
+| **License** | unverified (Other) |
+| **Stars** | 16 |
+| **Forks** | 2 |
+| **Language** | unknown |
+| **Status** | Dormant (last push 2020-10-12, 71mo) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The single number a board watches: how many months of cash remain, under what hiring and spend assumptions. This models the scenario, which is what a fund needs when a portfolio company's bridge question arrives two months earlier than planned.
+
+**Why it's interesting**
+
+Almost no open-source tooling exists for this, despite it being the most-asked portfolio question. It is a small model someone who understood the problem released.
+
+**Good for**
+
+- Runway monitoring
+- Portfolio support
+- Board reporting
+
+**Limitations**
+
+Small project that has not been touched since 2020, and the licence is not a standard SPDX identifier. Read it as a model to adapt rather than a maintained tool.
+
+**Links:** [GitHub](https://github.com/tdavidson/runway-tool) &nbsp;·&nbsp; [Site](https://foresight.is/runway-cash-forecasting)
 
 ---

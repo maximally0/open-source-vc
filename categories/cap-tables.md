@@ -16,11 +16,12 @@ Cap table modelling, dilution, SAFEs, priced rounds, ownership, liquidation pref
 
 > An open-source cap table management platform.
 
-`captableinc/captable` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`captableinc/captable` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Cap Tables & Equity |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | AGPL-3.0 |
 | **Stars** | 822 |
 | **Forks** | 179 |
@@ -54,11 +55,12 @@ AGPL-licensed, which has real obligations if you offer it as a service. Last com
 
 > A spreadsheet-native cap table that computes the maths properly.
 
-`1984vc/cap-table` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`1984vc/cap-table` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Cap Tables & Equity |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 139 |
 | **Forks** | 17 |
@@ -92,11 +94,12 @@ Small project with limited maintenance history. Verify against a known-good mode
 
 > Cap table plus exit waterfall modelling.
 
-`tdavidson/cap-table-tool` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`tdavidson/cap-table-tool` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Cap Tables & Equity |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | unverified (Other) |
 | **Stars** | 47 |
 | **Forks** | 10 |

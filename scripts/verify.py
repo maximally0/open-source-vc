@@ -43,13 +43,16 @@ REPOS_YAML = ROOT / "metadata" / "repositories.yaml"
 CATEGORIES_DIR = ROOT / "categories"
 README = ROOT / "README.md"
 
-REQUIRED_ITEM_FIELDS = ("name", "category", "tier", "kind", "vc_use_case", "why_interesting")
-VALID_TIERS = {"essential", "interesting", "experimental", "infrastructure", "research"}
+REQUIRED_ITEM_FIELDS = ("name", "category", "tier", "kind", "vc_use_case", "why_interesting",
+                        "vc_relevance")
+VALID_TIERS = {"essential", "recommended", "experimental", "research"}
+VALID_RELEVANCE = {"native", "adaptable", "infrastructure"}
 VALID_KINDS = {"software", "dataset", "framework", "standard", "research"}
-REQUIRED_README_REGIONS = ("stats", "categories", "essentials", "updated")
+REQUIRED_README_REGIONS = ("stats", "categories", "essentials", "updated", "stages", "vcnative")
 REQUIRED_FILES = (
     "README.md", "LICENSE", "CONTRIBUTING.md", "CHANGELOG.md", "ROADMAP.md",
     "SOURCES.md", "METHODOLOGY.md", "VC_WORKFLOW.md", "COMPARISON.md", "curation.yaml",
+    "GAPS.md", "UNFAIR_ADVANTAGE.md", "STARTER_PACK.md", "HIDDEN_GEMS.md",
 )
 
 errors: list[str] = []
@@ -153,6 +156,13 @@ def check_items(curation: dict, snapshot: dict) -> None:
             err(f"{label}: invalid tier '{item['tier']}'")
         if item.get("kind") and item["kind"].lower() not in VALID_KINDS:
             err(f"{label}: invalid kind '{item['kind']}'")
+        if item.get("vc_relevance") and item["vc_relevance"].lower() not in VALID_RELEVANCE:
+            err(f"{label}: invalid vc_relevance '{item['vc_relevance']}'")
+        # The tier answers "how good"; vc_relevance answers "was it built for this".
+        # Keep them separate — an earlier version merged them and ended up ranking
+        # generic software as though it were venture tooling.
+        if (item.get("vc_relevance") or "").lower() == "infrastructure" and item.get("tier") == "infrastructure":
+            err(f"{label}: 'infrastructure' used as both tier and relevance")
         if not item.get("good_for"):
             warn(f"{label}: no 'good_for' entries")
         if not item.get("limitations"):
@@ -165,8 +175,14 @@ def check_items(curation: dict, snapshot: dict) -> None:
         # attribution: the GitHub URL must point at the owner/repo
         if name and name not in str(item.get("name", "")):
             err(f"{label}: attribution mismatch")
+        # A curated name absent from the snapshot is a real inconsistency, not a nit:
+        # either the entry was added without refreshing metadata, or the repository was
+        # renamed or deleted upstream. Either way the published record would be built
+        # from a fallback rather than verified data, so this blocks the build.
         if name and snapshot and name not in snapshot.get("repos", {}):
-            warn(f"{label}: not present in metadata/snapshot.json")
+            err(f"{label}: not present in metadata/snapshot.json — run "
+                f"`python scripts/update.py --repos-only {name}`, or the repository was "
+                f"renamed or deleted upstream and the entry needs attention")
 
 
 def check_duplicates(curation: dict) -> None:
@@ -188,10 +204,20 @@ def check_licenses(published: list[dict]) -> None:
             warn(f"{r['name']}: licence unverified — flagged in metadata, must not be redistributed")
 
 
-def check_archived(published: list[dict]) -> None:
+def check_archived(published: list[dict], curation: dict) -> None:
+    # An archived repository is normally an error: the directory should not present a
+    # dead project as usable. The exception is a deliberately kept entry where the
+    # artefact outlives the repository — a live dataset whose sample code was archived,
+    # for instance. Those set `archived_ok` and are downgraded to a warning so the fact
+    # stays visible in the review queue instead of vanishing.
+    allowed = {i.get("name") for i in (curation.get("repos") or []) if i.get("archived_ok")}
     for r in published:
         if r.get("archived") is True:
-            err(f"{r['name']}: archived upstream but still listed as a curated entry")
+            if r.get("name") in allowed:
+                warn(f"{r['name']}: archived upstream, kept deliberately "
+                     f"(dataset still live) — see the entry")
+            else:
+                err(f"{r['name']}: archived upstream but still listed as a curated entry")
         elif str(r.get("status", "")).startswith("Dormant"):
             warn(f"{r['name']}: dormant — candidate for removal or re-labelling")
 
@@ -311,7 +337,7 @@ def main() -> None:
     check_items(curation, snapshot)
     check_duplicates(curation)
     check_licenses(published)
-    check_archived(published)
+    check_archived(published, curation)
     check_category_pages(curation)
     check_generated_freshness()
     check_attribution(published)

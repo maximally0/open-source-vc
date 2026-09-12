@@ -4,47 +4,9 @@ _The actual moat in venture is the network._
 
 CRMs, personal CRMs, relationship graphs, email and calendar intelligence, warm-introduction paths, and network analysis.
 
-**12 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**13 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
-
----
-
-### Whisper
-
-> Speech to text that holds up on real calls.
-
-`openai/whisper` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Relationship Intelligence |
-| **License** | MIT |
-| **Stars** | 108.9k |
-| **Forks** | 13.2k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-08-31) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record. A fund takes hundreds of calls a year and remembers almost none of the detail.
-
-**Why it's interesting**
-
-It handles accents, background noise, and switching between languages in a way that makes transcription usable for something important, and it runs locally so confidential calls do not need to leave your machine.
-
-**Good for**
-
-- Call transcripts
-- Institutional memory
-- Memo evidence
-
-**Limitations**
-
-Needs a GPU for practical speed on long recordings, and no speaker separation: you get a wall of text unless you pair it with a diarisation tool.
-
-**Links:** [GitHub](https://github.com/openai/whisper)
 
 ---
 
@@ -52,11 +14,12 @@ Needs a GPU for practical speed on long recordings, and no speaker separation: y
 
 > A modern open CRM with a customisable data model.
 
-`twentyhq/twenty` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`twentyhq/twenty` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 56.6k |
 | **Forks** | 9.1k |
@@ -90,11 +53,12 @@ Younger than the established open CRMs, so the integration catalogue is smaller.
 
 > Scheduling that you host yourself.
 
-`calcom/cal.diy` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`calcom/cal.diy` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 48.4k |
 | **Forks** | 15.1k |
@@ -128,11 +92,12 @@ Self-hosted updates are your responsibility, and the most advanced team features
 
 > A personal CRM for the relationships a fund actually runs on.
 
-`monicahq/monica` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`monicahq/monica` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 25.3k |
 | **Forks** | 2.6k |
@@ -162,43 +127,120 @@ Single-user personal CRM, not a team pipeline: no shared ownership, no deal stag
 
 ---
 
-### NetworkX
+### Whisper
 
-> Graph analysis in plain Python.
+> Speech to text that holds up on real calls.
 
-`networkx/networkx` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _framework_
+`openai/whisper` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
-| **License** | unverified (Other) |
-| **Stars** | 17.3k |
-| **Forks** | 3.6k |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | MIT |
+| **Stars** | 108.9k |
+| **Forks** | 13.2k |
 | **Language** | Python |
+| **Status** | Active (last push 2026-08-31) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record. A fund takes hundreds of calls a year and remembers almost none of the detail.
+
+**Why it's interesting**
+
+It handles accents, background noise, and switching between languages in a way that makes transcription usable for something important, and it runs locally so confidential calls do not need to leave your machine.
+
+**Good for**
+
+- Call transcripts
+- Institutional memory
+- Memo evidence
+
+**Limitations**
+
+Needs a GPU for practical speed on long recordings, and no speaker separation: you get a wall of text unless you pair it with a diarisation tool.
+
+**Links:** [GitHub](https://github.com/openai/whisper)
+
+---
+
+### Odoo
+
+> An open business suite covering CRM, accounting, invoicing, and projects.
+
+`odoo/odoo` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | unverified (Other) |
+| **Stars** | 54.3k |
+| **Forks** | 33.7k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+For a small fund or an SPV, the unglamorous back office in one system: contacts, invoices, expenses, and basic accounting. Funds that outgrow spreadsheets often land here because the accounting and CRM share a database.
+
+**Why it's interesting**
+
+It covers the parts of running a fund vehicle that no CRM does, and every module writes to the same data model, which removes a class of reconciliation work.
+
+**Good for**
+
+- Fund back office
+- SPV administration
+- CRM
+
+**Limitations**
+
+Community edition is open source, but the most useful modules are enterprise-only. Deploying and maintaining it is a genuine operations job.
+
+**Links:** [GitHub](https://github.com/odoo/odoo) &nbsp;·&nbsp; [Site](https://www.odoo.com)
+
+---
+
+### Meetily
+
+> A self-hosted AI meeting assistant.
+
+`Zackriya-Solutions/meetily` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | MIT |
+| **Stars** | 30.7k |
+| **Forks** | 3.3k |
+| **Language** | Rust |
 | **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
 
 **VC use case**
 
-The warm-introduction question that every fund asks and almost none can answer systematically: which of our contacts is closest to this founder, and through whom. Model people and companies as a graph and NetworkX computes the shortest paths instead of you asking around.
+The meeting-intelligence layer a fund actually needs: transcribe founder calls and partner meetings locally, produce notes, and keep the record without sending audio to a cloud service. Investment discussions involve unannounced deals and other people's confidential information.
 
 **Why it's interesting**
 
-Co-investment graphs, board interlocks, and founder networks are all the same problem, and this is the standard tool for it. It needs no database and no infrastructure.
+It runs locally with fast local models, which is the requirement that rules out the commercial meeting assistants for most funds. Speaker separation and summaries without a per-seat subscription.
 
 **Good for**
 
-- Warm introduction paths
-- Network analysis
-- Co-investment mapping
+- Meeting records
+- Call transcripts
+- IC preparation
 
 **Limitations**
 
-In-memory, so very large graphs need more than networkx. You have to build and maintain the graph yourself; the quality of the answer depends entirely on the data you feed it.
+Local transcription needs decent hardware, and accuracy trails a hosted service. Recording calls still requires consent and disclosure in many jurisdictions.
 
-**Dependencies:** Python 3.10+
-
-**Links:** [GitHub](https://github.com/networkx/networkx) &nbsp;·&nbsp; [Site](https://networkx.org)
+**Links:** [GitHub](https://github.com/Zackriya-Solutions/meetily) &nbsp;·&nbsp; [Site](https://meetily.ai)
 
 ---
 
@@ -206,11 +248,12 @@ In-memory, so very large graphs need more than networkx. You have to build and m
 
 > Whisper transcription at several times the speed.
 
-`SYSTRAN/faster-whisper` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`SYSTRAN/faster-whisper` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 25.4k |
 | **Forks** | 2.1k |
@@ -244,11 +287,12 @@ Same accuracy profile as Whisper, including the lack of speaker separation. Need
 
 > Transcription with word timings and speaker labels.
 
-`m-bain/whisperX` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`m-bain/whisperX` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | BSD-2-Clause |
 | **Stars** | 24k |
 | **Forks** | 2.4k |
@@ -282,11 +326,12 @@ More setup than plain Whisper, and diarisation degrades when several people spea
 
 > A lightweight CRM on Laravel.
 
-`krayin/laravel-crm` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`krayin/laravel-crm` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 23.9k |
 | **Forks** | 1.6k |
@@ -315,15 +360,57 @@ Smaller community than the established CRMs, and fewer integrations out of the b
 
 ---
 
-### Frappe CRM
+### NetworkX
 
-> A CRM built on the Frappe framework.
+> Graph analysis in plain Python.
 
-`frappe/crm` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`networkx/networkx` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | unverified (Other) |
+| **Stars** | 17.3k |
+| **Forks** | 3.6k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The warm-introduction question that every fund asks and almost none can answer systematically: which of our contacts is closest to this founder, and through whom. Model people and companies as a graph and NetworkX computes the shortest paths instead of you asking around.
+
+**Why it's interesting**
+
+Co-investment graphs, board interlocks, and founder networks are all the same problem, and this is the standard tool for it. It needs no database and no infrastructure.
+
+**Good for**
+
+- Warm introduction paths
+- Network analysis
+- Co-investment mapping
+
+**Limitations**
+
+In-memory, so very large graphs need more than networkx. You have to build and maintain the graph yourself; the quality of the answer depends entirely on the data you feed it.
+
+**Dependencies:** Python 3.10+
+
+**Links:** [GitHub](https://github.com/networkx/networkx) &nbsp;·&nbsp; [Site](https://networkx.org)
+
+---
+
+### Frappe CRM
+
+> A CRM built on the Frappe framework.
+
+`frappe/crm` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 3.5k |
 | **Forks** | 1.4k |
@@ -357,11 +444,12 @@ Frappe's conventions take learning if your team is not already on that stack. Sm
 
 > A long-lived open CRM with a mature extension model.
 
-`espocrm/espocrm` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`espocrm/espocrm` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 3.3k |
 | **Forks** | 969 |
@@ -395,11 +483,12 @@ Interface and design show their age, and the most capable extensions are paid.
 
 > A constituent relationship system built for mission-driven organisations.
 
-`civicrm/civicrm-core` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`civicrm/civicrm-core` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Relationship Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 772 |
 | **Forks** | 898 |
@@ -426,43 +515,5 @@ It models contributions, memberships, and relationships natively, which commerci
 Dated interface, and the data model assumes nonprofit workflows, so a conventional fund would be forcing it. Deployment is substantial.
 
 **Links:** [GitHub](https://github.com/civicrm/civicrm-core)
-
----
-
-### Odoo
-
-> An open business suite covering CRM, accounting, invoicing, and projects.
-
-`odoo/odoo` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Relationship Intelligence |
-| **License** | unverified (Other) |
-| **Stars** | 54.3k |
-| **Forks** | 33.7k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-For a small fund or an SPV, the unglamorous back office in one system: contacts, invoices, expenses, and basic accounting. Funds that outgrow spreadsheets often land here because the accounting and CRM share a database.
-
-**Why it's interesting**
-
-It covers the parts of running a fund vehicle that no CRM does, and every module writes to the same data model, which removes a class of reconciliation work.
-
-**Good for**
-
-- Fund back office
-- SPV administration
-- CRM
-
-**Limitations**
-
-Community edition is open source, but the most useful modules are enterprise-only. Deploying and maintaining it is a genuine operations job.
-
-**Links:** [GitHub](https://github.com/odoo/odoo) &nbsp;·&nbsp; [Site](https://www.odoo.com)
 
 ---

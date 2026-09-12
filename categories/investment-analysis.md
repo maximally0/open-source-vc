@@ -14,11 +14,12 @@ Startup and investment scoring, financial analysis, valuation, DCF, comparables,
 
 > An open research platform for markets and financial data.
 
-`OpenBB-finance/OpenBB` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _framework_
+`OpenBB-finance/OpenBB` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 72.9k |
 | **Forks** | 7.5k |
@@ -54,11 +55,12 @@ Most data providers behind it require their own keys and subscriptions, and the 
 
 > Market data from Yahoo Finance in a few lines.
 
-`ranaroussi/yfinance` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`ranaroussi/yfinance` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 25.2k |
 | **Forks** | 3.4k |
@@ -94,11 +96,12 @@ Unofficial and dependent on an undocumented upstream, so it breaks occasionally 
 
 > Read SEC filings as structured Python objects.
 
-`dgunning/edgartools` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`dgunning/edgartools` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 2.7k |
 | **Forks** | 480 |
@@ -132,11 +135,12 @@ US filings only. Filing formats change and the library tracks them, so older ver
 
 > A platform for quantitative research and backtesting.
 
-`microsoft/qlib` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _framework_
+`microsoft/qlib` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 48.5k |
 | **Forks** | 7.7k |
@@ -170,11 +174,12 @@ Built for public market data, so applying it to venture outcomes means designing
 
 > Financial data for Chinese markets.
 
-`akfamily/akshare` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`akfamily/akshare` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 22.5k |
 | **Forks** | 3.5k |
@@ -208,11 +213,12 @@ Documentation and community are largely Chinese-language, and it depends on upst
 
 > Portfolio analytics and tear sheets.
 
-`ranaroussi/quantstats` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`ranaroussi/quantstats` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 7.6k |
 | **Forks** | 1.2k |
@@ -246,11 +252,12 @@ Equally precise outputs for a portfolio with three data points, so it invites ov
 
 > A quantitative finance library for pricing and risk.
 
-`lballabio/QuantLib` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _framework_
+`lballabio/QuantLib` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _framework_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 7.6k |
 | **Forks** | 2.3k |
@@ -284,11 +291,12 @@ Steep learning curve, and it assumes the user understands the finance. Licence i
 
 > A hundred-odd financial ratios and models in one library.
 
-`JerBouma/FinanceToolkit` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`JerBouma/FinanceToolkit` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 5.3k |
 | **Forks** | 614 |
@@ -322,11 +330,12 @@ Assumes reasonably standard financial statements, so unusual business models nee
 
 > Derivatives pricing and risk in Python.
 
-`domokane/FinancePy` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`domokane/FinancePy` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 3.1k |
 | **Forks** | 438 |
@@ -360,11 +369,12 @@ GPL-licensed, which affects how you can ship anything built on it. Smaller commu
 
 > An MCP server that gives agents stock market data.
 
-`financial-datasets/mcp-server` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`financial-datasets/mcp-server` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 2.3k |
 | **Forks** | 348 |
@@ -398,11 +408,12 @@ Built around a commercial API, so it is an open client to a paid data source. US
 
 > Bulk-download filings from EDGAR.
 
-`jadchaar/sec-edgar-downloader` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`jadchaar/sec-edgar-downloader` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 717 |
 | **Forks** | 166 |
@@ -436,11 +447,12 @@ Downloading only: it does not parse the contents. Pair it with a parser.
 
 > An agent that does financial research and shows its work.
 
-`virattt/dexter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`virattt/dexter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 27.6k |
 | **Forks** | 3.4k |
@@ -474,11 +486,12 @@ No licence file is present, so reuse terms are unclear. Depends on external APIs
 
 > A multi-agent system that runs a trading thesis end to end.
 
-`The-Swarm-Corporation/AutoHedge` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`The-Swarm-Corporation/AutoHedge` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 6k |
 | **Forks** | 870 |
@@ -512,11 +525,12 @@ A demonstration, not an investment system, and anyone treating it as one deserve
 
 > A framework and dataset for prediction market data.
 
-`Jon-Becker/prediction-market-analysis` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _dataset_
+`Jon-Becker/prediction-market-analysis` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Investment Analysis |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3.8k |
 | **Forks** | 539 |

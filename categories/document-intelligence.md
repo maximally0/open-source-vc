@@ -14,11 +14,12 @@ PDF parsing, layout-aware extraction, OCR, contract extraction, document search,
 
 > Layout-aware conversion of PDFs and office documents.
 
-`docling-project/docling` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`docling-project/docling` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 66.3k |
 | **Forks** | 4.8k |
@@ -52,11 +53,12 @@ Model-based parsing is slower than text extraction and needs decent hardware. Ve
 
 > Scan, index, and search every document you own.
 
-`paperless-ngx/paperless-ngx` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`paperless-ngx/paperless-ngx` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 45k |
 | **Forks** | 3.1k |
@@ -90,11 +92,12 @@ Retro-fitting years of existing documents takes effort and storage. Licence is G
 
 > Fast, accurate PDF to markdown and JSON.
 
-`datalab-to/marker` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`datalab-to/marker` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 39.7k |
 | **Forks** | 2.9k |
@@ -128,11 +131,12 @@ Commercial-use terms require checking above a revenue threshold, which is unusua
 
 > Adds a searchable text layer to scanned PDFs.
 
-`ocrmypdf/OCRmyPDF` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`ocrmypdf/OCRmyPDF` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MPL-2.0 |
 | **Stars** | 34.7k |
 | **Forks** | 2.4k |
@@ -166,11 +170,12 @@ Quality depends on the underlying OCR engine, and it is CPU-heavy on large batch
 
 > Turns documents of any format into structured elements.
 
-`Unstructured-IO/unstructured` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`Unstructured-IO/unstructured` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 15.4k |
 | **Forks** | 1.3k |
@@ -206,11 +211,12 @@ Element extraction is heuristic, so layout-heavy documents still need checking. 
 
 > Convert almost any file to markdown.
 
-`microsoft/markitdown` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`microsoft/markitdown` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 183.1k |
 | **Forks** | 13.5k |
@@ -244,11 +250,12 @@ Deliberately simple: no OCR, limited table fidelity, and not built for batch pip
 
 > A self-hosted toolkit of PDF operations.
 
-`Stirling-Tools/Stirling-PDF` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`Stirling-Tools/Stirling-PDF` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 91.8k |
 | **Forks** | 8.3k |
@@ -282,11 +289,12 @@ Heavy operations need resources, and the licence is not a standard SPDX identifi
 
 > OCR across 80+ languages, including non-Latin scripts.
 
-`PaddlePaddle/PaddleOCR` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`PaddlePaddle/PaddleOCR` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 89.4k |
 | **Forks** | 11.3k |
@@ -320,11 +328,12 @@ Custom training and tuning are part of the framework's ethos, which is more setu
 
 > PDF to markdown with heavy layout models.
 
-`opendatalab/MinerU` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`opendatalab/MinerU` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 79.8k |
 | **Forks** | 6.7k |
@@ -354,395 +363,16 @@ GPU strongly recommended, and licence terms are not a standard SPDX identifier, 
 
 ---
 
-### EasyOCR
-
-> OCR in 80+ languages with almost no setup.
-
-`JaidedAI/EasyOCR` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | Apache-2.0 |
-| **Stars** | 30k |
-| **Forks** | 3.6k |
-| **Language** | Python |
-| **Status** | Active (last push 2025-12-05) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-The fastest path from a scanned document to text when you do not want to install an OCR stack. Handles the non-Latin scripts that turn up in cross-border diligence.
-
-**Why it's interesting**
-
-A few lines of Python and it works. For one-off extraction tasks that is the right trade against a heavier pipeline.
-
-**Good for**
-
-- Ad-hoc OCR
-- Multilingual documents
-- Prototyping
-
-**Limitations**
-
-Slower and less accurate than newer layout models on complex pages. GPU needed for volume.
-
-**Links:** [GitHub](https://github.com/JaidedAI/EasyOCR) &nbsp;·&nbsp; [Site](https://www.jaided.ai)
-
----
-
-### Kotaemon
-
-> A clean interface for chatting with your documents.
-
-`Cinnamon/kotaemon` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | Apache-2.0 |
-| **Stars** | 25.7k |
-| **Forks** | 2.2k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-07-14) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-A usable front end for a fund's document collection, with citations back to the source page so an analyst can check an answer rather than trust it. Useful when a partner wants document Q&A without learning a framework.
-
-**Why it's interesting**
-
-It keeps the citation visible in the interface, which is the feature that decides whether a partner actually uses a tool like this.
-
-**Good for**
-
-- Document Q&A
-- Data-room triage
-- Internal tools
-
-**Limitations**
-
-Another deployment with a vector store behind it. Retrieval quality depends on document preparation.
-
-**Links:** [GitHub](https://github.com/Cinnamon/kotaemon) &nbsp;·&nbsp; [Site](https://cinnamon.github.io/kotaemon/)
-
----
-
-### Surya
-
-> OCR and layout detection across many languages.
-
-`datalab-to/surya` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | Apache-2.0 |
-| **Stars** | 21.4k |
-| **Forks** | 1.5k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-Contract and filing sets often contain scanned pages and non-English documents. Surya detects layout, reading order, and text across many languages, which is what makes a cross-border diligence possible without hiring someone to retype pages.
-
-**Why it's interesting**
-
-It reports reading order and table structure, not just characters, which is where most OCR stops being useful.
-
-**Good for**
-
-- Scanned documents
-- Multilingual documents
-- Document pipelines
-
-**Limitations**
-
-Another model to run, with the same commercial-licence caveat as the team's other tools. Accuracy on poor scans varies.
-
-**Links:** [GitHub](https://github.com/datalab-to/surya) &nbsp;·&nbsp; [Site](https://www.datalab.to)
-
----
-
-### DocuSeal
-
-> Self-hosted e-signature.
-
-`docusealco/docuseal` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | AGPL-3.0 |
-| **Stars** | 18.5k |
-| **Forks** | 1.9k |
-| **Language** | Ruby |
-| **Status** | Active (last push 2026-09-07) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-Signature pages for SAFEs, side letters, and portfolio company paperwork, without a per-envelope vendor and without sending founder signatures through someone else's cloud. Handles the templates and audit trail that make a signature defensible.
-
-**Why it's interesting**
-
-It covers the parts that matter for a deal: templates, roles, signing order, and a certificate of completion. That is what turns a PDF into an executed document.
-
-**Good for**
-
-- Deal closing
-- SAFE signing
-- LP documents
-
-**Limitations**
-
-AGPL-licensed with a commercial tier for some features, and self-hosting means the documents and audit trail live on your infrastructure, which you then have to secure.
-
-**Links:** [GitHub](https://github.com/docusealco/docuseal) &nbsp;·&nbsp; [Site](https://www.docuseal.com)
-
----
-
-### Documenso
-
-> An open DocuSign alternative.
-
-`documenso/documenso` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | AGPL-3.0 |
-| **Stars** | 15k |
-| **Forks** | 3.2k |
-| **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-The other serious open e-signature option, useful when a fund wants to host signing itself but does not want the commercial tier that DocuSeal gates features behind. Same job: templates, signing order, and a completion record.
-
-**Why it's interesting**
-
-A straightforward open-core product with an active team, and a licence that is clear about what is open and what is commercial.
-
-**Good for**
-
-- Deal closing
-- Document execution
-- Compliance records
-
-**Limitations**
-
-Some team and enterprise features are paid. Fewer integrations than the incumbents, and self-hosting is your responsibility.
-
-**Links:** [GitHub](https://github.com/documenso/documenso) &nbsp;·&nbsp; [Site](https://documenso.com)
-
----
-
-### Chandra
-
-> OCR built for complex tables, forms, and handwriting.
-
-`datalab-to/chandra` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | Apache-2.0 |
-| **Stars** | 12.3k |
-| **Forks** | 1.2k |
-| **Language** | Python |
-| **Status** | Active (last push 2026-06-26) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-The document types that defeat ordinary OCR are exactly the ones in a diligence: a scanned cap table with merged cells, a handwritten board minute, a form filled in by hand. This is the model aimed at those.
-
-**Why it's interesting**
-
-It keeps layout while handling awkward content, and it is from the same team as Marker and Surya, so it slots into that pipeline.
-
-**Good for**
-
-- Complex tables
-- Handwritten documents
-- Data-room conversion
-
-**Limitations**
-
-Model-based, so it needs hardware and the team's usual commercial-licence check. Handwriting accuracy varies by hand.
-
-**Links:** [GitHub](https://github.com/datalab-to/chandra) &nbsp;·&nbsp; [Site](https://www.datalab.to)
-
----
-
-### pdfplumber
-
-> Precise access to PDF text, lines, and tables.
-
-`jsvine/pdfplumber` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | MIT |
-| **Stars** | 10.7k |
-| **Forks** | 919 |
-| **Language** | Python |
-| **Status** | Active (last push 2026-08-06) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-When you need one specific number from one specific page and everything else is overkill. Analysts use it to pull a figure out of a filing, verify a table Camelot misread, or crop a page region for evidence.
-
-**Why it's interesting**
-
-It exposes the underlying geometry, so you can work with where text sits on the page rather than just what it says. That is what makes verification possible.
-
-**Good for**
-
-- Targeted extraction
-- Verification
-- Data extraction
-
-**Limitations**
-
-Not a layout model: you write the logic per document type. Slow on large document sets.
-
-**Links:** [GitHub](https://github.com/jsvine/pdfplumber)
-
----
-
-### PyMuPDF
-
-> A fast library for reading and rewriting PDFs.
-
-`pymupdf/PyMuPDF` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | AGPL-3.0 |
-| **Stars** | 10.7k |
-| **Forks** | 798 |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-The utility layer under document work: split a 400-page filing, redact before sharing, extract embedded images, or pull just the pages that matter for a meeting pack. Fast enough to run interactively.
-
-**Why it's interesting**
-
-It does the whole-file manipulation that parsers do not, and it is quick enough that an analyst notices the difference versus pure-Python libraries.
-
-**Good for**
-
-- PDF manipulation
-- Evidence preparation
-- Document pipelines
-
-**Limitations**
-
-AGPL-licensed, which has real obligations if you build a network service on it. Not a layout understanding tool.
-
-**Links:** [GitHub](https://github.com/pymupdf/PyMuPDF) &nbsp;·&nbsp; [Site](https://pymupdf.readthedocs.io/?utm_source=github&utm_medium=referral&utm_campaign=pymupdf_github&utm_content=about&utm_term=docs)
-
----
-
-### Unstract
-
-> Prompt-driven extraction of structured data from documents.
-
-`Zipstack/unstract` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | AGPL-3.0 |
-| **Stars** | 7.2k |
-| **Forks** | 715 |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
-| **Self-hostable** | partial (open core) |
-
-**VC use case**
-
-When you need the same handful of fields out of hundreds of similar documents, such as revenue, headcount, and renewal date from a stack of customer contracts. Define the fields once and run the set.
-
-**Why it's interesting**
-
-It treats extraction as a pipeline with an API rather than a chat session, which is what makes it usable on a real batch and repeatable next quarter.
-
-**Good for**
-
-- Contract extraction
-- Batch processing
-- Data-room pipelines
-
-**Limitations**
-
-AGPL with a commercial tier, and LLM-based extraction needs validating against a sample before you trust a whole batch.
-
-**Links:** [GitHub](https://github.com/Zipstack/unstract) &nbsp;·&nbsp; [Site](https://unstract.com)
-
----
-
-### Camelot
-
-> Extract tables from PDFs as dataframes.
-
-`camelot-dev/camelot` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
-
-| | |
-|---|---|
-| **Category** | Data Rooms & Document Intelligence |
-| **License** | MIT |
-| **Stars** | 3.8k |
-| **Forks** | 546 |
-| **Language** | Python |
-| **Status** | Active (last push 2026-09-02) |
-| **Self-hostable** | yes |
-
-**VC use case**
-
-Financial diligence runs on tables: revenue by quarter, cohort retention, unit economics. This pulls them out of PDFs into something you can compute on, which saves retyping numbers that will later be checked anyway.
-
-**Why it's interesting**
-
-It gives you control over the extraction strategy and reports accuracy per table, so you can see which numbers to distrust instead of getting a silent guess.
-
-**Good for**
-
-- Financial tables
-- Data extraction
-- Diligence models
-
-**Limitations**
-
-Works best on tables with visible ruling lines; borderless tables need manual coordinates. Numeric accuracy must be spot-checked against the source page.
-
-**Links:** [GitHub](https://github.com/camelot-dev/camelot) &nbsp;·&nbsp; [Site](https://camelot-py.readthedocs.io)
-
----
-
 ### Tesseract
 
 > The OCR engine nearly everything else is built on.
 
-`tesseract-ocr/tesseract` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
+`tesseract-ocr/tesseract` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 76.5k |
 | **Forks** | 10.8k |
@@ -776,11 +406,12 @@ Layout-blind: it reads characters well and structure badly, so tables and multi-
 
 > Convert between essentially every document format.
 
-`jgm/pandoc` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
+`jgm/pandoc` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | GPL-2.0 |
 | **Stars** | 46.2k |
 | **Forks** | 4k |
@@ -810,15 +441,367 @@ Conversion is structural, so complex layouts do not survive intact. Learning its
 
 ---
 
-### Apache Tika
+### EasyOCR
 
-> Metadata and text from almost any file format.
+> OCR in 80+ languages with almost no setup.
 
-`apache/tika` &nbsp;·&nbsp; 🛠 **Infrastructure** &nbsp;·&nbsp; _software_
+`JaidedAI/EasyOCR` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | Apache-2.0 |
+| **Stars** | 30k |
+| **Forks** | 3.6k |
+| **Language** | Python |
+| **Status** | Active (last push 2025-12-05) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The fastest path from a scanned document to text when you do not want to install an OCR stack. Handles the non-Latin scripts that turn up in cross-border diligence.
+
+**Why it's interesting**
+
+A few lines of Python and it works. For one-off extraction tasks that is the right trade against a heavier pipeline.
+
+**Good for**
+
+- Ad-hoc OCR
+- Multilingual documents
+- Prototyping
+
+**Limitations**
+
+Slower and less accurate than newer layout models on complex pages. GPU needed for volume.
+
+**Links:** [GitHub](https://github.com/JaidedAI/EasyOCR) &nbsp;·&nbsp; [Site](https://www.jaided.ai)
+
+---
+
+### Kotaemon
+
+> A clean interface for chatting with your documents.
+
+`Cinnamon/kotaemon` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | Apache-2.0 |
+| **Stars** | 25.7k |
+| **Forks** | 2.2k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-07-14) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+A usable front end for a fund's document collection, with citations back to the source page so an analyst can check an answer rather than trust it. Useful when a partner wants document Q&A without learning a framework.
+
+**Why it's interesting**
+
+It keeps the citation visible in the interface, which is the feature that decides whether a partner actually uses a tool like this.
+
+**Good for**
+
+- Document Q&A
+- Data-room triage
+- Internal tools
+
+**Limitations**
+
+Another deployment with a vector store behind it. Retrieval quality depends on document preparation.
+
+**Links:** [GitHub](https://github.com/Cinnamon/kotaemon) &nbsp;·&nbsp; [Site](https://cinnamon.github.io/kotaemon/)
+
+---
+
+### Surya
+
+> OCR and layout detection across many languages.
+
+`datalab-to/surya` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | Apache-2.0 |
+| **Stars** | 21.4k |
+| **Forks** | 1.5k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-11) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Contract and filing sets often contain scanned pages and non-English documents. Surya detects layout, reading order, and text across many languages, which is what makes a cross-border diligence possible without hiring someone to retype pages.
+
+**Why it's interesting**
+
+It reports reading order and table structure, not just characters, which is where most OCR stops being useful.
+
+**Good for**
+
+- Scanned documents
+- Multilingual documents
+- Document pipelines
+
+**Limitations**
+
+Another model to run, with the same commercial-licence caveat as the team's other tools. Accuracy on poor scans varies.
+
+**Links:** [GitHub](https://github.com/datalab-to/surya) &nbsp;·&nbsp; [Site](https://www.datalab.to)
+
+---
+
+### DocuSeal
+
+> Self-hosted e-signature.
+
+`docusealco/docuseal` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | AGPL-3.0 |
+| **Stars** | 18.5k |
+| **Forks** | 1.9k |
+| **Language** | Ruby |
+| **Status** | Active (last push 2026-09-07) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+Signature pages for SAFEs, side letters, and portfolio company paperwork, without a per-envelope vendor and without sending founder signatures through someone else's cloud. Handles the templates and audit trail that make a signature defensible.
+
+**Why it's interesting**
+
+It covers the parts that matter for a deal: templates, roles, signing order, and a certificate of completion. That is what turns a PDF into an executed document.
+
+**Good for**
+
+- Deal closing
+- SAFE signing
+- LP documents
+
+**Limitations**
+
+AGPL-licensed with a commercial tier for some features, and self-hosting means the documents and audit trail live on your infrastructure, which you then have to secure.
+
+**Links:** [GitHub](https://github.com/docusealco/docuseal) &nbsp;·&nbsp; [Site](https://www.docuseal.com)
+
+---
+
+### Documenso
+
+> An open DocuSign alternative.
+
+`documenso/documenso` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | AGPL-3.0 |
+| **Stars** | 15k |
+| **Forks** | 3.2k |
+| **Language** | TypeScript |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+The other serious open e-signature option, useful when a fund wants to host signing itself but does not want the commercial tier that DocuSeal gates features behind. Same job: templates, signing order, and a completion record.
+
+**Why it's interesting**
+
+A straightforward open-core product with an active team, and a licence that is clear about what is open and what is commercial.
+
+**Good for**
+
+- Deal closing
+- Document execution
+- Compliance records
+
+**Limitations**
+
+Some team and enterprise features are paid. Fewer integrations than the incumbents, and self-hosting is your responsibility.
+
+**Links:** [GitHub](https://github.com/documenso/documenso) &nbsp;·&nbsp; [Site](https://documenso.com)
+
+---
+
+### Chandra
+
+> OCR built for complex tables, forms, and handwriting.
+
+`datalab-to/chandra` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | Apache-2.0 |
+| **Stars** | 12.3k |
+| **Forks** | 1.2k |
+| **Language** | Python |
+| **Status** | Active (last push 2026-06-26) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The document types that defeat ordinary OCR are exactly the ones in a diligence: a scanned cap table with merged cells, a handwritten board minute, a form filled in by hand. This is the model aimed at those.
+
+**Why it's interesting**
+
+It keeps layout while handling awkward content, and it is from the same team as Marker and Surya, so it slots into that pipeline.
+
+**Good for**
+
+- Complex tables
+- Handwritten documents
+- Data-room conversion
+
+**Limitations**
+
+Model-based, so it needs hardware and the team's usual commercial-licence check. Handwriting accuracy varies by hand.
+
+**Links:** [GitHub](https://github.com/datalab-to/chandra) &nbsp;·&nbsp; [Site](https://www.datalab.to)
+
+---
+
+### pdfplumber
+
+> Precise access to PDF text, lines, and tables.
+
+`jsvine/pdfplumber` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | MIT |
+| **Stars** | 10.7k |
+| **Forks** | 919 |
+| **Language** | Python |
+| **Status** | Active (last push 2026-08-06) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+When you need one specific number from one specific page and everything else is overkill. Analysts use it to pull a figure out of a filing, verify a table Camelot misread, or crop a page region for evidence.
+
+**Why it's interesting**
+
+It exposes the underlying geometry, so you can work with where text sits on the page rather than just what it says. That is what makes verification possible.
+
+**Good for**
+
+- Targeted extraction
+- Verification
+- Data extraction
+
+**Limitations**
+
+Not a layout model: you write the logic per document type. Slow on large document sets.
+
+**Links:** [GitHub](https://github.com/jsvine/pdfplumber)
+
+---
+
+### PyMuPDF
+
+> A fast library for reading and rewriting PDFs.
+
+`pymupdf/PyMuPDF` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | AGPL-3.0 |
+| **Stars** | 10.7k |
+| **Forks** | 798 |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-11) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The utility layer under document work: split a 400-page filing, redact before sharing, extract embedded images, or pull just the pages that matter for a meeting pack. Fast enough to run interactively.
+
+**Why it's interesting**
+
+It does the whole-file manipulation that parsers do not, and it is quick enough that an analyst notices the difference versus pure-Python libraries.
+
+**Good for**
+
+- PDF manipulation
+- Evidence preparation
+- Document pipelines
+
+**Limitations**
+
+AGPL-licensed, which has real obligations if you build a network service on it. Not a layout understanding tool.
+
+**Links:** [GitHub](https://github.com/pymupdf/PyMuPDF) &nbsp;·&nbsp; [Site](https://pymupdf.readthedocs.io/?utm_source=github&utm_medium=referral&utm_campaign=pymupdf_github&utm_content=about&utm_term=docs)
+
+---
+
+### Unstract
+
+> Prompt-driven extraction of structured data from documents.
+
+`Zipstack/unstract` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | AGPL-3.0 |
+| **Stars** | 7.2k |
+| **Forks** | 715 |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-11) |
+| **Self-hostable** | partial (open core) |
+
+**VC use case**
+
+When you need the same handful of fields out of hundreds of similar documents, such as revenue, headcount, and renewal date from a stack of customer contracts. Define the fields once and run the set.
+
+**Why it's interesting**
+
+It treats extraction as a pipeline with an API rather than a chat session, which is what makes it usable on a real batch and repeatable next quarter.
+
+**Good for**
+
+- Contract extraction
+- Batch processing
+- Data-room pipelines
+
+**Limitations**
+
+AGPL with a commercial tier, and LLM-based extraction needs validating against a sample before you trust a whole batch.
+
+**Links:** [GitHub](https://github.com/Zipstack/unstract) &nbsp;·&nbsp; [Site](https://unstract.com)
+
+---
+
+### Apache Tika
+
+> Metadata and text from almost any file format.
+
+`apache/tika` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 4.1k |
 | **Forks** | 969 |
@@ -848,15 +831,55 @@ Text extraction is format-level, not layout-aware, so structure is lost. It is a
 
 ---
 
-### PageIndex
+### Camelot
 
-> Reasoning-based document search without a vector database.
+> Extract tables from PDFs as dataframes.
 
-`VectifyAI/PageIndex` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`camelot-dev/camelot` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
+| **License** | MIT |
+| **Stars** | 3.8k |
+| **Forks** | 546 |
+| **Language** | Python |
+| **Status** | Active (last push 2026-09-02) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Financial diligence runs on tables: revenue by quarter, cohort retention, unit economics. This pulls them out of PDFs into something you can compute on, which saves retyping numbers that will later be checked anyway.
+
+**Why it's interesting**
+
+It gives you control over the extraction strategy and reports accuracy per table, so you can see which numbers to distrust instead of getting a silent guess.
+
+**Good for**
+
+- Financial tables
+- Data extraction
+- Diligence models
+
+**Limitations**
+
+Works best on tables with visible ruling lines; borderless tables need manual coordinates. Numeric accuracy must be spot-checked against the source page.
+
+**Links:** [GitHub](https://github.com/camelot-dev/camelot) &nbsp;·&nbsp; [Site](https://camelot-py.readthedocs.io)
+
+---
+
+### PageIndex
+
+> Reasoning-based document search without a vector database.
+
+`VectifyAI/PageIndex` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 35.6k |
 | **Forks** | 3.1k |
@@ -890,11 +913,12 @@ Newer approach with less production evidence than vector search. Reasoning over 
 
 > OCR using vision models rather than an OCR engine.
 
-`getomni-ai/zerox` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`getomni-ai/zerox` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ▫ **Infrastructure** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Data Rooms & Document Intelligence |
+| **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 12.3k |
 | **Forks** | 846 |

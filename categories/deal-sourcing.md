@@ -16,11 +16,12 @@ Sourcing workflow, pipeline management, deduplication, and routing.
 
 > Airtable-style database over Postgres, MySQL, or SQLite.
 
-`nocodb/nocodb` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`nocodb/nocodb` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 64.9k |
 | **Forks** | 5k |
@@ -54,11 +55,12 @@ Advanced features sit behind a commercial tier, and the licence is not a standar
 
 > Tell me when a specific page changes.
 
-`dgtlmoon/changedetection.io` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`dgtlmoon/changedetection.io` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 33.8k |
 | **Forks** | 2k |
@@ -92,11 +94,12 @@ Some features are behind a paid hosted tier, and a busy page still needs selecto
 
 > Agents that watch the web and act when something changes.
 
-`huginn/huginn` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`huginn/huginn` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 49.9k |
 | **Forks** | 4.3k |
@@ -130,11 +133,12 @@ Dated interface, and the self-hosted install has real operational weight. Agents
 
 > Link attribution and inbound source tracking.
 
-`dubinc/dub` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`dubinc/dub` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 24.7k |
 | **Forks** | 3.3k |
@@ -168,11 +172,12 @@ The core is open source with a hosted commercial product on top, and some analyt
 
 > A daily deal-flow brief with a ranked top three.
 
-`kklounge/execsum-deal-brief` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`kklounge/execsum-deal-brief` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 50 |
 | **Forks** | 0 |
@@ -206,11 +211,12 @@ Depends on external news and data sources that may change or require keys, and t
 
 > Deal-flow monitoring built for funds.
 
-`0xnyn/subsignal` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`0xnyn/subsignal` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Deal Sourcing & Pipeline |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | unknown |
 | **Stars** | 29 |
 | **Forks** | 6 |

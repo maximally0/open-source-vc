@@ -4,7 +4,7 @@ _Turning the open web into a pipeline._
 
 Startup and company databases, funding data, company enrichment, inbound deal flow, and pipeline construction.
 
-**7 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**11 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -16,11 +16,12 @@ Startup and company databases, funding data, company enrichment, inbound deal fl
 
 > Y Combinator's own company and founder data, as an API.
 
-`yc-oss/api` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _dataset_
+`yc-oss/api` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | unknown |
 | **Stars** | 231 |
 | **Forks** | 22 |
@@ -50,15 +51,55 @@ Covers YC companies only, so it is a slice of the market and a biased one. No fu
 
 ---
 
-### dedupe
+### Star History
 
-> Record linkage and entity resolution for messy company lists.
+> Plot repository star growth over time.
 
-`dedupeio/dedupe` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`star-history/star-history` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | MIT |
+| **Stars** | 9.5k |
+| **Forks** | 371 |
+| **Language** | TypeScript |
+| **Status** | Active (last push 2026-09-12) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The fast sanity check on a developer-tool claim. A repo with a vertical star curve followed by a plateau tells a different story from one climbing steadily, and a sudden spike often means a launch or a Hacker News moment rather than adoption.
+
+**Why it's interesting**
+
+It is a small tool that answers a question people routinely get wrong, and the curve is usually more informative than the total.
+
+**Good for**
+
+- Technical due diligence
+- GitHub signals
+- Competitor tracking
+
+**Limitations**
+
+Stars measure attention, not usage or revenue, and spikes are frequently launch-driven. Read it as one input.
+
+**Links:** [GitHub](https://github.com/star-history/star-history) &nbsp;·&nbsp; [Site](https://www.star-history.com)
+
+---
+
+### dedupe
+
+> Record linkage and entity resolution for messy company lists.
+
+`dedupeio/dedupe` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 4.5k |
 | **Forks** | 577 |
@@ -88,15 +129,55 @@ Needs labelled training pairs to perform well, and gets slow on millions of rows
 
 ---
 
-### Company Research Agent
+### OSS Insight
 
-> An agent that researches a company and returns a structured brief.
+> Analytics over the public GitHub event stream.
 
-`guy-hartstein/company-research-agent` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`pingcap/ossinsight` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | Apache-2.0 |
+| **Stars** | 2.5k |
+| **Forks** | 446 |
+| **Language** | TypeScript |
+| **Status** | Active (last push 2026-09-08) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Technical traction without asking the company: how fast is a repository growing, who contributes, where are the contributors located, is momentum rising or flattening. For a developer-tools or open-source business this is the most objective signal available before revenue.
+
+**Why it's interesting**
+
+It analyses the full public GitHub event history rather than current star counts, so you can see trajectory and contributor geography. That is the difference between a vanity metric and a diligence input.
+
+**Good for**
+
+- Technical due diligence
+- GitHub signals
+- Developer market research
+
+**Limitations**
+
+GitHub only, so it says nothing about closed-source businesses, and popularity is not revenue. The hosted instance is the primary product.
+
+**Links:** [GitHub](https://github.com/pingcap/ossinsight) &nbsp;·&nbsp; [Site](https://ossinsight.io/)
+
+---
+
+### Company Research Agent
+
+> An agent that researches a company and returns a structured brief.
+
+`guy-hartstein/company-research-agent` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 2.3k |
 | **Forks** | 316 |
@@ -130,11 +211,12 @@ Requires a search API key and an LLM provider, so it costs money to run. Output 
 
 > Browse the YC portfolio as a searchable, filterable site.
 
-`KonstantinMB/exploreyc` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`KonstantinMB/exploreyc` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 44 |
 | **Forks** | 6 |
@@ -164,15 +246,55 @@ Small project with a narrow dataset behind it, and the predictive features are d
 
 ---
 
-### Idea Reality
+### Fire Enrich
 
-> Checks whether a product idea already exists, across five sources.
+> Turn an email or domain into company data.
 
-`mnemox-ai/idea-reality-mcp` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`firecrawl/fire-enrich` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | MIT |
+| **Stars** | 1.3k |
+| **Forks** | 315 |
+| **Language** | TypeScript |
+| **Status** | Active (last push 2025-10-08) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+The enrichment step in a sourcing pipeline: given a list of addresses from a community, an event, or a newsletter, resolve them to companies with industry and size. That is how a list of names becomes a target list.
+
+**Why it's interesting**
+
+Enrichment is normally a paid API and this does the job with a crawler and a model, so a fund can run it over its own lists without per-record pricing.
+
+**Good for**
+
+- Company enrichment
+- Inbound triage
+- Sourcing pipelines
+
+**Limitations**
+
+Enrichment quality depends on what is publicly crawlable, so results need checking before they enter a CRM. Early project.
+
+**Links:** [GitHub](https://github.com/firecrawl/fire-enrich)
+
+---
+
+### Idea Reality
+
+> Checks whether a product idea already exists, across five sources.
+
+`mnemox-ai/idea-reality-mcp` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 815 |
 | **Forks** | 88 |
@@ -206,11 +328,12 @@ It reports existence, not quality or traction. A hit means something similar is 
 
 > An open investor and venture database.
 
-`iloveitaly/openbook` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _dataset_
+`iloveitaly/openbook` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 64 |
 | **Forks** | 9 |
@@ -244,11 +367,12 @@ Early and thin compared with commercial alternatives, and coverage of any given 
 
 > Five years of MiraclePlus (formerly YC China) demo-day companies.
 
-`Nimbus318/miracle-plus-gallery` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _dataset_
+`Nimbus318/miracle-plus-gallery` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _dataset_
 
 | | |
 |---|---|
 | **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | MIT |
 | **Stars** | 25 |
 | **Forks** | 5 |
@@ -275,5 +399,44 @@ The data is in Chinese and nowhere else in a structured form. It is a reminder t
 Interface and data are Chinese-language, coverage stops at the programme's end, and there is no licence file. Confirm terms before reuse.
 
 **Links:** [GitHub](https://github.com/Nimbus318/miracle-plus-gallery) &nbsp;·&nbsp; [Site](https://mplus-gallery.nimbus-nimo.com)
+
+---
+
+### OpenRegistry
+
+> Company registry data direct from official sources.
+
+`sophymarine/openregistry` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
+
+| | |
+|---|---|
+| **Category** | Company Discovery & Deal Sourcing |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
+| **License** | Apache-2.0 |
+| **Stars** | 18 |
+| **Forks** | 2 |
+| **Language** | JavaScript |
+| **Status** | Active (last push 2026-09-07) |
+| **Self-hostable** | yes |
+
+**VC use case**
+
+Incorporation and corporate-structure checking: is the entity real, where is it registered, what is its status. A surprising number of pitches get the legal entity wrong, and the registry is the authoritative answer.
+
+**Why it's interesting**
+
+One of very few open attempts at official registry data, and it exposes it to agents rather than only as a website. Corporate registries are fragmented and paid, which is why this category is so thin.
+
+**Good for**
+
+- Entity verification
+- Legal due diligence
+- KYC checking
+
+**Limitations**
+
+Coverage of jurisdictions is limited and uneven, and registry data quality varies by country. Early project with a small maintainer base.
+
+**Links:** [GitHub](https://github.com/sophymarine/openregistry) &nbsp;·&nbsp; [Site](https://openregistry.sophymarine.com)
 
 ---

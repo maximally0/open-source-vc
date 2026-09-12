@@ -60,7 +60,7 @@ Every investor keeps the same private list: who introduced whom, what they care 
 
 **[Whisper](https://github.com/openai/whisper)** — Speech to text that holds up on real calls.
 
-`MIT` · 108.9k★ · Essential · [Relationship Intelligence](categories/relationship-intelligence.md)
+`MIT` · 108.9k★ · Recommended · [Relationship Intelligence](categories/relationship-intelligence.md)
 
 Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record.
 
@@ -72,7 +72,7 @@ Founder calls, LP check-ins, and office hours all live or die on scheduling.
 
 **[Playwright](https://github.com/microsoft/playwright)** — Drive Chrome, Firefox, and WebKit from code.
 
-`Apache-2.0` · 96k★ · Infrastructure · [Web Intelligence & OSINT](categories/osint.md)
+`Apache-2.0` · 96k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
 
 The foundation for any workflow that needs a real browser: logging into a portal and pulling a report, capturing a screenshot for evidence, or checking that a portfolio company's signup flow still works.
 
@@ -110,7 +110,7 @@ A fund's institutional memory problem: a hundred memos, data-room exports, and m
 
 **[RAGFlow](https://github.com/infiniflow/ragflow)** — A retrieval system built around deep document understanding.
 
-`Apache-2.0` · 90.6k★ · Essential · [Knowledge Management](categories/knowledge-management.md)
+`Apache-2.0` · 90.6k★ · Recommended · [Knowledge Management](categories/knowledge-management.md)
 
 The knowledge layer a fund builds once so that memos, filings, and data-room material are answerable with citations.
 
@@ -126,7 +126,7 @@ Public comparables work: pull financials, prices, and fundamentals for the liste
 
 **[Finance Toolkit](https://github.com/JerBouma/FinanceToolkit)** — A hundred-odd financial ratios and models in one library.
 
-`MIT` · 5.3k★ · Interesting · [Investment Analysis](categories/investment-analysis.md)
+`MIT` · 5.3k★ · Recommended · [Investment Analysis](categories/investment-analysis.md)
 
 The maths between a company's financial statements and a view on it: margins, returns, leverage, growth, and valuation multiples, computed consistently.
 
@@ -204,13 +204,13 @@ The internal tool a fund builds once and uses daily: a company scorecard, an LP-
 
 **[n8n](https://github.com/n8n-io/n8n)** — Workflow automation with a fair-code licence.
 
-`unverified (Other)` · 204.1k★ · Essential · [Workflow & Automation](categories/automation.md)
+`unverified (Other)` · 204.1k★ · Recommended · [Workflow & Automation](categories/automation.md)
 
 The connective tissue a fund needs: a new deal lands in a form, gets enriched, appears in the pipeline, and pings the right partner.
 
 **[dbt](https://github.com/dbt-labs/dbt)** — Transform data with SQL that is tested and documented.
 
-`Apache-2.0` · 13.8k★ · Essential · [Workflow & Automation](categories/automation.md)
+`Apache-2.0` · 13.8k★ · Recommended · [Workflow & Automation](categories/automation.md)
 
 Turns a fund's raw company and portfolio tables into the clean models that reporting depends on, with tests that catch a broken number before it reaches a partner.
 
@@ -220,19 +220,19 @@ Turns a fund's raw company and portfolio tables into the clean models that repor
 
 **[browser-use](https://github.com/browser-use/browser-use)** — Let a model drive a real browser.
 
-`MIT` · 114.3k★ · Essential · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 114.3k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The tool that makes research agents actually work, because most of the useful public information sits behind JavaScript, logins, and search boxes rather than an API.
 
 **[LangGraph](https://github.com/langchain-ai/langgraph)** — Agents as explicit graphs with state.
 
-`MIT` · 41.5k★ · Essential · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 41.5k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The right shape for a diligence workflow, where steps depend on what earlier steps found and a human needs to approve before the next stage.
 
 **[LlamaIndex](https://github.com/run-llama/llama_index)** — Connect models to your own data.
 
-`MIT` · 52.1k★ · Essential · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 52.1k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The most common foundation for a fund's document assistant: load a data room, build an index, and query it with citations.
 

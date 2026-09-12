@@ -16,11 +16,12 @@ Cap-table standards, financial data standards, legal schemas, interoperability f
 
 > The reference open XBRL processor.
 
-`Arelle/Arelle` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`Arelle/Arelle` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 236 |
 | **Forks** | 360 |
@@ -54,11 +55,12 @@ The licence is not a standard SPDX identifier. Interface is technical, and XBRL 
 
 > An open data standard for cap tables.
 
-`Open-Cap-Table-Coalition/Open-Cap-Format-OCF` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _standard_
+`Open-Cap-Table-Coalition/Open-Cap-Format-OCF` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _standard_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | unverified (Other) |
 | **Stars** | 188 |
 | **Forks** | 45 |
@@ -92,11 +94,12 @@ Designed for US-style company structures, so other jurisdictions need extension.
 
 > A Python parser for XBRL filings.
 
-`greedo/python-xbrl` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`greedo/python-xbrl` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 233 |
 | **Forks** | 76 |
@@ -130,11 +133,12 @@ Simpler than Arelle, so it handles edge cases less well. Activity has been inter
 
 > A parser for XBRL and inline XBRL.
 
-`manusimidt/py-xbrl` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`manusimidt/py-xbrl` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 154 |
 | **Forks** | 52 |
@@ -168,11 +172,12 @@ GPL-licensed. Smaller maintenance community than the reference implementation.
 
 > Browse inline XBRL reports interactively.
 
-`Arelle/ixbrl-viewer` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`Arelle/ixbrl-viewer` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 129 |
 | **Forks** | 77 |
@@ -206,11 +211,12 @@ A viewing tool rather than a data pipeline. Licence is not a standard SPDX ident
 
 > Get usable data out of inline XBRL files.
 
-`kanedata/ixbrl-parse` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`kanedata/ixbrl-parse` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 71 |
 | **Forks** | 23 |
@@ -244,11 +250,12 @@ Oriented to UK filings, so other jurisdictions need work. Small project.
 
 > A rules language for validating XBRL data.
 
-`xbrlus/xule` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`xbrlus/xule` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 38 |
 | **Forks** | 17 |
@@ -282,11 +289,12 @@ Requires understanding both XBRL and the rules language. Narrow audience.
 
 > Japanese corporate disclosure data, parsed.
 
-`matthelmer/edinet-tools` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`matthelmer/edinet-tools` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 53 |
 | **Forks** | 9 |
@@ -320,11 +328,12 @@ Japanese-language domain, and coverage depends on the filing types the maintaine
 
 > Read XBRL reports in Python.
 
-`BrelLibrary/brel` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`BrelLibrary/brel` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 45 |
 | **Forks** | 10 |
@@ -358,11 +367,12 @@ Limited specification coverage compared with Arelle, so unusual filings may not 
 
 > A specification for describing command-line tools.
 
-`bcdxn/opencli` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _standard_
+`bcdxn/opencli` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _standard_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 44 |
 | **Forks** | 4 |
@@ -396,11 +406,12 @@ Very early and narrow. Only relevant if you are building agent tooling.
 
 > A Go library for XBRL facts, contexts, and units.
 
-`massive-com/xbrl-parser` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`massive-com/xbrl-parser` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 39 |
 | **Forks** | 9 |
@@ -434,11 +445,12 @@ Lower-level than the Python alternatives, so more work to use. Small project.
 
 > Convert sustainability reporting templates to XBRL.
 
-`EFRAG-EU/Digital-Template-to-XBRL-Converter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`EFRAG-EU/Digital-Template-to-XBRL-Converter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 38 |
 | **Forks** | 20 |
@@ -472,11 +484,12 @@ Narrow to the European sustainability framework, and early. Not applicable outsi
 
 > Generate iXBRL financial reports from templates.
 
-`cybermaggedon/ixbrl-reporter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`cybermaggedon/ixbrl-reporter` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 35 |
 | **Forks** | 12 |
@@ -510,11 +523,12 @@ GPL-licensed, and the template system is configuration-heavy. Jurisdiction-speci
 
 > Crawl and parse SEC EDGAR filings and prices.
 
-`eliangcs/pystock-crawler` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; _software_
+`eliangcs/pystock-crawler` &nbsp;·&nbsp; 📚 **Research** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Standards & Schemas |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 317 |
 | **Forks** | 97 |

@@ -1,5 +1,5 @@
-generated_at: '2026-09-12T16:33:41+00:00'
-repo_count: 226
+generated_at: '2026-09-12T16:57:03+00:00'
+repo_count: 236
 repositories:
 - name: sherlock-project/sherlock
   display_name: Sherlock
@@ -8,6 +8,7 @@ repositories:
   category: founder-discovery
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Founder background checks
@@ -50,8 +51,9 @@ repositories:
   github: https://github.com/soxoj/maigret
   description: Build a dossier on a person from one username.
   category: founder-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Founder vetting
@@ -97,6 +99,7 @@ repositories:
   category: founder-discovery
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Technical screening
@@ -139,8 +142,9 @@ repositories:
   github: https://github.com/speedyapply/JobSpy
   description: Job postings from five boards into one dataframe.
   category: founder-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Hiring signals
@@ -184,8 +188,9 @@ repositories:
   github: https://github.com/lockfale/OSINT-Framework
   description: A map of where to look, organised by what you already have.
   category: founder-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Source discovery
@@ -228,8 +233,9 @@ repositories:
   github: https://github.com/laramies/theHarvester
   description: Emails, subdomains, and names tied to a domain.
   category: founder-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Company reconnaissance
@@ -275,6 +281,7 @@ repositories:
   category: founder-discovery
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Sourcing databases
@@ -319,6 +326,7 @@ repositories:
   category: founder-discovery
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Consumer founder research
@@ -362,6 +370,7 @@ repositories:
   category: company-discovery
   tier: essential
   kind: dataset
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Cohort analysis
@@ -404,8 +413,9 @@ repositories:
   github: https://github.com/KonstantinMB/exploreyc
   description: Browse the YC portfolio as a searchable, filterable site.
   category: company-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: true
   best_for: Market mapping
@@ -448,8 +458,9 @@ repositories:
   github: https://github.com/guy-hartstein/company-research-agent
   description: An agent that researches a company and returns a structured brief.
   category: company-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Screening preparation
@@ -492,8 +503,9 @@ repositories:
   github: https://github.com/dedupeio/dedupe
   description: Record linkage and entity resolution for messy company lists.
   category: company-discovery
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: CRM hygiene
@@ -539,6 +551,7 @@ repositories:
   category: company-discovery
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Novelty checks
@@ -583,6 +596,7 @@ repositories:
   category: company-discovery
   tier: experimental
   kind: dataset
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Fund targeting
@@ -627,6 +641,7 @@ repositories:
   category: company-discovery
   tier: experimental
   kind: dataset
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: China market research
@@ -671,6 +686,7 @@ repositories:
   category: deal-sourcing
   tier: experimental
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Watchlist monitoring
@@ -715,6 +731,7 @@ repositories:
   category: deal-sourcing
   tier: experimental
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: true
   best_for: Deal-flow triage
@@ -759,6 +776,7 @@ repositories:
   category: deal-sourcing
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Deal pipelines
@@ -801,8 +819,9 @@ repositories:
   github: https://github.com/huginn/huginn
   description: Agents that watch the web and act when something changes.
   category: deal-sourcing
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Watchlist automation
@@ -847,6 +866,7 @@ repositories:
   category: deal-sourcing
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Competitor monitoring
@@ -889,8 +909,9 @@ repositories:
   github: https://github.com/dubinc/dub
   description: Link attribution and inbound source tracking.
   category: deal-sourcing
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Inbound attribution
@@ -935,6 +956,7 @@ repositories:
   category: market-research
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Market research
@@ -980,6 +1002,7 @@ repositories:
   category: market-research
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Memo drafting
@@ -1023,8 +1046,9 @@ repositories:
   github: https://github.com/Alibaba-NLP/DeepResearch
   description: An open deep-research agent with published weights.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Self-hosted research
@@ -1068,8 +1092,9 @@ repositories:
   github: https://github.com/dzhng/deep-research
   description: A small, readable iterative research loop.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Learning agent design
@@ -1114,6 +1139,7 @@ repositories:
   category: market-research
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Institutional memory
@@ -1157,8 +1183,9 @@ repositories:
   github: https://github.com/arc53/DocsGPT
   description: Chat over your own document collections.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Data-room triage
@@ -1201,8 +1228,9 @@ repositories:
   github: https://github.com/sansan0/TrendRadar
   description: Aggregated trend and sentiment monitoring across platforms.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Consumer trend research
@@ -1248,6 +1276,7 @@ repositories:
   category: market-research
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Macro research
@@ -1290,8 +1319,9 @@ repositories:
   github: https://github.com/MiroMindAI/MiroThinker
   description: A research agent tuned for prediction and forecasting tasks.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Forecast testing
@@ -1336,6 +1366,7 @@ repositories:
   category: market-research
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Understanding research agents
@@ -1377,6 +1408,7 @@ repositories:
   category: market-research
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Tool selection
@@ -1418,8 +1450,9 @@ repositories:
   github: https://github.com/zilliztech/deep-searcher
   description: Private-data research with citations.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Data-room research
@@ -1462,8 +1495,9 @@ repositories:
   github: https://github.com/MODSetter/SurfSense
   description: NotebookLM-style research over live web and platform data.
   category: market-research
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Consumer research
@@ -1508,6 +1542,7 @@ repositories:
   category: market-research
   tier: experimental
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Agent architecture
@@ -1551,6 +1586,7 @@ repositories:
   category: market-research
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Research archiving
@@ -1595,6 +1631,7 @@ repositories:
   category: market-research
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Macro monitoring
@@ -1635,8 +1672,9 @@ repositories:
   github: https://github.com/scrapy/scrapy
   description: The long-standing Python framework for crawling sites at scale.
   category: osint
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Dataset collection
@@ -1680,8 +1718,9 @@ repositories:
   github: https://github.com/apify/crawlee
   description: Crawling and browser automation with anti-blocking built in.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: JS-heavy collection
@@ -1724,8 +1763,9 @@ repositories:
   github: https://github.com/firecrawl/firecrawl
   description: Turns websites into clean markdown for models.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Research pipelines
@@ -1769,8 +1809,9 @@ repositories:
   github: https://github.com/microsoft/playwright
   description: Drive Chrome, Firefox, and WebKit from code.
   category: osint
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Browser automation
@@ -1815,6 +1856,7 @@ repositories:
   category: osint
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Evidence capture
@@ -1858,8 +1900,9 @@ repositories:
   github: https://github.com/smicallef/spiderfoot
   description: Automates OSINT collection and maps what it finds.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Company reconnaissance
@@ -1902,8 +1945,9 @@ repositories:
   github: https://github.com/blacklanternsecurity/bbot
   description: A recursive scanner that follows what it discovers.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Technical due diligence
@@ -1947,8 +1991,9 @@ repositories:
   github: https://github.com/OpenCTI-Platform/opencti
   description: A structured platform for intelligence about entities and their links.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Entity tracking
@@ -1992,8 +2037,9 @@ repositories:
   github: https://github.com/reconurge/flowsint
   description: Graph-based investigations you can see.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Relationship mapping
@@ -2036,8 +2082,9 @@ repositories:
   github: https://github.com/yogeshojha/rengine
   description: Recon-as-a-service with a web interface.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Repeated screening
@@ -2081,8 +2128,9 @@ repositories:
   github: https://github.com/j3ssie/osmedeus
   description: Chains security tools into repeatable reconnaissance workflows.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Repeatable screening
@@ -2124,8 +2172,9 @@ repositories:
   github: https://github.com/ivre/ivre
   description: Run your own internet-wide scan database instead of renting one.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Infrastructure research
@@ -2169,8 +2218,9 @@ repositories:
   github: https://github.com/elceef/dnstwist
   description: Finds lookalike domains around a brand.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Brand protection
@@ -2213,8 +2263,9 @@ repositories:
   github: https://github.com/projectdiscovery/subfinder
   description: Fast passive subdomain discovery.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Product discovery
@@ -2257,8 +2308,9 @@ repositories:
   github: https://github.com/projectdiscovery/httpx
   description: Probe many hosts at once and report what is live.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Infrastructure inventory
@@ -2301,8 +2353,9 @@ repositories:
   github: https://github.com/s0md3v/Photon
   description: A fast crawler built for open-source collection.
   category: osint
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Site inventory
@@ -2345,8 +2398,9 @@ repositories:
   github: https://github.com/puppeteer/puppeteer
   description: Control Chrome from JavaScript.
   category: osint
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Chrome automation
@@ -2391,6 +2445,7 @@ repositories:
   category: relationship-intelligence
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Personal network
@@ -2438,6 +2493,7 @@ repositories:
   category: relationship-intelligence
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Team CRM
@@ -2481,8 +2537,9 @@ repositories:
   github: https://github.com/frappe/crm
   description: A CRM built on the Frappe framework.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund back office
@@ -2526,8 +2583,9 @@ repositories:
   github: https://github.com/espocrm/espocrm
   description: A long-lived open CRM with a mature extension model.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Conservative CRM
@@ -2570,8 +2628,9 @@ repositories:
   github: https://github.com/krayin/laravel-crm
   description: A lightweight CRM on Laravel.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Custom CRM builds
@@ -2611,8 +2670,9 @@ repositories:
   github: https://github.com/odoo/odoo
   description: An open business suite covering CRM, accounting, invoicing, and projects.
   category: relationship-intelligence
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund back office
@@ -2657,6 +2717,7 @@ repositories:
   category: relationship-intelligence
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Meeting scheduling
@@ -2676,7 +2737,7 @@ repositories:
     Some calendar providers have quirks that need working around.
   license: MIT
   license_name: MIT License
-  stars: 48401
+  stars: 48402
   forks: 15099
   open_issues: 1427
   contributors: unknown
@@ -2699,8 +2760,9 @@ repositories:
   github: https://github.com/networkx/networkx
   description: Graph analysis in plain Python.
   category: relationship-intelligence
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Warm introduction paths
@@ -2743,8 +2805,9 @@ repositories:
   github: https://github.com/openai/whisper
   description: Speech to text that holds up on real calls.
   category: relationship-intelligence
-  tier: essential
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Call transcripts
@@ -2787,8 +2850,9 @@ repositories:
   github: https://github.com/m-bain/whisperX
   description: Transcription with word timings and speaker labels.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Meeting records
@@ -2830,8 +2894,9 @@ repositories:
   github: https://github.com/SYSTRAN/faster-whisper
   description: Whisper transcription at several times the speed.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Batch transcription
@@ -2873,8 +2938,9 @@ repositories:
   github: https://github.com/civicrm/civicrm-core
   description: A constituent relationship system built for mission-driven organisations.
   category: relationship-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Impact fund relationships
@@ -2920,6 +2986,7 @@ repositories:
   category: due-diligence
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Technical due diligence
@@ -2964,7 +3031,8 @@ repositories:
   category: due-diligence
   tier: experimental
   kind: software
-  vc_native: false
+  vc_relevance: native
+  vc_native: true
   ai: true
   best_for: Cross-workstream risk
   starter: false
@@ -3008,6 +3076,7 @@ repositories:
   category: due-diligence
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: AI due diligence
@@ -3050,8 +3119,9 @@ repositories:
   github: https://github.com/cleanlab/cleanlab
   description: Finds label errors and bad rows in a dataset.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Data quality
@@ -3094,8 +3164,9 @@ repositories:
   github: https://github.com/Arize-ai/phoenix
   description: Observability and evaluation for models in production.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Production review
@@ -3138,8 +3209,9 @@ repositories:
   github: https://github.com/langwatch/langwatch
   description: Evaluation and testing for agents and LLM features.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: AI quality review
@@ -3184,6 +3256,7 @@ repositories:
   category: due-diligence
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Secret exposure
@@ -3226,8 +3299,9 @@ repositories:
   github: https://github.com/Rizzo-AI-Academy/rizzo-pii
   description: Anonymise documents before they reach a model.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Data-room handling
@@ -3270,8 +3344,9 @@ repositories:
   github: https://github.com/HumanSignal/label-studio
   description: A flexible interface for labelling and annotating data.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Customer research
@@ -3314,8 +3389,9 @@ repositories:
   github: https://github.com/doccano/doccano
   description: Simple text annotation for classification and extraction.
   category: due-diligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Evidence counting
@@ -3359,6 +3435,7 @@ repositories:
   category: document-intelligence
   tier: essential
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Data-room ingestion
@@ -3404,6 +3481,7 @@ repositories:
   category: document-intelligence
   tier: essential
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Financial document parsing
@@ -3446,8 +3524,9 @@ repositories:
   github: https://github.com/opendatalab/MinerU
   description: PDF to markdown with heavy layout models.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Scientific PDFs
@@ -3492,6 +3571,7 @@ repositories:
   category: document-intelligence
   tier: essential
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Data-room conversion
@@ -3534,8 +3614,9 @@ repositories:
   github: https://github.com/datalab-to/surya
   description: OCR and layout detection across many languages.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Scanned documents
@@ -3578,8 +3659,9 @@ repositories:
   github: https://github.com/PaddlePaddle/PaddleOCR
   description: OCR across 80+ languages, including non-Latin scripts.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Multilingual OCR
@@ -3622,8 +3704,9 @@ repositories:
   github: https://github.com/tesseract-ocr/tesseract
   description: The OCR engine nearly everything else is built on.
   category: document-intelligence
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Baseline OCR
@@ -3668,6 +3751,7 @@ repositories:
   category: document-intelligence
   tier: essential
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Scanned documents
@@ -3712,8 +3796,9 @@ repositories:
   github: https://github.com/camelot-dev/camelot
   description: Extract tables from PDFs as dataframes.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Financial tables
@@ -3756,8 +3841,9 @@ repositories:
   github: https://github.com/jsvine/pdfplumber
   description: Precise access to PDF text, lines, and tables.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Targeted extraction
@@ -3799,8 +3885,9 @@ repositories:
   github: https://github.com/pymupdf/PyMuPDF
   description: A fast library for reading and rewriting PDFs.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: PDF manipulation
@@ -3844,8 +3931,9 @@ repositories:
   github: https://github.com/apache/tika
   description: Metadata and text from almost any file format.
   category: document-intelligence
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Format triage
@@ -3889,8 +3977,9 @@ repositories:
   github: https://github.com/Stirling-Tools/Stirling-PDF
   description: A self-hosted toolkit of PDF operations.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Document preparation
@@ -3934,6 +4023,7 @@ repositories:
   category: document-intelligence
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Document archive
@@ -3977,8 +4067,9 @@ repositories:
   github: https://github.com/docusealco/docuseal
   description: Self-hosted e-signature.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Deal closing
@@ -4022,8 +4113,9 @@ repositories:
   github: https://github.com/documenso/documenso
   description: An open DocuSign alternative.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Document execution
@@ -4067,8 +4159,9 @@ repositories:
   github: https://github.com/JaidedAI/EasyOCR
   description: OCR in 80+ languages with almost no setup.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Ad-hoc OCR
@@ -4109,8 +4202,9 @@ repositories:
   github: https://github.com/Zipstack/unstract
   description: Prompt-driven extraction of structured data from documents.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Contract extraction
@@ -4154,8 +4248,9 @@ repositories:
   github: https://github.com/microsoft/markitdown
   description: Convert almost any file to markdown.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Quick conversion
@@ -4199,6 +4294,7 @@ repositories:
   category: document-intelligence
   tier: experimental
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Long documents
@@ -4241,8 +4337,9 @@ repositories:
   github: https://github.com/Cinnamon/kotaemon
   description: A clean interface for chatting with your documents.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Document Q&A
@@ -4285,8 +4382,9 @@ repositories:
   github: https://github.com/jgm/pandoc
   description: Convert between essentially every document format.
   category: document-intelligence
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Format conversion
@@ -4332,6 +4430,7 @@ repositories:
   category: document-intelligence
   tier: experimental
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Difficult documents
@@ -4374,8 +4473,9 @@ repositories:
   github: https://github.com/datalab-to/chandra
   description: OCR built for complex tables, forms, and handwriting.
   category: document-intelligence
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Complex tables
@@ -4420,6 +4520,7 @@ repositories:
   category: investment-analysis
   tier: essential
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Comparable companies
@@ -4463,8 +4564,9 @@ repositories:
   github: https://github.com/JerBouma/FinanceToolkit
   description: A hundred-odd financial ratios and models in one library.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Financial analysis
@@ -4507,8 +4609,9 @@ repositories:
   github: https://github.com/microsoft/qlib
   description: A platform for quantitative research and backtesting.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Signal testing
@@ -4553,6 +4656,7 @@ repositories:
   category: investment-analysis
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Market data
@@ -4594,8 +4698,9 @@ repositories:
   github: https://github.com/ranaroussi/quantstats
   description: Portfolio analytics and tear sheets.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Performance reporting
@@ -4638,8 +4743,9 @@ repositories:
   github: https://github.com/lballabio/QuantLib
   description: A quantitative finance library for pricing and risk.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Instrument valuation
@@ -4683,8 +4789,9 @@ repositories:
   github: https://github.com/domokane/FinancePy
   description: Derivatives pricing and risk in Python.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Structured terms
@@ -4730,6 +4837,7 @@ repositories:
   category: investment-analysis
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Financial research
@@ -4772,8 +4880,9 @@ repositories:
   github: https://github.com/akfamily/akshare
   description: Financial data for Chinese markets.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: China market data
@@ -4818,6 +4927,7 @@ repositories:
   category: investment-analysis
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Filings research
@@ -4860,8 +4970,9 @@ repositories:
   github: https://github.com/jadchaar/sec-edgar-downloader
   description: Bulk-download filings from EDGAR.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Filings collection
@@ -4905,6 +5016,7 @@ repositories:
   category: investment-analysis
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Agent architecture
@@ -4947,8 +5059,9 @@ repositories:
   github: https://github.com/financial-datasets/mcp-server
   description: An MCP server that gives agents stock market data.
   category: investment-analysis
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Agent tooling
@@ -4992,6 +5105,7 @@ repositories:
   category: investment-analysis
   tier: experimental
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Forecast testing
@@ -5036,6 +5150,7 @@ repositories:
   category: cap-tables
   tier: essential
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Cap table management
@@ -5080,8 +5195,9 @@ repositories:
   github: https://github.com/1984vc/cap-table
   description: A spreadsheet-native cap table that computes the maths properly.
   category: cap-tables
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Dilution modelling
@@ -5126,6 +5242,7 @@ repositories:
   category: cap-tables
   tier: experimental
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Exit modelling
@@ -5169,6 +5286,7 @@ repositories:
   category: investment-memos
   tier: experimental
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: true
   best_for: LP reporting
@@ -5212,6 +5330,7 @@ repositories:
   category: investment-memos
   tier: experimental
   kind: software
+  vc_relevance: native
   vc_native: true
   ai: true
   best_for: Memo drafting
@@ -5256,6 +5375,7 @@ repositories:
   category: investment-memos
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Memo drafting
@@ -5297,8 +5417,9 @@ repositories:
   github: https://github.com/typst/typst
   description: Typesetting that makes documents look considered.
   category: investment-memos
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Memo production
@@ -5341,8 +5462,9 @@ repositories:
   github: https://github.com/quarto-dev/quarto-cli
   description: Reproducible reports where the analysis and the document are one file.
   category: investment-memos
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Reproducible reports
@@ -5387,6 +5509,7 @@ repositories:
   category: investment-memos
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Research method
@@ -5431,6 +5554,7 @@ repositories:
   category: portfolio-management
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Portfolio dashboards
@@ -5474,8 +5598,9 @@ repositories:
   github: https://github.com/apache/superset
   description: A full BI platform at Apache scale.
   category: portfolio-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: BI and reporting
@@ -5517,8 +5642,9 @@ repositories:
   github: https://github.com/getredash/redash
   description: Query, visualize, and share data quickly.
   category: portfolio-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Ad-hoc analysis
@@ -5562,6 +5688,7 @@ repositories:
   category: portfolio-management
   tier: essential
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Internal tools
@@ -5604,8 +5731,9 @@ repositories:
   github: https://github.com/baserow/baserow
   description: An open Airtable for structured portfolio data.
   category: portfolio-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: KPI collection
@@ -5648,8 +5776,9 @@ repositories:
   github: https://github.com/simonw/datasette
   description: Publish any database as a browsable, queryable site.
   category: portfolio-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Internal data access
@@ -5692,8 +5821,9 @@ repositories:
   github: https://github.com/directus/directus
   description: An admin layer over any SQL database.
   category: portfolio-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Internal systems
@@ -5736,8 +5866,9 @@ repositories:
   github: https://github.com/roapi/roapi
   description: Serve any dataset as an API without writing code.
   category: portfolio-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Internal APIs
@@ -5780,8 +5911,9 @@ repositories:
   github: https://github.com/gradio-app/gradio
   description: Quick web interfaces for models and functions.
   category: portfolio-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Model demos
@@ -5824,8 +5956,9 @@ repositories:
   github: https://github.com/beancount/beancount
   description: Double-entry accounting in plain text files.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund accounting
@@ -5871,8 +6004,9 @@ repositories:
   github: https://github.com/hledgerorg/hledger
   description: Plain-text accounting with a serious command line.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: LP reporting
@@ -5915,8 +6049,9 @@ repositories:
   github: https://github.com/ledger/ledger
   description: The original plain-text accounting tool.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund accounting
@@ -5958,8 +6093,9 @@ repositories:
   github: https://github.com/Gnucash/gnucash
   description: Full double-entry accounting with a desktop interface.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: SPV books
@@ -6002,8 +6138,9 @@ repositories:
   github: https://github.com/gristlabs/grist-core
   description: A spreadsheet that behaves like a database.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund modelling
@@ -6046,8 +6183,9 @@ repositories:
   github: https://github.com/PyPortfolio/PyPortfolioOpt
   description: Portfolio construction and optimisation in Python.
   category: lp-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Portfolio construction
@@ -6090,8 +6228,9 @@ repositories:
   github: https://github.com/frappe/erpnext
   description: An open ERP covering accounting, invoicing, and assets.
   category: lp-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Fund back office
@@ -6137,6 +6276,7 @@ repositories:
   category: legal
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Contract review
@@ -6180,8 +6320,9 @@ repositories:
   github: https://github.com/Open-Source-Legal/OpenContracts
   description: An open document intelligence platform for contract analysis.
   category: legal
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Clause extraction
@@ -6224,8 +6365,9 @@ repositories:
   github: https://github.com/JSv4/Python-Redlines
   description: Generate Word tracked changes from Python.
   category: legal
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Redlining
@@ -6270,6 +6412,7 @@ repositories:
   category: legal
   tier: research
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Legal text extraction
@@ -6315,6 +6458,7 @@ repositories:
   category: legal
   tier: research
   kind: framework
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Contract entity extraction
@@ -6359,6 +6503,7 @@ repositories:
   category: legal
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Model evaluation
@@ -6401,8 +6546,9 @@ repositories:
   github: https://github.com/Vaquill-AI/open-us-law
   description: A structured corpus of US primary law.
   category: legal
-  tier: interesting
+  tier: recommended
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Regulatory research
@@ -6445,8 +6591,9 @@ repositories:
   github: https://github.com/OpenNyAI/Opennyai
   description: An NLP pipeline for Indian legal documents.
   category: legal
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: India legal documents
@@ -6489,8 +6636,9 @@ repositories:
   github: https://github.com/evolsb/claude-legal-skill
   description: A contract review workflow with defined risk categories.
   category: legal
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Contract risk triage
@@ -6536,6 +6684,7 @@ repositories:
   category: legal
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Confidential review
@@ -6580,6 +6729,7 @@ repositories:
   category: legal
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Privileged documents
@@ -6623,6 +6773,7 @@ repositories:
   category: legal
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Legal workspace
@@ -6668,6 +6819,7 @@ repositories:
   category: legal
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Legal research
@@ -6711,6 +6863,7 @@ repositories:
   category: legal
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Understanding clause extraction
@@ -6754,6 +6907,7 @@ repositories:
   category: legal
   tier: research
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Legal dataset building
@@ -6796,8 +6950,9 @@ repositories:
   github: https://github.com/infiniflow/ragflow
   description: A retrieval system built around deep document understanding.
   category: knowledge-management
-  tier: essential
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Document RAG
@@ -6840,8 +6995,9 @@ repositories:
   github: https://github.com/microsoft/graphrag
   description: Retrieval that builds a knowledge graph from your documents.
   category: knowledge-management
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Relationship questions
@@ -6885,8 +7041,9 @@ repositories:
   github: https://github.com/HKUDS/LightRAG
   description: Graph-based retrieval without GraphRAG's cost.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Graph retrieval at low cost
@@ -6929,8 +7086,9 @@ repositories:
   github: https://github.com/milvus-io/milvus
   description: A vector database built for scale.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Vector search at scale
@@ -6974,8 +7132,9 @@ repositories:
   github: https://github.com/qdrant/qdrant
   description: A vector search engine with useful filtering.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Portfolio search
@@ -7019,8 +7178,9 @@ repositories:
   github: https://github.com/pgvector/pgvector
   description: Vector search inside Postgres.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Postgres stacks
@@ -7063,8 +7223,9 @@ repositories:
   github: https://github.com/weaviate/weaviate
   description: A vector database with hybrid search built in.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Hybrid search
@@ -7106,8 +7267,9 @@ repositories:
   github: https://github.com/chroma-core/chroma
   description: An embedded vector store for small projects.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Prototyping
@@ -7148,8 +7310,9 @@ repositories:
   github: https://github.com/neo4j/neo4j
   description: The standard graph database.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Relationship graphs
@@ -7193,8 +7356,9 @@ repositories:
   github: https://github.com/getzep/graphiti
   description: A temporal knowledge graph for agents.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Portfolio history
@@ -7237,8 +7401,9 @@ repositories:
   github: https://github.com/topoteretes/cognee
   description: Persistent memory built from your documents.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Agent memory
@@ -7281,8 +7446,9 @@ repositories:
   github: https://github.com/deepset-ai/haystack
   description: A framework for retrieval pipelines with evaluation.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Pipeline evaluation
@@ -7325,8 +7491,9 @@ repositories:
   github: https://github.com/onyx-dot-app/onyx
   description: Search across everything a team has, with connectors.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Internal search
@@ -7371,6 +7538,7 @@ repositories:
   category: knowledge-management
   tier: research
   kind: research
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Diagnosing pipelines
@@ -7413,8 +7581,9 @@ repositories:
   github: https://github.com/neuml/txtai
   description: Embeddings, search, and workflows in one library.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Internal search
@@ -7456,8 +7625,9 @@ repositories:
   github: https://github.com/mem0ai/mem0
   description: A memory layer for assistants that persists across sessions.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Agent memory
@@ -7500,8 +7670,9 @@ repositories:
   github: https://github.com/outline/outline
   description: A team wiki that is fast and pleasant to use.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Internal wiki
@@ -7544,8 +7715,9 @@ repositories:
   github: https://github.com/requarks/wiki
   description: A modern wiki on Node.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Process documentation
@@ -7588,8 +7760,9 @@ repositories:
   github: https://github.com/docmost/docmost
   description: A collaborative wiki with real-time editing.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Collaborative research
@@ -7633,8 +7806,9 @@ repositories:
   github: https://github.com/logseq/logseq
   description: A local-first outliner for connected notes.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Personal research
@@ -7678,8 +7852,9 @@ repositories:
   github: https://github.com/zotero/zotero
   description: A reference manager for research material.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Citation management
@@ -7722,8 +7897,9 @@ repositories:
   github: https://github.com/surrealdb/surrealdb
   description: One database for documents, graphs, and vectors.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Unified data model
@@ -7766,8 +7942,9 @@ repositories:
   github: https://github.com/dgraph-io/dgraph
   description: A graph database built for scale.
   category: knowledge-management
-  tier: infrastructure
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Large graph datasets
@@ -7810,8 +7987,9 @@ repositories:
   github: https://github.com/jupyter-book/jupyter-book
   description: Publish notebooks as a documented site.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Publishing research
@@ -7853,8 +8031,9 @@ repositories:
   github: https://github.com/marimo-team/marimo
   description: A reactive Python notebook that is reproducible by design.
   category: knowledge-management
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Reproducible analysis
@@ -7897,8 +8076,9 @@ repositories:
   github: https://github.com/browser-use/browser-use
   description: Let a model drive a real browser.
   category: ai-agents
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Research automation
@@ -7942,8 +8122,9 @@ repositories:
   github: https://github.com/langchain-ai/langgraph
   description: Agents as explicit graphs with state.
   category: ai-agents
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Diligence workflows
@@ -7987,8 +8168,9 @@ repositories:
   github: https://github.com/modelcontextprotocol/servers
   description: Reference implementations of the Model Context Protocol.
   category: ai-agents
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Agent integrations
@@ -8032,8 +8214,9 @@ repositories:
   github: https://github.com/punkpeye/awesome-mcp-servers
   description: The catalogue of MCP servers and connectors.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: true
   best_for: Tool discovery
@@ -8076,8 +8259,9 @@ repositories:
   github: https://github.com/microsoft/autogen
   description: Multiple agents that talk to each other.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Agent architecture
@@ -8120,8 +8304,9 @@ repositories:
   github: https://github.com/crewAIInc/crewAI
   description: Define a team of agents with roles and tasks.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Prototyping
@@ -8164,8 +8349,9 @@ repositories:
   github: https://github.com/openai/openai-agents-python
   description: A small framework for agents, tools, and handoffs.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Prototyping
@@ -8208,8 +8394,9 @@ repositories:
   github: https://github.com/OpenHands/OpenHands
   description: An agent that writes and runs code to finish tasks.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Code inspection
@@ -8252,8 +8439,9 @@ repositories:
   github: https://github.com/langgenius/dify
   description: Build and operate LLM applications without much code.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Internal tools
@@ -8296,8 +8484,9 @@ repositories:
   github: https://github.com/stanfordnlp/dspy
   description: Program model pipelines instead of writing prompts.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Prompt maintenance
@@ -8340,8 +8529,9 @@ repositories:
   github: https://github.com/run-llama/llama_index
   description: Connect models to your own data.
   category: ai-agents
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Document RAG
@@ -8384,8 +8574,9 @@ repositories:
   github: https://github.com/langchain-ai/langchain
   description: The most widely used framework for LLM applications.
   category: ai-agents
-  tier: interesting
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Integrations
@@ -8429,6 +8620,7 @@ repositories:
   category: ai-agents
   tier: research
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Understanding the category
@@ -8472,6 +8664,7 @@ repositories:
   category: ai-agents
   tier: experimental
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Agent interfaces
@@ -8513,8 +8706,9 @@ repositories:
   github: https://github.com/n8n-io/n8n
   description: Workflow automation with a fair-code licence.
   category: automation
-  tier: essential
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Workflow automation
@@ -8558,8 +8752,9 @@ repositories:
   github: https://github.com/activepieces/activepieces
   description: An open Zapier alternative.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Open automation
@@ -8601,8 +8796,9 @@ repositories:
   github: https://github.com/windmill-labs/windmill
   description: Turn scripts into workflows and internal apps.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Internal tooling
@@ -8645,8 +8841,9 @@ repositories:
   github: https://github.com/kestra-io/kestra
   description: Declarative orchestration in YAML.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Scheduled research
@@ -8688,8 +8885,9 @@ repositories:
   github: https://github.com/apache/airflow
   description: The default scheduler for data pipelines.
   category: automation
-  tier: essential
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Data pipelines
@@ -8732,8 +8930,9 @@ repositories:
   github: https://github.com/dagster-io/dagster
   description: Orchestration built around data assets.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Data quality
@@ -8776,8 +8975,9 @@ repositories:
   github: https://github.com/PrefectHQ/prefect
   description: Python-native workflow orchestration.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Scheduled jobs
@@ -8819,8 +9019,9 @@ repositories:
   github: https://github.com/airbytehq/airbyte
   description: Connectors that move data from anywhere to anywhere.
   category: automation
-  tier: essential
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Data ingestion
@@ -8863,8 +9064,9 @@ repositories:
   github: https://github.com/meltano/meltano
   description: ELT as code with version control.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Data ingestion
@@ -8905,8 +9107,9 @@ repositories:
   github: https://github.com/dbt-labs/dbt
   description: Transform data with SQL that is tested and documented.
   category: automation
-  tier: essential
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: false
   best_for: Data modelling
@@ -8949,8 +9152,9 @@ repositories:
   github: https://github.com/appsmithorg/appsmith
   description: Build internal tools by dragging components.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Internal tools
@@ -8993,8 +9197,9 @@ repositories:
   github: https://github.com/ToolJet/ToolJet
   description: Another drag-and-drop internal tool builder.
   category: automation
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Internal tools
@@ -9039,6 +9244,7 @@ repositories:
   category: standards
   tier: essential
   kind: standard
+  vc_relevance: native
   vc_native: true
   ai: false
   best_for: Cap table standards
@@ -9085,6 +9291,7 @@ repositories:
   category: standards
   tier: essential
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Financial data standards
@@ -9127,8 +9334,9 @@ repositories:
   github: https://github.com/greedo/python-xbrl
   description: A Python parser for XBRL filings.
   category: standards
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: XBRL parsing
@@ -9169,8 +9377,9 @@ repositories:
   github: https://github.com/manusimidt/py-xbrl
   description: A parser for XBRL and inline XBRL.
   category: standards
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Inline XBRL
@@ -9213,8 +9422,9 @@ repositories:
   github: https://github.com/kanedata/ixbrl-parse
   description: Get usable data out of inline XBRL files.
   category: standards
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: UK filings
@@ -9257,6 +9467,7 @@ repositories:
   category: standards
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Japan filings
@@ -9300,8 +9511,9 @@ repositories:
   github: https://github.com/xbrlus/xule
   description: A rules language for validating XBRL data.
   category: standards
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Data validation
@@ -9345,6 +9557,7 @@ repositories:
   category: standards
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: XBRL parsing
@@ -9388,6 +9601,7 @@ repositories:
   category: standards
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Go pipelines
@@ -9428,8 +9642,9 @@ repositories:
   github: https://github.com/Arelle/ixbrl-viewer
   description: Browse inline XBRL reports interactively.
   category: standards
-  tier: interesting
+  tier: recommended
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Verification
@@ -9473,6 +9688,7 @@ repositories:
   category: standards
   tier: research
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Learning pipelines
@@ -9516,6 +9732,7 @@ repositories:
   category: standards
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: ESG reporting
@@ -9559,6 +9776,7 @@ repositories:
   category: standards
   tier: experimental
   kind: software
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Regulatory reporting
@@ -9604,6 +9822,7 @@ repositories:
   category: standards
   tier: experimental
   kind: standard
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Agent tooling
@@ -9647,6 +9866,7 @@ repositories:
   category: datasets
   tier: research
   kind: research
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Dataset discovery
@@ -9689,8 +9909,9 @@ repositories:
   github: https://github.com/huggingface/datasets
   description: Load and share datasets with one interface.
   category: datasets
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Dataset management
@@ -9735,6 +9956,7 @@ repositories:
   category: datasets
   tier: experimental
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: IP research
@@ -9779,6 +10001,7 @@ repositories:
   category: datasets
   tier: experimental
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Founder vetting
@@ -9821,8 +10044,9 @@ repositories:
   github: https://github.com/tensorflow/datasets
   description: A collection of datasets with consistent loading.
   category: datasets
-  tier: infrastructure
+  tier: recommended
   kind: framework
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Dataset management
@@ -9867,6 +10091,7 @@ repositories:
   category: datasets
   tier: research
   kind: research
+  vc_relevance: infrastructure
   vc_native: false
   ai: true
   best_for: Graph research
@@ -9910,6 +10135,7 @@ repositories:
   category: datasets
   tier: research
   kind: dataset
+  vc_relevance: adaptable
   vc_native: false
   ai: false
   best_for: Log research
@@ -9945,5 +10171,460 @@ repositories:
   self_hostable: true
   commercial_restrictions: unknown - verify upstream before redistributing
   owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: freelawproject/courtlistener
+  display_name: CourtListener
+  github: https://github.com/freelawproject/courtlistener
+  description: A searchable archive of US court data.
+  category: legal
+  tier: essential
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: false
+  best_for: Litigation checks
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: 'Litigation is a diligence question almost nobody checks properly: is the target or its
+    founders party to a lawsuit, has a competitor sued them, is there an IP dispute waiting. Court records
+    are public but scattered across thousands of county and federal systems. This puts them in one searchable
+    place.'
+  why_it_is_interesting: Maintained by the Free Law Project, which has been doing this for over a decade
+    with bulk data and an API rather than a website you have to scrape. It is the single biggest open
+    legal dataset available.
+  good_for:
+  - Legal due diligence
+  - Litigation checks
+  - Founder background
+  limitations: US courts only, and coverage varies by jurisdiction and court level, with some records
+    incomplete. The licence is not a standard SPDX identifier, so check terms before building a service
+    on the data.
+  license: unverified (Other)
+  license_name: Other
+  stars: 1012
+  forks: 270
+  open_issues: 1044
+  contributors: unknown
+  last_commit: '2026-09-12'
+  created: '2014-07-25'
+  language: Python
+  status: Active (last push 2026-09-12)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: unknown - verify upstream before redistributing
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: freelawproject/juriscraper
+  display_name: Juriscraper
+  github: https://github.com/freelawproject/juriscraper
+  description: Scrapers for US court websites.
+  category: legal
+  tier: experimental
+  kind: framework
+  vc_relevance: infrastructure
+  vc_native: false
+  ai: false
+  best_for: Litigation research
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: The collection layer behind CourtListener, usable directly when a diligence needs filings
+    from a specific court that is not well covered. Relevant for jurisdiction- specific litigation research.
+  why_it_is_interesting: Court websites are hostile to automation and this maintains scrapers for hundreds
+    of them, including the parsing of what comes back. That maintenance is the expensive part.
+  good_for:
+  - Litigation research
+  - Legal data collection
+  limitations: Per-court scrapers break as courts change their sites, so expect gaps and breakage. US
+    only.
+  license: BSD-2-Clause
+  license_name: BSD 2-Clause "Simplified" License
+  stars: 633
+  forks: 173
+  open_issues: 280
+  contributors: unknown
+  last_commit: '2026-09-11'
+  created: '2014-08-08'
+  language: HTML
+  status: Active (last push 2026-09-11)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - BSD-2-Clause permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: Zackriya-Solutions/meetily
+  display_name: Meetily
+  github: https://github.com/Zackriya-Solutions/meetily
+  description: A self-hosted AI meeting assistant.
+  category: relationship-intelligence
+  tier: recommended
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: true
+  best_for: Meeting records
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: 'The meeting-intelligence layer a fund actually needs: transcribe founder calls and partner
+    meetings locally, produce notes, and keep the record without sending audio to a cloud service. Investment
+    discussions involve unannounced deals and other people''s confidential information.'
+  why_it_is_interesting: It runs locally with fast local models, which is the requirement that rules out
+    the commercial meeting assistants for most funds. Speaker separation and summaries without a per-seat
+    subscription.
+  good_for:
+  - Meeting records
+  - Call transcripts
+  - IC preparation
+  limitations: Local transcription needs decent hardware, and accuracy trails a hosted service. Recording
+    calls still requires consent and disclosure in many jurisdictions.
+  license: MIT
+  license_name: MIT License
+  stars: 30673
+  forks: 3314
+  open_issues: 373
+  contributors: unknown
+  last_commit: '2026-09-12'
+  created: '2024-12-26'
+  language: Rust
+  status: Active (last push 2026-09-12)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - MIT permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: pingcap/ossinsight
+  display_name: OSS Insight
+  github: https://github.com/pingcap/ossinsight
+  description: Analytics over the public GitHub event stream.
+  category: company-discovery
+  tier: recommended
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: false
+  best_for: GitHub signals
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: 'Technical traction without asking the company: how fast is a repository growing, who contributes,
+    where are the contributors located, is momentum rising or flattening. For a developer-tools or open-source
+    business this is the most objective signal available before revenue.'
+  why_it_is_interesting: It analyses the full public GitHub event history rather than current star counts,
+    so you can see trajectory and contributor geography. That is the difference between a vanity metric
+    and a diligence input.
+  good_for:
+  - Technical due diligence
+  - GitHub signals
+  - Developer market research
+  limitations: GitHub only, so it says nothing about closed-source businesses, and popularity is not revenue.
+    The hosted instance is the primary product.
+  license: Apache-2.0
+  license_name: Apache License 2.0
+  stars: 2505
+  forks: 446
+  open_issues: 29
+  contributors: unknown
+  last_commit: '2026-09-08'
+  created: '2022-01-19'
+  language: TypeScript
+  status: Active (last push 2026-09-08)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - Apache-2.0 permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: star-history/star-history
+  display_name: Star History
+  github: https://github.com/star-history/star-history
+  description: Plot repository star growth over time.
+  category: company-discovery
+  tier: recommended
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: false
+  best_for: GitHub signals
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: The fast sanity check on a developer-tool claim. A repo with a vertical star curve followed
+    by a plateau tells a different story from one climbing steadily, and a sudden spike often means a
+    launch or a Hacker News moment rather than adoption.
+  why_it_is_interesting: It is a small tool that answers a question people routinely get wrong, and the
+    curve is usually more informative than the total.
+  good_for:
+  - Technical due diligence
+  - GitHub signals
+  - Competitor tracking
+  limitations: Stars measure attention, not usage or revenue, and spikes are frequently launch-driven.
+    Read it as one input.
+  license: MIT
+  license_name: MIT License
+  stars: 9483
+  forks: 371
+  open_issues: 3
+  contributors: unknown
+  last_commit: '2026-09-12'
+  created: '2015-09-23'
+  language: TypeScript
+  status: Active (last push 2026-09-12)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - MIT permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: firecrawl/fire-enrich
+  display_name: Fire Enrich
+  github: https://github.com/firecrawl/fire-enrich
+  description: Turn an email or domain into company data.
+  category: company-discovery
+  tier: experimental
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: true
+  best_for: Company enrichment
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: 'The enrichment step in a sourcing pipeline: given a list of addresses from a community,
+    an event, or a newsletter, resolve them to companies with industry and size. That is how a list of
+    names becomes a target list.'
+  why_it_is_interesting: Enrichment is normally a paid API and this does the job with a crawler and a
+    model, so a fund can run it over its own lists without per-record pricing.
+  good_for:
+  - Company enrichment
+  - Inbound triage
+  - Sourcing pipelines
+  limitations: Enrichment quality depends on what is publicly crawlable, so results need checking before
+    they enter a CRM. Early project.
+  license: MIT
+  license_name: MIT License
+  stars: 1263
+  forks: 315
+  open_issues: 17
+  contributors: unknown
+  last_commit: '2025-10-08'
+  created: '2025-06-06'
+  language: TypeScript
+  status: Active (last push 2025-10-08)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - MIT permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: google/patents-public-data
+  display_name: Google Patents Public Data
+  github: https://github.com/google/patents-public-data
+  description: Patent data at scale, queryable in BigQuery.
+  category: datasets
+  tier: research
+  kind: dataset
+  vc_relevance: adaptable
+  vc_native: false
+  ai: false
+  best_for: IP research
+  starter: false
+  hidden_gem: true
+  starter_order: null
+  vc_use_case: Patent filings are a lagging but hard-to-fake signal of where a company and its competitors
+    are investing R&D. Useful for the technology landscape around a deep-tech target, including who else
+    is filing in the same space.
+  why_it_is_interesting: Global patent records with citations and classifications in one queryable dataset,
+    which is otherwise a commercial product. If you are mapping a technology area for a thesis, this is
+    the primary source.
+  good_for:
+  - Technical due diligence
+  - IP research
+  - Sector mapping
+  limitations: Requires BigQuery access and SQL, and the repository has not been updated recently, so
+    check the current data loading path. Filing-to-publication lag is eighteen months or more.
+  license: Apache-2.0
+  license_name: Apache License 2.0
+  stars: 691
+  forks: 181
+  open_issues: 38
+  contributors: unknown
+  last_commit: '2024-06-17'
+  created: '2017-06-05'
+  language: Jupyter Notebook
+  status: Archived (last push 2024-06-17)
+  archived: true
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - Apache-2.0 permits redistribution with attribution
+  owner_type: Organization
+  links_verified: unknown
+  notes: null
+- name: suzgunmirac/hupd
+  display_name: Harvard USPTO Patent Dataset
+  github: https://github.com/suzgunmirac/hupd
+  description: A large machine-learning-ready patent corpus.
+  category: datasets
+  tier: research
+  kind: dataset
+  vc_relevance: infrastructure
+  vc_native: false
+  ai: true
+  best_for: Patent research
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: Read it as the reference for what patent text can be classified and predicted, and use
+    the dataset to build a classifier for a specific technology area. Relevant when assessing or building
+    patent-intelligence tooling.
+  why_it_is_interesting: It is a published academic dataset with a defined task, which means results are
+    comparable and the collection method is documented.
+  good_for:
+  - Patent research
+  - Model building
+  - Technical diligence
+  limitations: US patents only, and the dataset is a research artefact rather than something maintained.
+    Last updated a few years ago.
+  license: MIT
+  license_name: MIT License
+  stars: 89
+  forks: 13
+  open_issues: 3
+  contributors: unknown
+  last_commit: '2023-12-14'
+  created: '2022-06-26'
+  language: Jupyter Notebook
+  status: Dormant (last push 2023-12-14, 33mo)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - MIT permits redistribution with attribution
+  owner_type: User
+  links_verified: unknown
+  notes: null
+- name: tdavidson/runway-tool
+  display_name: Runway Tool
+  github: https://github.com/tdavidson/runway-tool
+  description: Runway and cash-budget forecasting for a startup.
+  category: portfolio-management
+  tier: experimental
+  kind: software
+  vc_relevance: native
+  vc_native: true
+  ai: false
+  best_for: Runway monitoring
+  starter: false
+  hidden_gem: true
+  starter_order: null
+  vc_use_case: 'The single number a board watches: how many months of cash remain, under what hiring and
+    spend assumptions. This models the scenario, which is what a fund needs when a portfolio company''s
+    bridge question arrives two months earlier than planned.'
+  why_it_is_interesting: Almost no open-source tooling exists for this, despite it being the most-asked
+    portfolio question. It is a small model someone who understood the problem released.
+  good_for:
+  - Runway monitoring
+  - Portfolio support
+  - Board reporting
+  limitations: Small project that has not been touched since 2020, and the licence is not a standard SPDX
+    identifier. Read it as a model to adapt rather than a maintained tool.
+  license: unverified (Other)
+  license_name: Other
+  stars: 16
+  forks: 2
+  open_issues: 0
+  contributors: unknown
+  last_commit: '2020-10-12'
+  created: '2019-01-23'
+  language: unknown
+  status: Dormant (last push 2020-10-12, 71mo)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: unknown - verify upstream before redistributing
+  owner_type: User
+  links_verified: unknown
+  notes: null
+- name: sophymarine/openregistry
+  display_name: OpenRegistry
+  github: https://github.com/sophymarine/openregistry
+  description: Company registry data direct from official sources.
+  category: company-discovery
+  tier: experimental
+  kind: software
+  vc_relevance: adaptable
+  vc_native: false
+  ai: false
+  best_for: Entity verification
+  starter: false
+  hidden_gem: false
+  starter_order: null
+  vc_use_case: 'Incorporation and corporate-structure checking: is the entity real, where is it registered,
+    what is its status. A surprising number of pitches get the legal entity wrong, and the registry is
+    the authoritative answer.'
+  why_it_is_interesting: One of very few open attempts at official registry data, and it exposes it to
+    agents rather than only as a website. Corporate registries are fragmented and paid, which is why this
+    category is so thin.
+  good_for:
+  - Entity verification
+  - Legal due diligence
+  - KYC checking
+  limitations: Coverage of jurisdictions is limited and uneven, and registry data quality varies by country.
+    Early project with a small maintainer base.
+  license: Apache-2.0
+  license_name: Apache License 2.0
+  stars: 18
+  forks: 2
+  open_issues: 0
+  contributors: unknown
+  last_commit: '2026-09-07'
+  created: '2026-04-19'
+  language: JavaScript
+  status: Active (last push 2026-09-07)
+  archived: false
+  installation: See upstream README
+  documentation: unknown
+  demo: unknown
+  dependencies: unknown
+  self_hostable: true
+  commercial_restrictions: None stated - Apache-2.0 permits redistribution with attribution
+  owner_type: User
   links_verified: unknown
   notes: null

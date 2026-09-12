@@ -14,11 +14,12 @@ Financial, commercial, technical, legal, product, and AI/ML diligence, plus cust
 
 > Answers questions from scientific documents with citations.
 
-`Future-House/paper-qa` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; _software_
+`Future-House/paper-qa` &nbsp;·&nbsp; ⭐ **Essential** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 9.2k |
 | **Forks** | 917 |
@@ -52,11 +53,12 @@ Needs the source documents and an LLM key, and it will still miss domain context
 
 > A flexible interface for labelling and annotating data.
 
-`HumanSignal/label-studio` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`HumanSignal/label-studio` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 28.3k |
 | **Forks** | 3.7k |
@@ -90,11 +92,12 @@ Cloud features and collaboration sit behind a commercial tier. Setting it up for
 
 > Finds label errors and bad rows in a dataset.
 
-`cleanlab/cleanlab` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`cleanlab/cleanlab` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 11.7k |
 | **Forks** | 920 |
@@ -128,11 +131,12 @@ It ranks suspicious rows; someone still has to judge them. Findings on a small d
 
 > Observability and evaluation for models in production.
 
-`Arize-ai/phoenix` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`Arize-ai/phoenix` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 11.4k |
 | **Forks** | 1.1k |
@@ -166,11 +170,12 @@ Requires the target to instrument its system, so a fund cannot use it unilateral
 
 > Simple text annotation for classification and extraction.
 
-`doccano/doccano` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`doccano/doccano` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 10.8k |
 | **Forks** | 1.8k |
@@ -204,11 +209,12 @@ Text-focused, so it will not help with tables or images. Older project, with a d
 
 > Evaluation and testing for agents and LLM features.
 
-`langwatch/langwatch` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`langwatch/langwatch` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 3.5k |
 | **Forks** | 370 |
@@ -242,11 +248,12 @@ Value depends on the target being willing to run it, and designing meaningful ev
 
 > Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` &nbsp;·&nbsp; 🔥 **Interesting** &nbsp;·&nbsp; _software_
+`Rizzo-AI-Academy/rizzo-pii` &nbsp;·&nbsp; 🔥 **Recommended** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 969 |
 | **Forks** | 67 |
@@ -280,11 +287,12 @@ Detection will miss unusual identifiers, so a pass over the output is still need
 
 > Finds secrets committed to public repositories.
 
-`eth0izzle/shhgit` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`eth0izzle/shhgit` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 4k |
 | **Forks** | 480 |
@@ -318,11 +326,12 @@ Public repositories only, and a match is a lead: many are test fixtures or rotat
 
 > Agents that flag risks across legal and finance and link them.
 
-`zoharbabin/due-diligence-agents` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`zoharbabin/due-diligence-agents` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◆ **VC-native** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | Apache-2.0 |
 | **Stars** | 103 |
 | **Forks** | 23 |
@@ -356,11 +365,12 @@ Small project, and the agents produce flags for a human to judge rather than con
 
 > Checks whether training data was legally usable.
 
-`rishin-sharma/CorpusCustody` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; _software_
+`rishin-sharma/CorpusCustody` &nbsp;·&nbsp; 🧪 **Experimental** &nbsp;·&nbsp; ◇ **VC-adaptable** &nbsp;·&nbsp; _software_
 
 | | |
 |---|---|
 | **Category** | Due Diligence |
+| **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 51 |
 | **Forks** | 6 |

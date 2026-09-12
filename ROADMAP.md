@@ -4,28 +4,32 @@ Where this is going. Ordered by what would actually make the directory more usef
 
 ---
 
-## Now (v1.0)
+## Now (v1.1)
 
 - ✅ Curated directory across the full venture workflow
+- ✅ Two labelled axes: quality (`tier`) and relevance (`vc_relevance`), deliberately separate
+- ✅ Nine-stage workflow navigation with a shortlist and a stack shape per stage
+- ✅ A per-stage answer to "what do I install" rather than a category list
 - ✅ Verified metadata pipeline — every fact traceable to the GitHub API, timestamped
 - ✅ Weekly drift detection with a human review queue
 - ✅ Structured data export (`repositories.json` / `.yaml`) for building on top of
-- ✅ Validation in CI: schema, duplicates, licences, attribution, dead links
-- ✅ Starter Pack, Hidden Gems, workflow map, comparison matrix
+- ✅ Validation in CI: schema, duplicates, licences, attribution, dead links, relevance axes
 
 ## Next
 
-**Coverage: the blind spots this pass could not reach.**
-The highest-value additions are the projects that public search cannot find — tooling built inside funds and never announced, non-English ecosystems, and work hosted outside GitHub. This needs people, not queries: the most reliable path is readers telling us what is missing from their own stack.
+**A stated rubric for the tiers.** The tiers are defensible but the line between Essential and Recommended is currently one person's judgement, applied consistently. Writing down what tips an entry between them — and the cases where it was a close call — would let a contributor argue with the reasoning rather than with the outcome.
 
-**Contributor counts where they exist.**
-Currently `unknown` across most entries, because the endpoint is expensive and a guess would be worse than a gap. Worth filling in properly for Essential-tier entries at least.
-
-**Category-level "choose between these" guides.**
+**Per-category "choose between these" guides.**
 `COMPARISON.md` gives you a matrix. What it does not do is make the argument: *if you are a fund of this size, doing this kind of deal, pick X over Y, and here is what you give up.* That is the thing a new analyst actually needs, and it takes real writing.
 
+**Coverage: the blind spots search cannot reach.**
+The highest-value additions are the projects public search cannot find — tooling built inside funds and never announced, non-English ecosystems, and work hosted outside GitHub. [GAPS.md](GAPS.md) lists the sub-tasks with nothing behind them; the likeliest way any of those get filled is a reader telling us about something in a language we did not search in.
+
+**A first-class "build a stack" interface.**
+The stack recipes exist on the [build-your-own page](guides/build-your-own-vc-stack.md) and each stage page, but as prose. Generating them from `metadata/repositories.json` — so a recipe is a queryable set of components rather than a written list — would let a reader assemble a stack for their own situation instead of reading three preset ones.
+
 **Datasets, treated as first-class.**
-Software is well covered. Datasets are currently thinner, and the licence situation for data is messier than for code — non-commercial clauses and attribution requirements that catch people out. Each one needs the same treatment as a software entry: what it contains, what it costs to use, what breaks.
+Software is well covered; datasets are thinner, and the licence situation for data is messier than for code — non-commercial clauses and attribution requirements that catch people out. Each one needs the same treatment as a software entry: what it contains, what it costs to use, what breaks.
 
 **Standards and schemas, expanded.**
 Cap-table formats, financial reporting schemas, legal document structures. Unglamorous and disproportionately valuable, because a standard is the decision you only get to make once.

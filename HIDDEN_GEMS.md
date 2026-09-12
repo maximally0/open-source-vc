@@ -9,7 +9,7 @@ Every entry below is deliberately **not** ranked by stars. A repository with 900
 - recently emerged and not yet obvious
 - academically sound and not yet productised
 
-**38 projects.** If you only read two pages of this repository, make it this one and the [Starter Pack](STARTER_PACK.md).
+**40 projects.** If you only read two pages of this repository, make it this one and the [Starter Pack](STARTER_PACK.md).
 
 _2026-09-12_
 
@@ -19,7 +19,7 @@ _2026-09-12_
 
 > Double-entry accounting in plain text files.
 
-`beancount/beancount` · `GPL-2.0` · 6k★ · Interesting · [LP & Fund Management](categories/lp-management.md)
+`beancount/beancount` · `GPL-2.0` · 6k★ · Recommended · [LP & Fund Management](categories/lp-management.md)
 
 **Why it is here:** Plain-text accounting means every entry is diffable, reviewable, and permanent. For a fund vehicle, an audit trail that lives in git is a genuine improvement over a proprietary accounting file.
 
@@ -67,7 +67,7 @@ _2026-09-12_
 
 > A spreadsheet-native cap table that computes the maths properly.
 
-`1984vc/cap-table` · `MIT` · 139★ · Interesting · [Cap Tables & Equity](categories/cap-tables.md)
+`1984vc/cap-table` · `MIT` · 139★ · Recommended · [Cap Tables & Equity](categories/cap-tables.md)
 
 **Why it is here:** Someone who understood the arithmetic released the working model. That is a small corner of the market that commercial tools charge a lot to occupy.
 
@@ -83,7 +83,7 @@ _2026-09-12_
 
 > An agent that researches a company and returns a structured brief.
 
-`guy-hartstein/company-research-agent` · `Apache-2.0` · 2.3k★ · Interesting · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
+`guy-hartstein/company-research-agent` · `Apache-2.0` · 2.3k★ · Recommended · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
 
 **Why it is here:** It is built on a graph of research steps rather than one long prompt, so the output shows the retrieval path. That makes the result easier to spot-check than a single model answer.
 
@@ -115,7 +115,7 @@ _2026-09-12_
 
 > Publish any database as a browsable, queryable site.
 
-`simonw/datasette` · `Apache-2.0` · 11.5k★ · Interesting · [Portfolio Management](categories/portfolio-management.md)
+`simonw/datasette` · `Apache-2.0` · 11.5k★ · Recommended · [Portfolio Management](categories/portfolio-management.md)
 
 **Why it is here:** It turns a database file into an explorable interface with almost no work, including a JSON API, so the same thing serves humans and scripts.
 
@@ -131,7 +131,7 @@ _2026-09-12_
 
 > Record linkage and entity resolution for messy company lists.
 
-`dedupeio/dedupe` · `MIT` · 4.5k★ · Interesting · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
+`dedupeio/dedupe` · `MIT` · 4.5k★ · Recommended · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
 
 **Why it is here:** You label a handful of pairs and it learns the rest, which handles the cases exact string matching misses: "Acme AI Inc" against "Acme.ai", or a legal entity against its trading name.
 
@@ -163,7 +163,7 @@ _2026-09-12_
 
 > Finds lookalike domains around a brand.
 
-`elceef/dnstwist` · `Apache-2.0` · 5.7k★ · Interesting · [Web Intelligence & OSINT](categories/osint.md)
+`elceef/dnstwist` · `Apache-2.0` · 5.7k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
 
 **Why it is here:** It generates permutations and then checks which resolve and what is behind them, so results are live domains rather than speculation.
 
@@ -243,7 +243,7 @@ _2026-09-12_
 
 > Browse the YC portfolio as a searchable, filterable site.
 
-`KonstantinMB/exploreyc` · `MIT` · 44★ · Interesting · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
+`KonstantinMB/exploreyc` · `MIT` · 44★ · Recommended · [Company Discovery & Deal Sourcing](categories/company-discovery.md)
 
 **Why it is here:** It layers an idea validator, a hiring board, and a crude success signal over the same dataset, which shows how far a public company graph can be stretched.
 
@@ -259,7 +259,7 @@ _2026-09-12_
 
 > An MCP server that gives agents stock market data.
 
-`financial-datasets/mcp-server` · `MIT` · 2.3k★ · Interesting · [Investment Analysis](categories/investment-analysis.md)
+`financial-datasets/mcp-server` · `MIT` · 2.3k★ · Recommended · [Investment Analysis](categories/investment-analysis.md)
 
 **Why it is here:** It takes the standard MCP approach, so it drops into any compatible agent instead of requiring a bespoke integration.
 
@@ -275,7 +275,7 @@ _2026-09-12_
 
 > Graph-based investigations you can see.
 
-`reconurge/flowsint` · `Apache-2.0` · 7.8k★ · Interesting · [Web Intelligence & OSINT](categories/osint.md)
+`reconurge/flowsint` · `Apache-2.0` · 7.8k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
 
 **Why it is here:** It makes the investigation itself the interface, so the path from a name to a conclusion is visible and reviewable rather than buried in a script.
 
@@ -287,11 +287,27 @@ _2026-09-12_
 
 ---
 
+## Google Patents Public Data
+
+> Patent data at scale, queryable in BigQuery.
+
+`google/patents-public-data` · `Apache-2.0` · 691★ · Research · [Datasets & Open Data](categories/datasets.md)
+
+**Why it is here:** Global patent records with citations and classifications in one queryable dataset, which is otherwise a commercial product. If you are mapping a technology area for a thesis, this is the primary source.
+
+**VC use case:** Patent filings are a lagging but hard-to-fake signal of where a company and its competitors are investing R&D. Useful for the technology landscape around a deep-tech target, including who else is filing in the same space.
+
+**Limitations:** Requires BigQuery access and SQL, and the repository has not been updated recently, so check the current data loading path. Filing-to-publication lag is eighteen months or more.
+
+[GitHub](https://github.com/google/patents-public-data)
+
+---
+
 ## Grist
 
 > A spreadsheet that behaves like a database.
 
-`gristlabs/grist-core` · `Apache-2.0` · 11.8k★ · Interesting · [LP & Fund Management](categories/lp-management.md)
+`gristlabs/grist-core` · `Apache-2.0` · 11.8k★ · Recommended · [LP & Fund Management](categories/lp-management.md)
 
 **Why it is here:** It keeps the spreadsheet mental model while making the data relational, which is the right trade for fund maths that will be revisited for a decade.
 
@@ -307,7 +323,7 @@ _2026-09-12_
 
 > Plain-text accounting with a serious command line.
 
-`hledgerorg/hledger` · `GPL-3.0` · 4.7k★ · Interesting · [LP & Fund Management](categories/lp-management.md)
+`hledgerorg/hledger` · `GPL-3.0` · 4.7k★ · Recommended · [LP & Fund Management](categories/lp-management.md)
 
 **Why it is here:** Mature and fast, with reporting commands that cover what a small fund actually needs to produce. Its author has maintained it for years, which matters in accounting.
 
@@ -339,7 +355,7 @@ _2026-09-12_
 
 > Get usable data out of inline XBRL files.
 
-`kanedata/ixbrl-parse` · `MIT` · 71★ · Interesting · [Standards & Schemas](categories/standards.md)
+`kanedata/ixbrl-parse` · `MIT` · 71★ · Recommended · [Standards & Schemas](categories/standards.md)
 
 **Why it is here:** Inline XBRL mixed into HTML breaks naive parsers, and this handles the transformation properly rather than treating the file as text.
 
@@ -355,7 +371,7 @@ _2026-09-12_
 
 > Job postings from five boards into one dataframe.
 
-`speedyapply/JobSpy` · `MIT` · 4.3k★ · Interesting · [Founder & Talent Discovery](categories/founder-discovery.md)
+`speedyapply/JobSpy` · `MIT` · 4.3k★ · Recommended · [Founder & Talent Discovery](categories/founder-discovery.md)
 
 **Why it is here:** It covers LinkedIn, Indeed, Glassdoor, Google, and ZipRecruiter behind one interface and returns a typed frame, so a hiring signal can be built in an afternoon rather than a data-engineering project.
 
@@ -403,7 +419,7 @@ _2026-09-12_
 
 > Graph analysis in plain Python.
 
-`networkx/networkx` · `unverified (Other)` · 17.3k★ · Essential · [Relationship Intelligence](categories/relationship-intelligence.md)
+`networkx/networkx` · `unverified (Other)` · 17.3k★ · Recommended · [Relationship Intelligence](categories/relationship-intelligence.md)
 
 **Why it is here:** Co-investment graphs, board interlocks, and founder networks are all the same problem, and this is the standard tool for it. It needs no database and no infrastructure.
 
@@ -483,7 +499,7 @@ _2026-09-12_
 
 > Portfolio construction and optimisation in Python.
 
-`PyPortfolio/PyPortfolioOpt` · `MIT` · 6k★ · Interesting · [LP & Fund Management](categories/lp-management.md)
+`PyPortfolio/PyPortfolioOpt` · `MIT` · 6k★ · Recommended · [LP & Fund Management](categories/lp-management.md)
 
 **Why it is here:** The methods are documented with their assumptions stated, which matters when the output feeds an allocation decision and someone asks why a weight is what it is.
 
@@ -499,7 +515,7 @@ _2026-09-12_
 
 > Generate Word tracked changes from Python.
 
-`JSv4/Python-Redlines` · `MIT` · 128★ · Interesting · [Legal & Transaction Infrastructure](categories/legal.md)
+`JSv4/Python-Redlines` · `MIT` · 128★ · Recommended · [Legal & Transaction Infrastructure](categories/legal.md)
 
 **Why it is here:** Producing genuine tracked changes rather than a PDF comparison is fiddly, and this solves it. There is almost nothing else open source that does it.
 
@@ -515,7 +531,7 @@ _2026-09-12_
 
 > Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 969★ · Interesting · [Due Diligence](categories/due-diligence.md)
+`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 969★ · Recommended · [Due Diligence](categories/due-diligence.md)
 
 **Why it is here:** It runs locally, which is the whole point. Most PII tooling assumes the document is going to a cloud service you have already decided to trust.
 
@@ -524,6 +540,22 @@ _2026-09-12_
 **Limitations:** Detection will miss unusual identifiers, so a pass over the output is still needed. Anonymisation is not a legal substitute for an NDA.
 
 [GitHub](https://github.com/Rizzo-AI-Academy/rizzo-pii)
+
+---
+
+## Runway Tool
+
+> Runway and cash-budget forecasting for a startup.
+
+`tdavidson/runway-tool` · `unverified (Other)` · 16★ · Experimental · [Portfolio Management](categories/portfolio-management.md)
+
+**Why it is here:** Almost no open-source tooling exists for this, despite it being the most-asked portfolio question. It is a small model someone who understood the problem released.
+
+**VC use case:** The single number a board watches: how many months of cash remain, under what hiring and spend assumptions. This models the scenario, which is what a fund needs when a portfolio company's bridge question arrives two months earlier than planned.
+
+**Limitations:** Small project that has not been touched since 2020, and the licence is not a standard SPDX identifier. Read it as a model to adapt rather than a maintained tool.
+
+[GitHub](https://github.com/tdavidson/runway-tool)
 
 ---
 
@@ -595,7 +627,7 @@ _2026-09-12_
 
 > Transcription with word timings and speaker labels.
 
-`m-bain/whisperX` · `BSD-2-Clause` · 24k★ · Interesting · [Relationship Intelligence](categories/relationship-intelligence.md)
+`m-bain/whisperX` · `BSD-2-Clause` · 24k★ · Recommended · [Relationship Intelligence](categories/relationship-intelligence.md)
 
 **Why it is here:** It adds speaker diarisation and accurate word-level timestamps on top of Whisper, which turns a transcript into something closer to a minute-by-minute record.
 

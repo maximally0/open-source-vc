@@ -55,6 +55,7 @@ repos:
       their responses, and some sites rate-limit or block outright.
     dependencies: Python 3.9+, no API keys required
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -65,7 +66,7 @@ repos:
 
   - name: soxoj/maigret
     category: founder-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Maigret
     tagline: Build a dossier on a person from one username.
@@ -85,6 +86,7 @@ repos:
       Reports are only as good as what is public, and common usernames produce false
       positives. Treat every result as a lead to confirm.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -112,6 +114,7 @@ repos:
       Only shows what is externally visible. A clean report is not a clean bill of
       health, and a missing finding is not evidence of absence.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -122,7 +125,7 @@ repos:
 
   - name: speedyapply/JobSpy
     category: founder-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: JobSpy
     tagline: Job postings from five boards into one dataframe.
@@ -142,6 +145,7 @@ repos:
       Upstream layout changes break scrapers without warning, and collecting from these
       boards may breach their terms of service. Check that before running it at scale.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -150,7 +154,7 @@ repos:
 
   - name: lockfale/OSINT-Framework
     category: founder-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: OSINT Framework
     tagline: A map of where to look, organised by what you already have.
@@ -169,6 +173,7 @@ repos:
       Many listed links are stale or lead to commercial products. Nothing here checks
       the links for you.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -176,7 +181,7 @@ repos:
 
   - name: laramies/theHarvester
     category: founder-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: theHarvester
     tagline: Emails, subdomains, and names tied to a domain.
@@ -197,6 +202,7 @@ repos:
       commercial uses are unclear. Check with counsel before shipping anything built
       on it, and note that a missing licence is reported here rather than assumed away.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -222,6 +228,7 @@ repos:
       LinkedIn's terms prohibit automated collection and accounts get restricted for it.
       Use only where you accept that risk; prefer licensed data for anything systematic.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: false
@@ -248,6 +255,7 @@ repos:
       Instagram actively blocks bulk collection, so expect throttling and account
       losses. Public content only, and the platform's terms still apply to how you use it.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -279,6 +287,7 @@ repos:
       funding rounds or valuations. There is no licence file, so confirm terms before
       redistributing the data.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     starter: true
@@ -289,7 +298,7 @@ repos:
 
   - name: KonstantinMB/exploreyc
     category: company-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: ExploreYC
     tagline: Browse the YC portfolio as a searchable, filterable site.
@@ -308,6 +317,7 @@ repos:
       Small project with a narrow dataset behind it, and the predictive features are
       demonstration-grade rather than something to make decisions on.
     vc_native: true
+    vc_relevance: native
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -316,7 +326,7 @@ repos:
 
   - name: guy-hartstein/company-research-agent
     category: company-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Company Research Agent
     tagline: An agent that researches a company and returns a structured brief.
@@ -336,6 +346,7 @@ repos:
       Requires a search API key and an LLM provider, so it costs money to run. Output
       quality tracks the underlying search results, and citations need checking.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -344,7 +355,7 @@ repos:
 
   - name: dedupeio/dedupe
     category: company-discovery
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: dedupe
     tagline: Record linkage and entity resolution for messy company lists.
@@ -364,6 +375,7 @@ repos:
       Needs labelled training pairs to perform well, and gets slow on millions of rows
       without tuning. Python only.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -391,6 +403,7 @@ repos:
       It reports existence, not quality or traction. A hit means something similar is
       public, which is not the same as a competitor, and a miss proves nothing.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -418,6 +431,7 @@ repos:
       Early and thin compared with commercial alternatives, and coverage of any given
       sector is likely incomplete. Verify entries upstream before relying on them.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -447,6 +461,7 @@ repos:
       Interface and data are Chinese-language, coverage stops at the programme's end, and
       there is no licence file. Confirm terms before reuse.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -479,6 +494,7 @@ repos:
       Early-stage with a small maintainer base, and no licence file is present, so terms
       for reuse are unclear. Expect to write your own connectors.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -506,6 +522,7 @@ repos:
       Depends on external news and data sources that may change or require keys, and the
       ranking logic is simple enough to disagree with. Small project.
     vc_native: true
+    vc_relevance: native
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -533,6 +550,7 @@ repos:
       Advanced features sit behind a commercial tier, and the licence is not a standard
       open-source one. Large bases need real database tuning.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -543,7 +561,7 @@ repos:
 
   - name: huginn/huginn
     category: deal-sourcing
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Huginn
     tagline: Agents that watch the web and act when something changes.
@@ -562,6 +580,7 @@ repos:
       Dated interface, and the self-hosted install has real operational weight. Agents
       break quietly when a source page changes its markup.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -589,6 +608,7 @@ repos:
       Some features are behind a paid hosted tier, and a busy page still needs selector
       tuning. Notification plumbing is yours to set up.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -599,7 +619,7 @@ repos:
 
   - name: dubinc/dub
     category: deal-sourcing
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Dub
     tagline: Link attribution and inbound source tracking.
@@ -618,6 +638,7 @@ repos:
       The core is open source with a hosted commercial product on top, and some analytics
       features are paid. Self-hosting requires a database and infrastructure.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     verification: true
@@ -650,6 +671,7 @@ repos:
       source confidently, and every citation still needs opening.
     dependencies: Python 3.11+, OpenAI or another LLM provider, search API key
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -680,6 +702,7 @@ repos:
       Still needs an editor. It will produce fluent text about a market it has
       misunderstood, and the reference list occasionally includes sources it read thinly.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -690,7 +713,7 @@ repos:
 
   - name: Alibaba-NLP/DeepResearch
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: research
     display_name: Tongyi DeepResearch
     tagline: An open deep-research agent with published weights.
@@ -710,6 +733,7 @@ repos:
       Needs serious GPU capacity to run well. Setup is a research-engineering job, not an
       afternoon install.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: false
@@ -718,7 +742,7 @@ repos:
 
   - name: dzhng/deep-research
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: deep-research
     tagline: A small, readable iterative research loop.
@@ -737,6 +761,7 @@ repos:
       Minimal by design: no UI, thin error handling, and no provenance beyond the source
       list. Treat it as a starting point rather than a product.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: false
@@ -765,6 +790,7 @@ repos:
       Indexing quality depends on the source documents being reasonably clean. The
       self-hosted path needs ongoing maintenance, and large corpora need real hardware.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -775,7 +801,7 @@ repos:
 
   - name: arc53/DocsGPT
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: DocsGPT
     tagline: Chat over your own document collections.
@@ -794,6 +820,7 @@ repos:
       Retrieval quality is only as good as the chunking, and answers need verification
       against the page. Self-hosting is a real deployment.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -801,7 +828,7 @@ repos:
 
   - name: sansan0/TrendRadar
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: TrendRadar
     tagline: Aggregated trend and sentiment monitoring across platforms.
@@ -820,6 +847,7 @@ repos:
       Volume is the enemy: without tight keyword rules the alerts become noise. It
       reflects online attention, which is not the same as market demand.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -847,6 +875,7 @@ repos:
       Young project with a large surface area, so individual tools vary in reliability.
       Some upstream sources require keys or rate-limit heavily.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -855,7 +884,7 @@ repos:
 
   - name: MiroMindAI/MiroThinker
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: research
     display_name: MiroThinker
     tagline: A research agent tuned for prediction and forecasting tasks.
@@ -874,6 +903,7 @@ repos:
       Forecasting accuracy on venture-scale questions is unproven, and the published
       benchmarks are not drawn from private markets. Treat outputs as one input.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -898,6 +928,7 @@ repos:
     limitations: >
       A research implementation, not a product. Expect to read code and papers to use it.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -924,6 +955,7 @@ repos:
       Benchmark tasks are general-purpose rather than venture-specific, so a high score
       does not mean it can research a market well.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -931,7 +963,7 @@ repos:
 
   - name: zilliztech/deep-searcher
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Deep Searcher
     tagline: Private-data research with citations.
@@ -950,6 +982,7 @@ repos:
       Needs a vector store and an LLM key, and answer quality depends heavily on how the
       documents were prepared.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -957,7 +990,7 @@ repos:
 
   - name: MODSetter/SurfSense
     category: market-research
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: SurfSense
     tagline: NotebookLM-style research over live web and platform data.
@@ -976,6 +1009,7 @@ repos:
       Platform connectors break as those platforms change access, and coverage is
       uneven. Licence is not a standard SPDX identifier, so check terms.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -1002,6 +1036,7 @@ repos:
       More moving parts than a single-loop agent, and the coordination overhead is real.
       Early-stage.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -1028,6 +1063,7 @@ repos:
       Early project, and the value depends on discipline in adding to it. Search quality
       over a large accumulated corpus is untested.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -1052,6 +1088,7 @@ repos:
       No licence file is present, so reuse terms are unclear. Feed availability changes
       without notice.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1062,7 +1099,7 @@ repos:
   # =========================================================================
   - name: scrapy/scrapy
     category: osint
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: Scrapy
     tagline: The long-standing Python framework for crawling sites at scale.
@@ -1083,6 +1120,7 @@ repos:
       crawling requires configuration, and site terms still apply.
     dependencies: Python 3.9+
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: false
@@ -1092,7 +1130,7 @@ repos:
 
   - name: apify/crawlee
     category: osint
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Crawlee
     tagline: Crawling and browser automation with anti-blocking built in.
@@ -1111,6 +1149,7 @@ repos:
       Fingerprint management is an arms race you can lose. Running browsers at scale needs
       real infrastructure.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -1118,7 +1157,7 @@ repos:
 
   - name: mendableai/firecrawl
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Firecrawl
     tagline: Turns websites into clean markdown for models.
@@ -1138,6 +1177,7 @@ repos:
       behaviour is easier to get from the hosted version. Self-hosting needs browser
       infrastructure.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: partial
     verification: true
@@ -1145,7 +1185,7 @@ repos:
 
   - name: microsoft/playwright
     category: osint
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: Playwright
     tagline: Drive Chrome, Firefox, and WebKit from code.
@@ -1164,6 +1204,7 @@ repos:
       Needs browser binaries installed and a fair amount of memory per instance. Site
       terms apply to whatever you automate.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: true
@@ -1194,6 +1235,7 @@ repos:
       Saved pages can be large, and some dynamic content still fails to capture. It is a
       snapshot, not a legal record of what a company said.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -1204,7 +1246,7 @@ repos:
 
   - name: smicallef/spiderfoot
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: SpiderFoot
     tagline: Automates OSINT collection and maps what it finds.
@@ -1223,6 +1265,7 @@ repos:
       Noisy without tuning, and some modules need API keys. Output needs a human to
       separate signal from coincidence.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1230,7 +1273,7 @@ repos:
 
   - name: blacklanternsecurity/bbot
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: BBOT
     tagline: A recursive scanner that follows what it discovers.
@@ -1249,6 +1292,7 @@ repos:
       Active scanning is not passive reconnaissance: some techniques are detectable and
       may breach terms or law depending on the target. Get authorisation.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1256,7 +1300,7 @@ repos:
 
   - name: OpenCTI-Platform/opencti
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: OpenCTI
     tagline: A structured platform for intelligence about entities and their links.
@@ -1276,6 +1320,7 @@ repos:
       Heavy to deploy, with several services and a real learning curve. Built for threat
       intelligence, so the vocabulary takes adapting.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1283,7 +1328,7 @@ repos:
 
   - name: reconurge/flowsint
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Flowsint
     tagline: Graph-based investigations you can see.
@@ -1303,6 +1348,7 @@ repos:
       Early project. Built for security investigations, so some entity types and
       connectors need adapting for company research.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -1311,7 +1357,7 @@ repos:
 
   - name: yogeshojha/rengine
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: reNgine
     tagline: Recon-as-a-service with a web interface.
@@ -1330,6 +1376,7 @@ repos:
       Operationally heavy for what most funds need, and active scanning carries the same
       authorisation requirements as any other recon tool.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1337,7 +1384,7 @@ repos:
 
   - name: j3ssie/osmedeus
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Osmedeus
     tagline: Chains security tools into repeatable reconnaissance workflows.
@@ -1356,6 +1403,7 @@ repos:
       Workflow definitions need maintaining as the underlying tools change. Same
       authorisation caveats as any active scanning.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1363,7 +1411,7 @@ repos:
 
   - name: ivre/ivre
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: IVRE
     tagline: Run your own internet-wide scan database instead of renting one.
@@ -1382,6 +1430,7 @@ repos:
       Operating a scanner and its database is not a small job. Active scanning requires
       authorisation and there are legal limits by jurisdiction.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1389,7 +1438,7 @@ repos:
 
   - name: elceef/dnstwist
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: dnstwist
     tagline: Finds lookalike domains around a brand.
@@ -1408,6 +1457,7 @@ repos:
       Fuzz results include legitimate lookalikes, so each hit needs a look. Some
       detection features depend on external services.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -1416,7 +1466,7 @@ repos:
 
   - name: projectdiscovery/subfinder
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: subfinder
     tagline: Fast passive subdomain discovery.
@@ -1435,6 +1485,7 @@ repos:
       Certificate transparency data is retrospective, and a missing subdomain means
       nothing. Some sources need API keys for better coverage.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1442,7 +1493,7 @@ repos:
 
   - name: projectdiscovery/httpx
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: httpx
     tagline: Probe many hosts at once and report what is live.
@@ -1461,6 +1512,7 @@ repos:
       Active probing: it sends requests, so the target sees them. Technology detection
       can be wrong.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1468,7 +1520,7 @@ repos:
 
   - name: s0md3v/Photon
     category: osint
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Photon
     tagline: A fast crawler built for open-source collection.
@@ -1487,6 +1539,7 @@ repos:
       Crawls whatever you point it at, so rate and scope need care, and the target can
       see the traffic. Findings need interpretation.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1494,7 +1547,7 @@ repos:
 
   - name: puppeteer/puppeteer
     category: osint
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: Puppeteer
     tagline: Control Chrome from JavaScript.
@@ -1513,6 +1566,7 @@ repos:
       Chrome-only, and the maintainers position Playwright as the cross-browser
       option. Memory use is high at scale.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -1545,6 +1599,7 @@ repos:
       Single-user personal CRM, not a team pipeline: no shared ownership, no deal stages.
       Self-hosting means you own the backups.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -1576,6 +1631,7 @@ repos:
       Some features sit behind a hosted commercial tier, and the licence is not a
       standard SPDX identifier.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     starter: false
@@ -1585,7 +1641,7 @@ repos:
 
   - name: frappe/crm
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Frappe CRM
     tagline: A CRM built on the Frappe framework.
@@ -1605,6 +1661,7 @@ repos:
       Frappe's conventions take learning if your team is not already on that stack.
       Smaller feature set than dedicated CRMs.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1612,7 +1669,7 @@ repos:
 
   - name: espocrm/espocrm
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: EspoCRM
     tagline: A long-lived open CRM with a mature extension model.
@@ -1630,6 +1687,7 @@ repos:
     limitations: >
       Interface and design show their age, and the most capable extensions are paid.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1637,7 +1695,7 @@ repos:
 
   - name: krayin/laravel-crm
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Krayin CRM
     tagline: A lightweight CRM on Laravel.
@@ -1653,6 +1711,7 @@ repos:
     limitations: >
       Smaller community than the established CRMs, and fewer integrations out of the box.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1660,7 +1719,7 @@ repos:
 
   - name: odoo/odoo
     category: relationship-intelligence
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Odoo
     tagline: "An open business suite covering CRM, accounting, invoicing, and projects."
@@ -1679,12 +1738,13 @@ repos:
       Community edition is open source, but the most useful modules are enterprise-only.
       Deploying and maintaining it is a genuine operations job.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     verification: true
     best_for: Fund back office
 
-  - name: calcom/cal.com
+  - name: calcom/cal.diy
     category: relationship-intelligence
     tier: essential
     kind: software
@@ -1706,6 +1766,7 @@ repos:
       Self-hosted updates are your responsibility, and the most advanced team features are
       commercial. Some calendar providers have quirks that need working around.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -1716,7 +1777,7 @@ repos:
 
   - name: networkx/networkx
     category: relationship-intelligence
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: NetworkX
     tagline: Graph analysis in plain Python.
@@ -1739,6 +1800,7 @@ repos:
       you feed it.
     dependencies: Python 3.10+
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: false
@@ -1748,7 +1810,7 @@ repos:
 
   - name: openai/whisper
     category: relationship-intelligence
-    tier: essential
+    tier: recommended
     kind: software
     display_name: Whisper
     tagline: Speech to text that holds up on real calls.
@@ -1768,6 +1830,7 @@ repos:
       Needs a GPU for practical speed on long recordings, and no speaker separation: you
       get a wall of text unless you pair it with a diarisation tool.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -1778,7 +1841,7 @@ repos:
 
   - name: m-bain/whisperX
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: WhisperX
     tagline: Transcription with word timings and speaker labels.
@@ -1797,6 +1860,7 @@ repos:
       More setup than plain Whisper, and diarisation degrades when several people speak
       at once or the audio is poor.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -1805,7 +1869,7 @@ repos:
 
   - name: SYSTRAN/faster-whisper
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: faster-whisper
     tagline: Whisper transcription at several times the speed.
@@ -1824,6 +1888,7 @@ repos:
       Same accuracy profile as Whisper, including the lack of speaker separation. Needs
       the underlying inference runtime installed.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -1831,7 +1896,7 @@ repos:
 
   - name: civicrm/civicrm-core
     category: relationship-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: CiviCRM
     tagline: A constituent relationship system built for mission-driven organisations.
@@ -1850,6 +1915,7 @@ repos:
       Dated interface, and the data model assumes nonprofit workflows, so a conventional
       fund would be forcing it. Deployment is substantial.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -1881,6 +1947,7 @@ repos:
       Needs the source documents and an LLM key, and it will still miss domain context an
       expert would bring. Citations need opening.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -1911,6 +1978,7 @@ repos:
       Small project, and the agents produce flags for a human to judge rather than
       conclusions. Nothing here replaces counsel.
     vc_native: false
+    vc_relevance: native
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -1939,6 +2007,7 @@ repos:
       Very early project. It reads what the licences say, which is a factual check, not
       legal advice on whether a particular use is defensible.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -1947,7 +2016,7 @@ repos:
 
   - name: cleanlab/cleanlab
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Cleanlab
     tagline: Finds label errors and bad rows in a dataset.
@@ -1966,6 +2035,7 @@ repos:
       It ranks suspicious rows; someone still has to judge them. Findings on a small
       dataset are noisy.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -1973,7 +2043,7 @@ repos:
 
   - name: Arize-ai/phoenix
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Phoenix
     tagline: Observability and evaluation for models in production.
@@ -1992,6 +2062,7 @@ repos:
       Requires the target to instrument its system, so a fund cannot use it
       unilaterally. The hosted platform is the commercial product.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -1999,7 +2070,7 @@ repos:
 
   - name: langwatch/langwatch
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: LangWatch
     tagline: Evaluation and testing for agents and LLM features.
@@ -2018,6 +2089,7 @@ repos:
       Value depends on the target being willing to run it, and designing meaningful evals
       is skilled work.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -2045,6 +2117,7 @@ repos:
       Public repositories only, and a match is a lead: many are test fixtures or rotated
       keys. Confirm before you write it into a memo.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -2053,7 +2126,7 @@ repos:
 
   - name: Rizzo-AI-Academy/rizzo-pii
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Rizzo PII
     tagline: Anonymise documents before they reach a model.
@@ -2073,6 +2146,7 @@ repos:
       Detection will miss unusual identifiers, so a pass over the output is still needed.
       Anonymisation is not a legal substitute for an NDA.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -2081,7 +2155,7 @@ repos:
 
   - name: HumanSignal/label-studio
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Label Studio
     tagline: A flexible interface for labelling and annotating data.
@@ -2101,6 +2175,7 @@ repos:
       Cloud features and collaboration sit behind a commercial tier. Setting it up for a
       one-off study is more work than the study.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: partial
     verification: true
@@ -2108,7 +2183,7 @@ repos:
 
   - name: doccano/doccano
     category: due-diligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: doccano
     tagline: Simple text annotation for classification and extraction.
@@ -2127,6 +2202,7 @@ repos:
       Text-focused, so it will not help with tables or images. Older project, with a
       dated interface.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -2159,6 +2235,7 @@ repos:
       high-throughput pipeline needs a container and real resources.
     dependencies: Python 3.10+, optional system libraries for some formats
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -2189,6 +2266,7 @@ repos:
       Model-based parsing is slower than text extraction and needs decent hardware. Very
       unusual layouts still produce errors worth checking.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -2199,7 +2277,7 @@ repos:
 
   - name: opendatalab/MinerU
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: MinerU
     tagline: PDF to markdown with heavy layout models.
@@ -2218,6 +2296,7 @@ repos:
       GPU strongly recommended, and licence terms are not a standard SPDX identifier, so
       check them before commercial use.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2245,6 +2324,7 @@ repos:
       Commercial-use terms require checking above a revenue threshold, which is unusual
       and worth reading rather than assuming. GPU or a hosted option for speed.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -2255,7 +2335,7 @@ repos:
 
   - name: datalab-to/surya
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Surya
     tagline: OCR and layout detection across many languages.
@@ -2274,6 +2354,7 @@ repos:
       Another model to run, with the same commercial-licence caveat as the team's other
       tools. Accuracy on poor scans varies.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2281,7 +2362,7 @@ repos:
 
   - name: PaddlePaddle/PaddleOCR
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: PaddleOCR
     tagline: OCR across 80+ languages, including non-Latin scripts.
@@ -2300,6 +2381,7 @@ repos:
       Custom training and tuning are part of the framework's ethos, which is more setup
       than a drop-in tool. Output needs post-processing.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2307,7 +2389,7 @@ repos:
 
   - name: tesseract-ocr/tesseract
     category: document-intelligence
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Tesseract
     tagline: The OCR engine nearly everything else is built on.
@@ -2326,6 +2408,7 @@ repos:
       Layout-blind: it reads characters well and structure badly, so tables and
       multi-column pages need a separate tool. Accuracy trails modern vision models.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2353,6 +2436,7 @@ repos:
       Quality depends on the underlying OCR engine, and it is CPU-heavy on large
       batches. Not a layout extraction tool.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: true
@@ -2363,7 +2447,7 @@ repos:
 
   - name: camelot-dev/camelot
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Camelot
     tagline: Extract tables from PDFs as dataframes.
@@ -2382,6 +2466,7 @@ repos:
       Works best on tables with visible ruling lines; borderless tables need manual
       coordinates. Numeric accuracy must be spot-checked against the source page.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2389,7 +2474,7 @@ repos:
 
   - name: jsvine/pdfplumber
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: pdfplumber
     tagline: Precise access to PDF text, lines, and tables.
@@ -2408,6 +2493,7 @@ repos:
       Not a layout model: you write the logic per document type. Slow on large document
       sets.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2415,7 +2501,7 @@ repos:
 
   - name: pymupdf/PyMuPDF
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: PyMuPDF
     tagline: A fast library for reading and rewriting PDFs.
@@ -2434,6 +2520,7 @@ repos:
       AGPL-licensed, which has real obligations if you build a network service on it. Not
       a layout understanding tool.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2441,7 +2528,7 @@ repos:
 
   - name: apache/tika
     category: document-intelligence
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Apache Tika
     tagline: Metadata and text from almost any file format.
@@ -2461,6 +2548,7 @@ repos:
       Text extraction is format-level, not layout-aware, so structure is lost. It is a
       Java service, which is a deployment consideration.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2468,7 +2556,7 @@ repos:
 
   - name: Stirling-Tools/Stirling-PDF
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Stirling PDF
     tagline: A self-hosted toolkit of PDF operations.
@@ -2488,6 +2576,7 @@ repos:
       Heavy operations need resources, and the licence is not a standard SPDX identifier.
       Interface-first, so batch work is better done in code.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -2514,6 +2603,7 @@ repos:
       Retro-fitting years of existing documents takes effort and storage. Licence is
       GPL, worth noting if you plan to build a service on it.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -2524,7 +2614,7 @@ repos:
 
   - name: docusealco/docuseal
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: DocuSeal
     tagline: Self-hosted e-signature.
@@ -2544,6 +2634,7 @@ repos:
       documents and audit trail live on your infrastructure, which you then have to
       secure.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     starter: false
@@ -2554,7 +2645,7 @@ repos:
 
   - name: documenso/documenso
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Documenso
     tagline: An open DocuSign alternative.
@@ -2573,6 +2664,7 @@ repos:
       Some team and enterprise features are paid. Fewer integrations than the incumbents,
       and self-hosting is your responsibility.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     verification: true
@@ -2580,7 +2672,7 @@ repos:
 
   - name: JaidedAI/EasyOCR
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: EasyOCR
     tagline: OCR in 80+ languages with almost no setup.
@@ -2598,6 +2690,7 @@ repos:
       Slower and less accurate than newer layout models on complex pages. GPU needed for
       volume.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2605,7 +2698,7 @@ repos:
 
   - name: Zipstack/unstract
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Unstract
     tagline: Prompt-driven extraction of structured data from documents.
@@ -2624,6 +2717,7 @@ repos:
       AGPL with a commercial tier, and LLM-based extraction needs validating against a
       sample before you trust a whole batch.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: partial
     verification: true
@@ -2631,7 +2725,7 @@ repos:
 
   - name: microsoft/markitdown
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: MarkItDown
     tagline: Convert almost any file to markdown.
@@ -2650,6 +2744,7 @@ repos:
       Deliberately simple: no OCR, limited table fidelity, and not built for batch
       pipelines or layout-heavy documents.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2677,6 +2772,7 @@ repos:
       Newer approach with less production evidence than vector search. Reasoning over an
       index costs more per query than a similarity lookup.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2684,7 +2780,7 @@ repos:
 
   - name: Cinnamon/kotaemon
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Kotaemon
     tagline: A clean interface for chatting with your documents.
@@ -2703,6 +2799,7 @@ repos:
       Another deployment with a vector store behind it. Retrieval quality depends on
       document preparation.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -2710,7 +2807,7 @@ repos:
 
   - name: jgm/pandoc
     category: document-intelligence
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Pandoc
     tagline: Convert between essentially every document format.
@@ -2729,6 +2826,7 @@ repos:
       Conversion is structural, so complex layouts do not survive intact. Learning its
       template system takes time.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -2756,6 +2854,7 @@ repos:
       Costs per page and sends document images to a model provider, which is usually a
       non-starter for unredacted deal material. Slower than local OCR.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     verification: true
@@ -2763,7 +2862,7 @@ repos:
 
   - name: datalab-to/chandra
     category: document-intelligence
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Chandra
     tagline: OCR built for complex tables, forms, and handwriting.
@@ -2782,6 +2881,7 @@ repos:
       Model-based, so it needs hardware and the team's usual commercial-licence check.
       Handwriting accuracy varies by hand.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -2815,6 +2915,7 @@ repos:
       scope by design.
     dependencies: Python 3.9+
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -2825,7 +2926,7 @@ repos:
 
   - name: JerBouma/FinanceToolkit
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Finance Toolkit
     tagline: A hundred-odd financial ratios and models in one library.
@@ -2846,6 +2947,7 @@ repos:
       Assumes reasonably standard financial statements, so unusual business models need
       work. Not a modelling environment: output still goes into a spreadsheet or notebook.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: true
@@ -2856,7 +2958,7 @@ repos:
 
   - name: microsoft/qlib
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Qlib
     tagline: A platform for quantitative research and backtesting.
@@ -2876,6 +2978,7 @@ repos:
       Built for public market data, so applying it to venture outcomes means designing
       your own dataset and being honest about how few data points you have.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -2904,6 +3007,7 @@ repos:
       use.
     dependencies: Python 3.9+
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -2911,7 +3015,7 @@ repos:
 
   - name: ranaroussi/quantstats
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: QuantStats
     tagline: Portfolio analytics and tear sheets.
@@ -2930,6 +3034,7 @@ repos:
       Equally precise outputs for a portfolio with three data points, so it invites
       over-reading on small samples, which venture always is.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -2937,7 +3042,7 @@ repos:
 
   - name: lballabio/QuantLib
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: QuantLib
     tagline: A quantitative finance library for pricing and risk.
@@ -2957,6 +3062,7 @@ repos:
       Steep learning curve, and it assumes the user understands the finance. Licence is
       not a standard SPDX identifier, so check terms.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -2964,7 +3070,7 @@ repos:
 
   - name: domokane/FinancePy
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: FinancePy
     tagline: Derivatives pricing and risk in Python.
@@ -2983,6 +3089,7 @@ repos:
       GPL-licensed, which affects how you can ship anything built on it. Smaller community
       than QuantLib.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3010,6 +3117,7 @@ repos:
       No licence file is present, so reuse terms are unclear. Depends on external APIs and
       an LLM key, and its answers need checking.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3018,7 +3126,7 @@ repos:
 
   - name: akfamily/akshare
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: AKShare
     tagline: Financial data for Chinese markets.
@@ -3037,6 +3145,7 @@ repos:
       Documentation and community are largely Chinese-language, and it depends on upstream
       sites that change. Data licensing varies by source.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3064,6 +3173,7 @@ repos:
       US filings only. Filing formats change and the library tracks them, so older
       versions break on new filings.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3072,7 +3182,7 @@ repos:
 
   - name: jadchaar/sec-edgar-downloader
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: SEC EDGAR Downloader
     tagline: Bulk-download filings from EDGAR.
@@ -3090,6 +3200,7 @@ repos:
     limitations: >
       Downloading only: it does not parse the contents. Pair it with a parser.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3116,6 +3227,7 @@ repos:
       A demonstration, not an investment system, and anyone treating it as one deserves
       the result. Depends on market data APIs and model keys.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -3123,7 +3235,7 @@ repos:
 
   - name: financial-datasets/mcp-server
     category: investment-analysis
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Financial Datasets MCP
     tagline: An MCP server that gives agents stock market data.
@@ -3142,6 +3254,7 @@ repos:
       Built around a commercial API, so it is an open client to a paid data source. US
       public companies only.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3169,6 +3282,7 @@ repos:
       Market prices reflect liquidity and sentiment, not truth, and thin markets are
       misleading. Coverage is limited to what the platforms list.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3202,6 +3316,7 @@ repos:
       is older than most entries here, so check that it still fits your needs before
       relying on it.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     starter: true
@@ -3212,7 +3327,7 @@ repos:
 
   - name: 1984vc/cap-table
     category: cap-tables
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Cap Table Worksheet
     tagline: A spreadsheet-native cap table that computes the maths properly.
@@ -3231,6 +3346,7 @@ repos:
       Small project with limited maintenance history. Verify against a known-good model
       before relying on it for a real round.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3258,6 +3374,7 @@ repos:
       No licence file, so reuse terms are unclear. Research-grade, not maintained as a
       product.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3287,6 +3404,7 @@ repos:
     limitations: >
       Small project by an individual investor, so continuity is a real question. Early.
     vc_native: true
+    vc_relevance: native
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3314,6 +3432,7 @@ repos:
       Last meaningful activity some time ago, so treat it as a reference implementation to
       read rather than a tool to adopt. Output needs an investor's judgement throughout.
     vc_native: true
+    vc_relevance: native
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3341,6 +3460,7 @@ repos:
       No licence file, so terms are unclear. Public-company inputs, and the writing still
       needs a human with a view.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3349,7 +3469,7 @@ repos:
 
   - name: typst/typst
     category: investment-memos
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Typst
     tagline: Typesetting that makes documents look considered.
@@ -3369,6 +3489,7 @@ repos:
       Not a word processor: collaborators who need to edit in Word are out of the loop
       unless you convert. Younger ecosystem than LaTeX.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: false
@@ -3379,7 +3500,7 @@ repos:
 
   - name: quarto-dev/quarto-cli
     category: investment-memos
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Quarto
     tagline: Reproducible reports where the analysis and the document are one file.
@@ -3398,6 +3519,7 @@ repos:
       Licence is not a standard SPDX identifier. Requires the underlying language runtimes,
       so the toolchain needs upkeep.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -3424,6 +3546,7 @@ repos:
       Single-author project around one investor's approach, so treat the method as one
       valid style rather than a standard.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     hidden_gem: true
@@ -3455,6 +3578,7 @@ repos:
       Visualization and embedded features sit behind a commercial tier. Needs a warehouse
       behind it and someone to keep the models right.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     starter: true
@@ -3465,7 +3589,7 @@ repos:
 
   - name: apache/superset
     category: portfolio-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Apache Superset
     tagline: A full BI platform at Apache scale.
@@ -3483,6 +3607,7 @@ repos:
     limitations: >
       Substantial deployment and a real learning curve. Overkill for a fund of one.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3490,7 +3615,7 @@ repos:
 
   - name: getredash/redash
     category: portfolio-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Redash
     tagline: Query, visualize, and share data quickly.
@@ -3509,6 +3634,7 @@ repos:
       Development is slower than it once was, and it is less suited to governed reporting
       than the larger BI platforms.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3537,6 +3663,7 @@ repos:
       app grows. Recreating it in a real framework is often the eventual path.
     dependencies: Python 3.9+
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: true
@@ -3547,7 +3674,7 @@ repos:
 
   - name: baserow/baserow
     category: portfolio-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Baserow
     tagline: An open Airtable for structured portfolio data.
@@ -3566,6 +3693,7 @@ repos:
       Advanced features and some integrations are commercial. Large bases need proper
       database tuning.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: partial
     verification: true
@@ -3573,7 +3701,7 @@ repos:
 
   - name: simonw/datasette
     category: portfolio-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Datasette
     tagline: Publish any database as a browsable, queryable site.
@@ -3592,6 +3720,7 @@ repos:
       Read-oriented: not an editing interface or a reporting suite. Needs care around
       permissions if the data is sensitive.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3600,7 +3729,7 @@ repos:
 
   - name: directus/directus
     category: portfolio-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Directus
     tagline: An admin layer over any SQL database.
@@ -3619,6 +3748,7 @@ repos:
       Licence is not a standard SPDX identifier, with commercial tiers for some features.
       More engineering than a spreadsheet replacement warrants.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: partial
     verification: true
@@ -3626,7 +3756,7 @@ repos:
 
   - name: roapi/roapi
     category: portfolio-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: ROAPI
     tagline: Serve any dataset as an API without writing code.
@@ -3645,6 +3775,7 @@ repos:
       Read-only and not a database: no transactions, no complex writes. Fine for serving
       datasets, wrong for a system of record.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -3652,7 +3783,7 @@ repos:
 
   - name: gradio-app/gradio
     category: portfolio-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Gradio
     tagline: Quick web interfaces for models and functions.
@@ -3671,6 +3802,7 @@ repos:
       Demo-oriented: authentication, access control, and state are limited. Not a
       production application framework.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -3681,7 +3813,7 @@ repos:
   # =========================================================================
   - name: beancount/beancount
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Beancount
     tagline: Double-entry accounting in plain text files.
@@ -3703,6 +3835,7 @@ repos:
       accounting, so the user has to understand the method. Not a replacement for an
       administrator handling LP compliance.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3711,7 +3844,7 @@ repos:
 
   - name: hledgerorg/hledger
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: hledger
     tagline: Plain-text accounting with a serious command line.
@@ -3730,6 +3863,7 @@ repos:
       Same learning curve as any double-entry system, and no graphical interface by
       default. Needs discipline to keep entries current.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3738,7 +3872,7 @@ repos:
 
   - name: ledger/ledger
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Ledger
     tagline: The original plain-text accounting tool.
@@ -3757,6 +3891,7 @@ repos:
       Licence is not a standard SPDX identifier. Development is slower than the newer
       alternatives, and the interface is unforgiving.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3764,7 +3899,7 @@ repos:
 
   - name: Gnucash/gnucash
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: GnuCash
     tagline: Full double-entry accounting with a desktop interface.
@@ -3783,6 +3918,7 @@ repos:
       Desktop-only and dated in places. Licence is not a standard SPDX identifier. Not
       built for multi-user work without care.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3790,7 +3926,7 @@ repos:
 
   - name: gristlabs/grist-core
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Grist
     tagline: A spreadsheet that behaves like a database.
@@ -3810,6 +3946,7 @@ repos:
       Formula language differs from Excel, so existing models need porting. Some
       enterprise features are commercial.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3818,7 +3955,7 @@ repos:
 
   - name: PyPortfolio/PyPortfolioOpt
     category: lp-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: PyPortfolioOpt
     tagline: Portfolio construction and optimisation in Python.
@@ -3838,6 +3975,7 @@ repos:
       large changes in weights. Venture returns are not normally distributed, so classical
       assumptions fit badly.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -3846,7 +3984,7 @@ repos:
 
   - name: frappe/erpnext
     category: lp-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: ERPNext
     tagline: An open ERP covering accounting, invoicing, and assets.
@@ -3866,6 +4004,7 @@ repos:
       A real implementation project, not an install. GPL-licensed, which affects
       redistribution. Assumes business workflows that need adapting for a fund.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -3896,6 +4035,7 @@ repos:
       AGPL-licensed. It produces analysis for a lawyer to check, not legal advice, and it
       should not be the last word on anything that carries liability.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: true
@@ -3906,7 +4046,7 @@ repos:
 
   - name: Open-Source-Legal/OpenContracts
     category: legal
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: OpenContracts
     tagline: An open document intelligence platform for contract analysis.
@@ -3925,6 +4065,7 @@ repos:
       Smaller than the commercial alternatives, and setup means hosting a real application.
       Extraction quality depends on document consistency.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     starter: false
@@ -3935,7 +4076,7 @@ repos:
 
   - name: JSv4/Python-Redlines
     category: legal
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Python-Redlines
     tagline: Generate Word tracked changes from Python.
@@ -3954,6 +4095,7 @@ repos:
       Narrow tool: it produces the redline, it does not decide what should change. Word
       compatibility details matter.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: false
@@ -3983,6 +4125,7 @@ repos:
       Last meaningful development was some years ago, so treat it as a foundation to build
       on rather than a maintained product. AGPL-licensed.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4009,6 +4152,7 @@ repos:
       Development stopped a while ago and the underlying spaCy version is dated, so expect
       to port it. English contracts only.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4035,6 +4179,7 @@ repos:
       Benchmark tasks are not venture diligence tasks. No licence file is present, so check
       terms before redistributing the data.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4042,7 +4187,7 @@ repos:
 
   - name: Vaquill-AI/open-us-law
     category: legal
-    tier: interesting
+    tier: recommended
     kind: dataset
     display_name: Open US Law
     tagline: A structured corpus of US primary law.
@@ -4061,6 +4206,7 @@ repos:
       A corpus, not an answer: coverage, currency, and updates are the maintainer's
       challenge, and it is not a substitute for counsel.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4068,7 +4214,7 @@ repos:
 
   - name: OpenNyAI/Opennyai
     category: legal
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: OpenNyAI
     tagline: An NLP pipeline for Indian legal documents.
@@ -4087,6 +4233,7 @@ repos:
       Indian legal documents only, and quality varies by court and document age. Model
       accuracy on unusual document types needs checking.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4094,7 +4241,7 @@ repos:
 
   - name: evolsb/claude-legal-skill
     category: legal
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Claude Legal Skill
     tagline: A contract review workflow with defined risk categories.
@@ -4114,6 +4261,7 @@ repos:
       Tied to a specific agent tool, and it is only as good as the risk framework behind
       it. Not legal advice, and it should not be the only reader of anything material.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4140,6 +4288,7 @@ repos:
       A fork of an earlier project with a single maintainer, and the licence is not a
       standard SPDX identifier. Early.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4166,6 +4315,7 @@ repos:
       Local models are weaker than hosted ones, so answers need more checking. Single
       maintainer, early.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4192,6 +4342,7 @@ repos:
       AGPL-licensed and very early, so expect to be part of its development rather than a
       satisfied user of it.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4218,6 +4369,7 @@ repos:
       A curated list, so it inherits the format's weaknesses: some links go stale and
       maintenance is intermittent.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4244,6 +4396,7 @@ repos:
       Academic implementation with a dataset, not a product, and no licence file is
       present.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -4270,6 +4423,7 @@ repos:
       Australian sources, so the specifics need redoing elsewhere. Corpus maintenance over
       time is the hard part and is largely manual.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4280,7 +4434,7 @@ repos:
   # =========================================================================
   - name: infiniflow/ragflow
     category: knowledge-management
-    tier: essential
+    tier: recommended
     kind: software
     display_name: RAGFlow
     tagline: A retrieval system built around deep document understanding.
@@ -4300,6 +4454,7 @@ repos:
       A substantial deployment with several components. Retrieval quality still depends on
       document preparation.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -4310,7 +4465,7 @@ repos:
 
   - name: microsoft/graphrag
     category: knowledge-management
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: GraphRAG
     tagline: Retrieval that builds a knowledge graph from your documents.
@@ -4330,6 +4485,7 @@ repos:
       Indexing is expensive: it calls a model many times per document set. Best suited to a
       corpus you will query repeatedly rather than a one-off.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: false
@@ -4340,7 +4496,7 @@ repos:
 
   - name: HKUDS/LightRAG
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: LightRAG
     tagline: Graph-based retrieval without GraphRAG's cost.
@@ -4359,6 +4515,7 @@ repos:
       Less capable than a full graph build on large, complex corpora. Emerging project
       relative to the established frameworks.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4366,7 +4523,7 @@ repos:
 
   - name: milvus-io/milvus
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Milvus
     tagline: A vector database built for scale.
@@ -4386,6 +4543,7 @@ repos:
       Operationally heavy. A fund with ten thousand documents will be happier with
       something embedded.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4393,7 +4551,7 @@ repos:
 
   - name: qdrant/qdrant
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Qdrant
     tagline: A vector search engine with useful filtering.
@@ -4413,6 +4571,7 @@ repos:
       You still need to handle parsing, chunking, and embeddings yourself. Scaling beyond
       one machine requires the distributed setup.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: false
@@ -4423,7 +4582,7 @@ repos:
 
   - name: pgvector/pgvector
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: pgvector
     tagline: Vector search inside Postgres.
@@ -4442,6 +4601,7 @@ repos:
       Not built for billions of vectors, and index build times grow. Tuning matters more
       than it does with a purpose-built engine.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: false
@@ -4452,7 +4612,7 @@ repos:
 
   - name: weaviate/weaviate
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Weaviate
     tagline: A vector database with hybrid search built in.
@@ -4471,6 +4631,7 @@ repos:
       Operationally heavier than an embedded option, and the licence is not a standard SPDX
       identifier, with a commercial cloud product alongside.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4478,7 +4639,7 @@ repos:
 
   - name: chroma-core/chroma
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Chroma
     tagline: An embedded vector store for small projects.
@@ -4496,6 +4657,7 @@ repos:
     limitations: >
       Not for scale or multi-user production. The hosted product is the commercial path.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4503,7 +4665,7 @@ repos:
 
   - name: neo4j/neo4j
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Neo4j
     tagline: The standard graph database.
@@ -4522,6 +4684,7 @@ repos:
       Community edition is GPL with the clustering and enterprise features commercial. A
       graph is only as good as the data loaded into it.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: partial
     verification: true
@@ -4529,7 +4692,7 @@ repos:
 
   - name: getzep/graphiti
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Graphiti
     tagline: A temporal knowledge graph for agents.
@@ -4548,6 +4711,7 @@ repos:
       Needs a graph database and an LLM. Extracting facts reliably from messy documents
       remains the hard part.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4555,7 +4719,7 @@ repos:
 
   - name: topoteretes/cognee
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Cognee
     tagline: Persistent memory built from your documents.
@@ -4574,6 +4738,7 @@ repos:
       Early project with a lot of surface area. Needs a database and model keys, and quality
       depends on document preparation.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4581,7 +4746,7 @@ repos:
 
   - name: deepset-ai/haystack
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Haystack
     tagline: A framework for retrieval pipelines with evaluation.
@@ -4600,6 +4765,7 @@ repos:
       Another framework to learn, and its abstractions change between major versions.
       Overkill for a single document set.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4607,7 +4773,7 @@ repos:
 
   - name: onyx-dot-app/onyx
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Onyx
     tagline: Search across everything a team has, with connectors.
@@ -4627,6 +4793,7 @@ repos:
       Real infrastructure to run, and the licence is not a standard SPDX identifier. Value
       depends on connecting it to systems that have good permissions.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: partial
     verification: true
@@ -4653,6 +4820,7 @@ repos:
       Teaching material, not a library: the code is illustrative and needs adapting. Licence
       is not a standard SPDX identifier.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4660,7 +4828,7 @@ repos:
 
   - name: neuml/txtai
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: txtai
     tagline: Embeddings, search, and workflows in one library.
@@ -4679,6 +4847,7 @@ repos:
       Smaller community, and the bundled approach means less flexibility than composing
       dedicated tools.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4686,7 +4855,7 @@ repos:
 
   - name: mem0ai/mem0
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: Mem0
     tagline: A memory layer for assistants that persists across sessions.
@@ -4705,6 +4874,7 @@ repos:
       Memory quality depends on what gets extracted and stored, and wrong memories persist
       quietly. A hosted option exists alongside the open code.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4712,7 +4882,7 @@ repos:
 
   - name: outline/outline
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Outline
     tagline: A team wiki that is fast and pleasant to use.
@@ -4731,6 +4901,7 @@ repos:
       Licence is not a standard SPDX identifier, with a hosted commercial product. Search is
       text-based rather than semantic.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: partial
     verification: true
@@ -4738,7 +4909,7 @@ repos:
 
   - name: requarks/wiki
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Wiki.js
     tagline: A modern wiki on Node.
@@ -4757,6 +4928,7 @@ repos:
       AGPL-licensed, which matters if you host it for others. Fewer real-time collaboration
       features than the modern alternatives.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4764,7 +4936,7 @@ repos:
 
   - name: docmost/docmost
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Docmost
     tagline: A collaborative wiki with real-time editing.
@@ -4783,6 +4955,7 @@ repos:
       AGPL-licensed with a commercial cloud, and younger than the established options.
       Search is basic.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4790,7 +4963,7 @@ repos:
 
   - name: logseq/logseq
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Logseq
     tagline: A local-first outliner for connected notes.
@@ -4809,6 +4982,7 @@ repos:
       Depends on the analyst's discipline: an unmaintained graph is just files. Not a
       multi-user tool.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4816,7 +4990,7 @@ repos:
 
   - name: zotero/zotero
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Zotero
     tagline: A reference manager for research material.
@@ -4835,6 +5009,7 @@ repos:
       Storage and sync for large libraries need care, and the group features are weaker than
       the personal ones. Not built for team-scale collaboration.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -4842,7 +5017,7 @@ repos:
 
   - name: surrealdb/surrealdb
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: SurrealDB
     tagline: One database for documents, graphs, and vectors.
@@ -4861,6 +5036,7 @@ repos:
       Younger than the databases it replaces, so operational experience is thinner. Licence
       is not a standard SPDX identifier.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -4868,7 +5044,7 @@ repos:
 
   - name: dgraph-io/dgraph
     category: knowledge-management
-    tier: infrastructure
+    tier: recommended
     kind: software
     display_name: Dgraph
     tagline: A graph database built for scale.
@@ -4887,6 +5063,7 @@ repos:
       Operationally involved, and the project's direction has changed hands, so check the
       current state before committing.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -4894,7 +5071,7 @@ repos:
 
   - name: jupyter-book/jupyter-book
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Jupyter Book
     tagline: Publish notebooks as a documented site.
@@ -4913,6 +5090,7 @@ repos:
       Needs the toolchain maintained, and non-technical readers will find the format
       unfamiliar. Not a knowledge base for general notes.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -4920,7 +5098,7 @@ repos:
 
   - name: marimo-team/marimo
     category: knowledge-management
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Marimo
     tagline: A reactive Python notebook that is reproducible by design.
@@ -4939,6 +5117,7 @@ repos:
       Different enough from Jupyter that existing notebooks need reworking. Younger
       ecosystem of extensions.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -4949,7 +5128,7 @@ repos:
   # =========================================================================
   - name: browser-use/browser-use
     category: ai-agents
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: browser-use
     tagline: Let a model drive a real browser.
@@ -4970,6 +5149,7 @@ repos:
       Still fails on complex flows, and unaided multi-step browsing burns tokens quickly.
       Anything involving a logged-in account needs care about terms and about credentials.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -4980,7 +5160,7 @@ repos:
 
   - name: langchain-ai/langgraph
     category: ai-agents
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: LangGraph
     tagline: Agents as explicit graphs with state.
@@ -5000,6 +5180,7 @@ repos:
       A framework to learn, and its abstractions move quickly between versions. Overkill
       for a single-prompt task.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -5010,7 +5191,7 @@ repos:
 
   - name: modelcontextprotocol/servers
     category: ai-agents
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: MCP Servers
     tagline: Reference implementations of the Model Context Protocol.
@@ -5031,6 +5212,7 @@ repos:
       Reference implementations, not supported products: expect to harden anything you
       depend on. Access control for what an agent may touch is your problem.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: false
@@ -5041,7 +5223,7 @@ repos:
 
   - name: punkpeye/awesome-mcp-servers
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Awesome MCP Servers
     tagline: The catalogue of MCP servers and connectors.
@@ -5060,6 +5242,7 @@ repos:
       Quality varies wildly between entries: some are weekend projects, some are
       maintained. Check the repository before depending on one.
     vc_native: false
+    vc_relevance: adaptable
     ai: true
     self_hostable: true
     verification: true
@@ -5067,7 +5250,7 @@ repos:
 
   - name: microsoft/autogen
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: AutoGen
     tagline: Multiple agents that talk to each other.
@@ -5086,6 +5269,7 @@ repos:
       Multi-agent systems multiply cost and failure modes, and the conversation pattern
       can look impressive while producing less than one well-specified agent.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5093,7 +5277,7 @@ repos:
 
   - name: crewAIInc/crewAI
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: CrewAI
     tagline: Define a team of agents with roles and tasks.
@@ -5112,6 +5296,7 @@ repos:
       Less control over exactly what happens than a graph-based approach, which matters when
       the output feeds a decision. Abstraction gets leaky on complex tasks.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5119,7 +5304,7 @@ repos:
 
   - name: openai/openai-agents-python
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: OpenAI Agents SDK
     tagline: A small framework for agents, tools, and handoffs.
@@ -5138,6 +5323,7 @@ repos:
       Closest to one provider's ecosystem, though it supports others. Minimal means you
       build the surrounding pieces yourself.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5145,7 +5331,7 @@ repos:
 
   - name: All-Hands-AI/OpenHands
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: OpenHands
     tagline: An agent that writes and runs code to finish tasks.
@@ -5164,6 +5350,7 @@ repos:
       Runs code, which means it needs a real sandbox and supervision. Token cost on anything
       substantial is significant.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5171,7 +5358,7 @@ repos:
 
   - name: langgenius/dify
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Dify
     tagline: Build and operate LLM applications without much code.
@@ -5190,6 +5377,7 @@ repos:
       Licence is not a standard SPDX identifier, with a commercial cloud. Visual builders
       become limiting when logic gets complicated.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     verification: true
@@ -5197,7 +5385,7 @@ repos:
 
   - name: stanfordnlp/dspy
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: DSPy
     tagline: Program model pipelines instead of writing prompts.
@@ -5216,6 +5404,7 @@ repos:
       Needs a set of examples to optimise against, which is real work up front. Concepts take
       time to absorb.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5223,7 +5412,7 @@ repos:
 
   - name: run-llama/llama_index
     category: ai-agents
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: LlamaIndex
     tagline: Connect models to your own data.
@@ -5242,6 +5431,7 @@ repos:
       The library is large and its abstractions shift between versions, so pin versions.
       Retrieval quality is still your responsibility.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     starter: true
@@ -5252,7 +5442,7 @@ repos:
 
   - name: langchain-ai/langchain
     category: ai-agents
-    tier: interesting
+    tier: recommended
     kind: framework
     display_name: LangChain
     tagline: The most widely used framework for LLM applications.
@@ -5271,6 +5461,7 @@ repos:
       Heavily criticised for abstraction overhead and frequent breaking changes. For a
       focused pipeline, the smaller frameworks are usually easier to maintain.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5297,6 +5488,7 @@ repos:
       Overwhelmed by later frameworks for actual work, and the licence is not a standard SPDX
       identifier. Use it for context, not production.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5322,6 +5514,7 @@ repos:
     limitations: >
       Broad surface area with a small team, so individual components vary in maturity.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -5332,7 +5525,7 @@ repos:
   # =========================================================================
   - name: n8n-io/n8n
     category: automation
-    tier: essential
+    tier: recommended
     kind: software
     display_name: n8n
     tagline: Workflow automation with a fair-code licence.
@@ -5352,6 +5545,7 @@ repos:
       Not open source despite the description people give it: the fair-code licence restricts
       commercial redistribution and hosting. Some nodes are enterprise-only.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     starter: true
@@ -5362,7 +5556,7 @@ repos:
 
   - name: activepieces/activepieces
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Activepieces
     tagline: An open Zapier alternative.
@@ -5381,6 +5575,7 @@ repos:
       Licence is not a standard SPDX identifier and follows a similar open-core shape. Fewer
       integrations than n8n.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     verification: true
@@ -5388,7 +5583,7 @@ repos:
 
   - name: windmill-labs/windmill
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Windmill
     tagline: Turn scripts into workflows and internal apps.
@@ -5407,6 +5602,7 @@ repos:
       Licence is not a standard SPDX identifier. Steeper start than a visual-first tool for
       someone who does not write code.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: partial
     verification: true
@@ -5414,7 +5610,7 @@ repos:
 
   - name: kestra-io/kestra
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Kestra
     tagline: Declarative orchestration in YAML.
@@ -5432,6 +5628,7 @@ repos:
     limitations: >
       Another service to operate, and for a handful of jobs a cron file is honestly enough.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -5439,7 +5636,7 @@ repos:
 
   - name: apache/airflow
     category: automation
-    tier: essential
+    tier: recommended
     kind: software
     display_name: Apache Airflow
     tagline: The default scheduler for data pipelines.
@@ -5458,6 +5655,7 @@ repos:
       Heavy for small jobs and a real operational commitment. Not the tool for two scripts
       and a deadline.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -5465,7 +5663,7 @@ repos:
 
   - name: dagster-io/dagster
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Dagster
     tagline: Orchestration built around data assets.
@@ -5484,6 +5682,7 @@ repos:
       More concepts to learn than a task scheduler, and the value appears only once the data
       model is worth the effort.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -5491,7 +5690,7 @@ repos:
 
   - name: PrefectHQ/prefect
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Prefect
     tagline: Python-native workflow orchestration.
@@ -5510,6 +5709,7 @@ repos:
       The managed product is the commercial focus, so some operational features are easier
       with it. Less suited to very large dependency graphs.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -5517,7 +5717,7 @@ repos:
 
   - name: airbytehq/airbyte
     category: automation
-    tier: essential
+    tier: recommended
     kind: software
     display_name: Airbyte
     tagline: Connectors that move data from anywhere to anywhere.
@@ -5536,6 +5736,7 @@ repos:
       Open-core with some connectors and features commercial, and the licence is not a
       standard SPDX identifier. Running it is a real service.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: partial
     verification: true
@@ -5543,7 +5744,7 @@ repos:
 
   - name: meltano/meltano
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Meltano
     tagline: ELT as code with version control.
@@ -5561,6 +5762,7 @@ repos:
     limitations: >
       Fewer connectors than Airbyte and more assembly required. Smaller community.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     verification: true
@@ -5568,7 +5770,7 @@ repos:
 
   - name: dbt-labs/dbt
     category: automation
-    tier: essential
+    tier: recommended
     kind: framework
     display_name: dbt
     tagline: Transform data with SQL that is tested and documented.
@@ -5587,6 +5789,7 @@ repos:
       SQL-based, so non-tabular work needs something else. Needs a warehouse and someone who
       understands the business logic.
     vc_native: false
+    vc_relevance: infrastructure
     ai: false
     self_hostable: true
     starter: true
@@ -5597,7 +5800,7 @@ repos:
 
   - name: appsmithorg/appsmith
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Appsmith
     tagline: Build internal tools by dragging components.
@@ -5616,6 +5819,7 @@ repos:
       Complex logic gets awkward, and the resulting app is harder to test and version than
       code. Some features are commercial.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     verification: true
@@ -5623,7 +5827,7 @@ repos:
 
   - name: ToolJet/ToolJet
     category: automation
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: ToolJet
     tagline: Another drag-and-drop internal tool builder.
@@ -5642,6 +5846,7 @@ repos:
       AGPL-licensed with commercial editions. Same ceiling as any visual builder when logic
       grows.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: partial
     verification: true
@@ -5674,6 +5879,7 @@ repos:
       Adoption is still limited, and the licence identifier is not standardised, so read the
       terms.
     vc_native: true
+    vc_relevance: native
     ai: false
     self_hostable: true
     starter: true
@@ -5703,6 +5909,7 @@ repos:
       The licence is not a standard SPDX identifier. Interface is technical, and XBRL itself
       takes learning.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     starter: false
@@ -5713,7 +5920,7 @@ repos:
 
   - name: greedo/python-xbrl
     category: standards
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: python-xbrl
     tagline: A Python parser for XBRL filings.
@@ -5730,6 +5937,7 @@ repos:
     limitations: >
       Simpler than Arelle, so it handles edge cases less well. Activity has been intermittent.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5737,7 +5945,7 @@ repos:
 
   - name: manusimidt/py-xbrl
     category: standards
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: py-xbrl
     tagline: A parser for XBRL and inline XBRL.
@@ -5755,6 +5963,7 @@ repos:
     limitations: >
       GPL-licensed. Smaller maintenance community than the reference implementation.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5762,7 +5971,7 @@ repos:
 
   - name: kanedata/ixbrl-parse
     category: standards
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: ixbrl-parse
     tagline: Get usable data out of inline XBRL files.
@@ -5780,6 +5989,7 @@ repos:
     limitations: >
       Oriented to UK filings, so other jurisdictions need work. Small project.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -5808,6 +6018,7 @@ repos:
       Japanese-language domain, and coverage depends on the filing types the maintainer has
       implemented. Small project.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -5816,7 +6027,7 @@ repos:
 
   - name: xbrlus/xule
     category: standards
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: Xule
     tagline: A rules language for validating XBRL data.
@@ -5834,6 +6045,7 @@ repos:
     limitations: >
       Requires understanding both XBRL and the rules language. Narrow audience.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5859,6 +6071,7 @@ repos:
       Limited specification coverage compared with Arelle, so unusual filings may not parse.
       Early.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5884,6 +6097,7 @@ repos:
     limitations: >
       Lower-level than the Python alternatives, so more work to use. Small project.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5891,7 +6105,7 @@ repos:
 
   - name: Arelle/ixbrl-viewer
     category: standards
-    tier: interesting
+    tier: recommended
     kind: software
     display_name: iXBRL Viewer
     tagline: Browse inline XBRL reports interactively.
@@ -5909,6 +6123,7 @@ repos:
     limitations: >
       A viewing tool rather than a data pipeline. Licence is not a standard SPDX identifier.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5934,6 +6149,7 @@ repos:
       Explicitly unmaintained by its author and years old, so its EDGAR interactions will
       need updating. Read it, do not depend on it.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5959,6 +6175,7 @@ repos:
     limitations: >
       Narrow to the European sustainability framework, and early. Not applicable outside it.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -5985,6 +6202,7 @@ repos:
       GPL-licensed, and the template system is configuration-heavy. Jurisdiction-specific
       rules need care.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -6010,6 +6228,7 @@ repos:
     limitations: >
       Very early and narrow. Only relevant if you are building agent tooling.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -6039,6 +6258,7 @@ repos:
       A list, so link quality varies and many entries are old. Each dataset still needs its
       licence checked before use.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
@@ -6046,7 +6266,7 @@ repos:
 
   - name: huggingface/datasets
     category: datasets
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: Hugging Face Datasets
     tagline: Load and share datasets with one interface.
@@ -6065,6 +6285,7 @@ repos:
       Oriented to machine learning rather than business data, and the hub is a centralised
       service even though the library is open.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -6091,6 +6312,7 @@ repos:
       US patents only, with a lag of eighteen months or more between filing and publication.
       The repository is largely a client for the API rather than the dataset itself.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -6118,6 +6340,7 @@ repos:
       Author disambiguation is imperfect, so a name match needs confirming. Coverage of
       non-Western publication venues is improving but uneven.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     hidden_gem: true
@@ -6126,7 +6349,7 @@ repos:
 
   - name: tensorflow/datasets
     category: datasets
-    tier: infrastructure
+    tier: recommended
     kind: framework
     display_name: TensorFlow Datasets
     tagline: A collection of datasets with consistent loading.
@@ -6145,6 +6368,7 @@ repos:
       TensorFlow-oriented, though it works with other frameworks. Its catalogue is mostly
       machine learning benchmarks rather than business data.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -6171,6 +6395,7 @@ repos:
       Academic benchmark data rather than business data, and focused on models rather than
       applications.
     vc_native: false
+    vc_relevance: infrastructure
     ai: true
     self_hostable: true
     verification: true
@@ -6197,7 +6422,299 @@ repos:
       Licence is not a standard SPDX identifier. Very specific to operations and security
       work rather than general venture research.
     vc_native: false
+    vc_relevance: adaptable
     ai: false
     self_hostable: true
     verification: true
     best_for: Log research
+
+  # =========================================================================
+  # Added in v1.1 — closing gaps identified by testing the directory against
+  # the actual sub-tasks of venture work.
+  # =========================================================================
+  - name: freelawproject/courtlistener
+    category: legal
+    tier: essential
+    kind: software
+    display_name: CourtListener
+    tagline: A searchable archive of US court data.
+    vc_use_case: >
+      Litigation is a diligence question almost nobody checks properly: is the target or its
+      founders party to a lawsuit, has a competitor sued them, is there an IP dispute
+      waiting. Court records are public but scattered across thousands of county and federal
+      systems. This puts them in one searchable place.
+    why_interesting: >
+      Maintained by the Free Law Project, which has been doing this for over a decade with
+      bulk data and an API rather than a website you have to scrape. It is the single
+      biggest open legal dataset available.
+    good_for:
+      - Legal due diligence
+      - Litigation checks
+      - Founder background
+    limitations: >
+      US courts only, and coverage varies by jurisdiction and court level, with some records
+      incomplete. The licence is not a standard SPDX identifier, so check terms before
+      building a service on the data.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: false
+    self_hostable: true
+    verification: true
+    best_for: Litigation checks
+
+  - name: freelawproject/juriscraper
+    category: legal
+    tier: experimental
+    kind: framework
+    display_name: Juriscraper
+    tagline: Scrapers for US court websites.
+    vc_use_case: >
+      The collection layer behind CourtListener, usable directly when a diligence needs
+      filings from a specific court that is not well covered. Relevant for jurisdiction-
+      specific litigation research.
+    why_interesting: >
+      Court websites are hostile to automation and this maintains scrapers for hundreds of
+      them, including the parsing of what comes back. That maintenance is the expensive part.
+    good_for:
+      - Litigation research
+      - Legal data collection
+    limitations: >
+      Per-court scrapers break as courts change their sites, so expect gaps and breakage.
+      US only.
+    vc_native: false
+    vc_relevance: infrastructure
+    ai: false
+    self_hostable: true
+    verification: true
+    best_for: Litigation research
+
+  - name: Zackriya-Solutions/meetily
+    category: relationship-intelligence
+    tier: recommended
+    kind: software
+    display_name: Meetily
+    tagline: A self-hosted AI meeting assistant.
+    vc_use_case: >
+      The meeting-intelligence layer a fund actually needs: transcribe founder calls and
+      partner meetings locally, produce notes, and keep the record without sending audio to
+      a cloud service. Investment discussions involve unannounced deals and other people's
+      confidential information.
+    why_interesting: >
+      It runs locally with fast local models, which is the requirement that rules out the
+      commercial meeting assistants for most funds. Speaker separation and summaries without
+      a per-seat subscription.
+    good_for:
+      - Meeting records
+      - Call transcripts
+      - IC preparation
+    limitations: >
+      Local transcription needs decent hardware, and accuracy trails a hosted service.
+      Recording calls still requires consent and disclosure in many jurisdictions.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: true
+    self_hostable: true
+    verification: true
+    best_for: Meeting records
+
+  - name: pingcap/ossinsight
+    category: company-discovery
+    tier: recommended
+    kind: software
+    display_name: OSS Insight
+    tagline: Analytics over the public GitHub event stream.
+    vc_use_case: >
+      Technical traction without asking the company: how fast is a repository growing, who
+      contributes, where are the contributors located, is momentum rising or flattening.
+      For a developer-tools or open-source business this is the most objective signal
+      available before revenue.
+    why_interesting: >
+      It analyses the full public GitHub event history rather than current star counts, so
+      you can see trajectory and contributor geography. That is the difference between a
+      vanity metric and a diligence input.
+    good_for:
+      - Technical due diligence
+      - GitHub signals
+      - Developer market research
+    limitations: >
+      GitHub only, so it says nothing about closed-source businesses, and popularity is not
+      revenue. The hosted instance is the primary product.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: false
+    self_hostable: true
+    verification: true
+    best_for: GitHub signals
+
+  - name: star-history/star-history
+    category: company-discovery
+    tier: recommended
+    kind: software
+    display_name: Star History
+    tagline: Plot repository star growth over time.
+    vc_use_case: >
+      The fast sanity check on a developer-tool claim. A repo with a vertical star curve
+      followed by a plateau tells a different story from one climbing steadily, and a
+      sudden spike often means a launch or a Hacker News moment rather than adoption.
+    why_interesting: >
+      It is a small tool that answers a question people routinely get wrong, and the curve
+      is usually more informative than the total.
+    good_for:
+      - Technical due diligence
+      - GitHub signals
+      - Competitor tracking
+    limitations: >
+      Stars measure attention, not usage or revenue, and spikes are frequently launch-driven.
+      Read it as one input.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: false
+    self_hostable: true
+    verification: true
+    best_for: GitHub signals
+
+  - name: firecrawl/fire-enrich
+    category: company-discovery
+    tier: experimental
+    kind: software
+    display_name: Fire Enrich
+    tagline: Turn an email or domain into company data.
+    vc_use_case: >
+      The enrichment step in a sourcing pipeline: given a list of addresses from a community,
+      an event, or a newsletter, resolve them to companies with industry and size. That is
+      how a list of names becomes a target list.
+    why_interesting: >
+      Enrichment is normally a paid API and this does the job with a crawler and a model, so
+      a fund can run it over its own lists without per-record pricing.
+    good_for:
+      - Company enrichment
+      - Inbound triage
+      - Sourcing pipelines
+    limitations: >
+      Enrichment quality depends on what is publicly crawlable, so results need checking
+      before they enter a CRM. Early project.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: true
+    self_hostable: true
+    verification: true
+    best_for: Company enrichment
+
+  - name: google/patents-public-data
+    category: datasets
+    tier: research
+    kind: dataset
+    display_name: Google Patents Public Data
+    tagline: Patent data at scale, queryable in BigQuery.
+    archived_ok: true
+    archive_note: >
+      The repository is archived upstream, but the BigQuery public dataset it documents is
+      still live and queryable. The archival covers the sample code, not the data. Listed
+      for the dataset with that distinction stated plainly rather than presented as a
+      maintained project.
+    vc_use_case: >
+      Patent filings are a lagging but hard-to-fake signal of where a company and its
+      competitors are investing R&D. Useful for the technology landscape around a deep-tech
+      target, including who else is filing in the same space.
+    why_interesting: >
+      Global patent records with citations and classifications in one queryable dataset,
+      which is otherwise a commercial product. If you are mapping a technology area for a
+      thesis, this is the primary source.
+    good_for:
+      - Technical due diligence
+      - IP research
+      - Sector mapping
+    limitations: >
+      Requires BigQuery access and SQL, and the repository has not been updated recently, so
+      check the current data loading path. Filing-to-publication lag is eighteen months or
+      more.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: false
+    self_hostable: true
+    hidden_gem: true
+    verification: true
+    best_for: IP research
+
+  - name: suzgunmirac/hupd
+    category: datasets
+    tier: research
+    kind: dataset
+    display_name: Harvard USPTO Patent Dataset
+    tagline: A large machine-learning-ready patent corpus.
+    vc_use_case: >
+      Read it as the reference for what patent text can be classified and predicted, and use
+      the dataset to build a classifier for a specific technology area. Relevant when
+      assessing or building patent-intelligence tooling.
+    why_interesting: >
+      It is a published academic dataset with a defined task, which means results are
+      comparable and the collection method is documented.
+    good_for:
+      - Patent research
+      - Model building
+      - Technical diligence
+    limitations: >
+      US patents only, and the dataset is a research artefact rather than something
+      maintained. Last updated a few years ago.
+    vc_native: false
+    vc_relevance: infrastructure
+    ai: true
+    self_hostable: true
+    verification: true
+    best_for: Patent research
+
+  - name: tdavidson/runway-tool
+    category: portfolio-management
+    tier: experimental
+    kind: software
+    display_name: Runway Tool
+    tagline: Runway and cash-budget forecasting for a startup.
+    vc_use_case: >
+      The single number a board watches: how many months of cash remain, under what hiring
+      and spend assumptions. This models the scenario, which is what a fund needs when a
+      portfolio company's bridge question arrives two months earlier than planned.
+    why_interesting: >
+      Almost no open-source tooling exists for this, despite it being the most-asked
+      portfolio question. It is a small model someone who understood the problem released.
+    good_for:
+      - Runway monitoring
+      - Portfolio support
+      - Board reporting
+    limitations: >
+      Small project that has not been touched since 2020, and the licence is not a standard
+      SPDX identifier. Read it as a model to adapt rather than a maintained tool.
+    vc_native: true
+    vc_relevance: native
+    ai: false
+    self_hostable: true
+    hidden_gem: true
+    verification: true
+    best_for: Runway monitoring
+
+  - name: sophymarine/openregistry
+    category: company-discovery
+    tier: experimental
+    kind: software
+    display_name: OpenRegistry
+    tagline: Company registry data direct from official sources.
+    vc_use_case: >
+      Incorporation and corporate-structure checking: is the entity real, where is it
+      registered, what is its status. A surprising number of pitches get the legal entity
+      wrong, and the registry is the authoritative answer.
+    why_interesting: >
+      One of very few open attempts at official registry data, and it exposes it to agents
+      rather than only as a website. Corporate registries are fragmented and paid, which is
+      why this category is so thin.
+    good_for:
+      - Entity verification
+      - Legal due diligence
+      - KYC checking
+    limitations: >
+      Coverage of jurisdictions is limited and uneven, and registry data quality varies by
+      country. Early project with a small maintainer base.
+    vc_native: false
+    vc_relevance: adaptable
+    ai: false
+    self_hostable: true
+    verification: true
+    best_for: Entity verification
