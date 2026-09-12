@@ -37,7 +37,7 @@ The candidate pool is intentionally several times the size of the final list. Co
 
 **Commercial product pages are useful in reverse.** The most reliable way to find the open-source option in a category is to read what the paid products in that category say they replace.
 
-**Private and internal tooling is the blind spot.** Repositories used inside funds and never published cannot be found by any search, and are almost certainly the most valuable category missing here. If you know of one, [open an issue](../../issues/new).
+**Private and internal tooling is the blind spot.** Repositories used inside funds and never published cannot be found by any search, and are almost certainly the most valuable category missing here. If you know of one, [open an issue](issues/new).
 
 ## What sources were deliberately not used as evidence
 
@@ -52,4 +52,4 @@ python scripts/update.py --repos-only owner/repo   # re-read live state for one 
 python scripts/verify.py                           # re-check every link and licence
 ```
 
-If you believe an entry is wrong, the [correction template](../../issues/new?template=correction.yml) asks for the source. That is not bureaucracy — a correction without evidence cannot be distinguished from a guess, and guesses are how a directory like this dies.
+If you believe an entry is wrong, the [correction template](issues/new?template=correction.yml) asks for the source. That is not bureaucracy — a correction without evidence cannot be distinguished from a guess, and guesses are how a directory like this dies.

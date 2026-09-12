@@ -44,7 +44,7 @@ Name the person, the task, and ideally the thing it replaces. If you cannot do t
 
 ## How to submit
 
-Open a [repository submission issue](../../issues/new?template=repository-submission.yml). The form asks for everything needed. Alternatively, edit `curation.yaml` directly and open a pull request.
+Open a [repository submission issue](issues/new?template=repository-submission.yml). The form asks for everything needed. Alternatively, edit `curation.yaml` directly and open a pull request.
 
 ### Editing `curation.yaml` directly
 
@@ -110,7 +110,7 @@ Reviews are not fast and there is no SLA. This is maintained alongside other wor
 
 ## Reporting a correction
 
-Use the [correction template](../../issues/new?template=correction.yml). Include **evidence and a link** — the `LICENSE` file, the API response, the commit, the release. Corrections without a source cannot be merged, no matter how right they are.
+Use the [correction template](issues/new?template=correction.yml). Include **evidence and a link** — the `LICENSE` file, the API response, the commit, the release. Corrections without a source cannot be merged, no matter how right they are.
 
 ## Licence of contributions
 

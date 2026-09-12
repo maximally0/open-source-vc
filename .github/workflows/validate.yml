@@ -82,14 +82,26 @@ jobs:
           python - <<'PY'
           import re, sys
           from pathlib import Path
+
+          # GitHub serves non-file routes at these paths. They are valid links in
+          # rendered Markdown but do not correspond to anything on disk, so a naive
+          # existence check reports them as broken.
+          WEB_ROUTES = (
+              'issues/', 'pulls/', 'releases/', 'actions/', 'discussions/',
+              'compare/', 'blob/', 'tree/', 'edit/', 'new/', 'settings/',
+              'projects/', 'security/', 'graphs/', 'network/',
+          )
+
           root = Path('.')
           bad = []
           for md in root.rglob('*.md'):
               if '.git' in md.parts:
                   continue
               text = md.read_text(encoding='utf-8', errors='replace')
-              for target in re.findall(r'\]\((?!#)([^)]+)\)', text):
-                  if target.startswith(('http://', 'https://', 'mailto:')):
+              for target in re.findall(r'\]\((?!#)([^)\s]+)\)', text):
+                  if target.startswith(('http://', 'https://', 'mailto:', '#')):
+                      continue
+                  if target.startswith(WEB_ROUTES):
                       continue
                   path = (md.parent / target.split('#')[0]).resolve()
                   if not path.exists():
