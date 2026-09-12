@@ -98,11 +98,34 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "Nothing staged; no commit needed."
-          else
-            git commit -m "chore(weekly): refresh metadata timestamps [skip ci]"
-            git push origin HEAD:main
-            echo "Committed routine metadata refresh to main."
+            exit 0
           fi
+          git commit -q -m "chore(weekly): refresh metadata [skip ci]"
+
+          # main can move while this job is running: a human pushing, another
+          # workflow, a merge. That is a race, not a failure, so fold onto whatever
+          # landed and retry rather than dying on a rejected push.
+          for attempt in 1 2 3; do
+            if git push -q origin HEAD:main; then
+              echo "Committed routine metadata refresh to main (attempt ${attempt})."
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}. Rebasing onto origin/main and retrying."
+            git fetch -q origin main
+            if ! git rebase -q origin/main; then
+              # A conflict here can only be in generated metadata, and this job's copy
+              # was read from the API moments ago, so ours is the newer truth.
+              echo "Conflict in generated files; keeping this run's freshly fetched data."
+              git checkout --theirs -- metadata/snapshot.json metadata/repositories.json \
+                                      metadata/repositories.yaml metadata/last-refresh.json \
+                                      metadata/schema.json 2>/dev/null || true
+              git add -A
+              GIT_EDITOR=true git rebase --continue || { git rebase --abort || true; echo "::error::Could not rebase generated metadata."; exit 1; }
+            fi
+            sleep 5
+          done
+          echo "::error::Could not push the routine metadata refresh after 3 attempts."
+          exit 1
 
       - name: Open pull request for review
         id: propose
