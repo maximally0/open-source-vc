@@ -1,0 +1,195 @@
+# Seed list for targeted verification.
+#
+# Broad GitHub search finds generic infrastructure well and VC-native tooling
+# badly — the latter is rare and mostly does not use searchable "VC" vocabulary.
+# This file is the second half of discovery: specific projects worth checking,
+# collected from domain knowledge and from the leads in SOURCES.md.
+#
+# Every entry here is a CANDIDATE, not an inclusion. scripts/seed_repos.py fetches
+# each one from the GitHub API and records verified metadata. Anything that does
+# not resolve, or that fails the curation bar, is dropped.
+#
+# Format: owner/repo, optional trailing "# one-line why we are checking"
+# Lines beginning with # are ignored.
+
+# --- VC-native: cap tables, fund ops, deal flow ---------------------------
+yc-oss/api                            # Y Combinator's own open company API
+Open-Cap-Table-Coalition/Open-Cap-Format-OCF  # open cap-table data standard
+captableinc/captable                  # open-source cap table (Carta alternative)
+1984vc/cap-table                      # cap table worksheet
+tdavidson/cap-table-tool              # cap table and exit waterfall
+tdavidson/reporting                   # AI-native VC reporting/diligence platform
+iloveitaly/openbook                   # "PitchBook but open" investor database
+0xnyn/subsignal                       # deal-flow monitoring for VCs
+dforwardfeed/memo_generator           # investment memo generation
+kklounge/execsum-deal-brief           # automated daily deal-flow brief
+KonstantinMB/exploreyc                # YC portfolio explorer
+seriesseed/seriesseed                 # Series Seed legal documents (CC0)
+
+# --- Relationship intelligence / CRM --------------------------------------
+monicahq/monica                       # personal CRM, relationship memory
+twentyhq/twenty                       # modern open CRM
+espocrm/espocrm                       # mature open CRM
+frappe/crm                            # CRM on the Frappe framework
+krayin/laravel-crm                    # lightweight open CRM
+odoo/odoo                             # ERP/CRM suite
+calcom/cal.com                        # scheduling infrastructure
+dubinc/dub                            # link attribution, inbound source tracking
+
+# --- Document intelligence / data rooms -----------------------------------
+Unstructured-IO/unstructured          # document parsing for RAG
+docling-project/docling               # IBM layout-aware document conversion
+microsoft/markitdown                  # documents to markdown
+opendatalab/MinerU                    # PDF extraction, heavy layout models
+datalab-to/marker                     # PDF to markdown/tables
+datalab-to/surya                      # OCR and layout models
+camelot-dev/camelot                   # table extraction from PDFs
+jsvine/pdfplumber                     # precise PDF text/tables
+pymupdf/PyMuPDF                       # PDF parsing library
+tesseract-ocr/tesseract               # OCR engine
+ocrmypdf/OCRmyPDF                     # searchable PDFs
+docusealco/docuseal                   # e-signature, self-hosted
+documenso/documenso                   # e-signature, DocuSign alternative
+paperless-ngx/paperless-ngx           # document archive and search
+JSv4/OpenContracts                    # open-source contract analysis platform
+JSv4/Python-Redlines                  # DOCX tracked-changes generation
+
+# --- Legal ----------------------------------------------------------------
+open-legal-products/mike              # open-source legal AI platform
+LexPredict/lexpredict-lexnlp          # legal NLP library
+ICLRandD/Blackstone                   # spaCy legal NLP pipeline
+coastalcph/lex-glue                   # legal language benchmark dataset
+Vaquill-AI/open-us-law                # structured US primary law corpus
+OpenNyAI/Opennyai                     # Indian legal NLP pipeline
+zoharbabin/due-diligence-agents       # forensic M&A due diligence agents
+
+# --- Knowledge management / retrieval -------------------------------------
+chroma-core/chroma                    # vector store, embedded
+qdrant/qdrant                         # vector search engine
+weaviate/weaviate                     # vector database
+milvus-io/milvus                      # vector database at scale
+pgvector/pgvector                     # vectors in Postgres
+neo4j/neo4j                           # graph database
+networkx/networkx                     # network analysis (warm-intro paths)
+infiniflow/ragflow                    # RAG engine over documents
+onyx-dot-app/onyx                     # open enterprise search + assistants
+langchain-ai/langchain                # LLM application framework
+run-llama/llama_index                 # data framework for LLMs
+microsoft/graphrag                    # graph-based retrieval
+stanfordnlp/dspy                      # programmatic prompt/agent framework
+logseq/logseq                         # local-first knowledge base
+AppFlowy-IO/AppFlowy                  # open Notion alternative
+siyuan-note/siyuan                    # knowledge base
+laurent22/joplin                      # notes and clippings
+zotero/zotero                         # reference manager
+getzep/zep                            # agent memory
+mem0ai/mem0                           # memory layer for agents
+
+# --- AI agents / research --------------------------------------------------
+browser-use/browser-use               # browser agent
+microsoft/autogen                     # multi-agent framework
+crewAIInc/crewAI                      # multi-agent orchestration
+langchain-ai/langgraph                # stateful agent graphs
+openai/openai-agents-python           # OpenAI agents SDK
+All-Hands-AI/OpenHands                # autonomous software agent
+modelcontextprotocol/servers          # reference MCP servers
+punkpeye/awesome-mcp-servers          # MCP server index
+stanford-oval/storm                   # cited article generation
+assafelovic/gpt-researcher            # deep research agent
+dzhng/deep-research                   # iterative deep research
+Alibaba-NLP/DeepResearch              # open deep research model+agent
+guy-hartstein/company-research-agent  # agentic company diligence
+marc-shade/world-intel-mcp            # global intel MCP server
+
+# --- Web intelligence / crawling ------------------------------------------
+scrapy/scrapy                         # crawling framework
+apify/crawlee                         # crawling and browser automation
+mendableai/firecrawl                  # web to LLM-ready markdown
+microsoft/playwright                  # browser automation
+puppeteer/puppeteer                   # headless Chrome
+dgtlmoon/changedetection.io           # competitor/site change monitoring
+huginn/huginn                         # self-hosted automation agents
+gildas-lormeau/SingleFile             # faithful page archival
+sherlock-project/sherlock             # username to accounts
+soxoj/maigret                         # dossier from username
+lissy93/web-check                     # website OSINT
+smicallef/spiderfoot                  # OSINT automation
+dedupeio/dedupe                       # entity resolution
+speedyapply/JobSpy                    # job posting scraper (hiring signals)
+
+# --- Financial analysis ---------------------------------------------------
+OpenBB-finance/OpenBB                 # open investment research platform
+ranaroussi/yfinance                   # market data
+ranaroussi/quantstats                 # portfolio analytics
+lballabio/QuantLib                    # quantitative finance library
+robertmartin8/PyPortfolioOpt          # portfolio optimisation
+domokane/FinancePy                    # derivatives pricing
+Arelle/Arelle                         # XBRL platform
+greedo/python-xbrl                    # XBRL parser
+manusimidt/py-xbrl                    # XBRL/iXBRL parser
+kanedata/ixbrl-parse                  # iXBRL to data
+matthelmer/edinet-tools               # Japanese corporate disclosure data
+xbrlus/xule                           # XBRL processor
+BrelLibrary/brel                      # XBRL report library
+massive-com/xbrl-parser               # Go XBRL parser
+dgunning/edgartools                   # SEC EDGAR filings library
+jadchaar/sec-edgar-downloader         # SEC filings downloader
+eliangcs/pystock-crawler              # SEC EDGAR XBRL crawler
+
+# --- Workflow, automation, internal tooling -------------------------------
+n8n-io/n8n                            # workflow automation
+activepieces/activepieces             # open Zapier alternative
+windmill-labs/windmill                # scripts to workflows
+kestra-io/kestra                      # orchestration
+apache/airflow                        # scheduling and orchestration
+dagster-io/dagster                    # data orchestration
+PrefectHQ/prefect                     # workflow orchestration
+airbytehq/airbyte                     # data connectors
+meltano/meltano                       # ELT
+dbt-labs/dbt-core                     # SQL transformations
+apache/superset                       # BI dashboards
+metabase/metabase                     # BI for non-technical users
+getredash/redash                      # query and dashboard
+streamlit/streamlit                   # internal data apps
+gradio-app/gradio                     # ML demos and tools
+appsmithorg/appsmith                  # internal tool builder
+ToolJet/ToolJet                       # internal tool builder
+nocodb/nocodb                         # Airtable alternative (deal pipelines)
+baserow/baserow                       # Airtable alternative
+gristlabs/grist-core                  # spreadsheet-database hybrid
+directus/directus                      # data platform / backoffice
+
+# --- Datasets and open registries -----------------------------------------
+# commoncrawl/commoncrawl removed: verified ARCHIVED upstream.
+jugad-ai?                             # check
+PatentsView/PatentsView-API           # patent data
+ourresearch/openalex-api              # scholarly graph API
+ourresearch/openalex-guts             # scholarly graph source
+
+# --- Standards ------------------------------------------------------------
+# Note: Series Seed (seriesseed.com) and the GLEIF LEI registry are genuine open
+# standards but are NOT hosted on GitHub — verified 404. This directory links
+# repositories, so they are documented in METHODOLOGY.md rather than listed.
+
+# --- Batch 2: document tooling, capture, and research infrastructure -------
+apache/tika                           # document metadata/text extraction
+Stirling-Tools/Stirling-PDF           # local PDF toolkit
+jgm/pandoc                            # universal document conversion
+typst/typst                           # typesetting, memo-quality output
+marimo-team/marimo                    # reactive Python notebook
+quarto-dev/quarto-cli                 # reproducible reports
+jupyter-book/jupyter-book             # publishable research notebooks
+openai/whisper                        # speech to text (call transcripts)
+m-bain/whisperX                       # diarised transcription
+SYSTRAN/faster-whisper                # fast local transcription
+outline/outline                       # team wiki / institutional memory
+requarks/wiki                         # wiki
+docmost/docmost                       # collaborative docs
+Open-Source-Legal/OpenContracts       # contract analysis platform (renamed from JSv4)
+documenso/documenso                   # e-signature
+langgenius/dify                       # LLM app platform
+FlowiseAI/Flowise                     # visual LLM flows
+microsoft/qlib                        # quantitative investment platform
+JerBouma/FinanceToolkit               # financial analysis toolkit
+wilsonfreitas/awesome-quant           # quant ecosystem index
+firmai/financial-machine-learning     # financial ML index

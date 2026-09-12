@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Verification artefacts
+verify-report.json
+
+# Raw discovery intermediate (10k+ candidates, ~15MB). Reproducible with
+# scripts/discover.py; the method and funnel are recorded in
+# research/discovery-summary.md instead of committing the dump.
+research/candidates.json
+
+# Local clones of curated repositories (see docs/LOCAL_COPIES.md).
+# These are never committed: the directory links to upstream, it does not vendor it.
+clones/
+repos/*/
+!repos/README.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp

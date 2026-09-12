@@ -1,0 +1,141 @@
+name: Weekly Update
+
+# The semi-automated weekly cycle.
+#
+# Discovery and metadata refresh are automated. Curation is not: this workflow
+# never writes to curation.yaml. It refreshes verified metadata, regenerates the
+# derived pages, and opens a pull request for a human to review and merge.
+#
+# If the run finds nothing worth reporting, it opens nothing.
+
+on:
+  schedule:
+    # Mondays 06:00 UTC.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      with_releases:
+        description: "Also fetch latest releases (slower, more API calls)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Refresh verified metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ inputs.with_releases }}" = "true" ]; then
+            python scripts/update.py --with-releases
+          else
+            python scripts/update.py
+          fi
+
+      - name: Regenerate directory pages
+        run: python scripts/generate_index.py
+
+      - name: Validate (offline)
+        run: python scripts/verify.py --offline
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes this week."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --porcelain
+          fi
+
+      - name: Open pull request for review
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          DATE=$(date -u +%Y-%m-%d)
+          BRANCH="automation/weekly-${DATE}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "chore(weekly): refresh metadata ${DATE}"
+          git push --set-upstream origin "$BRANCH"
+
+          QUEUE="research/review-queue-${DATE}.md"
+          BODY=$(mktemp)
+          {
+            echo "Automated weekly refresh — **metadata only**."
+            echo
+            echo "This PR was opened by \`scripts/update.py\`. It refreshes verified"
+            echo "GitHub metadata, regenerates the derived pages, and records anything"
+            echo "that needs a human decision."
+            echo
+            echo "It does **not** add, remove, or re-classify any repository. That is"
+            echo "deliberate: discovery is automated, curation is human."
+            echo
+            if [ -f "$QUEUE" ]; then
+              echo "### Review queue"
+              echo
+              cat "$QUEUE"
+            else
+              echo "No drift detected against the curated list this week."
+            fi
+            echo
+            echo "---"
+            echo
+            echo "**To merge:** confirm the regenerated pages look right, then squash-merge."
+            echo "**To act on the queue:** edit \`curation.yaml\`, run \`python scripts/generate_index.py\`, commit."
+          } > "$BODY"
+
+          gh pr create \
+            --title "chore(weekly): metadata refresh ${DATE}" \
+            --body-file "$BODY" \
+            --label "automated,weekly" \
+            --base main \
+            --head "$BRANCH" \
+            || gh pr create \
+                 --title "chore(weekly): metadata refresh ${DATE}" \
+                 --body-file "$BODY" \
+                 --base main \
+                 --head "$BRANCH"
+
+          gh issue create \
+            --title "Weekly review queue — ${DATE}" \
+            --body-file "$BODY" \
+            --label "weekly,curation" \
+            || echo "Issue creation skipped (labels may not exist yet)."
+
+      - name: Summary
+        run: |
+          echo "### Weekly update" >> "$GITHUB_STEP_SUMMARY"
+          echo "Changed: ${{ steps.diff.outputs.changed }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Snapshot repo count:" >> "$GITHUB_STEP_SUMMARY"
+          python -c "import json;print(json.load(open('metadata/snapshot.json'))['repo_count'])" >> "$GITHUB_STEP_SUMMARY"

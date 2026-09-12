@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: How curation works
+    url: https://github.com/maximally0/open-source-vc/blob/main/METHODOLOGY.md
+    about: Read this before submitting — it explains the tiers, the licence handling, and why most submissions get edited.
+  - name: Contribution rules
+    url: https://github.com/maximally0/open-source-vc/blob/main/CONTRIBUTING.md
+    about: What qualifies, what does not, and the metadata every entry needs.

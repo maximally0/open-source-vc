@@ -1,0 +1,103 @@
+name: Validate
+
+# Runs on every push and pull request. This is the gate that keeps the directory
+# internally consistent: schema, duplicates, licences, attribution, category
+# coverage, and whether the generated pages are up to date with their inputs.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    name: Structure & schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Check generated pages are current
+        run: |
+          python scripts/generate_index.py --check
+          python scripts/generate_index.py
+          if ! git diff --quiet; then
+            echo "::error::Generated pages are out of date. Run 'python scripts/generate_index.py' and commit the result."
+            git diff --stat
+            exit 1
+          fi
+          echo "Generated pages are current."
+
+      - name: Validate directory (offline)
+        run: python scripts/verify.py --offline
+
+  links:
+    name: Live link & licence check
+    runs-on: ubuntu-latest
+    # Network checks are slower and rate-limited; they do not need to block
+    # every push, but they must block merges to main.
+    if: github.event_name != 'push'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Verify links, archived status, and licences
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/verify.py --json verify-report.json
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verify-report
+          path: verify-report.json
+          if-no-files-found: ignore
+
+  markdown:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for broken relative links
+        run: |
+          python - <<'PY'
+          import re, sys
+          from pathlib import Path
+          root = Path('.')
+          bad = []
+          for md in root.rglob('*.md'):
+              if '.git' in md.parts:
+                  continue
+              text = md.read_text(encoding='utf-8', errors='replace')
+              for target in re.findall(r'\]\((?!#)([^)]+)\)', text):
+                  if target.startswith(('http://', 'https://', 'mailto:')):
+                      continue
+                  path = (md.parent / target.split('#')[0]).resolve()
+                  if not path.exists():
+                      bad.append(f"{md}: {target}")
+          if bad:
+              print("Broken relative links:")
+              for b in bad:
+                  print(" ", b)
+              sys.exit(1)
+          print("All relative links resolve.")
+          PY

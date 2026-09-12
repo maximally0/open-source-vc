@@ -1,0 +1,63 @@
+---
+name: Correction
+description: Report a factual error — wrong stars, licence, status, or a dead link
+title: "[correction] owner/repo — what is wrong"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accuracy is the whole value of this directory. Corrections are the most useful
+        thing you can send us, and they get priority over new submissions.
+
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      description: owner/repo, or the filename if it is a page-level issue
+      placeholder: owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      options:
+        - Licence is incorrect
+        - Stars / forks are wrong
+        - Status is wrong (archived, dormant, active)
+        - Dead or moved link
+        - Category is wrong
+        - Tier is wrong (Essential / Interesting / Infrastructure / Experimental / Research)
+        - Description is inaccurate
+        - The VC use case is misleading
+        - Duplicate entry
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: currently
+    attributes:
+      label: What we currently say
+    validations:
+      required: true
+
+  - type: textarea
+    id: should
+    attributes:
+      label: What it should say, and how you verified it
+      description: |
+        Link to the evidence — the LICENSE file, the API response, the commit, the release.
+        Corrections without a source cannot be merged.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I verified this against the upstream repository itself, not a search snippet or a third-party summary.
+          required: true

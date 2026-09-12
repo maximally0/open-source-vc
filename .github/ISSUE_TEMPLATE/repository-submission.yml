@@ -1,0 +1,139 @@
+---
+name: Suggest a repository
+description: Propose an open-source project for the directory
+title: "[repo] owner/repo — one-line description"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) first —
+        the bar is deliberately high and most submissions need editing before they fit.
+
+        **The single most common reason a submission is declined:** the VC use case is vague.
+        "Useful for investors" is not a use case. "Pulls a company's GitHub org, commit
+        cadence, and contributor concentration so you can sanity-check a technical claim
+        in a deck" is.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: owner/repo
+      placeholder: owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options:
+        - Software
+        - Dataset
+        - Framework
+        - Standard / schema
+        - Research (paper, benchmark, or approach worth understanding)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+  - type: markdown
+    attributes:
+      value: |
+        ### Category
+        Pick the closest fit. If none fit, say so in Notes — that is useful signal.
+  - type: dropdown
+    id: category_real
+    attributes:
+      label: Category
+      options:
+        - Founder & Talent Discovery
+        - Company Discovery & Deal Sourcing
+        - Deal Sourcing & Pipeline
+        - Market & Industry Research
+        - Web Intelligence & OSINT
+        - Relationship Intelligence
+        - Due Diligence
+        - Data Rooms & Document Intelligence
+        - Investment Analysis
+        - Cap Tables & Equity
+        - Investment Memo & IC
+        - Portfolio Management
+        - LP & Fund Management
+        - Legal & Transaction Infrastructure
+        - Knowledge Management
+        - AI Agents for VC
+        - Workflow & Automation
+        - Standards & Schemas
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: The VC use case
+      description: |
+        Name the specific analyst task this replaces or accelerates, and who does it.
+        Two to four sentences. Concrete beats clever.
+      placeholder: |
+        An associate doing technical DD on a Series A devtools company can pull the
+        target's public GitHub org, measure contributor concentration, and see whether
+        commit cadence dropped after the last raise. Replaces about an hour of manual
+        clicking per company.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it technically or strategically interesting?
+      description: What does it do that the obvious alternative does not?
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and caveats
+      description: |
+        Required. Every project has them, and omitting them is the fastest way to get
+        a submission rejected. Rate limits, licence restrictions, maintenance risk,
+        hosting cost, data quality, missing features.
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Licence (SPDX identifier if you know it)
+      placeholder: MIT / Apache-2.0 / AGPL-3.0 / none found
+    validations:
+      required: true
+
+  - type: dropdown
+    id: selfhost
+    attributes:
+      label: Can it be fully self-hosted?
+      options:
+        - "Yes — no paid tier needed"
+        - "Partial — open core, paid extras"
+        - "No — hosted service only"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have opened the repository and confirmed it contains real, usable code — not a landing page or a prompt list.
+          required: true
+        - label: The licence is present and I have stated it accurately above.
+          required: true
+        - label: This is not a duplicate of an existing entry (I searched the README and `metadata/repositories.json`).
+          required: true
+        - label: I have no undisclosed commercial interest in this project.
+          required: true

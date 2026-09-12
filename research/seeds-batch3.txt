@@ -1,0 +1,31 @@
+# Batch 3: fund/LP accounting, and remaining infrastructure named in the taxonomy.
+# Verified via scripts/seed_repos.py before any of it is curated.
+
+# Fund and LP books: plain-text accounting and double-entry ledgers are the
+# honest answer for SPVs, small funds, waterfalls, and capital accounts.
+beancount/beancount                   # double-entry plain-text accounting
+simonmichael/hledger                  # plain-text accounting, robust CLI
+Gnucash/gnucash                       # double-entry bookkeeping, GUI
+ledger/ledger                         # the original plain-text ledger
+frappe/erpnext                        # open ERP, fund accounting-adjacent
+firefly-iii/firefly-iii               # personal/entity finance manager
+
+# CRM candidates
+espocrm/espocrm                       # mature open CRM
+krayin/laravel-crm                    # lightweight open CRM
+
+# Crawling and browser automation
+apify/crawlee                         # crawling and browser automation library
+s0md3v/Photon                         # fast crawler for OSINT collection
+
+# Agents
+Significant-Gravitas/AutoGPT          # the original autonomous agent project
+
+# Data platforms and datasets
+simonw/datasette                      # explore and publish data with SQL
+tensorflow/datasets                   # dataset collection for ML workflows
+snap-stanford/ogb                     # graph ML benchmark datasets
+logpai/loghub                         # system log datasets
+awesomedata/awesome-public-datasets   # index of open datasets
+huggingface/datasets                  # dataset hub and library
+Jon-Becker/prediction-market-analysis # prediction market data collection

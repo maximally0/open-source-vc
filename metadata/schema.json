@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/maximally0/open-source-vc/blob/main/metadata/schema.json",
+  "title": "Open Source VC — repository record",
+  "description": "Schema for a single curated entry in metadata/repositories.json. Fields sourced from the GitHub API are machine-verified and timestamped by metadata/snapshot.json's generated_at. Editorial fields come from curation.yaml and carry human judgement. A field that could not be verified MUST be 'unknown' rather than omitted or estimated.",
+  "type": "object",
+  "required": [
+    "name", "github", "description", "category", "tier", "kind",
+    "vc_use_case", "why_it_is_interesting", "license", "stars", "last_commit", "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$",
+      "description": "Exact owner/repo identifier. Also the primary key and the attribution link back to the original project."
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Short name used in tables and headings. Defaults to the repo slug."
+    },
+    "github": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://github\\.com/",
+      "description": "Canonical upstream URL. Must resolve to the same owner/repo as 'name'."
+    },
+    "description": {
+      "type": "string",
+      "description": "One line. Editorial tagline where written, otherwise the upstream repository description verbatim."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "founder-discovery", "company-discovery", "deal-sourcing", "market-research",
+        "osint", "relationship-intelligence", "due-diligence", "document-intelligence",
+        "investment-analysis", "cap-tables", "investment-memos", "portfolio-management",
+        "lp-management", "legal", "knowledge-management", "ai-agents", "automation",
+        "standards"
+      ],
+      "description": "Maps to categories/<value>.md."
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["essential", "interesting", "experimental", "infrastructure", "research"],
+      "description": "Editorial label. Deliberately qualitative — there are no numeric scores. Definitions in METHODOLOGY.md."
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["software", "dataset", "framework", "standard", "research"],
+      "description": "What the artefact is. Distinguishes a runnable tool from data, a spec, or something read rather than deployed."
+    },
+    "vc_use_case": {
+      "type": "string",
+      "minLength": 40,
+      "description": "The specific analyst task this replaces or accelerates, and who performs it. Generic phrasing ('useful for investors') is a validation failure in spirit if not in code."
+    },
+    "why_it_is_interesting": {
+      "type": "string",
+      "description": "What it does that the obvious alternative does not."
+    },
+    "good_for": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Workflow tasks this suits."
+    },
+    "limitations": {
+      "type": ["string", "null"],
+      "description": "Caveats: rate limits, licence terms, maintenance risk, cost, missing features. Null only when genuinely none could be identified."
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX identifier as published upstream, or 'unknown' / 'unverified (<name>)' when no licence file was detectable. Never guessed."
+    },
+    "license_name": {
+      "type": "string",
+      "description": "Licence name as reported by the GitHub API, before SPDX normalisation."
+    },
+    "stars": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "GitHub API stargazers_count at snapshot time. A fact, not a quality claim."
+    },
+    "forks": { "type": ["integer", "null"], "minimum": 0 },
+    "open_issues": { "type": ["integer", "null"], "minimum": 0 },
+    "contributors": {
+      "type": ["integer", "string"],
+      "description": "'unknown' for most entries: the contributor endpoint is expensive and rate-limited, and an estimate would be worse than a gap."
+    },
+    "last_commit": {
+      "type": "string",
+      "description": "YYYY-MM-DD of the upstream pushed_at, or 'unknown'."
+    },
+    "created": { "type": "string", "description": "YYYY-MM-DD repository creation date, or 'unknown'." },
+    "language": { "type": "string", "description": "Primary language as reported upstream, or 'unknown'." },
+    "status": {
+      "type": "string",
+      "description": "Derived only from verified fields: Active / Dormant / Archived / Disabled, with the date it was derived from."
+    },
+    "archived": {
+      "type": ["boolean", "null"],
+      "description": "Upstream archived flag. True is a validation error for a listed entry."
+    },
+    "installation": { "type": "string" },
+    "documentation": { "type": "string", "description": "Docs URL, or 'unknown'." },
+    "demo": { "type": "string", "description": "Live demo URL, or 'unknown'." },
+    "dependencies": { "type": "string", "description": "Runtime requirements, or 'unknown'." },
+    "self_hostable": {
+      "type": ["boolean", "string"],
+      "enum": [true, false, "partial", "unknown"],
+      "description": "'partial' means an open core with commercial hosted extras."
+    },
+    "commercial_restrictions": {
+      "type": "string",
+      "description": "What the licence implies for redistribution and commercial use. A report of the licence text, not legal advice."
+    },
+    "owner_type": {
+      "type": "string",
+      "description": "GitHub owner type (User / Organization) — a weak signal of project backing."
+    },
+    "links_verified": {
+      "type": ["string", "boolean"],
+      "description": "Date the entry's links were last checked live, or 'unknown'."
+    },
+    "notes": { "type": ["string", "null"], "description": "Anything else a reader needs." },
+    "vc_native": {
+      "type": "boolean",
+      "description": "Built explicitly for venture capital or private markets. False is not a criticism — it usually means lower cost."
+    },
+    "ai": {
+      "type": "boolean",
+      "description": "Whether the core function depends on a model, rather than AI being bolted on."
+    },
+    "starter": { "type": "boolean", "description": "Included in STARTER_PACK.md." },
+    "hidden_gem": { "type": "boolean", "description": "Included in HIDDEN_GEMS.md. Excluded from star-based ranking by design." },
+    "best_for": { "type": "string", "description": "Single-phrase summary used in COMPARISON.md." }
+  }
+}
