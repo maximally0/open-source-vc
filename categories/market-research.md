@@ -478,7 +478,7 @@ More moving parts than a single-loop agent, and the coordination overhead is rea
 | **Category** | Market & Industry Research |
 | **License** | MIT |
 | **Stars** | 3k |
-| **Forks** | 276 |
+| **Forks** | 279 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
