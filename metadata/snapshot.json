@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:00:38+00:00",
+  "generated_at": "2026-09-12T16:20:25+00:00",
   "repo_count": 226,
   "repos": {
     "0xnyn/subsignal": {
@@ -133,11 +133,11 @@
       ],
       "license_name": "MIT License",
       "license_spdx": "MIT",
-      "open_issues_count": 803,
+      "open_issues_count": 801,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T15:55:52Z",
+      "pushed_at": "2026-09-12T16:10:52Z",
       "size": 426565,
-      "stargazers_count": 87622,
+      "stargazers_count": 87628,
       "subscribers_count": 495,
       "topics": [
         "agent",
@@ -150,7 +150,7 @@
         "llm",
         "openai"
       ],
-      "updated_at": "2026-09-12T15:55:05Z"
+      "updated_at": "2026-09-12T16:25:47Z"
     },
     "Arelle/Arelle": {
       "archived": false,
@@ -312,7 +312,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T04:31:55Z",
       "size": 520145,
-      "stargazers_count": 11422,
+      "stargazers_count": 11423,
       "subscribers_count": 63,
       "topics": [
         "agents",
@@ -332,7 +332,7 @@
         "prompt-engineering",
         "smolagents"
       ],
-      "updated_at": "2026-09-12T16:00:35Z"
+      "updated_at": "2026-09-12T16:10:05Z"
     },
     "Ayanami0730/deep_research_bench": {
       "archived": false,
@@ -665,7 +665,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:43:24Z",
       "size": 114311,
-      "stargazers_count": 39591,
+      "stargazers_count": 39593,
       "subscribers_count": 301,
       "topics": [
         "docling",
@@ -680,7 +680,7 @@
         "ragas",
         "retrieval-augmented-generation"
       ],
-      "updated_at": "2026-09-12T15:43:18Z"
+      "updated_at": "2026-09-12T16:19:31Z"
     },
     "HumanSignal/label-studio": {
       "archived": false,
@@ -1538,7 +1538,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T15:00:10Z",
       "size": 2424037,
-      "stargazers_count": 72906,
+      "stargazers_count": 72905,
       "subscribers_count": 467,
       "topics": [
         "ai",
@@ -1555,7 +1555,7 @@
         "quantitative-finance",
         "stocks"
       ],
-      "updated_at": "2026-09-12T15:30:21Z"
+      "updated_at": "2026-09-12T16:14:28Z"
     },
     "OpenCTI-Platform/opencti": {
       "archived": false,
@@ -1691,7 +1691,7 @@
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "disabled": false,
       "fork": false,
-      "forks_count": 11322,
+      "forks_count": 11323,
       "full_name": "PaddlePaddle/PaddleOCR",
       "homepage": "https://www.paddleocr.com",
       "html_url": "https://github.com/PaddlePaddle/PaddleOCR",
@@ -2033,7 +2033,7 @@
       "owner_type": "Organization",
       "pushed_at": "2025-11-19T14:40:46Z",
       "size": 40514,
-      "stargazers_count": 25358,
+      "stargazers_count": 25359,
       "subscribers_count": 172,
       "topics": [
         "deep-learning",
@@ -2045,7 +2045,7 @@
         "transformer",
         "whisper"
       ],
-      "updated_at": "2026-09-12T13:23:33Z"
+      "updated_at": "2026-09-12T16:07:00Z"
     },
     "Significant-Gravitas/AutoGPT": {
       "archived": false,
@@ -2095,7 +2095,7 @@
       "license_spdx": "NOASSERTION",
       "open_issues_count": 564,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T15:30:59Z",
+      "pushed_at": "2026-09-12T16:18:23Z",
       "size": 621789,
       "stargazers_count": 187275,
       "subscribers_count": 1544,
@@ -2163,7 +2163,7 @@
       "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "disabled": false,
       "fork": false,
-      "forks_count": 8328,
+      "forks_count": 8329,
       "full_name": "Stirling-Tools/Stirling-PDF",
       "homepage": "https://stirling.com",
       "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
@@ -2202,11 +2202,11 @@
       ],
       "license_name": "Other",
       "license_spdx": "NOASSERTION",
-      "open_issues_count": 633,
+      "open_issues_count": 634,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T15:38:46Z",
+      "pushed_at": "2026-09-12T16:11:10Z",
       "size": 487935,
-      "stargazers_count": 91823,
+      "stargazers_count": 91825,
       "subscribers_count": 317,
       "topics": [
         "docker",
@@ -2223,7 +2223,7 @@
         "pdfmerger",
         "self-hosted"
       ],
-      "updated_at": "2026-09-12T15:39:55Z"
+      "updated_at": "2026-09-12T16:22:39Z"
     },
     "The-Swarm-Corporation/AutoHedge": {
       "archived": false,
@@ -2502,7 +2502,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T14:30:04Z",
       "size": 28223,
-      "stargazers_count": 35620,
+      "stargazers_count": 35621,
       "subscribers_count": 146,
       "topics": [
         "agentic-ai",
@@ -2518,7 +2518,7 @@
         "retrieval-augmented-generation",
         "vector-database"
       ],
-      "updated_at": "2026-09-12T15:11:29Z"
+      "updated_at": "2026-09-12T16:16:06Z"
     },
     "Zipstack/unstract": {
       "archived": false,
@@ -2634,7 +2634,7 @@
       ],
       "license_name": "Other",
       "license_spdx": "NOASSERTION",
-      "open_issues_count": 568,
+      "open_issues_count": 569,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:52:08Z",
       "size": 807685,
@@ -2703,11 +2703,11 @@
       ],
       "license_name": "Other",
       "license_spdx": "NOASSERTION",
-      "open_issues_count": 2400,
+      "open_issues_count": 2399,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T12:16:31Z",
       "size": 916025,
-      "stargazers_count": 22041,
+      "stargazers_count": 22042,
       "subscribers_count": 183,
       "topics": [
         "bigquery",
@@ -2731,7 +2731,7 @@
         "self-hosted",
         "snowflake"
       ],
-      "updated_at": "2026-09-12T13:41:42Z"
+      "updated_at": "2026-09-12T16:21:32Z"
     },
     "akashshrx/OpenSpecter": {
       "archived": false,
@@ -2888,9 +2888,9 @@
       ],
       "license_name": "Apache License 2.0",
       "license_spdx": "Apache-2.0",
-      "open_issues_count": 2144,
+      "open_issues_count": 2145,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T15:49:50Z",
+      "pushed_at": "2026-09-12T16:23:35Z",
       "size": 709556,
       "stargazers_count": 46838,
       "subscribers_count": 793,
@@ -2964,7 +2964,7 @@
       ],
       "license_name": "Apache License 2.0",
       "license_spdx": "Apache-2.0",
-      "open_issues_count": 612,
+      "open_issues_count": 613,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:11:11Z",
       "size": 1135337,
@@ -3009,7 +3009,7 @@
       "open_issues_count": 61,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:13:13Z",
-      "size": 369513,
+      "size": 369510,
       "stargazers_count": 4054,
       "subscribers_count": 90,
       "topics": [
@@ -3219,7 +3219,7 @@
       "open_issues_count": 136,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T16:00:47Z",
-      "size": 100953,
+      "size": 101188,
       "stargazers_count": 18257,
       "subscribers_count": 103,
       "topics": [
@@ -3338,7 +3338,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T20:06:55Z",
       "size": 1107,
-      "stargazers_count": 78924,
+      "stargazers_count": 78925,
       "subscribers_count": 2294,
       "topics": [
         "aaron-swartz",
@@ -3346,7 +3346,7 @@
         "datasets",
         "opendata"
       ],
-      "updated_at": "2026-09-12T10:21:44Z"
+      "updated_at": "2026-09-12T16:14:27Z"
     },
     "baserow/baserow": {
       "archived": false,
@@ -3625,7 +3625,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T07:39:39Z",
       "size": 36531,
-      "stargazers_count": 114318,
+      "stargazers_count": 114321,
       "subscribers_count": 470,
       "topics": [
         "ai-agents",
@@ -3636,7 +3636,7 @@
         "playwright",
         "python"
       ],
-      "updated_at": "2026-09-12T16:01:48Z"
+      "updated_at": "2026-09-12T16:15:27Z"
     },
     "calcom/cal.com": {
       "archived": false,
@@ -4078,7 +4078,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T19:46:20Z",
       "size": 295960,
-      "stargazers_count": 58413,
+      "stargazers_count": 58412,
       "subscribers_count": 398,
       "topics": [
         "agents",
@@ -4087,7 +4087,7 @@
         "aiagentframework",
         "llms"
       ],
-      "updated_at": "2026-09-12T14:51:15Z"
+      "updated_at": "2026-09-12T16:15:53Z"
     },
     "cybermaggedon/ixbrl-reporter": {
       "archived": false,
@@ -4458,7 +4458,7 @@
       "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
       "disabled": false,
       "fork": false,
-      "forks_count": 3119,
+      "forks_count": 3120,
       "full_name": "deepset-ai/haystack",
       "homepage": "https://haystack.deepset.ai",
       "html_url": "https://github.com/deepset-ai/haystack",
@@ -4659,7 +4659,7 @@
       "open_issues_count": 384,
       "owner_type": "User",
       "pushed_at": "2026-09-12T15:53:28Z",
-      "size": 41730,
+      "size": 42494,
       "stargazers_count": 33836,
       "subscribers_count": 120,
       "topics": [
@@ -4767,7 +4767,7 @@
       "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
       "disabled": false,
       "fork": false,
-      "forks_count": 4932,
+      "forks_count": 4933,
       "full_name": "directus/directus",
       "homepage": "https://directus.com",
       "html_url": "https://github.com/directus/directus",
@@ -5090,9 +5090,9 @@
       ],
       "license_name": "GNU Affero General Public License v3.0",
       "license_spdx": "AGPL-3.0",
-      "open_issues_count": 237,
+      "open_issues_count": 236,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T14:06:53Z",
+      "pushed_at": "2026-09-12T16:08:08Z",
       "size": 289599,
       "stargazers_count": 14999,
       "subscribers_count": 56,
@@ -5168,7 +5168,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-07T10:02:39Z",
       "size": 7932,
-      "stargazers_count": 18503,
+      "stargazers_count": 18504,
       "subscribers_count": 71,
       "topics": [
         "document-signing",
@@ -5185,7 +5185,7 @@
         "vue",
         "webpack"
       ],
-      "updated_at": "2026-09-12T11:57:40Z"
+      "updated_at": "2026-09-12T16:22:01Z"
     },
     "domokane/FinancePy": {
       "archived": false,
@@ -6594,7 +6594,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T13:12:23Z",
       "size": 165191,
-      "stargazers_count": 90572,
+      "stargazers_count": 90573,
       "subscribers_count": 364,
       "topics": [
         "agent-harness",
@@ -6613,7 +6613,7 @@
         "retrieval-augmented-generation",
         "search-harness"
       ],
-      "updated_at": "2026-09-12T15:56:51Z"
+      "updated_at": "2026-09-12T16:08:35Z"
     },
     "instaloader/instaloader": {
       "archived": false,
@@ -7088,7 +7088,7 @@
       "owner_type": "User",
       "pushed_at": "2026-09-11T21:04:45Z",
       "size": 72555,
-      "stargazers_count": 46249,
+      "stargazers_count": 46250,
       "subscribers_count": 534,
       "topics": [
         "commonmark",
@@ -7101,7 +7101,7 @@
         "presentation",
         "publishing"
       ],
-      "updated_at": "2026-09-12T14:56:25Z"
+      "updated_at": "2026-09-12T16:18:42Z"
     },
     "joeyism/linkedin_scraper": {
       "archived": false,
@@ -7153,7 +7153,7 @@
       "owner_type": "User",
       "pushed_at": "2026-04-10T02:46:05Z",
       "size": 4252,
-      "stargazers_count": 4498,
+      "stargazers_count": 4499,
       "subscribers_count": 54,
       "topics": [
         "chrome",
@@ -7169,7 +7169,7 @@
         "scrapes-linkedin",
         "users"
       ],
-      "updated_at": "2026-09-12T12:22:33Z"
+      "updated_at": "2026-09-12T16:05:37Z"
     },
     "jordan-gibbs/hyperresearch": {
       "archived": false,
@@ -7178,7 +7178,7 @@
       "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
       "disabled": false,
       "fork": false,
-      "forks_count": 276,
+      "forks_count": 279,
       "full_name": "jordan-gibbs/hyperresearch",
       "homepage": "",
       "html_url": "https://github.com/jordan-gibbs/hyperresearch",
@@ -7221,7 +7221,7 @@
       "owner_type": "User",
       "pushed_at": "2026-09-11T21:15:16Z",
       "size": 1755,
-      "stargazers_count": 2978,
+      "stargazers_count": 2983,
       "subscribers_count": 12,
       "topics": [
         "agents",
@@ -7230,7 +7230,7 @@
         "deep-research",
         "deep-research-agent"
       ],
-      "updated_at": "2026-09-12T16:00:31Z"
+      "updated_at": "2026-09-12T16:14:24Z"
     },
     "jsvine/pdfplumber": {
       "archived": false,
@@ -7673,7 +7673,7 @@
       "description": "The agent engineering platform.",
       "disabled": false,
       "fork": false,
-      "forks_count": 24425,
+      "forks_count": 24426,
       "full_name": "langchain-ai/langchain",
       "homepage": "https://docs.langchain.com/langchain/",
       "html_url": "https://github.com/langchain-ai/langchain",
@@ -7864,9 +7864,9 @@
       "license_spdx": "NOASSERTION",
       "open_issues_count": 1060,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T16:02:54Z",
+      "pushed_at": "2026-09-12T16:21:29Z",
       "size": 548645,
-      "stargazers_count": 155514,
+      "stargazers_count": 155515,
       "subscribers_count": 836,
       "topics": [
         "agent",
@@ -7889,7 +7889,7 @@
         "skills",
         "workflow"
       ],
-      "updated_at": "2026-09-12T15:44:56Z"
+      "updated_at": "2026-09-12T16:05:53Z"
     },
     "langwatch/langwatch": {
       "archived": false,
@@ -7937,7 +7937,7 @@
       ],
       "license_name": "Apache License 2.0",
       "license_spdx": "Apache-2.0",
-      "open_issues_count": 938,
+      "open_issues_count": 940,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:51:56Z",
       "size": 627826,
@@ -8181,7 +8181,7 @@
       "owner_type": "User",
       "pushed_at": "2026-09-10T12:44:35Z",
       "size": 28081,
-      "stargazers_count": 34765,
+      "stargazers_count": 34766,
       "subscribers_count": 180,
       "topics": [
         "osint",
@@ -8190,7 +8190,7 @@
         "security-tools",
         "sysadmin"
       ],
-      "updated_at": "2026-09-12T15:46:21Z"
+      "updated_at": "2026-09-12T16:14:37Z"
     },
     "lockfale/OSINT-Framework": {
       "archived": false,
@@ -8553,7 +8553,7 @@
       "description": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
       "disabled": false,
       "fork": false,
-      "forks_count": 1261,
+      "forks_count": 1260,
       "full_name": "marimo-team/marimo",
       "homepage": "https://marimo.io",
       "html_url": "https://github.com/marimo-team/marimo",
@@ -8844,11 +8844,11 @@
       ],
       "license_name": "Apache License 2.0",
       "license_spdx": "Apache-2.0",
-      "open_issues_count": 742,
+      "open_issues_count": 743,
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T15:36:33Z",
       "size": 64771,
-      "stargazers_count": 65181,
+      "stargazers_count": 65183,
       "subscribers_count": 248,
       "topics": [
         "agentic-memory",
@@ -8866,7 +8866,7 @@
         "rag",
         "state-management"
       ],
-      "updated_at": "2026-09-12T16:00:24Z"
+      "updated_at": "2026-09-12T16:16:38Z"
     },
     "mendableai/firecrawl": {
       "archived": false,
@@ -8917,8 +8917,8 @@
       "open_issues_count": 628,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:14:48Z",
-      "size": 179105,
-      "stargazers_count": 179461,
+      "size": 179106,
+      "stargazers_count": 179466,
       "subscribers_count": 462,
       "topics": [
         "ai",
@@ -8941,7 +8941,7 @@
         "web-search",
         "webscraping"
       ],
-      "updated_at": "2026-09-12T15:58:57Z"
+      "updated_at": "2026-09-12T16:19:06Z"
     },
     "metabase/metabase": {
       "archived": false,
@@ -8991,8 +8991,8 @@
       "license_spdx": "NOASSERTION",
       "open_issues_count": 4351,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T15:17:09Z",
-      "size": 2293324,
+      "pushed_at": "2026-09-12T16:21:58Z",
+      "size": 2293335,
       "stargazers_count": 49215,
       "subscribers_count": 667,
       "topics": [
@@ -9090,7 +9090,7 @@
       "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
       "disabled": false,
       "fork": false,
-      "forks_count": 3784,
+      "forks_count": 3785,
       "full_name": "microsoft/graphrag",
       "homepage": "https://microsoft.github.io/graphrag/",
       "html_url": "https://github.com/microsoft/graphrag",
@@ -9133,7 +9133,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-08T18:54:12Z",
       "size": 208709,
-      "stargazers_count": 35951,
+      "stargazers_count": 35952,
       "subscribers_count": 205,
       "topics": [
         "gpt",
@@ -9144,7 +9144,7 @@
         "llms",
         "rag"
       ],
-      "updated_at": "2026-09-12T14:52:05Z"
+      "updated_at": "2026-09-12T16:07:13Z"
     },
     "microsoft/markitdown": {
       "archived": false,
@@ -9153,7 +9153,7 @@
       "description": "Python tool for converting files and office documents to Markdown.",
       "disabled": false,
       "fork": false,
-      "forks_count": 13459,
+      "forks_count": 13460,
       "full_name": "microsoft/markitdown",
       "homepage": "",
       "html_url": "https://github.com/microsoft/markitdown",
@@ -9196,7 +9196,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T22:53:02Z",
       "size": 4712,
-      "stargazers_count": 183074,
+      "stargazers_count": 183094,
       "subscribers_count": 578,
       "topics": [
         "autogen",
@@ -9207,7 +9207,7 @@
         "openai",
         "pdf"
       ],
-      "updated_at": "2026-09-12T16:02:55Z"
+      "updated_at": "2026-09-12T16:22:05Z"
     },
     "microsoft/playwright": {
       "archived": false,
@@ -9259,7 +9259,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T23:00:20Z",
       "size": 241573,
-      "stargazers_count": 96014,
+      "stargazers_count": 96015,
       "subscribers_count": 608,
       "topics": [
         "automation",
@@ -9278,7 +9278,7 @@
         "web",
         "webkit"
       ],
-      "updated_at": "2026-09-12T16:01:09Z"
+      "updated_at": "2026-09-12T16:17:16Z"
     },
     "microsoft/qlib": {
       "archived": false,
@@ -9404,7 +9404,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T21:18:26Z",
       "size": 333340,
-      "stargazers_count": 46070,
+      "stargazers_count": 46071,
       "subscribers_count": 341,
       "topics": [
         "anns",
@@ -9426,7 +9426,7 @@
         "vector-similarity",
         "vector-store"
       ],
-      "updated_at": "2026-09-12T15:51:51Z"
+      "updated_at": "2026-09-12T16:25:02Z"
     },
     "mnemox-ai/idea-reality-mcp": {
       "archived": false,
@@ -9660,7 +9660,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T13:09:13Z",
       "size": 598262,
-      "stargazers_count": 204086,
+      "stargazers_count": 204089,
       "subscribers_count": 1165,
       "topics": [
         "ai",
@@ -9684,7 +9684,7 @@
         "workflow",
         "workflow-automation"
       ],
-      "updated_at": "2026-09-12T16:01:09Z"
+      "updated_at": "2026-09-12T16:23:56Z"
     },
     "neo4j/neo4j": {
       "archived": false,
@@ -10036,7 +10036,7 @@
       "open_issues_count": 10255,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:52:35Z",
-      "size": 17720857,
+      "size": 17720802,
       "stargazers_count": 54309,
       "subscribers_count": 1536,
       "topics": [
@@ -10100,7 +10100,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T10:13:20Z",
       "size": 213855,
-      "stargazers_count": 32033,
+      "stargazers_count": 32034,
       "subscribers_count": 161,
       "topics": [
         "ai",
@@ -10118,7 +10118,7 @@
         "self-hosted",
         "vector-search"
       ],
-      "updated_at": "2026-09-12T13:59:56Z"
+      "updated_at": "2026-09-12T16:05:19Z"
     },
     "open-legal-products/mike": {
       "archived": false,
@@ -10160,7 +10160,7 @@
       ],
       "license_name": "GNU Affero General Public License v3.0",
       "license_spdx": "AGPL-3.0",
-      "open_issues_count": 54,
+      "open_issues_count": 55,
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T15:16:18Z",
       "size": 35948,
@@ -10222,7 +10222,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T04:40:28Z",
       "size": 47037,
-      "stargazers_count": 29384,
+      "stargazers_count": 29385,
       "subscribers_count": 233,
       "topics": [
         "agents",
@@ -10233,7 +10233,7 @@
         "openai",
         "python"
       ],
-      "updated_at": "2026-09-12T14:26:33Z"
+      "updated_at": "2026-09-12T16:21:23Z"
     },
     "openai/whisper": {
       "archived": false,
@@ -10242,7 +10242,7 @@
       "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
       "disabled": false,
       "fork": false,
-      "forks_count": 13202,
+      "forks_count": 13201,
       "full_name": "openai/whisper",
       "homepage": "",
       "html_url": "https://github.com/openai/whisper",
@@ -10340,7 +10340,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T08:09:58Z",
       "size": 183546,
-      "stargazers_count": 79768,
+      "stargazers_count": 79770,
       "subscribers_count": 283,
       "topics": [
         "ai4science",
@@ -10360,7 +10360,7 @@
         "python",
         "xlsx"
       ],
-      "updated_at": "2026-09-12T15:59:38Z"
+      "updated_at": "2026-09-12T16:15:44Z"
     },
     "ourresearch/openalex-api": {
       "archived": false,
@@ -10678,24 +10678,24 @@
       "description": "A collection of MCP servers.",
       "disabled": false,
       "fork": false,
-      "forks_count": 16054,
+      "forks_count": 16055,
       "full_name": "punkpeye/awesome-mcp-servers",
       "homepage": "https://glama.ai/mcp/servers",
       "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
       "language": null,
       "license_name": "MIT License",
       "license_spdx": "MIT",
-      "open_issues_count": 2429,
+      "open_issues_count": 2430,
       "owner_type": "User",
       "pushed_at": "2026-09-08T13:25:58Z",
       "size": 270460,
-      "stargazers_count": 94856,
+      "stargazers_count": 94857,
       "subscribers_count": 49,
       "topics": [
         "ai",
         "mcp"
       ],
-      "updated_at": "2026-09-12T15:39:52Z"
+      "updated_at": "2026-09-12T16:17:11Z"
     },
     "puppeteer/puppeteer": {
       "archived": false,
@@ -11341,7 +11341,7 @@
       "description": "LlamaIndex is the document processing platform for AI",
       "disabled": false,
       "fork": false,
-      "forks_count": 8117,
+      "forks_count": 8118,
       "full_name": "run-llama/llama_index",
       "homepage": "https://developers.llamaindex.ai",
       "html_url": "https://github.com/run-llama/llama_index",
@@ -11384,7 +11384,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T18:09:01Z",
       "size": 501248,
-      "stargazers_count": 52132,
+      "stargazers_count": 52133,
       "subscribers_count": 286,
       "topics": [
         "agents",
@@ -11398,7 +11398,7 @@
         "rag",
         "vector-database"
       ],
-      "updated_at": "2026-09-12T15:03:10Z"
+      "updated_at": "2026-09-12T16:08:26Z"
     },
     "s0md3v/Photon": {
       "archived": false,
@@ -11572,7 +11572,7 @@
       "description": "Hunt down social media accounts by username across social networks",
       "disabled": false,
       "fork": false,
-      "forks_count": 10751,
+      "forks_count": 10752,
       "full_name": "sherlock-project/sherlock",
       "homepage": "https://sherlockproject.xyz",
       "html_url": "https://github.com/sherlock-project/sherlock",
@@ -11603,7 +11603,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T05:16:01Z",
       "size": 19061,
-      "stargazers_count": 91373,
+      "stargazers_count": 91374,
       "subscribers_count": 1420,
       "topics": [
         "cli",
@@ -11623,7 +11623,7 @@
         "sherlock",
         "tools"
       ],
-      "updated_at": "2026-09-12T15:58:54Z"
+      "updated_at": "2026-09-12T16:05:24Z"
     },
     "simonw/datasette": {
       "archived": false,
@@ -11742,7 +11742,7 @@
       "owner_type": "User",
       "pushed_at": "2026-04-13T19:43:06Z",
       "size": 16517,
-      "stargazers_count": 22065,
+      "stargazers_count": 22069,
       "subscribers_count": 513,
       "topics": [
         "attacksurface",
@@ -11765,7 +11765,7 @@
         "threat-intelligence",
         "threatintel"
       ],
-      "updated_at": "2026-09-12T15:44:15Z"
+      "updated_at": "2026-09-12T16:21:21Z"
     },
     "snap-stanford/ogb": {
       "archived": false,
@@ -11877,7 +11877,7 @@
       "owner_type": "User",
       "pushed_at": "2026-09-12T13:45:40Z",
       "size": 25490,
-      "stargazers_count": 37472,
+      "stargazers_count": 37473,
       "subscribers_count": 175,
       "topics": [
         "cli",
@@ -11901,7 +11901,7 @@
         "socmint",
         "username"
       ],
-      "updated_at": "2026-09-12T15:43:15Z"
+      "updated_at": "2026-09-12T16:17:36Z"
     },
     "speedyapply/JobSpy": {
       "archived": false,
@@ -12472,7 +12472,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-11T05:17:27Z",
       "size": 55212,
-      "stargazers_count": 76462,
+      "stargazers_count": 76463,
       "subscribers_count": 1715,
       "topics": [
         "hacktoberfest",
@@ -12483,7 +12483,7 @@
         "tesseract",
         "tesseract-ocr"
       ],
-      "updated_at": "2026-09-12T14:12:34Z"
+      "updated_at": "2026-09-12T16:12:16Z"
     },
     "topoteretes/cognee": {
       "archived": false,
@@ -12610,7 +12610,7 @@
       "owner_type": "Organization",
       "pushed_at": "2026-09-12T13:35:12Z",
       "size": 1854147,
-      "stargazers_count": 56640,
+      "stargazers_count": 56641,
       "subscribers_count": 227,
       "topics": [
         "crm",
@@ -12631,7 +12631,7 @@
         "typescript",
         "web"
       ],
-      "updated_at": "2026-09-12T15:32:50Z"
+      "updated_at": "2026-09-12T16:11:33Z"
     },
     "typst/typst": {
       "archived": false,
@@ -12796,7 +12796,7 @@
       "license_spdx": "NOASSERTION",
       "open_issues_count": 745,
       "owner_type": "Organization",
-      "pushed_at": "2026-09-12T10:28:56Z",
+      "pushed_at": "2026-09-12T16:13:18Z",
       "size": 1156671,
       "stargazers_count": 16801,
       "subscribers_count": 141,

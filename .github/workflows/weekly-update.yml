@@ -47,14 +47,13 @@ jobs:
         run: pip install pyyaml
 
       - name: Refresh verified metadata
+        # --with-releases always, so the shape of the committed snapshot is identical
+        # between local runs and CI. Mixing the two made an otherwise clean run look
+        # like drift, because one snapshot had a latest_releases field and the other
+        # did not.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ "${{ inputs.with_releases }}" = "true" ]; then
-            python scripts/update.py --with-releases
-          else
-            python scripts/update.py
-          fi
+        run: python scripts/update.py --with-releases
 
       - name: Regenerate directory pages
         run: python scripts/generate_index.py
@@ -65,28 +64,25 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
-          # metadata/snapshot.json always carries a fresh generated_at timestamp, so a
-          # naive diff would open a pull request every single week even when nothing
-          # drifted. Separate routine timestamp churn from substantive change, because
-          # the two deserve different treatment: refresh silently, escalate loudly.
-          echo "Working tree:"
+          # scripts/update.py decides what deserves a human's attention. Star counts and
+          # new releases move every week and nothing follows from them; an archived
+          # project, a licence change, or a vanished repository is exactly what the
+          # weekly cycle exists to surface. Reading that decision is more reliable than
+          # diffing a large JSON blob in bash, and it means a routine week stays quiet.
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          p = pathlib.Path("metadata/last-refresh.json")
+          if not p.exists():
+              print("substantive=false")
+          else:
+              d = json.loads(p.read_text(encoding="utf-8"))
+              print("substantive=" + ("true" if d.get("substantive") else "false"))
+          PY
+
+          echo "--- last-refresh.json ---"
+          cat metadata/last-refresh.json || true
+          echo "--- git status ---"
           git status --porcelain
-
-          OTHER=$(git status --porcelain | grep -v '^ M metadata/snapshot.json' || true)
-          SNAP=$(git diff -U0 metadata/snapshot.json \
-                   | grep -E '^[+-]' \
-                   | grep -vE '^(\+\+\+|---)' \
-                   | grep -v '"generated_at"' || true)
-
-          if [ -z "$OTHER" ] && [ -z "$SNAP" ]; then
-            echo "substantive=false" >> "$GITHUB_OUTPUT"
-            echo "No drift. Committing the refreshed timestamp only."
-          else
-            echo "substantive=true" >> "$GITHUB_OUTPUT"
-            echo "Drift detected:"
-            [ -n "$SNAP" ] && echo "$SNAP" | head -40
-            [ -n "$OTHER" ] && echo "$OTHER"
-          fi
 
       - name: Commit routine refresh to main
         # Nothing drifted, so there is nothing for a human to decide. Keep the
