@@ -1,0 +1,19 @@
+# Normalise line endings so the repository behaves the same on every platform.
+# Without this, a Windows checkout converts shell scripts to CRLF and they then
+# fail on the Linux runners this project's workflows use.
+
+* text=auto eol=lf
+
+# Explicit for the file types where it actually matters.
+*.py   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# Binary or generated artefacts that must not be touched.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.ico binary
