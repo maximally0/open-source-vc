@@ -329,7 +329,7 @@ Assumes reasonably standard financial statements, so unusual business models nee
 | **Category** | Investment Analysis |
 | **License** | GPL-3.0 |
 | **Stars** | 3.1k |
-| **Forks** | 437 |
+| **Forks** | 438 |
 | **Language** | Jupyter Notebook |
 | **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
