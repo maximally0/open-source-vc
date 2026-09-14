@@ -4,7 +4,7 @@ _Research that runs while you sleep._
 
 Research agents, browser agents, multi-agent systems, orchestration, MCP servers, document agents, and financial agents.
 
-**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,10 +21,10 @@ Research agents, browser agents, multi-agent systems, orchestration, MCP servers
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
-| **Stars** | 155.5k |
+| **Stars** | 155.7k |
 | **Forks** | 24.6k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -60,10 +60,10 @@ Licence is not a standard SPDX identifier, with a commercial cloud. Visual build
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 146.2k |
+| **Stars** | 146.3k |
 | **Forks** | 24.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -99,10 +99,10 @@ Heavily criticised for abstraction overhead and frequent breaking changes. For a
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 114.3k |
+| **Stars** | 114.6k |
 | **Forks** | 12.6k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -138,10 +138,10 @@ Still fails on complex flows, and unaided multi-step browsing burns tokens quick
 | **Category** | AI Agents for VC |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 94.9k |
+| **Stars** | 95k |
 | **Forks** | 16.1k |
 | **Language** | unknown |
-| **Status** | Active (last push 2026-09-08) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -216,10 +216,10 @@ Reference implementations, not supported products: expect to harden anything you
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 87.6k |
+| **Stars** | 87.8k |
 | **Forks** | 11.5k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -255,7 +255,7 @@ Runs code, which means it needs a real sandbox and supervision. Token cost on an
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | CC-BY-4.0 |
-| **Stars** | 60.9k |
+| **Stars** | 61k |
 | **Forks** | 9.2k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-04-15) |
@@ -294,10 +294,10 @@ Multi-agent systems multiply cost and failure modes, and the conversation patter
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 58.4k |
+| **Stars** | 58.5k |
 | **Forks** | 8.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -333,7 +333,7 @@ Less control over exactly what happens than a graph-based approach, which matter
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 52.1k |
+| **Stars** | 52.2k |
 | **Forks** | 8.1k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
@@ -372,10 +372,10 @@ The library is large and its abstractions shift between versions, so pin version
 | **Category** | AI Agents for VC |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 41.5k |
+| **Stars** | 41.6k |
 | **Forks** | 7k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -453,7 +453,7 @@ Needs a set of examples to optimise against, which is real work up front. Concep
 | **Stars** | 29.4k |
 | **Forks** | 4.7k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -531,7 +531,7 @@ Broad surface area with a small team, so individual components vary in maturity.
 | **Stars** | 187.3k |
 | **Forks** | 46k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**

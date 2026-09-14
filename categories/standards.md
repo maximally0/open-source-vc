@@ -4,7 +4,7 @@ _Formats worth adopting before you have to migrate off them._
 
 Cap-table standards, financial data standards, legal schemas, interoperability formats, and open investment data.
 
-**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -23,10 +23,10 @@ Cap-table standards, financial data standards, legal schemas, interoperability f
 | **Category** | Standards & Schemas |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 236 |
+| **Stars** | 238 |
 | **Forks** | 360 |
 | **Language** | HTML |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -101,7 +101,7 @@ Designed for US-style company structures, so other jurisdictions need extension.
 | **Category** | Standards & Schemas |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 233 |
+| **Stars** | 234 |
 | **Forks** | 76 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-04-21) |
@@ -143,7 +143,7 @@ Simpler than Arelle, so it handles edge cases less well. Activity has been inter
 | **Stars** | 154 |
 | **Forks** | 52 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-08-29) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -218,7 +218,7 @@ A viewing tool rather than a data pipeline. Licence is not a standard SPDX ident
 | **Category** | Standards & Schemas |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 71 |
+| **Stars** | 72 |
 | **Forks** | 23 |
 | **Language** | HTML |
 | **Status** | Active (last push 2026-05-08) |

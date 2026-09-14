@@ -4,7 +4,7 @@ _Glue. Unglamorous, and the difference between a stack and a folder of scripts._
 
 Workflow automation, ETL, connectors, notifications, integrations, scheduled research, and chat/email automation.
 
-**12 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**12 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,10 +21,10 @@ Workflow automation, ETL, connectors, notifications, integrations, scheduled res
 | **Category** | Workflow & Automation |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
-| **Stars** | 204.1k |
-| **Forks** | 60.6k |
+| **Stars** | 204.2k |
+| **Forks** | 60.7k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -60,10 +60,10 @@ Not open source despite the description people give it: the fair-code licence re
 | **Category** | Workflow & Automation |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 46.8k |
+| **Stars** | 46.9k |
 | **Forks** | 17.8k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -102,7 +102,7 @@ Heavy for small jobs and a real operational commitment. Not the tool for two scr
 | **Stars** | 40.9k |
 | **Forks** | 5.4k |
 | **Language** | JavaScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -141,7 +141,7 @@ AGPL-licensed with commercial editions. Same ceiling as any visual builder when 
 | **Stars** | 40.9k |
 | **Forks** | 4.8k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -180,7 +180,7 @@ Complex logic gets awkward, and the resulting app is harder to test and version 
 | **Stars** | 28.1k |
 | **Forks** | 3k |
 | **Language** | Java |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -219,7 +219,7 @@ Another service to operate, and for a handful of jobs a cron file is honestly en
 | **Stars** | 24.4k |
 | **Forks** | 4.2k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -294,10 +294,10 @@ The managed product is the commercial focus, so some operational features are ea
 | **Category** | Workflow & Automation |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
-| **Stars** | 22k |
+| **Stars** | 22.1k |
 | **Forks** | 5.3k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -336,7 +336,7 @@ Open-core with some connectors and features commercial, and the licence is not a
 | **Stars** | 17.9k |
 | **Forks** | 1.1k |
 | **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -414,7 +414,7 @@ More concepts to learn than a task scheduler, and the value appears only once th
 | **Stars** | 13.8k |
 | **Forks** | 2.6k |
 | **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -453,7 +453,7 @@ SQL-based, so non-tabular work needs something else. Needs a warehouse and someo
 | **Stars** | 2.6k |
 | **Forks** | 268 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**

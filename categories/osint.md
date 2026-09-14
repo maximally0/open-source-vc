@@ -4,7 +4,7 @@ _Systematic collection from public sources._
 
 OSINT frameworks, crawling, scraping, domain intelligence, monitoring, and change detection.
 
-**17 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**17 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -24,7 +24,7 @@ OSINT frameworks, crawling, scraping, domain intelligence, monitoring, and chang
 | **Stars** | 22.4k |
 | **Forks** | 1.4k |
 | **Language** | JavaScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -60,10 +60,10 @@ Saved pages can be large, and some dynamic content still fails to capture. It is
 | **Category** | Web Intelligence & OSINT |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
-| **Stars** | 179.5k |
+| **Stars** | 180.2k |
 | **Forks** | 9.8k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -99,10 +99,10 @@ The open-source core pairs with a paid hosted service, and the best crawling beh
 | **Category** | Web Intelligence & OSINT |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 96k |
+| **Stars** | 96.1k |
 | **Forks** | 6.4k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -141,7 +141,7 @@ Needs browser binaries installed and a fair amount of memory per instance. Site 
 | **Stars** | 95.6k |
 | **Forks** | 9.6k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-09) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -178,9 +178,9 @@ Chrome-only, and the maintainers position Playwright as the cross-browser option
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | BSD-3-Clause |
 | **Stars** | 64.3k |
-| **Forks** | 11.9k |
+| **Forks** | 12k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-10) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -221,7 +221,7 @@ Does not run JavaScript, so single-page apps need a separate renderer. Polite cr
 | **Stars** | 25.8k |
 | **Forks** | 1.7k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -299,7 +299,7 @@ Noisy without tuning, and some modules need API keys. Output needs a human to se
 | **Stars** | 14.4k |
 | **Forks** | 1.6k |
 | **Language** | Go |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -377,7 +377,7 @@ Crawls whatever you point it at, so rate and scope need care, and the target can
 | **Stars** | 10.6k |
 | **Forks** | 922 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-07) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -453,9 +453,9 @@ Active probing: it sends requests, so the target sees them. Technology detection
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 10k |
-| **Forks** | 1.4k |
+| **Forks** | 1.5k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -494,7 +494,7 @@ Heavy to deploy, with several services and a real learning curve. Built for thre
 | **Stars** | 8.8k |
 | **Forks** | 1.3k |
 | **Language** | HTML |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -530,8 +530,8 @@ Operationally heavy for what most funds need, and active scanning carries the sa
 | **Category** | Web Intelligence & OSINT |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 7.8k |
-| **Forks** | 977 |
+| **Stars** | 8.1k |
+| **Forks** | 1k |
 | **Language** | TypeScript |
 | **Status** | Active (last push 2026-09-06) |
 | **Self-hostable** | yes |

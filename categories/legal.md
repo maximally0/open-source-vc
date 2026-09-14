@@ -4,7 +4,7 @@ _Documents that decide the deal._
 
 SAFEs, term sheets, legal NLP, contract analysis, clause extraction, and transaction infrastructure.
 
-**17 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**17 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -61,9 +61,9 @@ AGPL-licensed. It produces analysis for a lawyer to check, not legal advice, and
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 1k |
-| **Forks** | 270 |
+| **Forks** | 271 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -102,7 +102,7 @@ US courts only, and coverage varies by jurisdiction and court level, with some r
 | **Stars** | 1.5k |
 | **Forks** | 186 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -138,7 +138,7 @@ Smaller than the commercial alternatives, and setup means hosting a real applica
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 438 |
+| **Stars** | 441 |
 | **Forks** | 57 |
 | **Language** | unknown |
 | **Status** | Active (last push 2026-07-23) |
@@ -255,7 +255,7 @@ Indian legal documents only, and quality varies by court and document age. Model
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 59 |
+| **Stars** | 61 |
 | **Forks** | 15 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-06) |
@@ -294,8 +294,8 @@ A corpus, not an answer: coverage, currency, and updates are the maintainer's ch
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | BSD-2-Clause |
-| **Stars** | 633 |
-| **Forks** | 173 |
+| **Stars** | 636 |
+| **Forks** | 172 |
 | **Language** | HTML |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
@@ -332,7 +332,7 @@ Per-court scrapers break as courts change their sites, so expect gaps and breaka
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 70 |
+| **Stars** | 71 |
 | **Forks** | 19 |
 | **Language** | TypeScript |
 | **Status** | Active (last push 2026-06-13) |
@@ -488,8 +488,8 @@ Last meaningful development was some years ago, so treat it as a foundation to b
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 696 |
-| **Forks** | 111 |
+| **Stars** | 697 |
+| **Forks** | 110 |
 | **Language** | Python |
 | **Status** | Dormant (last push 2024-07-16, 26mo) |
 | **Self-hostable** | yes |
@@ -566,7 +566,7 @@ A curated list, so it inherits the format's weaknesses: some links go stale and 
 | **Category** | Legal & Transaction Infrastructure |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
-| **Stars** | 269 |
+| **Stars** | 271 |
 | **Forks** | 44 |
 | **Language** | Python |
 | **Status** | Dormant (last push 2025-07-23, 14mo) |

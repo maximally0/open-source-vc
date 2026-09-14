@@ -4,7 +4,7 @@ _From evidence to a decision the partnership can defend._
 
 Memo generation, IC workflow, scorecards, decision systems, and citation-backed evidence.
 
-**6 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**6 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -26,7 +26,7 @@ Memo generation, IC workflow, scorecards, decision systems, and citation-backed 
 | **Stars** | 56k |
 | **Forks** | 1.7k |
 | **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -63,9 +63,9 @@ Not a word processor: collaborators who need to edit in Word are out of the loop
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
 | **Stars** | 6k |
-| **Forks** | 455 |
+| **Forks** | 457 |
 | **Language** | JavaScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -179,10 +179,10 @@ Single-author project around one investor's approach, so treat the method as one
 | **Category** | Investment Memo & IC |
 | **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | Apache-2.0 |
-| **Stars** | 52 |
+| **Stars** | 53 |
 | **Forks** | 15 |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**

@@ -6,7 +6,7 @@ The test for inclusion is not popularity. It is: **does this let one person do s
 
 That is why the list is short and why almost nothing on it has a famous star count. The most useful thing here has 231 stars. The second most useful has 29.
 
-_22 projects · 2026-09-12_
+_22 projects · 2026-09-14_
 
 ---
 
@@ -102,7 +102,7 @@ Lets a generalist hold a technical conversation with a deep-tech founder, with c
 
 **Rizzo PII** — Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` · 970★ · `MIT` · VC-adaptable
+`Rizzo-AI-Academy/rizzo-pii` · 980★ · `MIT` · VC-adaptable
 
 Makes LLMs usable on real data rooms without breaching an NDA.
 
@@ -118,7 +118,7 @@ AI diligence now has to ask where the training data came from. This is the check
 
 **Due Diligence Agents** — Agents that flag risks across legal and finance and link them.
 
-`zoharbabin/due-diligence-agents` · 103★ · `Apache-2.0` · VC-native
+`zoharbabin/due-diligence-agents` · 104★ · `Apache-2.0` · VC-native
 
 Cross-references legal and financial flags, which is where correlated risks hide.
 
@@ -158,7 +158,7 @@ Prompts the sections a memo needs, which is where junior writing stalls.
 
 **VC Reporting** — An AI-native platform for fund reporting and analysis.
 
-`tdavidson/reporting` · 52★ · `Apache-2.0` · VC-native
+`tdavidson/reporting` · 53★ · `Apache-2.0` · VC-native
 
 Built by an investor starting from the reporting obligation, not from an engineering idea.
 

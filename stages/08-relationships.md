@@ -2,7 +2,7 @@
 
 _The network is the asset._
 
-[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 13 projects &nbsp;·&nbsp; metadata updated 2026-09-12
+[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 13 projects &nbsp;·&nbsp; metadata updated 2026-09-14
 
 ---
 
@@ -23,7 +23,7 @@ VC-native first, then the adaptable tools that carry the work. Everything else i
 
 | Project | Relevance | Tier | Stars | License | One line |
 |---|---|---|---:|---|---|
-| [Twenty](https://github.com/twentyhq/twenty) | VC-adaptable | Essential | 56.6k | unverified (Other) | The team version: contacts, companies, and opportunities that match how a fund works, in a shared system rather than four analysts' personal notes. |
+| [Twenty](https://github.com/twentyhq/twenty) | VC-adaptable | Essential | 56.7k | unverified (Other) | The team version: contacts, companies, and opportunities that match how a fund works, in a shared system rather than four analysts' personal notes. |
 | [Cal.com](https://github.com/calcom/cal.diy) | VC-adaptable | Essential | 48.4k | MIT | Founder calls, LP check-ins, and office hours all live or die on scheduling. |
 | [Monica](https://github.com/monicahq/monica) | VC-adaptable | Essential | 25.3k | AGPL-3.0 | Every investor keeps the same private list: who introduced whom, what they care about, when you last spoke, what you promised. |
 | [Odoo](https://github.com/odoo/odoo) | VC-adaptable | Recommended | 54.3k | unverified (Other) | For a small fund or an SPV, the unglamorous back office in one system: contacts, invoices, expenses, and basic accounting. |
@@ -32,7 +32,7 @@ VC-native first, then the adaptable tools that carry the work. Everything else i
 | [Frappe CRM](https://github.com/frappe/crm) | VC-adaptable | Recommended | 3.5k | AGPL-3.0 | A maintainable team CRM for a small fund, with the option to extend into the wider Frappe and ERPNext stack later for invoicing, support, or portfolio administration. |
 | [EspoCRM](https://github.com/espocrm/espocrm) | VC-adaptable | Recommended | 3.3k | AGPL-3.0 | The conservative choice for a fund that wants a CRM to still be maintained in five years: contacts, accounts, and opportunities with workflow and reporting, plus a large catalogue of community extensions for the gaps. |
 | [CiviCRM](https://github.com/civicrm/civicrm-core) | VC-adaptable | Recommended | 772 | AGPL-3.0 | Purpose-built for relationship-heavy organisations that track people over decades: relevant to impact funds, foundations, and family offices where the relationship is the asset and money is not the only axis being tracked. |
-| [Whisper](https://github.com/openai/whisper) | Infrastructure | Recommended | 108.9k | MIT | Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record. |
+| [Whisper](https://github.com/openai/whisper) | Infrastructure | Recommended | 109.1k | MIT | Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record. |
 
 ---
 

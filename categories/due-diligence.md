@@ -4,7 +4,7 @@ _Replace the manual checklist with something repeatable._
 
 Financial, commercial, technical, legal, product, and AI/ML diligence, plus customer and competitive research.
 
-**10 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**10 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -22,7 +22,7 @@ Financial, commercial, technical, legal, product, and AI/ML diligence, plus cust
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 9.2k |
-| **Forks** | 917 |
+| **Forks** | 916 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-07) |
 | **Self-hostable** | yes |
@@ -63,7 +63,7 @@ Needs the source documents and an LLM key, and it will still miss domain context
 | **Stars** | 28.3k |
 | **Forks** | 3.7k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -138,10 +138,10 @@ It ranks suspicious rows; someone still has to judge them. Findings on a small d
 | **Category** | Due Diligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 11.4k |
+| **Stars** | 11.5k |
 | **Forks** | 1.1k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -216,10 +216,10 @@ Text-focused, so it will not help with tables or images. Older project, with a d
 | **Category** | Due Diligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 3.5k |
-| **Forks** | 370 |
+| **Stars** | 4.8k |
+| **Forks** | 385 |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -255,8 +255,8 @@ Value depends on the target being willing to run it, and designing meaningful ev
 | **Category** | Due Diligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 970 |
-| **Forks** | 67 |
+| **Stars** | 980 |
+| **Forks** | 68 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-09) |
 | **Self-hostable** | yes |
@@ -333,7 +333,7 @@ Public repositories only, and a match is a lead: many are test fixtures or rotat
 | **Category** | Due Diligence |
 | **VC relevance** | VC-native — built for venture capital, private markets, fund operations, or startup investing. |
 | **License** | Apache-2.0 |
-| **Stars** | 103 |
+| **Stars** | 104 |
 | **Forks** | 23 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-08) |

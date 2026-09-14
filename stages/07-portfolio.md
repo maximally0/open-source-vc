@@ -2,7 +2,7 @@
 
 _The decade after the wire hits._
 
-[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 10 projects &nbsp;·&nbsp; metadata updated 2026-09-12
+[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 10 projects &nbsp;·&nbsp; metadata updated 2026-09-14
 
 ---
 
@@ -24,7 +24,7 @@ VC-native first, then the adaptable tools that carry the work. Everything else i
 | Project | Relevance | Tier | Stars | License | One line |
 |---|---|---|---:|---|---|
 | [Metabase](https://github.com/metabase/metabase) | VC-adaptable | Essential | 49.2k | unverified (Other) | Portfolio dashboards a partner will actually open: capital deployed by vintage, sector exposure, KPI collection across the book, and which companies are behind plan. |
-| [Apache Superset](https://github.com/apache/superset) | VC-adaptable | Recommended | 74.7k | Apache-2.0 | The heavier option when a fund's data questions have outgrown a simple dashboard: SQL exploration, scheduled reports to LPs, row-level access so a partner sees only their deals. |
+| [Apache Superset](https://github.com/apache/superset) | VC-adaptable | Recommended | 74.8k | Apache-2.0 | The heavier option when a fund's data questions have outgrown a simple dashboard: SQL exploration, scheduled reports to LPs, row-level access so a partner sees only their deals. |
 | [Redash](https://github.com/getredash/redash) | VC-adaptable | Recommended | 28.8k | BSD-2-Clause | The middle ground: write SQL against the portfolio database, save the query, put a chart on it, share the link. |
 | [Datasette](https://github.com/simonw/datasette) | VC-adaptable | Recommended | 11.5k | Apache-2.0 | Publish the portfolio database internally so anyone can browse companies, filter by sector, and run their own queries without asking an engineer. |
 | [Baserow](https://github.com/baserow/baserow) | VC-adaptable | Recommended | 5.9k | unverified (Other) | Where the portfolio KPI collection actually lands: one row per company, columns for the metrics a fund tracks, forms for founders to submit updates, and a view per partner. |

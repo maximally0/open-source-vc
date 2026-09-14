@@ -4,7 +4,7 @@ _Fund maths, LP relationships, and the paperwork in between._
 
 LP CRM and intelligence, fundraising, fund modelling, portfolio construction, reporting, capital calls, distributions, and waterfalls.
 
-**7 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**7 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -23,10 +23,10 @@ LP CRM and intelligence, fundraising, fund modelling, portfolio construction, re
 | **Category** | LP & Fund Management |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
-| **Stars** | 39.1k |
+| **Stars** | 39.2k |
 | **Forks** | 12.8k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -65,7 +65,7 @@ A real implementation project, not an install. GPL-licensed, which affects redis
 | **Stars** | 11.8k |
 | **Forks** | 641 |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -219,9 +219,9 @@ No interface: you write entries in a text editor and run commands. It is double-
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 4.7k |
-| **Forks** | 413 |
+| **Forks** | 414 |
 | **Language** | Haskell |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -258,7 +258,7 @@ Same learning curve as any double-entry system, and no graphical interface by de
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 4.3k |
-| **Forks** | 986 |
+| **Forks** | 985 |
 | **Language** | C |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |

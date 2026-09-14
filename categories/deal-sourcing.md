@@ -4,7 +4,7 @@ _Track, dedupe, and route opportunities without a $50k seat licence._
 
 Sourcing workflow, pipeline management, deduplication, and routing.
 
-**6 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**6 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -23,10 +23,10 @@ Sourcing workflow, pipeline management, deduplication, and routing.
 | **Category** | Deal Sourcing & Pipeline |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 64.9k |
+| **Stars** | 65k |
 | **Forks** | 5k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -62,10 +62,10 @@ Advanced features sit behind a commercial tier, and the licence is not a standar
 | **Category** | Deal Sourcing & Pipeline |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 33.8k |
+| **Stars** | 34.1k |
 | **Forks** | 2k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -104,7 +104,7 @@ Some features are behind a paid hosted tier, and a busy page still needs selecto
 | **Stars** | 49.9k |
 | **Forks** | 4.3k |
 | **Language** | Ruby |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -143,7 +143,7 @@ Dated interface, and the self-hosted install has real operational weight. Agents
 | **Stars** | 24.7k |
 | **Forks** | 3.3k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**

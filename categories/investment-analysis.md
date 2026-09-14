@@ -4,7 +4,7 @@ _The maths between the meeting and the memo._
 
 Startup and investment scoring, financial analysis, valuation, DCF, comparables, and scenario modelling.
 
-**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**14 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,8 +21,8 @@ Startup and investment scoring, financial analysis, valuation, DCF, comparables,
 | **Category** | Investment Analysis |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 72.9k |
-| **Forks** | 7.5k |
+| **Stars** | 73k |
+| **Forks** | 7.6k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
@@ -65,7 +65,7 @@ Most data providers behind it require their own keys and subscriptions, and the 
 | **Stars** | 25.2k |
 | **Forks** | 3.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-10) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -104,7 +104,7 @@ Unofficial and dependent on an undocumented upstream, so it breaks occasionally 
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 2.7k |
-| **Forks** | 480 |
+| **Forks** | 483 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
@@ -181,7 +181,7 @@ Built for public market data, so applying it to venture outcomes means designing
 | **Category** | Investment Analysis |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 22.5k |
+| **Stars** | 22.6k |
 | **Forks** | 3.5k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-09) |
@@ -262,7 +262,7 @@ Equally precise outputs for a portfolio with three data points, so it invites ov
 | **Stars** | 7.6k |
 | **Forks** | 2.3k |
 | **Language** | C++ |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -338,7 +338,7 @@ Assumes reasonably standard financial statements, so unusual business models nee
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 3.1k |
-| **Forks** | 438 |
+| **Forks** | 440 |
 | **Language** | Jupyter Notebook |
 | **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
@@ -493,8 +493,8 @@ No licence file is present, so reuse terms are unclear. Depends on external APIs
 | **Category** | Investment Analysis |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 6k |
-| **Forks** | 870 |
+| **Stars** | 6.1k |
+| **Forks** | 878 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-05-11) |
 | **Self-hostable** | yes |
@@ -533,7 +533,7 @@ A demonstration, not an investment system, and anyone treating it as one deserve
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3.8k |
-| **Forks** | 539 |
+| **Forks** | 541 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-10) |
 | **Self-hostable** | yes |

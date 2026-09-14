@@ -12,7 +12,7 @@ Find companies → Research founders → Research markets → Run diligence
 
 Pair this with [VC_WORKFLOW.md](VC_WORKFLOW.md) for the full process map and [COMPARISON.md](COMPARISON.md) when you are choosing between options.
 
-_2026-09-12_
+_2026-09-14_
 
 ---
 
@@ -26,7 +26,7 @@ Every YC company with its batch, industry, team size, status, and founders, plus
 
 **[Sherlock](https://github.com/sherlock-project/sherlock)** — Find an account on 400+ sites from a username alone.
 
-`MIT` · 91.4k★ · Essential · [Founder & Talent Discovery](categories/founder-discovery.md)
+`MIT` · 91.5k★ · Essential · [Founder & Talent Discovery](categories/founder-discovery.md)
 
 When a founder's name is common or their LinkedIn is thin, an analyst runs the handle they use elsewhere through Sherlock to see where else that handle exists.
 
@@ -38,13 +38,13 @@ Point it at a target company's domain and get its hosting, DNS and mail records,
 
 **[NocoDB](https://github.com/nocodb/nocodb)** — Airtable-style database over Postgres, MySQL, or SQLite.
 
-`unverified (Other)` · 64.9k★ · Essential · [Deal Sourcing & Pipeline](categories/deal-sourcing.md)
+`unverified (Other)` · 65k★ · Essential · [Deal Sourcing & Pipeline](categories/deal-sourcing.md)
 
 The deals pipeline most small funds actually need: stages, owners, next actions, and notes, as a grid anyone on the team can edit, sitting on a real database you control.
 
 **[changedetection.io](https://github.com/dgtlmoon/changedetection.io)** — Tell me when a specific page changes.
 
-`Apache-2.0` · 33.8k★ · Essential · [Deal Sourcing & Pipeline](categories/deal-sourcing.md)
+`Apache-2.0` · 34.1k★ · Essential · [Deal Sourcing & Pipeline](categories/deal-sourcing.md)
 
 The narrow version of monitoring and the one analysts actually need: a competitor drops a price, adds a plan, edits a terms page, or a portfolio company quietly reshuffles its team page.
 
@@ -60,7 +60,7 @@ Every investor keeps the same private list: who introduced whom, what they care 
 
 **[Whisper](https://github.com/openai/whisper)** — Speech to text that holds up on real calls.
 
-`MIT` · 108.9k★ · Recommended · [Relationship Intelligence](categories/relationship-intelligence.md)
+`MIT` · 109.1k★ · Recommended · [Relationship Intelligence](categories/relationship-intelligence.md)
 
 Turn founder calls into a transcript you can search, quote in a memo, and keep as part of the record.
 
@@ -72,7 +72,7 @@ Founder calls, LP check-ins, and office hours all live or die on scheduling.
 
 **[Playwright](https://github.com/microsoft/playwright)** — Drive Chrome, Firefox, and WebKit from code.
 
-`Apache-2.0` · 96k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
+`Apache-2.0` · 96.1k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
 
 The foundation for any workflow that needs a real browser: logging into a portal and pulling a report, capturing a screenshot for evidence, or checking that a portfolio company's signup flow still works.
 
@@ -110,7 +110,7 @@ A fund's institutional memory problem: a hundred memos, data-room exports, and m
 
 **[RAGFlow](https://github.com/infiniflow/ragflow)** — A retrieval system built around deep document understanding.
 
-`Apache-2.0` · 90.6k★ · Recommended · [Knowledge Management](categories/knowledge-management.md)
+`Apache-2.0` · 90.7k★ · Recommended · [Knowledge Management](categories/knowledge-management.md)
 
 The knowledge layer a fund builds once so that memos, filings, and data-room material are answerable with citations.
 
@@ -120,7 +120,7 @@ The knowledge layer a fund builds once so that memos, filings, and data-room mat
 
 **[OpenBB](https://github.com/OpenBB-finance/OpenBB)** — An open research platform for markets and financial data.
 
-`unverified (Other)` · 72.9k★ · Essential · [Investment Analysis](categories/investment-analysis.md)
+`unverified (Other)` · 73k★ · Essential · [Investment Analysis](categories/investment-analysis.md)
 
 Public comparables work: pull financials, prices, and fundamentals for the listed companies a target competes with, then build the trading multiples that anchor a valuation conversation.
 
@@ -148,7 +148,7 @@ A data room is a pile of PDFs, slide decks, spreadsheets, and scans in no partic
 
 **[Docling](https://github.com/docling-project/docling)** — Layout-aware conversion of PDFs and office documents.
 
-`MIT` · 66.3k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
+`MIT` · 66.4k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
 
 Financial statements and contracts are where layout carries meaning: which number sits in which column, which heading a clause falls under.
 
@@ -160,13 +160,13 @@ The workhorse for converting a data room into text an analyst or a model can rea
 
 **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** — Adds a searchable text layer to scanned PDFs.
 
-`MPL-2.0` · 34.7k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
+`MPL-2.0` · 34.8k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
 
 The unglamorous step that makes everything else possible.
 
 **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** — Scan, index, and search every document you own.
 
-`GPL-3.0` · 45k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
+`GPL-3.0` · 45.1k★ · Essential · [Data Rooms & Document Intelligence](categories/document-intelligence.md)
 
 The document archive for a fund or a family office: every contract, statement, and filing OCR'd, tagged, and full-text searchable, with the original file retained.
 
@@ -204,7 +204,7 @@ The internal tool a fund builds once and uses daily: a company scorecard, an LP-
 
 **[n8n](https://github.com/n8n-io/n8n)** — Workflow automation with a fair-code licence.
 
-`unverified (Other)` · 204.1k★ · Recommended · [Workflow & Automation](categories/automation.md)
+`unverified (Other)` · 204.2k★ · Recommended · [Workflow & Automation](categories/automation.md)
 
 The connective tissue a fund needs: a new deal lands in a form, gets enriched, appears in the pipeline, and pings the right partner.
 
@@ -220,19 +220,19 @@ Turns a fund's raw company and portfolio tables into the clean models that repor
 
 **[browser-use](https://github.com/browser-use/browser-use)** — Let a model drive a real browser.
 
-`MIT` · 114.3k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 114.6k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The tool that makes research agents actually work, because most of the useful public information sits behind JavaScript, logins, and search boxes rather than an API.
 
 **[LangGraph](https://github.com/langchain-ai/langgraph)** — Agents as explicit graphs with state.
 
-`MIT` · 41.5k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 41.6k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The right shape for a diligence workflow, where steps depend on what earlier steps found and a human needs to approve before the next stage.
 
 **[LlamaIndex](https://github.com/run-llama/llama_index)** — Connect models to your own data.
 
-`MIT` · 52.1k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
+`MIT` · 52.2k★ · Recommended · [AI Agents for VC](categories/ai-agents.md)
 
 The most common foundation for a fund's document assistant: load a data room, build an index, and query it with citations.
 

@@ -4,7 +4,7 @@ _Build the map before you take the meeting._
 
 Market mapping, competitive research, industry intelligence, company comparison, and trend detection.
 
-**16 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**16 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -143,7 +143,7 @@ Needs an LLM key and a search API, so cost scales with use. It can restate a wea
 | **Stars** | 62.2k |
 | **Forks** | 24.9k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-03) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -260,7 +260,7 @@ Minimal by design: no UI, thin error handling, and no provenance beyond the sour
 | **Stars** | 18.3k |
 | **Forks** | 2.1k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -299,7 +299,7 @@ Retrieval quality is only as good as the chunking, and answers need verification
 | **Stars** | 16.1k |
 | **Forks** | 1.5k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -336,7 +336,7 @@ Platform connectors break as those platforms change access, and coverage is unev
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
 | **Stars** | 8.4k |
-| **Forks** | 643 |
+| **Forks** | 646 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-07-06) |
 | **Self-hostable** | yes |
@@ -414,7 +414,7 @@ Needs a vector store and an LLM key, and answer quality depends heavily on how t
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unknown |
 | **Stars** | 4.2k |
-| **Forks** | 921 |
+| **Forks** | 919 |
 | **Language** | TypeScript |
 | **Status** | Active (last push 2026-01-13) |
 | **Self-hostable** | yes |
@@ -452,7 +452,7 @@ No licence file is present, so reuse terms are unclear. Feed availability change
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 3.5k |
-| **Forks** | 457 |
+| **Forks** | 456 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-05-04) |
 | **Self-hostable** | yes |
@@ -490,10 +490,10 @@ More moving parts than a single-loop agent, and the coordination overhead is rea
 | **Category** | Market & Industry Research |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 3k |
-| **Forks** | 280 |
+| **Stars** | 3.3k |
+| **Forks** | 319 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -514,7 +514,7 @@ It treats research as a persistent asset rather than a chat log, which is the ri
 
 Early project, and the value depends on discipline in adding to it. Search quality over a large accumulated corpus is untested.
 
-**Links:** [GitHub](https://github.com/jordan-gibbs/hyperresearch)
+**Links:** [GitHub](https://github.com/jordan-gibbs/hyperresearch) &nbsp;·&nbsp; [Site](https://hyperresearch.ai)
 
 ---
 
@@ -529,7 +529,7 @@ Early project, and the value depends on discipline in adding to it. Search quali
 | **Category** | Market & Industry Research |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 636 |
+| **Stars** | 638 |
 | **Forks** | 115 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-02) |
@@ -606,7 +606,7 @@ A research implementation, not a product. Expect to read code and papers to use 
 | **Category** | Market & Industry Research |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 828 |
+| **Stars** | 829 |
 | **Forks** | 85 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-05-11) |

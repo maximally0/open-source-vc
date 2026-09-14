@@ -4,7 +4,7 @@ _Data rooms are PDFs. This is how you read 4,000 of them._
 
 PDF parsing, layout-aware extraction, OCR, contract extraction, document search, and multimodal document understanding.
 
-**24 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**24 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,10 +21,10 @@ PDF parsing, layout-aware extraction, OCR, contract extraction, document search,
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 66.3k |
+| **Stars** | 66.4k |
 | **Forks** | 4.8k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -60,10 +60,10 @@ Model-based parsing is slower than text extraction and needs decent hardware. Ve
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
-| **Stars** | 45k |
+| **Stars** | 45.1k |
 | **Forks** | 3.1k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -102,7 +102,7 @@ Retro-fitting years of existing documents takes effort and storage. Licence is G
 | **Stars** | 39.7k |
 | **Forks** | 2.9k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-09) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -138,10 +138,10 @@ Commercial-use terms require checking above a revenue threshold, which is unusua
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MPL-2.0 |
-| **Stars** | 34.7k |
+| **Stars** | 34.8k |
 | **Forks** | 2.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-08) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -218,10 +218,10 @@ Element extraction is heuristic, so layout-heavy documents still need checking. 
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 183.1k |
+| **Stars** | 183.8k |
 | **Forks** | 13.5k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -257,10 +257,10 @@ Deliberately simple: no OCR, limited table fidelity, and not built for batch pip
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 91.8k |
+| **Stars** | 92k |
 | **Forks** | 8.3k |
 | **Language** | Java |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -296,7 +296,7 @@ Heavy operations need resources, and the licence is not a standard SPDX identifi
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 89.4k |
+| **Stars** | 89.5k |
 | **Forks** | 11.3k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-07-22) |
@@ -335,10 +335,10 @@ Custom training and tuning are part of the framework's ethos, which is more setu
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
-| **Stars** | 79.8k |
+| **Stars** | 79.9k |
 | **Forks** | 6.7k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -416,7 +416,7 @@ Layout-blind: it reads characters well and structure badly, so tables and multi-
 | **Stars** | 46.3k |
 | **Forks** | 4k |
 | **Language** | Haskell |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -491,7 +491,7 @@ Slower and less accurate than newer layout models on complex pages. GPU needed f
 | **Category** | Data Rooms & Document Intelligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 25.7k |
+| **Stars** | 25.8k |
 | **Forks** | 2.2k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-07-14) |
@@ -611,7 +611,7 @@ AGPL-licensed with a commercial tier for some features, and self-hosting means t
 | **Stars** | 15k |
 | **Forks** | 3.2k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -687,7 +687,7 @@ Model-based, so it needs hardware and the team's usual commercial-licence check.
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 10.7k |
-| **Forks** | 919 |
+| **Forks** | 920 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-06) |
 | **Self-hostable** | yes |
@@ -726,7 +726,7 @@ Not a layout model: you write the logic per document type. Slow on large documen
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | AGPL-3.0 |
 | **Stars** | 10.7k |
-| **Forks** | 798 |
+| **Forks** | 800 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
@@ -765,9 +765,9 @@ AGPL-licensed, which has real obligations if you build a network service on it. 
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 7.2k |
-| **Forks** | 715 |
+| **Forks** | 716 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -806,7 +806,7 @@ AGPL with a commercial tier, and LLM-based extraction needs validating against a
 | **Stars** | 4.1k |
 | **Forks** | 969 |
 | **Language** | Java |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -884,7 +884,7 @@ Works best on tables with visible ruling lines; borderless tables need manual co
 | **Stars** | 35.6k |
 | **Forks** | 3.1k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -921,7 +921,7 @@ Newer approach with less production evidence than vector search. Reasoning over 
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
 | **Stars** | 12.3k |
-| **Forks** | 846 |
+| **Forks** | 845 |
 | **Language** | TypeScript |
 | **Status** | Dormant (last push 2025-05-20, 16mo) |
 | **Self-hostable** | partial (open core) |

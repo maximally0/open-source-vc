@@ -4,7 +4,7 @@ _The actual moat in venture is the network._
 
 CRMs, personal CRMs, relationship graphs, email and calendar intelligence, warm-introduction paths, and network analysis.
 
-**13 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**13 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,10 +21,10 @@ CRMs, personal CRMs, relationship graphs, email and calendar intelligence, warm-
 | **Category** | Relationship Intelligence |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 56.6k |
+| **Stars** | 56.7k |
 | **Forks** | 9.1k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -63,7 +63,7 @@ Younger than the established open CRMs, so the integration catalogue is smaller.
 | **Stars** | 48.4k |
 | **Forks** | 15.1k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -138,7 +138,7 @@ Single-user personal CRM, not a team pipeline: no shared ownership, no deal stag
 | **Category** | Relationship Intelligence |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | MIT |
-| **Stars** | 108.9k |
+| **Stars** | 109.1k |
 | **Forks** | 13.2k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-31) |
@@ -180,7 +180,7 @@ Needs a GPU for practical speed on long recordings, and no speaker separation: y
 | **Stars** | 54.3k |
 | **Forks** | 33.7k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -219,7 +219,7 @@ Community edition is open source, but the most useful modules are enterprise-onl
 | **Stars** | 30.7k |
 | **Forks** | 3.3k |
 | **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -336,7 +336,7 @@ More setup than plain Whisper, and diarisation degrades when several people spea
 | **Stars** | 23.9k |
 | **Forks** | 1.6k |
 | **Language** | PHP |
-| **Status** | Active (last push 2026-09-10) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -415,7 +415,7 @@ In-memory, so very large graphs need more than networkx. You have to build and m
 | **Stars** | 3.5k |
 | **Forks** | 1.4k |
 | **Language** | Vue |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -452,9 +452,9 @@ Frappe's conventions take learning if your team is not already on that stack. Sm
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | AGPL-3.0 |
 | **Stars** | 3.3k |
-| **Forks** | 969 |
+| **Forks** | 970 |
 | **Language** | PHP |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -493,7 +493,7 @@ Interface and design show their age, and the most capable extensions are paid.
 | **Stars** | 772 |
 | **Forks** | 898 |
 | **Language** | PHP |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**

@@ -4,7 +4,7 @@ _Finding the people before the round exists._
 
 Founder discovery, technical-talent search, GitHub intelligence, developer discovery, identity resolution, and talent graphs.
 
-**8 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**8 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -23,10 +23,10 @@ Founder discovery, technical-talent search, GitHub intelligence, developer disco
 | **Category** | Founder & Talent Discovery |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
-| **Stars** | 91.4k |
+| **Stars** | 91.5k |
 | **Forks** | 10.8k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -65,9 +65,9 @@ A hit is a username match, not proof of identity. Coverage shifts as sites chang
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 34.8k |
-| **Forks** | 2.8k |
+| **Forks** | 2.9k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-10) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -106,7 +106,7 @@ Only shows what is externally visible. A clean report is not a clean bill of hea
 | **Stars** | 37.5k |
 | **Forks** | 2.9k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -298,7 +298,7 @@ Instagram actively blocks bulk collection, so expect throttling and account loss
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | GPL-3.0 |
 | **Stars** | 4.5k |
-| **Forks** | 987 |
+| **Forks** | 986 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-04-10) |
 | **Self-hostable** | yes |

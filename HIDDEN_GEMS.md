@@ -11,7 +11,7 @@ Every entry below is deliberately **not** ranked by stars. A repository with 900
 
 **40 projects.** If you only read two pages of this repository, make it this one and the [Starter Pack](STARTER_PACK.md).
 
-_2026-09-12_
+_2026-09-14_
 
 ---
 
@@ -179,7 +179,7 @@ _2026-09-12_
 
 > Agents that flag risks across legal and finance and link them.
 
-`zoharbabin/due-diligence-agents` · `Apache-2.0` · 103★ · Experimental · [Due Diligence](categories/due-diligence.md)
+`zoharbabin/due-diligence-agents` · `Apache-2.0` · 104★ · Experimental · [Due Diligence](categories/due-diligence.md)
 
 **Why it is here:** The cross-referencing is the interesting part. Most diligence tooling produces parallel checklists that never touch, which is exactly how correlated risks get missed.
 
@@ -275,7 +275,7 @@ _2026-09-12_
 
 > Graph-based investigations you can see.
 
-`reconurge/flowsint` · `Apache-2.0` · 7.8k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
+`reconurge/flowsint` · `Apache-2.0` · 8.1k★ · Recommended · [Web Intelligence & OSINT](categories/osint.md)
 
 **Why it is here:** It makes the investigation itself the interface, so the path from a name to a conclusion is visible and reviewable rather than buried in a script.
 
@@ -355,7 +355,7 @@ _2026-09-12_
 
 > Get usable data out of inline XBRL files.
 
-`kanedata/ixbrl-parse` · `MIT` · 71★ · Recommended · [Standards & Schemas](categories/standards.md)
+`kanedata/ixbrl-parse` · `MIT` · 72★ · Recommended · [Standards & Schemas](categories/standards.md)
 
 **Why it is here:** Inline XBRL mixed into HTML breaks naive parsers, and this handles the transformation properly rather than treating the file as text.
 
@@ -531,7 +531,7 @@ _2026-09-12_
 
 > Anonymise documents before they reach a model.
 
-`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 970★ · Recommended · [Due Diligence](categories/due-diligence.md)
+`Rizzo-AI-Academy/rizzo-pii` · `MIT` · 980★ · Recommended · [Due Diligence](categories/due-diligence.md)
 
 **Why it is here:** It runs locally, which is the whole point. Most PII tooling assumes the document is going to a cloud service you have already decided to trust.
 
@@ -611,7 +611,7 @@ _2026-09-12_
 
 > An AI-native platform for fund reporting and analysis.
 
-`tdavidson/reporting` · `Apache-2.0` · 52★ · Experimental · [Investment Memo & IC](categories/investment-memos.md)
+`tdavidson/reporting` · `Apache-2.0` · 53★ · Experimental · [Investment Memo & IC](categories/investment-memos.md)
 
 **Why it is here:** Most fund software is built by engineers guessing at investor workflows. This one started from the reporting obligation, which is the part with a deadline attached.
 
@@ -643,7 +643,7 @@ _2026-09-12_
 
 > A large MCP toolset for global intelligence feeds.
 
-`marc-shade/world-intel-mcp` · `MIT` · 636★ · Experimental · [Market & Industry Research](categories/market-research.md)
+`marc-shade/world-intel-mcp` · `MIT` · 638★ · Experimental · [Market & Industry Research](categories/market-research.md)
 
 **Why it is here:** It packages a wide set of public data sources behind a standard agent interface, which is the difference between an agent that can look things up and one that just writes from memory.
 

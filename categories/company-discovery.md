@@ -4,7 +4,7 @@ _Turning the open web into a pipeline._
 
 Startup and company databases, funding data, company enrichment, inbound deal flow, and pipeline construction.
 
-**11 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**11 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -26,7 +26,7 @@ Startup and company databases, funding data, company enrichment, inbound deal fl
 | **Stars** | 231 |
 | **Forks** | 22 |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -63,7 +63,7 @@ Covers YC companies only, so it is a slice of the market and a biased one. No fu
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 9.5k |
-| **Forks** | 371 |
+| **Forks** | 370 |
 | **Language** | TypeScript |
 | **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
@@ -104,7 +104,7 @@ Stars measure attention, not usage or revenue, and spikes are frequently launch-
 | **Stars** | 4.5k |
 | **Forks** | 577 |
 | **Language** | Python |
-| **Status** | Dormant (last push 2025-07-29, 13mo) |
+| **Status** | Dormant (last push 2025-07-29, 14mo) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -221,7 +221,7 @@ Requires a search API key and an LLM provider, so it costs money to run. Output 
 | **Stars** | 44 |
 | **Forks** | 6 |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -297,7 +297,7 @@ Enrichment quality depends on what is publicly crawlable, so results need checki
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | MIT |
 | **Stars** | 815 |
-| **Forks** | 88 |
+| **Forks** | 87 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-08-11) |
 | **Self-hostable** | yes |

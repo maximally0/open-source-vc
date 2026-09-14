@@ -4,7 +4,7 @@ _Institutional memory beats individual memory._
 
 Knowledge graphs, RAG, semantic search, vector databases, research notebooks, and internal memory.
 
-**25 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**25 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -21,10 +21,10 @@ Knowledge graphs, RAG, semantic search, vector databases, research notebooks, an
 | **Category** | Knowledge Management |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 90.6k |
+| **Stars** | 90.7k |
 | **Forks** | 10.7k |
 | **Language** | Go |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -60,10 +60,10 @@ A substantial deployment with several components. Retrieval quality still depend
 | **Category** | Knowledge Management |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 65.2k |
+| **Stars** | 65.3k |
 | **Forks** | 7.6k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -100,9 +100,9 @@ Memory quality depends on what gets extracted and stored, and wrong memories per
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 46.1k |
-| **Forks** | 4.2k |
+| **Forks** | 4.3k |
 | **Language** | Go |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -141,7 +141,7 @@ Operationally heavy. A fund with ten thousand documents will be happier with som
 | **Stars** | 44.9k |
 | **Forks** | 2.8k |
 | **Language** | Clojure |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -180,7 +180,7 @@ Depends on the analyst's discipline: an unmaintained graph is just files. Not a 
 | **Stars** | 40.5k |
 | **Forks** | 3.6k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -219,7 +219,7 @@ Licence is not a standard SPDX identifier, with a hosted commercial product. Sea
 | **Stars** | 39.6k |
 | **Forks** | 5.6k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -258,7 +258,7 @@ Less capable than a full graph build on large, complex corpora. Emerging project
 | **Stars** | 36k |
 | **Forks** | 3.8k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-08) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -297,7 +297,7 @@ Indexing is expensive: it calls a model many times per document set. Best suited
 | **Stars** | 34.5k |
 | **Forks** | 2.7k |
 | **Language** | Rust |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -372,10 +372,10 @@ Younger than the databases it replaces, so operational experience is thinner. Li
 | **Category** | Knowledge Management |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 32k |
+| **Stars** | 32.1k |
 | **Forks** | 4.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -411,7 +411,7 @@ Real infrastructure to run, and the licence is not a standard SPDX identifier. V
 | **Category** | Knowledge Management |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 30.8k |
+| **Stars** | 30.9k |
 | **Forks** | 3.1k |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
@@ -453,7 +453,7 @@ Needs a graph database and an LLM. Extracting facts reliably from messy document
 | **Stars** | 30.7k |
 | **Forks** | 3k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -531,7 +531,7 @@ Not for scale or multi-user production. The hosted product is the commercial pat
 | **Stars** | 28.9k |
 | **Forks** | 3.3k |
 | **Language** | Vue |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -570,7 +570,7 @@ AGPL-licensed, which matters if you host it for others. Fewer real-time collabor
 | **Stars** | 26.5k |
 | **Forks** | 3.1k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -645,10 +645,10 @@ Not built for billions of vectors, and index build times grow. Tuning matters mo
 | **Category** | Knowledge Management |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
-| **Stars** | 22.7k |
+| **Stars** | 22.8k |
 | **Forks** | 1.3k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -804,7 +804,7 @@ Community edition is GPL with the clustering and enterprise features commercial.
 | **Stars** | 16.8k |
 | **Forks** | 1.4k |
 | **Language** | Go |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -840,10 +840,10 @@ Operationally heavier than an embedded option, and the licence is not a standard
 | **Category** | Knowledge Management |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
-| **Stars** | 15.2k |
+| **Stars** | 15.3k |
 | **Forks** | 1.1k |
 | **Language** | JavaScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-12) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -880,7 +880,7 @@ Storage and sync for large libraries need care, and the group features are weake
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | Apache-2.0 |
 | **Stars** | 12.9k |
-| **Forks** | 891 |
+| **Forks** | 890 |
 | **Language** | Python |
 | **Status** | Active (last push 2026-09-11) |
 | **Self-hostable** | yes |
@@ -919,7 +919,7 @@ Smaller community, and the bundled approach means less flexibility than composin
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | BSD-3-Clause |
 | **Stars** | 4.3k |
-| **Forks** | 730 |
+| **Forks** | 731 |
 | **Language** | TypeScript |
 | **Status** | Active (last push 2026-09-09) |
 | **Self-hostable** | yes |
@@ -957,7 +957,7 @@ Needs the toolchain maintained, and non-technical readers will find the format u
 | **Category** | Knowledge Management |
 | **VC relevance** | Infrastructure — a building block you construct venture tooling with, not something an analyst uses standalone. |
 | **License** | unverified (Other) |
-| **Stars** | 29.4k |
+| **Stars** | 29.5k |
 | **Forks** | 3.6k |
 | **Language** | Jupyter Notebook |
 | **Status** | Active (last push 2026-09-04) |

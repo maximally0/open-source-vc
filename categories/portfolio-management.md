@@ -4,7 +4,7 @@ _The decade after the wire hits._
 
 Portfolio monitoring, KPI collection, dashboards, company updates, risk, analytics, and founder support.
 
-**10 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**10 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -24,7 +24,7 @@ Portfolio monitoring, KPI collection, dashboards, company updates, risk, analyti
 | **Stars** | 49.2k |
 | **Forks** | 6.8k |
 | **Language** | Clojure |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -63,7 +63,7 @@ Visualization and embedded features sit behind a commercial tier. Needs a wareho
 | **Stars** | 45.7k |
 | **Forks** | 4.4k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -101,10 +101,10 @@ Not suited to large multi-user applications, and state handling gets awkward as 
 | **Category** | Portfolio Management |
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | Apache-2.0 |
-| **Stars** | 74.7k |
+| **Stars** | 74.8k |
 | **Forks** | 18.3k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -143,7 +143,7 @@ Substantial deployment and a real learning curve. Overkill for a fund of one.
 | **Stars** | 43.5k |
 | **Forks** | 3.6k |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -182,7 +182,7 @@ Demo-oriented: authentication, access control, and state are limited. Not a prod
 | **Stars** | 37.9k |
 | **Forks** | 4.9k |
 | **Language** | TypeScript |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**
@@ -297,9 +297,9 @@ Read-oriented: not an editing interface or a reporting suite. Needs care around 
 | **VC relevance** | VC-adaptable — a general tool a fund adopts directly for a specific venture task. |
 | **License** | unverified (Other) |
 | **Stars** | 5.9k |
-| **Forks** | 718 |
+| **Forks** | 723 |
 | **Language** | Python |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | partial (open core) |
 
 **VC use case**

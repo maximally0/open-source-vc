@@ -2,7 +2,7 @@
 
 _Understand the company, the founder, and the market._
 
-[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 33 projects &nbsp;·&nbsp; metadata updated 2026-09-12
+[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 33 projects &nbsp;·&nbsp; metadata updated 2026-09-14
 
 ---
 

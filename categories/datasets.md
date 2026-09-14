@@ -4,7 +4,7 @@ _The raw material your analysis runs on._
 
 Startup and company datasets, developer and repository data, financial and legal corpora, patent and research indexes, and the tooling to work with them.
 
-**9 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**9 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
@@ -182,7 +182,7 @@ Author disambiguation is imperfect, so a name match needs confirming. Coverage o
 | **Stars** | 78.9k |
 | **Forks** | 11.8k |
 | **Language** | unknown |
-| **Status** | Active (last push 2026-09-11) |
+| **Status** | Active (last push 2026-09-13) |
 | **Self-hostable** | yes |
 
 **VC use case**
@@ -221,7 +221,7 @@ A list, so link quality varies and many entries are old. Each dataset still need
 | **Stars** | 2.8k |
 | **Forks** | 794 |
 | **Language** | unknown |
-| **Status** | Active (last push 2026-09-12) |
+| **Status** | Active (last push 2026-09-14) |
 | **Self-hostable** | yes |
 
 **VC use case**

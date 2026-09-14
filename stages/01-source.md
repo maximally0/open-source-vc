@@ -2,7 +2,7 @@
 
 _Find the company before it is on anyone's list._
 
-[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 25 projects &nbsp;·&nbsp; metadata updated 2026-09-12
+[← all stages](../VC_WORKFLOW.md) &nbsp;·&nbsp; 25 projects &nbsp;·&nbsp; metadata updated 2026-09-14
 
 ---
 
@@ -25,7 +25,7 @@ VC-native first, then the adaptable tools that carry the work. Everything else i
 
 | Project | Relevance | Tier | Stars | License | One line |
 |---|---|---|---:|---|---|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | VC-adaptable | Essential | 91.4k | MIT | When a founder's name is common or their LinkedIn is thin, an analyst runs the handle they use elsewhere through Sherlock to see where else that handle exists. |
+| [Sherlock](https://github.com/sherlock-project/sherlock) | VC-adaptable | Essential | 91.5k | MIT | When a founder's name is common or their LinkedIn is thin, an analyst runs the handle they use elsewhere through Sherlock to see where else that handle exists. |
 | [Web-Check](https://github.com/lissy93/web-check) | VC-adaptable | Essential | 34.8k | MIT | Point it at a target company's domain and get its hosting, DNS and mail records, TLS configuration, exposed headers, and third-party services. |
 | [Maigret](https://github.com/soxoj/maigret) | VC-adaptable | Recommended | 37.5k | MIT | Produces a report across 3,000+ sites from a single handle, including account metadata and extracted profile fields where the site exposes them. |
 | [theHarvester](https://github.com/laramies/theHarvester) | VC-adaptable | Recommended | 17.4k | unknown | A first pass on a company you have no relationship with: it collects public emails, hostnames, and employee names from search engines and certificate logs. |

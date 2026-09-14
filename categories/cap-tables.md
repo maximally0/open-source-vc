@@ -4,7 +4,7 @@ _Ownership, dilution, and the mechanics of the round._
 
 Cap table modelling, dilution, SAFEs, priced rounds, ownership, liquidation preferences, and equity standards.
 
-**3 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-12
+**3 project(s)** &nbsp;·&nbsp; [← back to index](../README.md) &nbsp;·&nbsp; metadata updated 2026-09-14
 
 > Every field below is read from the GitHub API at the date stamped above. The VC use case and tier are editorial judgement. See [METHODOLOGY.md](../METHODOLOGY.md).
 
